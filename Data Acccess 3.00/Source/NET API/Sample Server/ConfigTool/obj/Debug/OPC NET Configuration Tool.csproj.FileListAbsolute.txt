@@ -1,0 +1,28 @@
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\bin\Debug\Opc.ConfigTool.exe
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\bin\Debug\Opc.ConfigTool.pdb
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.BaseListCtrl.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.ParameterEditDlg.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.ParameterListCtrl.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.ExceptionDlg.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.GuiUtils.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.ComServerListDlg.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.ComServerListCtrl.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.RegisterServerDlg.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\OPC NET Configuration Tool.csproj.GenerateResource.Cache
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.exe
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.pdb
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\bin\Debug\Opc.ConfigTool.exe
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\bin\Debug\Opc.ConfigTool.pdb
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.BaseListCtrl.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.ParameterEditDlg.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.ParameterListCtrl.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.ExceptionDlg.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.GuiUtils.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.ComServerListDlg.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.ComServerListCtrl.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.RegisterServerDlg.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\OPC NET Configuration Tool.csproj.GenerateResource.Cache
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.exe
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.pdb

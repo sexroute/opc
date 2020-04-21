@@ -1,0 +1,7 @@
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\COM Wrapper\bin\Release\OpcNetApi.Com.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\COM Wrapper\obj\Release\ResolveAssemblyReference.cache
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\COM Wrapper\obj\Release\OpcNetApi.Com.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\COM Wrapper\bin\Release\OpcNetApi.Com.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\COM Wrapper\obj\Release\ResolveAssemblyReference.cache
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\COM Wrapper\obj\Release\OpcNetApi.Com.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\COM Wrapper\bin\Release\OpcNetApi.Com.xml

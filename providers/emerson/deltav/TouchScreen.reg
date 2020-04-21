@@ -1,0 +1,22 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Control Panel\MtsTch]
+"AdvancedOptions"=dword:00000000
+"PFTool"=dword:00000000
+"LRTool"=dword:00000000
+"TouchMonSwitches"=dword:00000000
+
+[HKEY_CURRENT_USER\Control Panel\MtsTch\0000]
+"TouchMode"=dword:00000001
+"AudibleClick"=dword:00000000
+"AudibleFreq"=dword:000005dc
+"AudiblDuration"=dword:000000c8
+"HorizontaloffsetOn"=dword:00000000
+"VerticaloffsetOn"=dword:00000001
+"VerticalCursorOffset"=dword:00000012
+"PenLFinger"=dword:00000000
+"PenMode"=dword:00000002
+"SwapMouseButton"=dword:00000000
+"SteadyTime"=dword:00000004
+"DeltaV"=dword:00000000
+

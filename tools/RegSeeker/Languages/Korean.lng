@@ -1,0 +1,216 @@
+LanguageName=Korean
+LanguageAuthor=Hover Inc.
+[Buttons]
+btFind=·¹Áö½ºÆ®¸® °Ë»ö ...
+btDeepClean=Deep cleaning
+btAdv=Advanced Tools
+mnProcMon=Process Navigator
+mnFileProc=File / Process Monitor
+mnRepair=Repair...
+mnParentDir=Open Parent directory
+mnGotoParent=Go to Parent process
+mnAction=Action
+mnSwitch=Switch
+mnKill=Kill selected process
+mnKillDel=Kill process and Delete file
+mnExportProc=Export list
+btTasks=Tasks only
+btTop=Always on top
+btAppl=¼³Ä¡µÈ ÇÁ·Î±×·¥
+mnInvalidUninstall=Invalid Add/Remove entries
+mnApplSettings=Applications Settings
+mnServices=Services (Non-Microsoft)
+mnDrivers=Drivers (Non-Microsoft)
+mnTempFiles=Temporary files
+msgTempFiles=(Click here to configure)
+msgItems=Item(s)
+btStartup=µî·ÏµÈ ½ÃÀÛÇÁ·Î±×·¥
+btScheme=»ö»óÁ¶Á¤
+btHistory=ÀÌ·Â°ü¸® ...
+btFavorites=Áñ°ÜÃ£±â ...
+btTweaks=±â´ÉÇâ»ó
+btClean=·¹Áö½ºÆ®¸® Áö¿ì±â
+btAbout=Á¦Ç°Á¤º¸ ...
+btBackup=¹é¾÷
+btPrint=Print
+btQuit=Á¾·áÇÏ±â
+btSelectAll=¸ğµÎ¼±ÅÃ
+btSelectRed=Select all Red items
+btSelectGreen=Select all Green items
+btUnselectAll=¼±ÅÃÇØÁ¦
+btInvertSel=¼±ÅÃ¹İÀü
+btSelect=Select
+btAction=Action
+btSelectService=Select Invalid Services
+[Checkbox]
+ckBackup=»èÁ¦Àü¿¡ ¹é¾÷ÇÏ±â
+ckServices=Invalid Services (experimental)
+[Find Panel]
+SearchFor=°Ë»ö¾î :
+btSearch=°Ë»ö !
+btCleanHistory=°Ë»ö°á°ú Áö¿ì±â
+KeyTitle=Keys
+OptionTitle=°Ë»ö¿É¼Ç
+ckKeys=Keys
+ckValues=Values
+ckData=Data
+ckGroupSimilar=Group similar keys
+ckWholeWord=¸ğµç´Ü¾î ÀÏÄ¡
+ckFindFile=Search Files
+[File Panel]
+bBrowse=Browse ...
+ckSize=Size :
+greater=Greater than
+lesser=Lesser than
+ckDouble=Find for duplicate files
+ckHidden=Include hidden files
+ckSystem=Include system files
+rSortSize=Sort result by Size
+rSortName=Sort result by Filename
+cValidLnk=Check shortcuts validity
+ckBin=Delete to Recycle Bin
+iLNK=Shortcuts (*.lnk)
+[Tweaks Panel]
+btRestoreDef=Restore default
+btApplyChanges=º¯°æ Àû¿ë !
+TweakError=Error applying tweak, please restart RegSeeker as Administrator
+TweakApplied=Tweak applied ! If you see no change, please logoff or restart your computer
+[History Menu]
+mnURL=ÀÎÅÍ³İÀÍ½ºÇÃ·Î¾î URL
+mnINDEXDAT=IE È÷½ºÅä¸® ÄÉ½¬ ÄíÅ° (Index.dat)
+mnExecute=½ÇÇà
+mnMapDrive=³×Æ®¿öÅ© µå¶óÀÌºê ¸Ê
+mnFindFiles=ÆÄÀÏ/ÄÄÇ»ÅÍ Ã£±â
+mnOpenFiles=ÆÄÀÏ¿­±â
+mnStartMenu=ÀÌÀü ½ÃÀÛ¸Ş´º Ç×¸ñ
+mnStream=Clean StreamMRU/Streams keys
+[Favorites Menu]
+mnManage=Áñ°ÜÃ£±â °ü¸®
+mnClear=Áñ°ÜÃ£±â Áö¿ì±â
+mnRebuild=Áñ°ÜÃ£±â Àç±¸¼º
+mnFav=Áñ°ÜÃ£±â
+[Listbox Menu]
+mnOpen=Regedit¿¡¼­ ¿­±â (¶Ç´Â ´õºíÅ¬¸¯)
+mnExport=¼±ÅÃÇ×¸ñ º¸³»±â
+mnAddFav=Áñ°ÜÃ£±â¿¡ Ãß°¡
+mnEnableStartup=¼±ÅÃµÈ µî·Ï °¡´É
+mnDisableStartup=¼±ÅÃµÈ µî·Ï ºÒ°¡
+mnDelete=¼±ÅÃµÈ Ç×¸ñ »èÁ¦
+mnExclude=Add to exclusion list
+[File Menu]
+mnParentDir=Open parent directory
+mnProperties=Display file properties
+mnDelFile=Delete selected files
+[Listbox messages]
+lbTooLong=(½ºÆ®¸µÀÌ ³Ê¹« ±é´Ï´Ù)
+lbDefault=(±âÁ¸)
+lbRefresh=F5 °»½Å
+lbDLL=DLL ÆÄÀÏÀÌ ¾ø½À´Ï´Ù
+lbFILE=ÆÄÀÏÀÌ³ª °æ·Î°¡ ¾ø½À´Ï´Ù
+lbHELP=µµ¿òÆÄÀÏÀÌ ¾ø½À´Ï´Ù
+lbSTARTMENU=¾µ¸ğ¾ø´Â ½ÃÀÛ¸Ş´º Ç×¸ñ
+lbEXTENSION=»ç¿ëÇÏÁö¾Ê´Â È®ÀåÀÚ
+lbFILETYPE=»ç¿ëÇÏÁö¾Ê´Â ÆÄÀÏÅ¸ÀÔ
+lbEMPTY=¾µ¸ğ¾ø´Â µî·Ï
+lbAPPPATH=À¯È¿ÇÏÁö¾ÊÀº ÇÁ·Î±×·¥ °æ·Î
+lbOPENWITH=»ç¿ëÇÏÁö ¾Ê´Â "°°ÀÌ ¿­±â" µî·Ï
+lbACTIVEX=À¯È¿ÇÏÁö¾ÊÀº ActiveX/COM µî·Ï (CLSID)
+lbDate=³¯Â¥ :
+lbTime=½Ã°£ :
+lbAccess=ÃÖ±Ù »ç¿ë :
+lbExpire=¸¸·á :
+lbCookie=À¯ÁöµÈ ÄíÅ° ! (mycookies.ini ÆÄÀÏ ÂüÁ¶)
+[DialogBoxes]
+dbClearHistory=¸ğµç Áñ°ÜÃ£±â¸¦ Áö¿ï±î¿ä ?
+dbRebuildHistory=ÁÖÀÇ : ÀÌ°ÍÀº ±âÁ¸ µî·ÏµÈ Áñ°ÜÃ£±â·Î Àç±¸¼ºÇÕ´Ï´Ù<br>°è¼ÓÇÕ´Ï±î ?
+dbExportDone=°¡Á®°¡±â ¿Ï·á !
+dbConfirmDelete=¸ğµç ¼±ÅÃµÈ Ç×¸ñÀ» »èÁ¦ÇÕ´Ï±î ?
+dbConfirmDeleteService=WARNING !!!<br>You are going to delete a Service or a Driver<br><br>Are you sure you want to continue?
+dbConfirmUninstall=¼±ÅÃµÈ ÇÁ·Î±×·¥À» Á¦°ÅÇÕ´Ï±î ?
+dbRegCleaner=RegSeeker°¡ À¯È¿ÇÏÁö¾ÊÀº µî·ÏÀ» Ã£±âÀ§ÇØ ·¹Áö½ºÆ®¸®¸¦ °Ë»öÇÒ °ÍÀÔ´Ï´Ù :<br>»ç¿ëÇÏÁö¾Ê´Â È®ÀåÀÚ, Á¸ÀçÇÏÁö¾Ê´Â ÆÄÀÏ, Àß¸øµÈ ÂüÁ¶ ...<br><br>·¹Áö½ºÆ®¸®¸¦ º¯°æÇÏ±â Àü¿¡<br>¹İµå½Ã ¸ğµç µ¥ÀÌÅÍ¸¦ ¹é¾÷ÇÏ½Ã±â ¹Ù¶ø´Ï´Ù<br>(Àß¸øµÈ »èÁ¦´Â ½Ã½ºÅÛÀ» º¯°æÇÕ´Ï´Ù) !<br><br>'»èÁ¦Àü¿¡ ¹é¾÷'¿É¼Ç¿¡ Ã¼Å©ÇÏ½Ê½Ã¿ä<br>»èÁ¦¸¦ Ãë¼ÒÇÏ±â À§ÇØ¼­´Â, last .reg ÆÄÀÏÀ» ´õºíÅ¬¸¯ ÇÏ½Ê½Ã¿ä<br><br>°è¼ÓÇÏ·Á¸é OK¸¦ Å¬¸¯ÇÏ¼¼¿ä (À§ÇèÀ» °¨¼öÇØ¾ß ÇÕ´Ï´Ù)
+dbCleanStream=Windows is storing all window size and location informations inside the registry.<br>Cleaning those keys will restore them to default.<br>It can speed up your navigation inside your folders.<br>Note : a backup will be made<br><br>Click OK to proceed !
+dbDeleteFile=Warning : File(s) suppression !
+dbMountPoints=Windows is storing all mounted devices/network maps informations inside the registry.<br>Those keys contains informations like drive type, icons display etc...<br>Note : a backup will be made<br><br>Click OK to proceed !
+dbTempFileMsg1=You can configure all the files you want to display in your Temporary File list using variables
+dbTempFileMsg2=Be careful before deleting any result ! A bad variable usage could display unwanted files<br>For ex: %windir%\*.* will display all your files inside your Windows directory
+dbTempFileMsg3=To comment a line, just add a # in front of it
+addNew=Add new rule
+[FavDialogbox]
+mainTitle=Áñ°ÜÃ£±â
+Title1=Áñ°ÜÃ£±â ÀÌ¸§
+Title2=Key to add
+entername=Enter a name
+btAdd=Ã·°¡
+btCancel=Ãë¼Ò
+btManage=°ü¸® ...
+btModify=¼öÁ¤
+[misc]
+btExclude=Exclusions ...
+ckScanDrive=Scan Drives for old exe entries in registry
+CleanDone=Auto Clean was done !
+backupname=Backup Name :
+[ExcludeDialog]
+btExAdd=Add
+btExMod=Modify
+btExDel=Delete
+btExImp=Import
+ExItemsImport=Item(s) were imported inside your Exclusion list !
+[RestoreDialog]
+btRestore=Restore
+btStop=Stop
+btClose=Close
+ckViewOnly=Double-click an entry to view a backup content (No changes done to the Registry)
+btProtect=Show Protected
+[RegistryFix]
+repairtitle=Fix Registry Security :
+ckProtected=Search Protected Keys only
+msgProtected=Click Search and RegSeeker will display the protected keys only. Select the ones you want to modify and right-click to choose Take Ownership. Be CAREFUL ! if you're not confident with registry security, do not use !
+mnutakeownership=Take Ownership !
+securitywarn=WARNING ! You are about to change Registry Key permission !<br>This will change the registry key ownership to your current username.<br><br>If you are not confident doing this, please click NO to Exit or click OK to Proceed.
+securitychange=Registry Key permission have been changed !
+[Startup]
+colName=Name
+colPath=Path
+colInfo=Information
+colStartup=Startup
+colOther=Display Name
+[Services]
+msAuto=Automatic
+msAutod=Automatic (Delayed Start)
+msDis=Disabled
+msMan=Manual
+[ToBin]
+msToBin=Click OK to send to recycle bin<br>or Cancel to permanently delete the file(s)
+[Junk]
+btAutoSel=Auto-select
+[Chrome]
+msRunning=It is recommended to close Chrome before continuing !<br><br>Click OK to close Chrome or Cancel to continue without closing
+msExtens=Warning : Chrome extensions are synchronized !<br>Click ok to stop extensions synchronization and change status<br><br>Note : you can re-enable extension synchronization via Chrome parameters/Advanced synchronization parameters
+[ApplicationList]
+msRenameEntry=Rename entry
+msUninstall=Uninstall Application
+msNewname=New name :
+msBackupApp=Backup application registry
+msExportApplist=Export application list
+[bigButton]
+btApps=Applications and startup
+btRegistry=Registry
+btTools=Tools and system
+btPrivacy=Computer cleaning
+btAbout=About
+[Subtitles]
+subApp=Applications
+subStart=Startup
+subBrowser=Browser extensions
+subRegistry=Registry
+subFavorites=Favorites
+subTools=Tools
+subSystem=System information
+ckOtherDevice=View additional devices
+subFileClean=Junk files cleaning
+subRegClean=History cleaning
+[Drivers]
+ckBackDriver=Backup selected driver
+Wait=Veuillez patienter ...
+BackDriverDone=Le pilote a été sauvegardé !<br>Voulez-vous ouvrir le rapport ?
+FileMissing=Note : des fichiers n'ont pu être copiés !

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PerformOperations" targetNamespace="http://EmersonProcess.WebServices/PerformOperations" elementFormDefault="qualified" xmlns="http://EmersonProcess.WebServices/PerformOperations" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="PerformOperationsType">
+    <xs:complexContent>
+      <xs:extension base="ICustomizable">
+        <xs:sequence>
+          <xs:element name="Operation" type="OperationContractType" minOccurs="1" maxOccurs="unbounded" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="OperationContractType" abstract="true">
+    <xs:complexContent>
+      <xs:extension base="ICustomizable">
+        <xs:sequence>
+          <xs:any namespace="##other" minOccurs="0" maxOccurs="unbounded" processContents="lax" />
+        </xs:sequence>
+        <xs:attribute name="useCustomXslt" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ICustomizable">
+    <xs:sequence>
+      <xs:element name="CustomSchema" type="xs:anyType" maxOccurs="1" minOccurs="0" />
+      <xs:element name="CustomXslt" type="xs:anyType" maxOccurs="1" minOccurs="0" />
+    </xs:sequence>
+    <xs:attribute name="customSchema" type="xs:string" use="optional" />
+    <xs:attribute name="customXslt" type="xs:string" use="optional" />
+  </xs:complexType>
+  <xs:element name="PerformOperations" type="PerformOperationsType">
+  </xs:element>
+</xs:schema>

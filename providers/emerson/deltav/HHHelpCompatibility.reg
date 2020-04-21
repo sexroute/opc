@@ -1,0 +1,5 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{ADB880A6-D8FF-11CF-9377-00AA003B7A11}]
+"Compatibility Flags"=dword:00800000
+

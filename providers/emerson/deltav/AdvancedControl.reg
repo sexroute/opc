@@ -1,0 +1,22 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FRSI\DeltaV\CurrentVersion\Advanced Control]
+"APC_Status_Enabled"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FRSI\DeltaV\CurrentVersion\Advanced Control\Simulate]
+"Force LType to Direct"=dword:00000000
+"Setup Mode is MAN"=dword:00000000
+"EventChronicleDB"="Provider=SQLNCLI.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=EJournal;Data Source=(local)\\DELTAV_CHRONICLE;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Use Encryption for Data=False;Tag with column collation when possible=False;MARS Connection=False;DataTypeCompatibility=0;Trust Server Certificate=False"
+"PlaybackChangesDB"="Provider=SQLNCLI.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=PlaybackChanges;Data Source=(local)\\DELTAV_ADV_CNTRL;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Use Encryption for Data=False;Tag with column collation when possible=False;MARS Connection=False;DataTypeCompatibility=0;Trust Server Certificate=False"
+"Default_EventChronicle"="Local"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FRSI\DeltaV\CurrentVersion\Advanced Control\Insight]
+"Job Dispatcher Timeout"=dword:00001388
+"Model Prune Limit"=dword:000000C8
+"Model Prune Weight"=dword:00000001
+"Model Prune Count"=dword:0000000a
+"Read Learn Enabled"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\FRSI\DeltaV\CurrentVersion\DeltaV InSight\Settings]
+"ShowInsightValveDiagOpts"=dword:00000000
+

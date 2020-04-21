@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleClient", "SimpleClient\SimpleClient.csproj", "{984FFAB3-03BC-4C91-93F1-0D263999683E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DxpSimpleAPI", "DxpSimpleAPI\DxpSimpleAPI.csproj", "{9CFF83A3-3BF9-455E-806F-39C0C8538117}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{984FFAB3-03BC-4C91-93F1-0D263999683E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{984FFAB3-03BC-4C91-93F1-0D263999683E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{984FFAB3-03BC-4C91-93F1-0D263999683E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{984FFAB3-03BC-4C91-93F1-0D263999683E}.Debug|x86.Build.0 = Debug|Any CPU
+		{984FFAB3-03BC-4C91-93F1-0D263999683E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{984FFAB3-03BC-4C91-93F1-0D263999683E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{984FFAB3-03BC-4C91-93F1-0D263999683E}.Release|x86.ActiveCfg = Release|Any CPU
+		{984FFAB3-03BC-4C91-93F1-0D263999683E}.Release|x86.Build.0 = Release|Any CPU
+		{9CFF83A3-3BF9-455E-806F-39C0C8538117}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{9CFF83A3-3BF9-455E-806F-39C0C8538117}.Debug|x86.ActiveCfg = Debug|x86
+		{9CFF83A3-3BF9-455E-806F-39C0C8538117}.Debug|x86.Build.0 = Debug|x86
+		{9CFF83A3-3BF9-455E-806F-39C0C8538117}.Release|Any CPU.ActiveCfg = Release|x86
+		{9CFF83A3-3BF9-455E-806F-39C0C8538117}.Release|x86.ActiveCfg = Release|x86
+		{9CFF83A3-3BF9-455E-806F-39C0C8538117}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

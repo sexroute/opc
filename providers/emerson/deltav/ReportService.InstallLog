@@ -1,0 +1,55 @@
+﻿Installing assembly 'C:\DeltaV\bin\ReportService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\ReportService.exe
+   logfile = C:\DeltaV\bin\ReportService.InstallLog
+Installing service ReportService...
+Service ReportService has been successfully installed.
+Creating EventLog source ReportService in log Application...
+Committing assembly 'C:\DeltaV\bin\ReportService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\ReportService.exe
+   logfile = C:\DeltaV\bin\ReportService.InstallLog
+Uninstalling assembly 'C:\DeltaV\bin\ReportService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\ReportService.exe
+   logfile = C:\DeltaV\bin\ReportService.InstallLog
+Removing EventLog source ReportService.
+Service ReportService is being removed from the system...
+Service ReportService was successfully removed from the system.
+Installing assembly 'C:\DeltaV\bin\ReportService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\ReportService.exe
+   logfile = C:\DeltaV\bin\ReportService.InstallLog
+Installing service ReportService...
+Service ReportService has been successfully installed.
+Creating EventLog source ReportService in log Application...
+Committing assembly 'C:\DeltaV\bin\ReportService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\ReportService.exe
+   logfile = C:\DeltaV\bin\ReportService.InstallLog
+Uninstalling assembly 'C:\DeltaV\bin\ReportService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\ReportService.exe
+   logfile = C:\DeltaV\bin\ReportService.InstallLog
+Removing EventLog source ReportService.
+Service ReportService is being removed from the system...
+Service ReportService was successfully removed from the system.
+Installing assembly 'C:\DeltaV\bin\ReportService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\ReportService.exe
+   logfile = C:\DeltaV\bin\ReportService.InstallLog
+Installing service ReportService...
+Service ReportService has been successfully installed.
+Creating EventLog source ReportService in log Application...
+Committing assembly 'C:\DeltaV\bin\ReportService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\ReportService.exe
+   logfile = C:\DeltaV\bin\ReportService.InstallLog

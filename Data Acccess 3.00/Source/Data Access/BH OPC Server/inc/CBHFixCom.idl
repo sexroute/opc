@@ -1,0 +1,60 @@
+// CBHFixCom.idl : CBHFixCom 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(CBHFixCom.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(00AD95BB-643F-45C8-8A86-14518AEBCCDD),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface ICBHFixComImp : IDispatch{
+
+	[id(1)] HRESULT GetDouble([in] LONG nFixCode, [out,retval] DOUBLE* apDblRetVal);
+	[id(2)] HRESULT GetLong([in] LONG nFixCode, [out,retval] LONG* aplRetVal);
+	[id(3)] HRESULT Get([in] LONG nFixCode, [out,retval] BSTR* apBstrRetVal);
+	[id(4)] HRESULT GetItem([in] LONG nFixCode, [out,retval] BSTR* apbstrVal);
+	[id(5)] HRESULT GetTime([in] LONG nFixCode, [out,retval] BSTR* apBstrDate);
+	[id(6)] HRESULT GetItemBuf([in] LONG anFixCode, [in] LONG anSize, [out,retval] VARIANT* apDataBuf);
+	[id(7)] HRESULT SetItemBuf([in] LONG nFixCode, [in] LONG nSize,  [in]VARIANT * apDataBuffer,[out,retval]  LONG* aplRetVal);
+	[id(8)] HRESULT SetItemDouble([in] LONG anFixCode, [in] double adblValue,[out,retval]  LONG* aplRetVal);
+	[id(9)] HRESULT SetItem([in] LONG anFixCode, [in] LONG alValue,[out,retval]  LONG* aplRetVal);
+	[id(10)] HRESULT SetItemString(LONG anFixCode, BSTR * abstrDataVal,[out,retval]  LONG* aplRetVal);
+	[id(11)] HRESULT CreateAnswer([in] LONG anFixCode);
+	[id(12)] HRESULT CreateAnswerMul([in] LONG anFunc);
+	[id(13)] HRESULT CreateNextAnswer(void);
+	[id(14)] HRESULT CreateEndMak(void);
+	[id(15)] HRESULT GetAco([out,retval] LONG* apLRetVal);
+	[id(16)] HRESULT GetAci([out,retval] LONG* aplACIData);
+	[id(17)] HRESULT Write([in] LONG alACI);
+	[id(18)] HRESULT GetCommType(LONG* apTypeRetVal);
+	[id(19)] HRESULT SetBusy(void);
+	[id(20)] HRESULT SetIdle(void);
+	[id(21)] HRESULT IsIdle([out,retval] LONG* apIsIdle);
+	[id(22)] HRESULT CreateHead([in] LONG anFunc);
+	[id(23)] HRESULT SetCommType(LONG anTypeRetVal);
+	[id(24)] HRESULT Link([in] BSTR * pszDest, [in] BSTR * pszDept, [out,retval] LONG* abLinked);
+	[id(25)] HRESULT More([out,retval] LONG* apRetVal);
+};
+[
+	uuid(923BF122-B51F-4280-AC62-1BC68A1F2A32),
+	version(1.0),
+]
+library CBHFixComLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(30A2C9F4-11E0-4DA5-A1FD-B2D8E65E31B2)		
+	]
+	coclass CBHFixComImp
+	{
+		[default] interface ICBHFixComImp;
+	};
+};
+

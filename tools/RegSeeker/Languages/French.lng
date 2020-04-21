@@ -1,0 +1,225 @@
+LanguageName=Français
+LanguageAuthor=Hover Inc.
+[Buttons]
+btDeepClean=Nettoyage approndi
+btFind=Rechercher
+btAdv=Outils avancés
+mnProcMon=Gestionnaire des tâches
+mnFileProc=Moniteur fichiers et processus
+mnRepair=Réparer ...
+mnParentDir=Ouvrir le dossier Parent
+mnGotoParent=Aller au processus Parent
+mnAction=Action
+mnSwitch=Basculer
+mnKill=Fin de tâche
+mnKillDel=Fin de tâche et Supprimer
+mnKillRen=Fin de tâche et Renommer
+mnExportProc=Exporter la liste
+btTasks=Tâches seules
+btTop=Toujours devant
+btAppl=Applications installées
+mnInvalidUninstall=Ajout/Suppression invalides
+mnApplSettings=Paramètres des applications
+mnServices=Services (non-Microsoft)
+mnDrivers=Drivers (non-Microsoft)
+mnTempFiles=Fichiers temporaires
+msgTempFiles=(Cliquez ici pour configurer)
+msgItems=Elément(s)
+btStartup=Entrées de démarrage
+btScheme=Modèles de couleurs
+btHistory=Vie privée
+btFavorites=Favoris
+btTweaks=Tweaks
+btClean=Nettoyer le registre
+btAbout=A Propos
+btBackup=Sauvegardes
+btPrint=Imprimer
+btQuit=Quitter RegSeeker
+btSelect=Sélection
+btSelectAll=Sélectionner tout
+btSelectRed=Sélectionner éléments Rouges
+btSelectGreen=Sélectionner éléments Verts
+btUnselectAll=Desélectionner tout
+btInvertSel=Inverser la sélection
+btSelectService=Sélectionner Services invalides
+btAction=Action
+btAutoClean=Nettoyage automatique
+btCancel=Annuler
+[Checkbox]
+ckBackup=Backup avant suppression
+ckServices=Services invalides (experimental)
+[Find Panel]
+SearchFor=Chercher :
+btSearch=Chercher !
+btCleanHistory=Effacer historique
+KeyTitle=Clés
+OptionTitle=Options de recherche
+ckKeys=Clés
+ckValues=Valeurs
+ckData=Données
+ckGroupSimilar=Grouper clés similaires
+ckWholeWord=Mot entier seulement
+ckFindFile=Chercher des fichiers
+[File Panel]
+bBrowse=Parcourir ...
+ckSize=Taille
+greater=supérieure à
+lesser=inférieure à
+ckDouble=Chercher les doublons
+ckHidden=Inclure les fichiers cachés
+ckSystem=Inclure les fichiers systèmes
+rSortSize=Trier par Taille
+rSortName=Trier par Nom de fichier
+cValidLnk=Vérifier validité des raccourcis
+ckBin=Supprimer vers la corbeille
+iLNK=Raccourcis (*.lnk)
+[Tweaks Panel]
+btApplyChanges=Appliquer !
+btRestoreDef=Par défaut
+TweakError=Erreur ! Veuillez redémarrer RegSeeker en tant qu'Administrateur
+TweakApplied=Appliqué ! Certaines modifications nécessitent de vous déconnecter ou redémarrer votre ordinateur
+[History Menu]
+mnURL=URL Internet Explorer
+mnINDEXDAT=Internet Explorer Index.dat
+mnExecute=Executer
+mnMapDrive=Connecter un lecteur réseau
+mnFindFiles=Recherches
+mnOpenFiles=Ouverture de fichiers
+mnStartMenu=Historique Menu Demarrer
+mnStream=Nettoyer les clés StreamMRU
+[Favorites Menu]
+mnManage=Gérer les favoris
+mnClear=Effacer les favoris
+mnRebuild=Reconstruire les favoris
+mnFav=Favoris
+[Listbox Menu]
+mnOpen=Ouvrir dans Regedit (ou double-click)
+mnExport=Exporter les éléments sélectionnés
+mnAddFav=Ajouter aux favoris
+mnEnableStartup=Activer les entrées sélectionnées
+mnDisableStartup=Désactiver les entrées sélectionnées
+mnDelete=Supprimer les éléments sélectionnés
+mnExclude=Ajouter à la liste d'exclusions
+[File Menu]
+mnParentDir=Ouvrir répertoire parent
+mnProperties=Afficher les propriétés
+mnDelFile=Supprimer les fichiers sélectionnés
+[Listbox messages]
+lbTooLong=(chaine trop longue)
+lbDefault=(par défaut)
+lbRefresh=F5 actualiser
+lbDLL=le fichier DLL n'existe pas
+lbFILE=Fichier ou chemin inexistant
+lbHELP=Fichier d'aide inexistant
+lbSTARTMENU=Entrée obsolète du Menu Démarrer
+lbEXTENSION=Extension inutilisée
+lbFILETYPE=Type de fichier inutilisé
+lbEMPTY=Entrée obsolète
+lbAPPPATH=Chemin d'application invalide
+lbOPENWITH=Entrée "Ouvrir avec" inutile
+lbACTIVEX=Entrée ActiveX/COM invalide (CLSID)
+lbService=Service invalide
+lbDate=Date
+lbTime=Heure
+lbAccess=Dernier accès :
+lbExpire=Expire le :
+lbCookie=Cookie conservé ! (voir fichier mycookies.ini)
+[DialogBoxes]
+dbClearHistory=Effacer tous les favoris ?
+dbRebuildHistory=Ceci va reconstruire les favoris par défaut.<br>Voulez-vous continuer ?
+dbExportDone=Export terminé !
+dbConfirmDelete=Supprimer les éléments selectionnés ?
+dbConfirmDeleteService=ATTENTION !!!<br>Vous êtes sur le point de supprimer un Service ou un Driver<br><br>Etes-vous sûr de vouloir continuer?
+dbConfirmUninstall=Etes-vous sûr de vouloir désinstaller les applications sélectionnées ?
+dbRegCleaner=RegSeeker va scanner votre base de registre afin de trouver les entrées invalides :<br>extensions inutilisées, fichiers manquants, références invalides...<br><br>Il est recommandé de faire une sauvegarde de vos données avant de modifier votre base de registre ! Vérifiez que l'option "Backup avant suppression" soit bien cochée.<br>Pour annuler vos modifications, allez dans la page Sauvegardes.<br><br>A utiliser avec précautions ! Cliquez sur Démarrage pour lancer le scan !
+dbCleanStream=Windows sauve les informations de taille/position des fenêtres dans la base de registre.<br>Nettoyer ces clés réinitialisera ces paramètres par défaut.<br>Ceci peut accélérer votre navigation dans les dossiers.<br>Note : un backup est réalisé automatiquement.<br><br>Cliquez sur OK pour nettoyer !
+dbDeleteFile=Attention : Suppression de fichiers
+dbMountPoints=Windows sauve les informations de points de montages réseaux/disques dans la base de registre.<br>Ces clefs contiennent des informations comme le type du disque monté ainsi que son icone...<br>Note : un backup est réalisé automatiquement.<br><br>Cliquez sur OK pour nettoyer !
+dbTempFileMsg1=Vous pouvez configurer ici la liste de vos fichiers temporaires en utilisant des variables.
+dbTempFileMsg2=Attention avant de supprimer les fichiers! Vous pouvez lister des fichiers importants<br>Par ex: %windir%\*.* affichera les fichiers contenus dans le dossier Windows
+dbTempFileMsg3=Pour désactiver une règle, décochez-la.
+addNew=Ajouter la règle
+[FavDialogbox]
+mainTitle=Favoris
+Title1=Nom du favori
+Title2=Clé à ajouter
+entername=Entrez un nom
+btAdd=Ajouter
+btCancel=Annuler
+btManage=Gérer ...
+btModify=Modifier
+[misc]
+btExclude=Exclusions ...
+ckScanDrive=Scanner disques pour anciens exe
+CleanDone=Nettoyage automatique terminé !
+backupname=Nom de la sauvegarde :
+[ExcludeDialog]
+btExAdd=Ajouter
+btExMod=Modifier
+btExDel=Supprimer
+btExImp=Importer
+ExItemsImport=Eléments ont été importés dans votre liste d'exclusion !
+[RestoreDialog]
+btRestore=Restaurer la sauvegarde
+btStop=Arrêter
+btClose=Fermer
+ckViewOnly=Double-cliquez sur une entrée pour voir le contenu (Pas de modifications faites dans le Registre)
+btProtect=Clés protégées
+[RegistryFix]
+repairtitle=Fixer la sécurité du registre :
+ckProtected=Rechercher uniquement les clefs protégées
+msgProtected=Cliquez sur Chercher, RegSeeker affichera alors uniquement les clefs protégées. Sélectionnez  celles que vous souhaiter modifer et faites un click droit pour sélectionner Prendre Possession. ATTENTION ! Si vous avez un doute sur la sécurité du Registre, n'utilisez pas cette option !
+mnutakeownership=Prendre Possession !
+securitywarn=ATTENTION ! Vous êtes sur le point de modifier la sécurité d'une clef du Registre !<br>Ceci changera l'appartenance de la clef en la remplaçant par votre compte utilisateur.<br><br>En cas de doute sur l'opération, cliquez sur Annuler ou Ok pour continuer.
+securitychange=Les permissions de la clef de Registre ont été modifiées !
+[Startup]
+colName=Nom
+colPath=Chemin
+colInfo=Information
+colStartup=Démarrage
+colOther=Nom d'affichage
+[Services]
+msAuto=Automatique
+msAutod=Automatique (début différé)
+msDis=Désactivé
+msMan=Manuel
+[ToBin]
+msToBin=Cliquez sur OK pour envoyer à la corbeille<br>ou Annuler pour supprimer définitivement le(s) fichier(s)
+[Junk]
+btAutoSel=Auto-sélection
+[Chrome]
+msRunning=Note : Il est préférable de fermer Chrome avant de continuer !<br><br>Cliquez OK pour fermer Chrome ou Annuler pour continuer sans fermer
+msExtens=Attention : Les extensions Chrome sont synchronisées !<br>Cliquez ok pour arrêter la synchronisation et changer l'état de l'extension<br><br>Note : Vous pouvez réactiver la synchro des extensions via Chrome/Paramètres/Paramètres de synchronisation avancés
+[ApplicationList]
+msRenameEntry=Renommer l'entrée
+msUninstall=Désinstaller l'application
+msNewname=Nouveau nom :
+msBackupApp=Sauvegarder le registre de l'application
+msExportApplist=Exporter la liste des applications
+[bigButton]
+btApps=Démarrage et applications
+btRegistry=Base de registre
+btTools=Outils et système
+btPrivacy=Nettoyage ordinateur
+btAbout=Informations
+[Subtitles]
+subApp=Applications
+subStart=Démarrage
+subBrowser=Extensions navigateurs
+subRegistry=Registre
+subFavorites=Favoris
+subTools=Outils
+subSystem=Informations système
+ckOtherDevice=Voir périphériques additionnels
+subFileClean=Nettoyage fichiers
+subRegClean=Historiques du registre
+[Drivers]
+ckBackDriver=Sauvegarder le pilote
+Wait=Veuillez patienter ...
+BackDriverDone=Le pilote a été sauvegardé !<br>Voulez-vous ouvrir le rapport ?
+FileMissing=Note : des fichiers n'ont pu être copiés !
+[Scripts]
+btScript=Scripts ...
+Associate=Association extension .rsc :
+btAssoc=Associer .rsc à RegSeeker
+btRemAssoc=Supprimer association .rsc

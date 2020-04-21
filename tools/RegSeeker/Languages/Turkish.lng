@@ -1,0 +1,219 @@
+LanguageName=Turkish
+LanguageAuthor=Erhan BURHAN <eburhan@gmail.com>
+[Buttons]
+btFind=Kayýt Defterinde Bul ...
+btDeepClean=Deep cleaning
+btAdv=Advanced Tools
+mnProcMon=Process Navigator
+mnFileProc=File / Process Monitor
+mnRepair=Repair...
+mnParentDir=Open Parent directory
+mnGotoParent=Go to Parent process
+mnAction=Action
+mnSwitch=Switch
+mnKill=Kill selected process
+mnKillDel=Kill process and Delete file
+mnExportProc=Export list
+btTasks=Tasks only
+btTop=Always on top
+btAppl=Yüklü Uygulamalar
+mnInvalidUninstall=Geçersiz ekle/kaldýr kayýtlarý
+mnApplSettings=Uygulama ayarlarý
+mnServices=Services (Non-Microsoft)
+mnDrivers=Drivers (Non-Microsoft)
+mnTempFiles=Temporary files
+msgTempFiles=(Click here to configure)
+msgItems=Item(s)
+btStartup=Baþlangýç Kayýtlarý
+btScheme=Renk Düzenleri
+btHistory=Geçmiþler ...
+btFavorites=Favoriler ...
+btTweaks=Tweaks
+btClean=Kayýt Defterini Temizle
+btAbout=Hakkýnda ...
+btBackup=Yedekler
+btPrint=Yazdýr
+btQuit=RegSeeker'dan Çýk
+btSelect=Seçim
+btSelectAll=Hepsini Seç
+btSelectRed=Bütün kýrmýzý öðeleri sil
+btSelectGreen=Bütün yeþil öðeleri sil
+btSelectService=Geçersiz hizmetleri seç
+btUnselectAll=Hiçbirini Seçme
+btAction=Eylem
+btAutoClean=Otomatik temizle
+btCancel=Ýptal
+btInvertSel=Seçimi tersine çevir
+[Checkbox]
+ckBackup=Silmeden önce yedekle
+ckServices=Geçersiz hizmetler (deneysel)
+[Find Panel]
+SearchFor=Ara :
+btSearch=Ara !
+btCleanHistory=Arama geçmiþini temizle
+KeyTitle=Anahtarlar
+OptionTitle=Arama seçenekleri
+ckKeys=Anahtarlar
+ckValues=Deðerler
+ckData=Data
+ckGroupSimilar=Benzer anahtarlarý grupla
+ckWholeWord=Tüm sözcükleri eþle
+ckFindFile=Dosyalar ara
+[File Panel]
+bBrowse=Gözat ...
+ckSize=Boyut :
+greater=Daha büyük
+lesser=Daha küçük
+ckDouble=Eþ dosyalarý bul
+ckHidden=Gizli dosyalar dahil
+ckSystem=Sistem dosyalarý dahil
+rSortSize=Sonucu boyuta göre sýrala
+rSortName=Sonucu dosya ismine göre sýrala
+cValidLnk=Kýsayollarýn geçerliliði kontrol et
+ckBin=Geri dönüþüm kutusuna gönder
+iLNK=Kýsayollar (*.lnk)
+[Tweaks Panel]
+btRestoreDef=Restore default
+btApplyChanges=Deðiþiklikleri Uygula
+TweakError=Error applying tweak, please restart RegSeeker as Administrator
+TweakApplied=Tweak applied ! If you see no change, please logoff or restart your computer
+[History Menu]
+mnURL=Internet Explorer URL'leri
+mnINDEXDAT=IE History Cache Cookies (Index.dat)
+mnExecute=Çalýþtýr
+mnMapDrive=Bir að sürücüsü haritasý
+mnFindFiles=Dosyalar/Bilgisayarlar Bul
+mnOpenFiles=Açýk dosyalar
+mnStartMenu=Eski Baþlat menüsü öðeleri
+mnStream=StreamMRU/Streams anahtarlarýný temizle
+[Favorites Menu]
+mnManage=Favoriler yöneticisi
+mnClear=Favorileri temizle
+mnRebuild=Favorileri geri yükle
+mnFav=Favoriler
+[Listbox Menu]
+mnOpen=Kayýt Defterinde Aç
+mnExport=Seçili öðeleri ihraç et
+mnAddFav=Favorilere ekle
+mnEnableStartup=Seçili kayýtlarý etkinleþtir
+mnDisableStartup=Seçili kayýtlarý devre dýþý býrak
+mnDelete=Seçili öðeleri sil
+mnExclude=Hariç Tutulanlar listesine ekle
+[File Menu]
+mnParentDir=Ana klasörü aç
+mnProperties=Dosya özelliklerini görüntüle
+mnDelFile=Seçili dosyalarý sil
+[Listbox messages]
+lbTooLong=(dize çok uzun)
+lbDefault=(varsayilan)
+lbRefresh=Listeyi yenile : F5
+lbDLL=DLL dosyasi bulunmamakta
+lbFILE=Dosya veya Yol bulunmamakta
+lbHELP=Yardim dosyasi bulunmamakta
+lbSTARTMENU=Kullanilmayan Baslat Menüsü ögesi
+lbEXTENSION=Kullanilmayan dosya uzantisi
+lbFILETYPE=Kullanilmayan dosya türü
+lbEMPTY=Kullanilmayan giris
+lbAPPPATH=Gecersiz uygulama yollari
+lbOPENWITH=Kullanilmamis "Birlikte ac" girisi
+lbACTIVEX=Gecersiz ActiveX/COM girisi (CLSID)
+lbService=Geçersiz hizmet
+lbDate=Tarih :
+lbTime=Zaman :
+lbAccess=Son erisim :
+lbExpire=Sona erme :
+lbCookie=Cookie tutuldu ! (mycookies.ini dosyasýna bakýnýz)
+[DialogBoxes]
+dbClearHistory=Bütün favoriler temilensin mi?
+dbRebuildHistory=Dikkat : Bu iþlem favorilerinizi varsayýlan giriþlerle beraber geri yükleyecektir.<br>Ýlerlemek istiyor musunuz?
+dbExportDone=Ýhraç yapýldý !
+dbConfirmDelete=Bütün seçili öðeler silinsin mi?
+dbConfirmDeleteService=WARNING !!!<br>You are going to delete a Service or a Driver<br><br>Are you sure you want to continue?
+dbConfirmUninstall=Seçili uygulamalar kaldýrýlsýn mý?
+dbRegCleaner=RegSeeker geçersiz girisleri bulmak için kayit defterinizi tarayacak :<br>kullanilmamis dosya uzantilari,var olmayan dosyalar,kötü basvurular...<br><br>Kayit defterinizde degisiklikler yapmadan önce bilgisayarinizda önem verdiginiz verileri yedeklemelisiniz. (yanlis silmeler sisteminize zarar verbilir) !<br><br>'Silmeden önce yedekle' secenegini isaretlediginizden emin olunuz.<br>Sildiklerinizi geri almak için, son .reg dosyasina çift tiklayin.<br><br>Ilerlemek için OK butonuna basiniz. (riskler size aittir)
+dbCleanStream=Kayýt defteri içinde bütün pencerelerin boyut ve yer bilgileri depolanýyor.<br>Bu anahtarlarý temizlemek onlarý varsayýlan ayarlarýna geri yükleyecektir.<br>Bu iþlem klasörleriniz içinde dolaþmanýzý hýzlandýrabilir.<br>Not : bir yedek oluþturulacaktýr.<br><br>Ýlerlemek için OK butonuna basýnýz!
+dbDeleteFile=Uyarý : Dosya(lar) yok edilecek !
+dbMountPoints=Windows is storing all mounted devices/network maps informations inside the registry.<br>Those keys contains informations like drive type, icons display etc...<br>Note : a backup will be made<br><br>Click OK to proceed !
+dbTempFileMsg1=You can configure all the files you want to display in your Temporary File list using variables
+dbTempFileMsg2=Be careful before deleting any result ! A bad variable usage could display unwanted files<br>For ex: %windir%\*.* will display all your files inside your Windows directory
+dbTempFileMsg3=To comment a line, just add a # in front of it
+addNew=Add new rule
+[FavDialogbox]
+mainTitle=Favoriler
+Title1=Favori adý
+Title2=Eklenecek anahtar
+entername=Bir isim giriniz
+btAdd=Ekle
+btCancel=Ýptal
+btManage=Yönetici ...
+btModify=Deðiþtir
+[misc]
+btExclude=Hariç Tutulan
+ckScanDrive=Eski exe kayýtlarý için sürücüleri ara
+CleanDone=Otomatik temizleme bitti !
+backupname=Yedek ismi :
+[ExcludeDialog]
+btExAdd=Add
+btExMod=Modify
+btExDel=Delete
+btExImp=Import
+ExItemsImport=Item(s) were imported inside your Exclusion list !
+[RestoreDialog]
+btRestore=Restore
+btStop=Stop
+btClose=Close
+ckViewOnly=Double-click an entry to view a backup content (No changes done to the Registry)
+btProtect=Show Protected
+[RegistryFix]
+repairtitle=Fix Registry Security :
+ckProtected=Search Protected Keys only
+msgProtected=Click Search and RegSeeker will display the protected keys only. Select the ones you want to modify and right-click to choose Take Ownership. Be CAREFUL ! if you're not confident with registry security, do not use !
+mnutakeownership=Take Ownership !
+securitywarn=WARNING ! You are about to change Registry Key permission !<br>This will change the registry key ownership to your current username.<br><br>If you are not confident doing this, please click NO to Exit or click OK to Proceed.
+securitychange=Registry Key permission have been changed !
+[Startup]
+colName=Name
+colPath=Path
+colInfo=Information
+colStartup=Startup
+colOther=Display Name
+[Services]
+msAuto=Automatic
+msAutod=Automatic (Delayed Start)
+msDis=Disabled
+msMan=Manual
+[ToBin]
+msToBin=Click OK to send to recycle bin<br>or Cancel to permanently delete the file(s)
+[Junk]
+btAutoSel=Auto-select
+[Chrome]
+msRunning=It is recommended to close Chrome before continuing !<br><br>Click OK to close Chrome or Cancel to continue without closing
+msExtens=Warning : Chrome extensions are synchronized !<br>Click ok to stop extensions synchronization and change status<br><br>Note : you can re-enable extension synchronization via Chrome parameters/Advanced synchronization parameters
+[ApplicationList]
+msRenameEntry=Rename entry
+msUninstall=Uninstall Application
+msNewname=New name :
+msBackupApp=Backup application registry
+msExportApplist=Export application list
+[bigButton]
+btApps=Applications and startup
+btRegistry=Registry
+btTools=Tools and system
+btPrivacy=Computer cleaning
+btAbout=About
+[Subtitles]
+subApp=Applications
+subStart=Startup
+subBrowser=Browser extensions
+subRegistry=Registry
+subFavorites=Favorites
+subTools=Tools
+subSystem=System information
+ckOtherDevice=View additional devices
+subFileClean=Junk files cleaning
+subRegClean=History cleaning
+[Drivers]
+ckBackDriver=Backup selected driver
+Wait=Veuillez patienter ...
+BackDriverDone=Le pilote a été sauvegardé !<br>Voulez-vous ouvrir le rapport ?
+FileMissing=Note : des fichiers n'ont pu être copiés !

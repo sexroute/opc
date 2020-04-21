@@ -1,0 +1,215 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="15.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{170A5455-A090-4F26-810F-15F71BBF87E6}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>OpcNetApi.Com</AssemblyName>
+    <AssemblyOriginatorKeyFile>OPC Key Pair.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>OpcCom</RootNamespace>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>true</SignAssembly>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\OpcNetApi.Com.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\OpcNetApi.Com.xml</DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="OpcRcw.Ae">
+      <Name>OpcRcw.Ae</Name>
+      <HintPath>..\..\Bin\OpcRcw.Ae.dll</HintPath>
+    </Reference>
+    <Reference Include="OpcRcw.Comn">
+      <Name>OpcRcw.Comn</Name>
+      <HintPath>..\..\Bin\OpcRcw.Comn.dll</HintPath>
+    </Reference>
+    <Reference Include="OpcRcw.Da">
+      <Name>OpcRcw.Da</Name>
+      <HintPath>..\..\Bin\OpcRcw.Da.dll</HintPath>
+    </Reference>
+    <Reference Include="OpcRcw.Dx">
+      <Name>OpcRcw.Dx</Name>
+      <HintPath>..\..\Bin\OpcRcw.Dx.dll</HintPath>
+    </Reference>
+    <Reference Include="OpcRcw.Hda">
+      <Name>OpcRcw.Hda</Name>
+      <HintPath>..\..\Bin\OpcRcw.Hda.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\Core\OPC NET API.csproj">
+      <Name>OPC NET API</Name>
+      <Project>{98B6E5A1-6FED-434E-B568-9C68D5F9959C}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ae\OpcCom.Ae.Interop.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ae\OpcCom.Ae.ResultIDs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ae\OpcCom.Ae.Server.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ae\OpcCom.Ae.Subscription.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Da20\OpcCom.Da20.Server.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Da20\OpcCom.Da20.Subscription.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Da\OpcCom.Da.Browse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Da\OpcCom.Da.Interop.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Da\OpcCom.Da.ResultIDs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Da\OpcCom.Da.Server.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Da\OpcCom.Da.Subscription.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dx\OpcCom.Dx.Interop.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dx\OpcCom.Dx.ResultIDs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dx\OpcCom.Dx.Server.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Hda\OpcCom.Hda.Browser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Hda\OpcCom.Hda.DataCallback.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Hda\OpcCom.Hda.Interop.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Hda\OpcCom.Hda.Request.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Hda\OpcCom.Hda.ResultIDs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Hda\OpcCom.Hda.Server.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpcCom.ConnectionPoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpcCom.EnumGuid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpcCom.EnumString.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpcCom.Factory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpcCom.Interop.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpcCom.Server.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpcCom.ServerEnumerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Wrapper\OpcCom.Da.Wrapper.Server.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Wrapper\OpcCom.IOPCWrappedServer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OPC Key Pair.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>cscript ..\..\..\..\Scripts\CopyKeyFile.vbs "$(ProjectDir)" ..\..\..\..\..\</PreBuildEvent>
+    <PostBuildEvent>cscript ..\..\..\..\Scripts\CopyOutput.vbs "$(ProjectDir)" ..\..\..\..\..\ "$(TargetPath)"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

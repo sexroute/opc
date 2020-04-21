@@ -1,0 +1,55 @@
+﻿Installing assembly 'C:\DeltaV\bin\EventChronicleManager.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\EventChronicleManager.exe
+   logfile = C:\DeltaV\bin\EventChronicleManager.InstallLog
+Installing service EventChronicleManager...
+Service EventChronicleManager has been successfully installed.
+Creating EventLog source EventChronicleManager in log Application...
+Committing assembly 'C:\DeltaV\bin\EventChronicleManager.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\EventChronicleManager.exe
+   logfile = C:\DeltaV\bin\EventChronicleManager.InstallLog
+Uninstalling assembly 'C:\DeltaV\bin\EventChronicleManager.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\EventChronicleManager.exe
+   logfile = C:\DeltaV\bin\EventChronicleManager.InstallLog
+Removing EventLog source EventChronicleManager.
+Service EventChronicleManager is being removed from the system...
+Service EventChronicleManager was successfully removed from the system.
+Installing assembly 'C:\DeltaV\bin\EventChronicleManager.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\EventChronicleManager.exe
+   logfile = C:\DeltaV\bin\EventChronicleManager.InstallLog
+Installing service EventChronicleManager...
+Service EventChronicleManager has been successfully installed.
+Creating EventLog source EventChronicleManager in log Application...
+Committing assembly 'C:\DeltaV\bin\EventChronicleManager.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\EventChronicleManager.exe
+   logfile = C:\DeltaV\bin\EventChronicleManager.InstallLog
+Uninstalling assembly 'C:\DeltaV\bin\EventChronicleManager.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\EventChronicleManager.exe
+   logfile = C:\DeltaV\bin\EventChronicleManager.InstallLog
+Removing EventLog source EventChronicleManager.
+Service EventChronicleManager is being removed from the system...
+Service EventChronicleManager was successfully removed from the system.
+Installing assembly 'C:\DeltaV\bin\EventChronicleManager.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\EventChronicleManager.exe
+   logfile = C:\DeltaV\bin\EventChronicleManager.InstallLog
+Installing service EventChronicleManager...
+Service EventChronicleManager has been successfully installed.
+Creating EventLog source EventChronicleManager in log Application...
+Committing assembly 'C:\DeltaV\bin\EventChronicleManager.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\EventChronicleManager.exe
+   logfile = C:\DeltaV\bin\EventChronicleManager.InstallLog

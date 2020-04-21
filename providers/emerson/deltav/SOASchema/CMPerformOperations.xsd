@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CMPerformOperations" targetNamespace="http://EmersonProcess.WebServices/PerformOperations" elementFormDefault="qualified" xmlns="http://EmersonProcess.WebServices/PerformOperations" xmlns:mstns="http://EmersonProcess.WebServices/PerformOperations" xmlns:cm="http://EmersonProcess.WebServices/CampaignManager/DataContracts" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import id="CMDataContracts" namespace="http://EmersonProcess.WebServices/CampaignManager/DataContracts" schemaLocation="CMDataContracts.xsd" />
+  <xs:include id="PerformOperations" schemaLocation="PerformOperations.xsd" />
+  <xs:complexType name="CreateCampaign">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="campaignInfo" type="cm:CampaignInfo" nillable="false" minOccurs="1" maxOccurs="1" />
+          <xs:element name="userInfo" type="cm:UserInfo" minOccurs="1" maxOccurs="1" nillable="true" />
+        </xs:sequence>
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ModifyCampaign">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="campaignInfo" type="cm:CampaignInfo" nillable="false" minOccurs="1" maxOccurs="1" />
+          <xs:element name="userInfo" type="cm:UserInfo" minOccurs="1" maxOccurs="1" nillable="true" />
+        </xs:sequence>
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+        <xs:attribute name="changeModeToManual" type="xs:boolean" use="optional" />
+        <xs:attribute name="revertToPrevMode" type="xs:boolean" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="RemoveCampaign">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="userInfo" type="cm:UserInfo" minOccurs="1" maxOccurs="1" nillable="true" />
+        </xs:sequence>
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+        <xs:attribute name="campaignID" type="xs:string" use="required" />
+        <xs:attribute name="comments" type="xs:string" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="TerminateCampaign">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="userInfo" type="cm:UserInfo" minOccurs="1" maxOccurs="1" nillable="true" />
+        </xs:sequence>
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+        <xs:attribute name="campaignID" type="xs:string" use="required" />
+        <xs:attribute name="comments" type="xs:string" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="GetCampaignStatus">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+        </xs:sequence>
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+        <xs:attribute name="campaignID" type="xs:string" use="required" />
+        <xs:attribute name="showRecipeInfo" type="xs:boolean" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="GetBatchStatus">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+        </xs:sequence>
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+        <xs:attribute name="campaignID" type="xs:string" use="required" />
+        <xs:attribute name="batchID" type="xs:string" use="required" />
+        <xs:attribute name="showRecipeInfo" type="xs:boolean" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ReleaseBatch">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="userInfo" type="cm:UserInfo" nillable="true" minOccurs="1" maxOccurs="1" />
+        </xs:sequence>
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+        <xs:attribute name="campaignID" type="xs:string" use="required" />
+        <xs:attribute name="batchID" type="xs:string" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="StartBatch">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="userInfo" type="cm:UserInfo" nillable="true" minOccurs="1" maxOccurs="1" />
+        </xs:sequence>
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+        <xs:attribute name="campaignID" type="xs:string" use="required" />
+        <xs:attribute name="batchID" type="xs:string" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="LockCampaign">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="userInfo" type="cm:UserInfo" nillable="true" minOccurs="1" maxOccurs="1" />
+        </xs:sequence>
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+        <xs:attribute name="campaignID" type="xs:string" use="required" />
+        <xs:attribute name="editLockAction" type="LockAction" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="LockAction">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Lock" />
+      <xs:enumeration value="Unlock" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="LockBatch">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="userInfo" type="cm:UserInfo" nillable="true" minOccurs="1" maxOccurs="1" />
+        </xs:sequence>
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+        <xs:attribute name="campaignID" type="xs:string" use="required" />
+        <xs:attribute name="batchID" type="xs:string" use="required" />
+        <xs:attribute name="editLockAction" type="LockAction" use="required" />
+        <xs:attribute name="controlLockAction" type="LockAction" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="AddBatch">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="batchInfo" type="cm:BatchInfo" nillable="true" maxOccurs="1" minOccurs="1" />
+          <xs:element name="userInfo" type="cm:UserInfo" />
+        </xs:sequence>
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+        <xs:attribute name="campaignID" type="xs:string" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ModifyBatch">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="batchInfo" type="cm:BatchInfo" maxOccurs="1" minOccurs="1" nillable="false" />
+          <xs:element name="userInfo" type="cm:UserInfo" nillable="true" minOccurs="1" maxOccurs="1" />
+        </xs:sequence>
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+        <xs:attribute name="campaignID" type="xs:string" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="DeleteBatch">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="userInfo" type="cm:UserInfo" nillable="true" minOccurs="1" maxOccurs="1" />
+        </xs:sequence>
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+        <xs:attribute name="campaignID" type="xs:string" use="required" />
+        <xs:attribute name="batchID" type="xs:string" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="CanConfirmerAndVerifierBeSame">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+        </xs:sequence>
+        <xs:attribute name="cmServer" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="GetConfiguredActionInfo">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence />
+        <xs:attribute name="cmServer" type="xs:string" />
+        <xs:attribute name="configuredAction" type="ConfiguredAction" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="ConfiguredAction">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ReleaseBatch" />
+      <xs:enumeration value="AddCampaign" />
+      <xs:enumeration value="ConfigureClient" />
+      <xs:enumeration value="RemoveCampaign" />
+      <xs:enumeration value="ModifyBatch" />
+      <xs:enumeration value="ModifyCampaign" />
+      <xs:enumeration value="RemoveBatch" />
+      <xs:enumeration value="StartBatch" />
+      <xs:enumeration value="StartClient" />
+      <xs:enumeration value="StopClient" />
+      <xs:enumeration value="UnlockCampaign" />
+      <xs:enumeration value="UserComment" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="RemoveBatchFromExecutive">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="userInfo" type="cm:UserInfo" maxOccurs="1" minOccurs="1" nillable="true" />
+        </xs:sequence>
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+        <xs:attribute name="campaignID" type="xs:string" use="required" />
+        <xs:attribute name="batchID" type="xs:string" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="GetCMServers">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="GetBatchExecutives">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence />
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="GetCampaignList">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+        </xs:sequence>
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="GetRecipeUnits">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+        </xs:sequence>
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+        <xs:attribute name="batchExecutive" type="xs:string" use="required" />
+        <xs:attribute name="recipeName" type="xs:string" use="required" />
+        <xs:attribute name="equipmentTrain" type="xs:string" use="optional" />
+        <xs:attribute name="stepOrAliasName" type="xs:string" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="GetEquipmentTrainAliases">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence />
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+        <xs:attribute name="batchExecutive" type="xs:string" use="required" />
+        <xs:attribute name="recipeName" type="xs:string" use="required" />
+        <xs:attribute name="equipmentTrain" type="xs:string" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="GetRecipeList">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence />
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+        <xs:attribute name="batchExecutive" type="xs:string" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="GetExecutiveRecipeInfo">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence />
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+        <xs:attribute name="batchExecutive" type="xs:string" use="required" />
+        <xs:attribute name="recipeName" type="xs:string" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="GetFormulaInfo">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence />
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+        <xs:attribute name="batchExecutive" type="xs:string" use="required" />
+        <xs:attribute name="recipeName" type="xs:string" use="required" />
+        <xs:attribute name="formulaName" type="xs:string" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="AddUserComment">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="userInfo" type="cm:UserInfo" minOccurs="1" maxOccurs="1" nillable="true" />
+        </xs:sequence>
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+        <xs:attribute name="campaignID" type="xs:string" use="required" />
+        <xs:attribute name="comments" type="xs:string" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="AddBatchComment">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="userInfo" type="cm:UserInfo" nillable="true" maxOccurs="1" minOccurs="1" />
+        </xs:sequence>
+        <xs:attribute name="cmServer" type="xs:string" use="required" />
+        <xs:attribute name="campaignID" type="xs:string" use="required" />
+        <xs:attribute name="batchID" type="xs:string" use="required" />
+        <xs:attribute name="comment" type="xs:string" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>

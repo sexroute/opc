@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RExServiceSchemaOperationResponse" targetNamespace="http://EmersonProcess.Web.Services.RecipeExchange/ServiceResponse.xsd" elementFormDefault="qualified" xmlns="http://EmersonProcess.Web.Services.RecipeExchange/ServiceResponse.xsd" xmlns:mstns="http://EmersonProcess.Web.Services.RecipeExchange/ServiceResponse.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!--Top level element-->
+  <xs:element name="PerformOperationsResponse" type="PerformOperationsResponseType" />
+  <!--End Top level element-->
+  <!--Global elements for response-->
+  <xs:element name="DownloadBatchExecutive" type="DownloadBatchExecutiveResponseType" />
+  <xs:element name="DownloadRecipeToAllBatchExecutives" type="DownloadRecipeToAllBatchExecutivesResponseType" />
+  <xs:element name="DownloadRecipeToBatchExecutive" type="DownloadRecipeToBatchExecutiveResponseType" />
+  <xs:element name="Export" type="ExportResponseType" />
+  <xs:element name="GetListofAssignedBatchExecutives" type="GetListofAssignedBatchExecutivesResponseType" />
+  <xs:element name="Import" type="ImportResponseType" />
+  <xs:element name="VerifyRecipe" type="VerifyRecipeResponseType" />
+  <!--End Global elements for response-->
+  <!--Types Declaration-->
+  <xs:complexType name="PerformOperationsResponseType">
+    <xs:sequence>
+      <xs:element name="OperationResponse" type="ResponseType" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DownloadBatchExecutiveResponseType">
+    <xs:complexContent>
+      <xs:extension base="LogResponseType">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="DownloadRecipeToAllBatchExecutivesResponseType">
+    <xs:complexContent>
+      <xs:extension base="LogResponseType">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="VerifyRecipeResponseType">
+    <xs:complexContent>
+      <xs:extension base="LogResponseType">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="LogResponseType">
+    <xs:complexContent>
+      <xs:extension base="ResponseType">
+        <xs:sequence>
+          <xs:element name="logResult" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ImportResponseType">
+    <xs:complexContent>
+      <xs:extension base="LogResponseType">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="DownloadRecipeToBatchExecutiveResponseType">
+    <xs:complexContent>
+      <xs:extension base="LogResponseType">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ExportResponseType">
+    <xs:complexContent>
+      <xs:extension base="LogResponseType">
+        <xs:sequence>
+          <xs:element name="ExportData" type="ExportDataType" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ExportDataType">
+    <xs:sequence>
+      <xs:element name="exportConfig" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetListofAssignedBatchExecutivesResponseType">
+    <xs:complexContent>
+      <xs:extension base="ResponseType">
+        <xs:sequence>
+          <xs:element name="batchExecutiveName" type="xs:string" minOccurs="0" maxOccurs="4" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <!--End Types Declaration-->
+  <xs:element name="ExportData" type="ExportDataType">
+  </xs:element>
+  <xs:complexType name="ResponseType" abstract="true">
+    <xs:sequence />
+  </xs:complexType>
+</xs:schema>

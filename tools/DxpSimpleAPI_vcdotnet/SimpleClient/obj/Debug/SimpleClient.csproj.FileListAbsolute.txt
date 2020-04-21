@@ -1,0 +1,13 @@
+C:\system\projects\OPC Foundation\tools\DxpSimpleAPI_vcdotnet\SimpleClient\bin\Debug\SimpleClient.exe
+C:\system\projects\OPC Foundation\tools\DxpSimpleAPI_vcdotnet\SimpleClient\bin\Debug\SimpleClient.pdb
+C:\system\projects\OPC Foundation\tools\DxpSimpleAPI_vcdotnet\SimpleClient\bin\Debug\DxpSimpleAPI.dll
+C:\system\projects\OPC Foundation\tools\DxpSimpleAPI_vcdotnet\SimpleClient\obj\Debug\SimpleClient.csprojResolveAssemblyReference.cache
+C:\system\projects\OPC Foundation\tools\DxpSimpleAPI_vcdotnet\SimpleClient\obj\Debug\SimpleClient.Form1.resources
+C:\system\projects\OPC Foundation\tools\DxpSimpleAPI_vcdotnet\SimpleClient\obj\Debug\SimpleClient.Properties.Resources.resources
+C:\system\projects\OPC Foundation\tools\DxpSimpleAPI_vcdotnet\SimpleClient\obj\Debug\SimpleClient.csproj.GenerateResource.Cache
+C:\system\projects\OPC Foundation\tools\DxpSimpleAPI_vcdotnet\SimpleClient\obj\Debug\SimpleClient.exe
+C:\system\projects\OPC Foundation\tools\DxpSimpleAPI_vcdotnet\SimpleClient\obj\Debug\SimpleClient.pdb
+C:\system\projects\OPC Foundation\tools\DxpSimpleAPI_vcdotnet\SimpleClient\bin\Debug\SimpleClient.exe.config
+C:\system\projects\OPC Foundation\tools\DxpSimpleAPI_vcdotnet\SimpleClient\bin\Debug\OpcRcw.Comn.dll
+C:\system\projects\OPC Foundation\tools\DxpSimpleAPI_vcdotnet\SimpleClient\bin\Debug\OpcRcw.Da.dll
+C:\system\projects\OPC Foundation\tools\DxpSimpleAPI_vcdotnet\SimpleClient\bin\Debug\DxpSimpleAPI.pdb

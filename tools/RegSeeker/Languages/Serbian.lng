@@ -1,0 +1,215 @@
+LanguageName=Serbian
+[Buttons]
+btFind=Pronadji u registriju ...
+btDeepClean=Deep cleaning
+btAdv=Advanced Tools
+mnProcMon=Process Navigator
+mnFileProc=File / Process Monitor
+mnRepair=Repair...
+mnParentDir=Open Parent directory
+mnGotoParent=Go to Parent process
+mnAction=Action
+mnSwitch=Switch
+mnKill=Kill selected process
+mnKillDel=Kill process and Delete file
+mnExportProc=Export list
+btTasks=Tasks only
+btTop=Always on top
+btAppl=Instalisane aplikacije
+mnInvalidUninstall=Invalid Add/Remove entries
+mnApplSettings=Applications Settings
+mnServices=Services (Non-Microsoft)
+mnDrivers=Drivers (Non-Microsoft)
+mnTempFiles=Temporary files
+msgTempFiles=(Click here to configure)
+msgItems=Item(s)
+btStartup=Unosi pri startovanju racunara
+btScheme=Kolor seme
+btHistory=Istorija ...
+btFavorites=Prioritetne adrese ...
+btTweaks=Dodatna podesavanja
+btClean=Ocisti registri
+btAbout=O Programu ...
+btBackup=Sigurnosne kopije
+btPrint=Stampaj
+btQuit=Izlaz iz programa
+btSelectAll=Izaberi sve
+btSelectRed=Select all Red items
+btSelectGreen=Select all Green items
+btUnselectAll=Ponisti izbor za sve
+btInvertSel=Napravi suprotni izbor
+btSelect=Select
+btAction=Action
+btSelectService=Select Invalid Services
+[Checkbox]
+ckBackup=Napravi sigurnosnu kopiju pre uklanjanja
+ckServices=Invalid Services (experimental)
+[Find Panel]
+SearchFor=Pretrazi za :
+btSearch=Trazi !
+btCleanHistory=Ocisti istoriju pretrage
+KeyTitle=Kljucevi
+OptionTitle=Opcije pretrage
+ckKeys=Kljucevi
+ckValues=Vrednosti
+ckData=Podatak
+ckGroupSimilar=Grupisi slicne kljuceve
+ckWholeWord=Uporedi celu rec
+ckFindFile=Trazi datoteku
+[File Panel]
+bBrowse=Potrazi ...
+ckSize=Velicina :
+greater=Vece od
+lesser=Manje od
+ckDouble=Ponadji duple datoteke
+ckHidden=Ukljuci i nevidljive datoteke
+ckSystem=Ukljuci sistemske datoteke
+rSortSize=Sortiraj rezultat po velicini
+rSortName=Sortiraj rezultat po imenu datoteke
+cValidLnk=Proveri validnost kratica
+ckBin=Obrisi - prebaci u Recycle Bin
+iLNK=Kratice (*.lnk)
+[Tweaks Panel]
+btRestoreDef=Restore default
+btApplyChanges=Primeni promene !
+TweakError=Error applying tweak, please restart RegSeeker as Administrator
+TweakApplied=Tweak applied ! If you see no change, please logoff or restart your computer
+[History Menu]
+mnURL=Internet Explorer URL
+mnINDEXDAT=IE istorija kes cookie-a (Index.dat)
+mnExecute=Izvrsi
+mnMapDrive=P¯ipojit sÌùov˝ disk
+mnFindFiles=Potrazi datoteke/racunare
+mnOpenFiles=Otvori datoteke
+mnStartMenu=Stari unosi u Start Meni
+mnStream=Ocisti niz MRU/Kljuceve nizova
+[Favorites Menu]
+mnManage=Manipulisi prioritetnim adresama
+mnClear=Ocisti prioritetne adrese
+mnRebuild=Obnovi prioritetne adrese
+mnFav=Prioritetne adrese
+[Listbox Menu]
+mnOpen=Otvori u REGEDITu (ili ucini dvoklik)
+mnExport=Izvezi izabrane stavke
+mnAddFav=Dodaj u prioritetne adrese
+mnEnableStartup=Dozvoli aktiviranje izabranih unosa
+mnDisableStartup=Spreci aktiviranje izabranih unosa
+mnDelete=Obrisi izabrane stavke
+mnExclude=Dodaj na listu izuzetaka
+[File Menu]
+mnParentDir=Otvori pripadajuci direktorijum
+mnProperties=Prikazi karakterisitke datoteke
+mnDelFile=Obrisi izabrane datoteke
+[Listbox messages]
+lbTooLong=(predugacak string)
+lbDefault=(polazna vrednost)
+lbRefresh=F5 osvezi
+lbDLL=DLL datoteka ne postoji
+lbFILE=Datoteka ili put ne postoji
+lbHELP=Pomocna datoteka ne postoji
+lbSTARTMENU=Nepostojeca stavka Start Meni-ja
+lbEXTENSION=Ekstenzija se ne koristi
+lbFILETYPE=Datoteka ovog tipa nije koristena
+lbEMPTY=Nekoristan unos
+lbAPPPATH=Neispravan put aktiviranja aplikacije
+lbOPENWITH=Nekoristen unos "Otvori sa" (Open with)
+lbACTIVEX=Nevazeci ActiveX/COM (CLSID) unos
+lbDate=Datum :
+lbTime=Vreme:
+lbAccess=PoslednjÌ prÌstup :
+lbExpire=Prestaje vaznost:
+lbCookie=Cookie koji su zadrzani ! (pogledaj datoteku mycookies.ini)
+[DialogBoxes]
+dbClearHistory=Obrisati sve prioritetne adrese ?
+dbRebuildHistory=Paznja : ovo ce vase prioritetne adrese vratiti na polazne vrednosti<br>Da li zelite nastaviti ?
+dbExportDone=Izvoz zavrsen !
+dbConfirmDelete=Ukloniti sve izabrane stavke ?
+dbConfirmDeleteService=WARNING !!!<br>You are going to delete a Service or a Driver<br><br>Are you sure you want to continue?
+dbConfirmUninstall=Deinstalisati izabrane aplikacije ?
+dbRegCleaner=RegSeeker ce pretraziti registri u potrazi za neispravnim unosima<br>nekoristenim ekstenzijama, nedostajucim datotekama, losim referencama ...<br><br>Trebali biste napraviti sigurnosnu kopiju pre vrsenja<br>promena u registriju (greske mogu da nanesu stetu celom sistemu) !<br><br>Proverite da je opcija "Nacini sigurnosnu kopiju pre brisanja" potvrdjena !<br>Da biste promene vratili na staro trebate dvaput kliknuti na poslednju .reg datoteku<br><br>KliknÏte na OK za nastavak (ovo koristite na sopstveni rizik)
+dbCleanStream=Windows memorise u registriju sve informacije o velicini i polozaju pojedinih prozora.<br>Ciscenje tih kljuceva ce njihove vrednosti da vrati na polazne.<br>To moze da ubrza navigaciju unutar foldera.<br>Napomena: bice napravljena sigurnosna kopija<br><br>Kliknite OK za nastavak !
+dbDeleteFile=Upozorenje : Datoteka(e) suppression !
+dbMountPoints=Windows is storing all mounted devices/network maps informations inside the registry.<br>Those keys contains informations like drive type, icons display etc...<br>Note : a backup will be made<br><br>Click OK to proceed !
+dbTempFileMsg1=You can configure all the files you want to display in your Temporary File list using variables
+dbTempFileMsg2=Be careful before deleting any result ! A bad variable usage could display unwanted files<br>For ex: %windir%\*.* will display all your files inside your Windows directory
+dbTempFileMsg3=To comment a line, just add a # in front of it
+addNew=Add new rule
+[FavDialogbox]
+mainTitle=Prioritetne adrese
+Title1=Prioritetno ime
+Title2=Kljuc za dodavanje
+entername=Upisi ime
+btAdd=Dodaj
+btCancel=Prekini
+btManage=Manipulisi ...
+btModify=Modifikuj
+[misc]
+btExclude=Izuzmi ...
+ckScanDrive=Pretrazi drajvove za starim .exe unosima u registri
+CleanDone=Auto Clean was done !
+backupname=Backup Name :
+[ExcludeDialog]
+btExAdd=Add
+btExMod=Modify
+btExDel=Delete
+btExImp=Import
+ExItemsImport=Item(s) were imported inside your Exclusion list !
+[RestoreDialog]
+btRestore=Restore
+btStop=Stop
+btClose=Close
+ckViewOnly=Double-click an entry to view a backup content (No changes done to the Registry)
+btProtect=Show Protected
+[RegistryFix]
+repairtitle=Fix Registry Security :
+ckProtected=Search Protected Keys only
+msgProtected=Click Search and RegSeeker will display the protected keys only. Select the ones you want to modify and right-click to choose Take Ownership. Be CAREFUL ! if you're not confident with registry security, do not use !
+mnutakeownership=Take Ownership !
+securitywarn=WARNING ! You are about to change Registry Key permission !<br>This will change the registry key ownership to your current username.<br><br>If you are not confident doing this, please click NO to Exit or click OK to Proceed.
+securitychange=Registry Key permission have been changed !
+[Startup]
+colName=Name
+colPath=Path
+colInfo=Information
+colStartup=Startup
+colOther=Display Name
+[Services]
+msAuto=Automatic
+msAutod=Automatic (Delayed Start)
+msDis=Disabled
+msMan=Manual
+[ToBin]
+msToBin=Click OK to send to recycle bin<br>or Cancel to permanently delete the file(s)
+[Junk]
+btAutoSel=Auto-select
+[Chrome]
+msRunning=It is recommended to close Chrome before continuing !<br><br>Click OK to close Chrome or Cancel to continue without closing
+msExtens=Warning : Chrome extensions are synchronized !<br>Click ok to stop extensions synchronization and change status<br><br>Note : you can re-enable extension synchronization via Chrome parameters/Advanced synchronization parameters
+[ApplicationList]
+msRenameEntry=Rename entry
+msUninstall=Uninstall Application
+msNewname=New name :
+msBackupApp=Backup application registry
+msExportApplist=Export application list
+[bigButton]
+btApps=Applications and startup
+btRegistry=Registry
+btTools=Tools and system
+btPrivacy=Computer cleaning
+btAbout=About
+[Subtitles]
+subApp=Applications
+subStart=Startup
+subBrowser=Browser extensions
+subRegistry=Registry
+subFavorites=Favorites
+subTools=Tools
+subSystem=System information
+ckOtherDevice=View additional devices
+subFileClean=Junk files cleaning
+subRegClean=History cleaning
+[Drivers]
+ckBackDriver=Backup selected driver
+Wait=Veuillez patienter ...
+BackDriverDone=Le pilote a ÈtÈ sauvegardÈ !<br>Voulez-vous ouvrir le rapport ?
+FileMissing=Note : des fichiers n'ont pu Ítre copiÈs !

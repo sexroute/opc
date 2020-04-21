@@ -1,0 +1,102 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FRSI\DeltaV\CurrentVersion\AMS\INSTALLATION]
+"DevicePath"="amsdevices"
+"Release Path"="amsdevices"
+"AMS Binary Path"="d:\\hawk\\code\\bin"
+"First run of AMS"="No"
+"Drive"="D"
+"Path"="d:\\hawk\\code\\bin"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FRSI\DeltaV\CurrentVersion\AMS\DCI]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FRSI\DeltaV\CurrentVersion\AMS\DCI\RefreshInterval]
+"MinAllowed"=dword:00000bb8
+"Default"=dword:00001770
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FRSI\DeltaV\CurrentVersion\AMS\ALARM]
+"Priority"="10"
+"Scan Period"="60"
+"Cold start"="Yes"
+"Configuration changed"="Yes"
+"Device malfunction"="Yes"
+"More status available"="Yes"
+"Non PV out of limits"="Yes"
+"Not responding"="Yes"
+"PV analog output fixed"="Yes"
+"PV analog output saturated"="Yes"
+"PV out of limits"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FRSI\DeltaV\CurrentVersion\AMS\AMS Network Components]
+"AMS Net Comp Types"="HART Modem,DeltaV Network,HART Communicator,HART Interchange Network,AMS Server,Other Networks"
+"Plant Port Number"="6660"
+"Future AMS Net Comp Types"=",File Server"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FRSI\DeltaV\CurrentVersion\AMS\AMS Server]
+"Component Desc"="File Servers"
+"Component bmp"=""
+"Property Sheet DLL"="FmsFsPs.dll"
+"Component Count"="0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FRSI\DeltaV\CurrentVersion\AMS\AMSMaintOptions]
+"ProgressX"="345"
+"ProgressY"="203"
+"ProgressWidth"="335"
+"ProgressHeight"="362"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FRSI\DeltaV\CurrentVersion\AMS\DeltaV Network]
+"Component Desc"="DeltaV Network"
+"Component bmp"=""
+"Property Sheet DLL"="FMSHmPs.dll"
+"Component Count"="1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FRSI\DeltaV\CurrentVersion\AMS\DeltaV Network 1]
+"Name"="Server Name"
+"Modem Type"="None"
+"Protocol Type"="None"
+"Port"="None"
+"Baud"="0"
+"Retries"="0"
+"HART Port"="None"
+"Multi drop low address"="0"
+"Multi drop high address"="0"
+"Network Type"="8"
+"Config file Id"="0"
+"Device Family"="1"
+"net route 1"="0"
+"net route 2"="0"
+"net route 3"="0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FRSI\DeltaV\CurrentVersion\AMS\HART Communicator]
+"Component Desc"="HART Communicator"
+"Component bmp"=""
+"Property Sheet DLL"="FmsHcPs.dll"
+"Component Count"="0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FRSI\DeltaV\CurrentVersion\AMS\HART Interchange Network]
+"Component Desc"="HART Interchange Network"
+"Component bmp"=""
+"Property Sheet DLL"="FmsHnPs.dll"
+"Component Count"="0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FRSI\DeltaV\CurrentVersion\AMS\HART Modem]
+"Component Desc"="HART Modem"
+"Component bmp"=""
+"Property Sheet DLL"="FMSHmPs.dll"
+"Component Count"="0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FRSI\DeltaV\CurrentVersion\AMS\Other Networks]
+"Component Desc"="Other Networks"
+"Component bmp"=""
+"Property Sheet DLL"="FmsOnPs.dll"
+"Component Count"="0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FRSI\DeltaV\CurrentVersion\AMS\Preferences]
+"Duplicate external tags"="Ok"
+"Duplicate HART tags"="Warn"
+"Preferred browser"="Plant"
+"Station type"="Base"
+"Explorer View"="Full"
+"Icon size"="Full"
+"AMS splash screen"="Yes"
+"User Config View"="Full"

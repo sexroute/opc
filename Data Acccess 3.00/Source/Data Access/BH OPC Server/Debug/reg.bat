@@ -1,0 +1,1 @@
+BHOpcDaServer.exe /RegServer

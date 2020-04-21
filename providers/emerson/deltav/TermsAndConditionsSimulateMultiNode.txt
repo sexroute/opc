@@ -1,0 +1,157 @@
+Fisher-Rosemount Systems, Inc., an Emerson Process Management company, 
+(“FRSI”) provides the DeltaV Simulate software, the DeltaV Simulate 
+Access Key (“DSA Key”), and related materials for your use 
+(collectively the “Program”). You assume responsibility for the 
+acquisition of a machine and associated equipment compatible with the 
+Program, and for installation, use, and results obtained from the Program.
+
+1. License Grant: FRSI grants to you a non-transferable, non-exclusive 
+license to: (a) use all fully paid up licensed Programs on a single machine 
+and (b) in association with only properly licensed nodes.  IF YOU TRANSFER 
+POSSESSION OF ANY DSA KEY TO ANOTHER PARTY, YOUR LICENSE TO 
+THE PROGRAM IS AUTOMATICALLY TERMINATED. No license, express or 
+implied, is granted under any intellectual property directly or indirectly owned by 
+FRSI which does not specifically read on the Program as provided hereunder, 
+nor shall any license, except the license specifically granted herein, be implied 
+in law, implied in equity, or exist under the doctrine of patent exhaustion.
+
+2. DSA KEY USE RESTRICTIONS: The DSA Key that is provided under this 
+Agreement may permit the user broad access to DeltaV control system software 
+functionality. Accordingly, you may use the DSA Key only for training, 
+engineering center activities or the like, AND IN NO CASE SHALL YOU USE THE 
+DSA KEY IN CONNECTION WITH THE CONTROL OF PLANT PROCESSES OR 
+OTHERWISE IN A PRODUCTION MODE.  FURTHER, YOU SHALL NOT USE OR 
+ATTEMPT TO USE THE DSA KEY TO ACTIVATE MORE SOFTWARE, MACHINES 
+AND/OR NODES THAN YOU HAVE LICENSED.  FRSI may use technological 
+and/or other measures to control, enforce, impair, implement or otherwise restrict 
+access to and/or use of the Program, and/or software associated with or authorized 
+by the DSA Key, and you acknowledge and agree to the use of such measures, and 
+that you shall not attempt to circumvent such measures.  DSA Keys may have 
+expiration codes or other restrictions built into them. WHEN AN EXPIRATION DATE 
+OR RESTRICTION CONDITION IS ENCOUNTERED, THE DSA KEY WILL 
+DISCONTINUE OPERATION WITHOUT NOTICE TO YOU. You shall not transfer 
+possession of any DSA Key without the prior written consent of FRSI. You 
+acknowledge FRSI’s need to track and control all DSA Keys. Accordingly, you 
+agree to accurately complete the appropriate FRSI program registration promptly 
+upon your installation of the DSA Key. 
+
+3. TITLE: Title to and ownership of the Program shall at all times remain 
+with FRSI. Your right to use the Program is at all times subject to the terms 
+and condition of this Agreement. FRSI may, from time to time, revise or update 
+the Program, in so doing, incurs no obligation to furnish such revisions or 
+updates to you.
+
+4. TERM: You may terminate this license at any time by destroying the 
+Program or returning the Program to FRSI. This license will also terminate upon 
+conditions set forth elsewhere in this Agreement or if you fail to comply with 
+any term or condition of this Agreement. You agree upon such termination to 
+destroy the Program or return the Program to FRSI.
+
+5. LIMITED WARRANTY: Subject to the limitations contained in Section 6 and 
+except as otherwise expressly provided herein, FRSI warrants that the Program 
+provided hereunder will be free from defects in materials or workmanship under 
+normal use and care until the expiration of the applicable warranty period. 
+Programs are warranted for ninety (90) days from the date of shipment by FRSI. 
+If you discover any warranty defects and notify FRSI thereof in writing during 
+the applicable warranty period, FRSI shall, at its option, repair or replace 
+F.O.B. point of manufacture the Program found by FRSI to be non-conforming, or 
+refund the purchase price of the non-conforming Program. All replacements or 
+repairs necessitated by causes not the fault of FRSI are not covered by this 
+limited warranty, and shall be at your expense. FRSI shall not be obligated to 
+pay any costs or charges incurred by you or any other party except as may be 
+agreed upon in writing in advance by an authorized FRSI representative. All 
+costs of dismantling, reinstallation and freight and the time and expenses of 
+FRSI’s personnel for site travel and diagnosis under this warranty clause shall 
+be borne by you unless accepted in writing by FRSI. Programs repaired and parts 
+replaced during the warranty period shall be in warranty for the remainder of 
+the original warranty period or thirty (30) days, whichever is longer. This 
+limited warranty is the only warranty made by FRSI and can be amended only in a 
+writing signed by an authorized representative of FRSI. Except as otherwise 
+expressly provided in this Agreement, THERE ARE NO REPRESENTATIONS 
+OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, AS TO 
+MERCHANTABILITY, FITNESS FOR PARTICULAR PURPOSE, OR ANY 
+OTHER MATTER WITH RESPECT TO ANY OF THE PROGRAM OR SERVICES.
+
+6. LIMITATION OF REMEDY AND LIABILITY: FRSI SHALL NOT BE LIABLE 
+FOR DAMAGES CAUSED BY DELAY IN PERFORMANCE. THE SOLE AND 
+EXCLUSIVE REMEDY FOR BREACH OF WARRANTY HEREUNDER SHALL BE 
+LIMITED TO REPAIR, CORRECTION, REPLACEMENT OR REFUND OF PURCHASE 
+PRICE UNDER THE LIMITED WARRANTY CLAUSE. IN NO EVENT, REGARDLESS 
+OF THE FORM OF THE CLAIM OR CAUSE OF ACTION (WHETHER BASED IN 
+CONTRACT, INFRINGEMENT, NEGLIGENCE, STRICT LIABILITY, OTHER TORT OR 
+OTHERWISE), SHALL FRSI’S LIABILITY TO YOU EXCEED THE PRICE TO YOU OF 
+THE PROGRAM. YOU AGREE THAT IN NO EVENT SHALL FRSI’S LIABILITY TO 
+YOU EXTEND TO INCLUDE INCIDENTAL, CONSEQUENTIAL OR PUNITIVE 
+DAMAGES. THE TERM “CONSEQUENTIAL DAMAGES” SHALL INCLUDE, BUT 
+NOT BE LIMITED TO, LOSS OF ANTICIPATED PROFITS, LOSS OF USE, LOSS OF 
+REVENUE AND COST OF CAPITAL.
+
+FRSI SHALL NOT BE LIABLE FOR ANY COSTS OR DAMAGES, IN ANY FORM, 
+CAUSED BY YOUR USE OF THE PROGRAM FOR CONTROL OF PLANT 
+PROCESSES OR OTHERWISE IN A PRODUCTION MODE, AND YOU SHALL 
+INDEMNIFY AND HOLD HARMLESS FRSI FROM ANY CLAIM RESULTING FROM 
+SUCH USE OF THE PROGRAM FOR CONTROL OF PLANT PROCESSES OR 
+OTHERWISE IN A PRODUCTION MODE.
+
+7. PATENTS: Subject to the limitations contained in Section 6, FRSI shall 
+defend any suits brought against you based on a claim that use of the Program 
+provided by FRSI constitutes an infringement of a valid patent of the United 
+States, and shall pay any damages awarded therein against you, provided that you: 
+promptly notifies FRSI in writing of the filing of such suit or the threat thereof; 
+permits FRSI to control completely the defense or compromise of such claim of 
+infringement; and provides all reasonable assistance and cooperation requested by 
+FRSI for the defense of such suit. In the event that the Program is held to be 
+infringing in such suit and its use is enjoined, FRSI shall, at FRSI’s option and 
+expense provide a commercially reasonable alternative, including, but not limited 
+to, procuring for you the right to continue using the Program, replacing it with 
+a non-infringing product or modifying it so it becomes non-infringing. You agree 
+that FRSI shall not be liable for infringement, and that you shall fully indemnify 
+FRSI therefore, if infringement is based upon the use of Program in connection 
+with products not manufactured by FRSI or in a manner for which the Program was 
+not designed by the FRSI or if the Program was modified by or for the you in a 
+manner to cause it to become infringing.
+
+8. INSTALLATION: You shall be responsible for receiving, storing, installing, and 
+maintaining all Programs. FRSI shall provide a quotation for services to assist 
+you in these functions if requested.
+
+9. TAXES: Any tax or governmental charge payable by the FRSI because of the 
+manufacture, sale or delivery of the Program, or provision of Services, may at 
+FRSI’s option be added to the price herein specified. The foregoing shall not apply 
+to taxes based upon FRSI’s net income.
+
+10. TERMS OF PAYMENT: Subject to the approval of FRSI’s Credit Department, 
+terms are F.O.B. shipping point, net 30 days from date of FRSI’s invoice in U.S. currency, 
+except for applicable milestone payments covered below or export shipments for which 
+FRSI may require other arrangements. If any payment owed to FRSI hereunder is not 
+paid when due, it shall bear interest, at a rate to be determined by FRSI which shall 
+not exceed the maximum rate permitted by law, from the date on which it is due until 
+it is paid. FRSI shall have the right, among other remedies, either to terminate this 
+Agreement or to suspend further deliveries under this and/or other agreements with you 
+in the event you fail to make any payment hereunder when due. You shall be liable for 
+all expenses attendant to collection of past due amounts, including attorneys’ fees.
+
+11. DATA YOU HAVE SUPPLIED: To the extent that FRSI has relied upon any 
+specifications, information, representation of operating conditions or other data 
+supplied in writing by you to FRSI in the selection or design of the Program, and in 
+the event that actual operating conditions or other conditions differ from those 
+represented by you and relied upon by FRSI, any warranties or other provisions 
+contained herein which are affected by such conditions shall be null and void, unless 
+otherwise mutually agreed upon in writing.
+
+12. GENERAL PROVISIONS: (a) You shall not assign its rights or obligations 
+under this Agreement without FRSI’s prior written consent. (b) There are no 
+understandings, agreements or representations, express or implied, not specified 
+in this Agreement. (c) You may bring no action, regardless of form, arising out of 
+transactions under this Agreement, more than two (2) years after the cause of action 
+has accrued. (d) Any modification of these terms and conditions must be set forth in 
+a written instrument signed by a duly authorized representative of FRSI. (e) The 
+Agreement is formed and shall be construed, performed and enforced under the laws 
+of the State of Texas. You and FRSI agree that the proper venue for all actions arising 
+under this Agreement shall be only in the State of Texas. (f) PROGRAMS SOLD 
+HEREUNDER ARE NOT FOR USE IN ANY NUCLEAR AND RELATED 
+APPLICATIONS. You accept all Programs with the foregoing understanding and 
+agree to defend, indemnify and hold harmless FRSI from any claims, losses, suits, 
+judgments and damages, including incidental and consequential damages, arising 
+from such use, whether the cause of action be based in tort, contract or otherwise, 
+including allegations that the FRSI’s liability is based on negligence or strict liability.

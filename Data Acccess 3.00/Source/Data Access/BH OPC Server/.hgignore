@@ -1,0 +1,8 @@
+
+syntax: glob
+*.bak
+*.pch
+*.obj
+*.manifest
+Release/Client/log/*.log
+build.timestamp

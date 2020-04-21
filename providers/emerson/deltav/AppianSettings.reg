@@ -1,0 +1,75 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Appian]
+
+[HKEY_CURRENT_USER\Software\Appian\HydraVision2]
+"DisableSystemTrayIcons"=dword:00000000
+"EnableIndividualSettings"=dword:00000001
+"DisableAppianMaxIcon"=dword:00000000
+"HotkeysDisabled"=dword:00000000
+"Desktop.Revision"="----"
+"DialogPositionEnabled"=dword:00000001
+"DialogMonitorNumber"=dword:00000000
+"DialogPositionControl"=dword:00000000
+"MaximizeButtonControl"=dword:00000000
+"MinimizeButtonControl"=dword:00000000
+"MinMaxEnabled"=dword:00000001
+"ChildMaxEnabled"=dword:00000000
+"PositionMemory"=dword:00000001
+"SingleWindowMode"=dword:00000000
+"Audio"=dword:00000000
+"ToolTipsEnabled"=dword:00000000
+"SettingPageName"=""
+"SettingPageMoreText"=""
+"SettingPageLessText"=""
+"Monitor1.ModelName"=""
+"Monitor2.ModelName"=""
+
+[HKEY_CURRENT_USER\Software\Appian\HydraVision2\Individual Application Control]
+
+[HKEY_CURRENT_USER\Software\Appian\HydraVision2\Individual Application Control\DeltaV Graphics Studio]
+"Path"="C:\\DeltaV\\Fix32\\DRAW.EXE"
+"DialogPositionEnabled"=dword:00000000
+"DialogMonitorNumber"=dword:00000000
+"DialogPositionControl"=dword:00000000
+"MaximizeButtonControl"=dword:00000000
+"MinimizeButtonControl"=dword:00000000
+"MinMaxEnabled"=dword:00000001
+"ChildMaxEnabled"=dword:00000000
+"PositionMemory"=dword:00000001
+"SingleWindowMode"=dword:00000000
+"EnableIndividualSettings"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Appian\HydraVision2\Individual Application Control\Intellution FIX View]
+"Path"="C:\\DeltaV\\Fix32\\View.exe"
+"DialogPositionEnabled"=dword:00000000
+"DialogMonitorNumber"=dword:00000000
+"DialogPositionControl"=dword:00000000
+"MaximizeButtonControl"=dword:00000000
+"MinimizeButtonControl"=dword:00000000
+"MinMaxEnabled"=dword:00000000
+"ChildMaxEnabled"=dword:00000000
+"PositionMemory"=dword:00000001
+"SingleWindowMode"=dword:00000000
+"EnableIndividualSettings"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Appian\HydraVision2\Individual Application Control\MS_WINDOC]
+"Path"="C:\\WINNT\\Winhlp32.exe"
+"DialogPositionEnabled"=dword:00000001
+"DialogMonitorNumber"=dword:00000000
+"DialogPositionControl"=dword:00000000
+"MaximizeButtonControl"=dword:00000000
+"MinimizeButtonControl"=dword:00000000
+"MinMaxEnabled"=dword:00000001
+"ChildMaxEnabled"=dword:00000000
+"PositionMemory"=dword:00000000
+"SingleWindowMode"=dword:00000000
+"EnableIndividualSettings"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Appian\HydraVision2\Position Memory]
+
+[HKEY_CURRENT_USER\Software\Appian\HydraVision2\Position Memory\C:/WINNT/System32/d2hnav32.exe]
+"LastPosition"="6,32,356,759"
+"NormalPosition"="6,32,356,759"
+"LastStyle"=dword:14cf4000
+

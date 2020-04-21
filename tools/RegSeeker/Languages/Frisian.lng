@@ -1,0 +1,213 @@
+LanguageName=Frisian
+LanguageAuthor=Berend Ytsma
+[Buttons]
+btDeepClean=Deep cleaning
+btFind=Sykje yn register ...
+btAdv=Advanced Tools
+mnProcMon=Process Navigator
+mnFileProc=File / Process Monitor
+mnRepair=Repair...
+mnParentDir=Open Parent directory
+mnGotoParent=Go to Parent process
+mnAction=Action
+mnSwitch=Switch
+mnKill=Kill selected process
+mnKillDel=Kill process and Delete file
+mnExportProc=Export list
+btTasks=Tasks only
+btTop=Always on top
+btAppl=Ynstallearre applikaasjes
+mnInvalidUninstall=Unjildige taheakje/fuortsmite ynfier
+mnApplSettings=Applikaasjes ynstellings
+mnServices=Services (Non-Microsoft)
+mnDrivers=Drivers (Non-Microsoft)
+msgItems=Item(s)
+btStartup=Rinnende programma`s
+btScheme=Kleur skema`s
+btHistory=Histoarjes ...
+btFavorites=Blêdwizers...
+btTweaks=Tweaks
+btClean=Register Opskjinje
+btAbout=Oer ...
+btBackup=Reservekopy
+btPrint=Printsje
+btQuit=RegSeeker útgong
+btSelect=Selektearje
+btSelectAll=Alles selektearje
+btSelectRed=Selektearje alle Reade ûnderdielen
+btSelectGreen=Select alle griene ûnderdielen
+btSelectService=Net-juste tsjinsten selektearje
+btUnselectAll=Alles net selektearje
+btInvertSel=Seleksje Omdraaie
+btAction=Aksje
+btAutoClean=Auto opromje
+btCancel=Ofbrekke
+[Checkbox]
+ckBackup=Reservekopy foar’t wiskjen
+ckServices=Net-juste tsjinsten (eksperimenteel)
+[Find Panel]
+SearchFor=Sykje om :
+btSearch=Sykje !
+btCleanHistory=Sykhistoarje opromje
+KeyTitle=Kaaien
+OptionTitle=Sykopsjes
+ckKeys=Kaaien
+ckValues=Wearden
+ckData=Data
+ckGroupSimilar=Meitsje keppel fan lykse kaaien
+ckWholeWord=Oerienkommend hiele wurd
+ckFindFile=Sykje triemmen
+[File Panel]
+bBrowse=Blêdzje ...
+ckSize=Grutte :
+greater=Grutter dan
+lesser=Lyster dan
+ckDouble=Sykje nei dûbele triemmen
+ckHidden=Ynklusyf ferstoppe triemmen
+ckSystem=Ynklusyf systeem triemmen
+rSortSize=Sortearje resultaat op grutte
+rSortName=Sortearje resultaat op triemnamme
+cValidLnk=Kontrolearje jildichheid fluchtoetsen
+ckBin=fuortsmite yn it jiskefet
+iLNK=Fluchtoetsen (*.lnk)
+[Tweaks Panel]
+btRestoreDef=Restore default
+btApplyChanges=Tapasse !
+TweakError=Error applying tweak, please restart RegSeeker as Administrator
+TweakApplied=Tweak applied ! If you see no change, please logoff or restart your computer
+[History Menu]
+mnURL=Internet Explorer URLs
+mnINDEXDAT=IE Histoarje lytsûnthâld koekjes (Index.dat)
+mnExecute=Utfiere
+mnMapDrive=Ferbyn netwurkskiif
+mnFindFiles=Sykje triemmen/Kompjûters
+mnOpenFiles=Iepenje triemmen
+mnStartMenu=Alde Start menu items
+mnStream=StreamMRU/Streams kaaien opromje
+[Favorites Menu]
+mnManage=Blêdwizers beheare
+mnClear=Blêdwizers opromje
+mnRebuild=Herstel blêdwizers
+mnFav=Blêdwizers
+[Listbox Menu]
+mnOpen=Iepenje yn Regedit (of dûbel-klik)
+mnExport=Selektearre items útfiere
+mnAddFav=Taheakje oan blêdwizers
+mnEnableStartup=Selektearre items oansette
+mnDisableStartup=Selektearre items útsette
+mnDelete=Selektearre items wiskje
+mnExclude=Taheakje oan de útslútlist
+[File Menu]
+mnParentDir=Iepenje boarne triemtafel
+mnProperties=Triem eigenskippen sjen litte
+mnDelFile=Selektearre triemmen wiskje
+[Listbox messages]
+lbTooLong=(tried te lang)
+lbDefault=(Standert)
+lbRefresh=F5 Ferfarskje
+lbDLL=DLL triem bestiet net
+lbFILE=Triem of paad bestiet net
+lbHELP=Helptriem bestiet net
+lbSTARTMENU=Ferâldere Start Menu item
+lbEXTENSION=Taheaksel net brûkt
+lbFILETYPE=Triemtype net brûkt
+lbEMPTY=Ferâldere ynfier
+lbAPPPATH=Unjildich applikaasje paad
+lbOPENWITH=Net brûkte "iepenje mei" ynfier
+lbACTIVEX=Unjildich ActiveX/COM ynfier (CLSID)
+lbService=Invalid Service
+lbDate=Datum :
+lbTime=Tiid :
+lbAccess=Lêste tagong :
+lbExpire=Ferrûn op :
+lbCookie=Koekje hâlden ! (sjoch mycookies.ini triem)
+[DialogBoxes]
+dbClearHistory=Alle blêdwizers opromje ?
+dbRebuildHistory=Taljochting : Dit makket jo blêdwizers opnij mei standert ynfier<br>Binne jo wis dat jo fierder wollo ?
+dbExportDone=Utfier is klear !
+dbConfirmDelete=Alle selektearre items wiskje ?
+dbConfirmDeleteService=WARNING !!!<br>You are going to delete a Service or a Driver<br><br>Are you sure you want to continue?
+dbConfirmUninstall=Ynstallaasje ûngedien meitsje fan de selektearre applikaasjes ?
+dbRegCleaner=RegSeeker sil troch jo register rinne om net jildige ynfier te fynen :<br>Net brûkte taheaksels, ûntbrekkende triemmen, Minne ferwizings ...<br><br>Jo moatte in reservekopy meitsje fan jo wichtige data foardat jo<br>feroarings dy jo yn jo register (Fout wiske items kinne jo systeem beskeadigje) !<br><br>Wês wis dat jo de opsje ‘Reservekopy foar’t wiskjen’ selektearje<br>Om jo wisk aksjes ûngedien te meitsjen, dûbel-klik op de lêste .reg triem<br><br>Klik Okee om fierder te gean(brûke op eigen risiko)
+dbCleanStream=Windows slat alle finster grutte en lokaasje ynformaasje yn it register.<br>Opskjinje fan dy kaaien sil se wer werom bringe nei hun standert.<br>It kin de fluggens fan navigaasje yn jo mappen te goede komme.<br>Notysje : In reservekopy sil makke wurde<br><br>klik Okee om fierder te gean !
+dbDeleteFile=Warskôging : triem(men) ûnderdrukking !
+addNew=Add new rule
+[FavDialogbox]
+mainTitle=Blêdwizers
+Title1=Blêdwizers namme
+Title2=Kaai om ta te heakjen
+entername=Fier in namme yn
+btAdd=Taheakje
+btCancel=Ofbrekke
+btManage=Beheare ...
+btModify=Oanpasse
+[misc]
+btExclude=Utslutings ...
+ckScanDrive=Alde exe yngongen sykje op de skiven
+CleanDone=Auto omropje is klear !
+backupname=Reservekopynamme :
+[ExcludeDialog]
+btExAdd=Add
+btExMod=Modify
+btExDel=Delete
+btExImp=Import
+ExItemsImport=Item(s) were imported inside your Exclusion list !
+[RestoreDialog]
+btRestore=Restore
+btStop=Stop
+btClose=Close
+ckViewOnly=Double-click an entry to view a backup content (No changes done to the Registry)
+btProtect=Show Protected
+[RegistryFix]
+repairtitle=Fix Registry Security :
+ckProtected=Search Protected Keys only
+msgProtected=Click Search and RegSeeker will display the protected keys only. Select the ones you want to modify and right-click to choose Take Ownership. Be CAREFUL ! if you're not confident with registry security, do not use !
+mnutakeownership=Take Ownership !
+securitywarn=WARNING ! You are about to change Registry Key permission !<br>This will change the registry key ownership to your current username.<br><br>If you are not confident doing this, please click NO to Exit or click OK to Proceed.
+securitychange=Registry Key permission have been changed !
+[Startup]
+colName=Name
+colPath=Path
+colInfo=Information
+colStartup=Startup
+colOther=Display Name
+[Services]
+msAuto=Automatic
+msAutod=Automatic (Delayed Start)
+msDis=Disabled
+msMan=Manual
+[ToBin]
+msToBin=Click OK to send to recycle bin<br>or Cancel to permanently delete the file(s)
+[Junk]
+btAutoSel=Auto-select
+[Chrome]
+msRunning=It is recommended to close Chrome before continuing !<br><br>Click OK to close Chrome or Cancel to continue without closing
+msExtens=Warning : Chrome extensions are synchronized !<br>Click ok to stop extensions synchronization and change status<br><br>Note : you can re-enable extension synchronization via Chrome parameters/Advanced synchronization parameters
+[ApplicationList]
+msRenameEntry=Rename entry
+msUninstall=Uninstall Application
+msNewname=New name :
+msBackupApp=Backup application registry
+msExportApplist=Export application list
+[bigButton]
+btApps=Applications and startup
+btRegistry=Registry
+btTools=Tools and system
+btPrivacy=Computer cleaning
+btAbout=About
+[Subtitles]
+subApp=Applications
+subStart=Startup
+subBrowser=Browser extensions
+subRegistry=Registry
+subFavorites=Favorites
+subTools=Tools
+subSystem=System information
+ckOtherDevice=View additional devices
+subFileClean=Junk files cleaning
+subRegClean=History cleaning
+[Drivers]
+ckBackDriver=Backup selected driver
+Wait=Veuillez patienter ...
+BackDriverDone=Le pilote a été sauvegardé !<br>Voulez-vous ouvrir le rapport ?
+FileMissing=Note : des fichiers n'ont pu être copiés !

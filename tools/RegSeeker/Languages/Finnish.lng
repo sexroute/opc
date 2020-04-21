@@ -1,0 +1,219 @@
+LanguageName=Finnish
+LanguageAuthor=Seppo Kinnunen
+[Buttons]
+btDeepClean=Deep cleaning
+btFind=Etsi rekisteristä ...
+btAdv=Advanced Tools
+mnProcMon=Process Navigator
+mnFileProc=File / Process Monitor
+mnRepair=Repair...
+mnParentDir=Open Parent directory
+mnGotoParent=Go to Parent process
+mnAction=Action
+mnSwitch=Switch
+mnKill=Kill selected process
+mnKillDel=Kill process and Delete file
+mnExportProc=Export list
+btTasks=Tasks only
+btTop=Always on top
+btAppl=Asennetut sovellukset
+mnInvalidUninstall=Kelpaamattomat lisää/poista sovellus-merkinnät
+mnApplSettings=Sovellusten asetukset
+mnServices=Services (Non-Microsoft)
+mnDrivers=Drivers (Non-Microsoft)
+mnTempFiles=Temporary files
+msgTempFiles=(Click here to configure)
+msgItems=Item(s)
+btStartup=Käynnistyvät ohjelmat
+btScheme=Värikaaviot
+btHistory=Historiat ...
+btFavorites=Suosikit ...
+btTweaks=Viritykset
+btClean=Puhdista rekisteri
+btAbout=Tietoa ohjelmasta ...
+btBackup=Varmuuskopiot
+btPrint=Tulosta
+btQuit=Lopeta RegSeeker
+btSelect=Valitse
+btSelectAll=Valitse kaikki
+btSelectRed=Valitse kaikki punaisella merkityt
+btSelectGreen=Valitse kaikki vihreällä merkityt
+btSelectService=Valitse käyttökelvottomat palvelut
+btUnselectAll=Älä valitse mitään
+btInvertSel=Käänteinen valinta
+btAction=Toiminnot
+btAutoClean=Automaattinen puhdistus
+btCancel=Peruuta
+[Checkbox]
+ckBackup=Luo varmuuskopio
+ckServices=Käyttökelvottomat palvelut (kokeilu)
+[Find Panel]
+SearchFor=Hae nimellä :
+btSearch=Etsi !
+btCleanHistory=Tyhjennä hae nimellä historia
+KeyTitle=Avaimet
+OptionTitle=Etsintä asetukset
+ckKeys=Avaimet
+ckValues=Arvot
+ckData=Data
+ckGroupSimilar=Järjestä avainten perusteella
+ckWholeWord=Koko sana
+ckFindFile=Etsi tiedostot
+[File Panel]
+bBrowse=Valitse ...
+ckSize=Koko :
+greater=Suurempi kuin
+lesser=Pienempi kuin
+ckDouble=Etsi duplikaattitiedostot
+ckHidden=Sisältää piiloitetut tiedostot
+ckSystem=Sisältää systeemitiedostot
+rSortSize=Lajittele koon mukaan
+rSortName=Lajittele nimen mukaan
+cValidLnk=Tarkasta pikakuvakkeet
+ckBin=Poista roskakoriin
+iLNK=Pikakuvakkeet (*.lnk)
+[Tweaks Panel]
+btRestoreDef=Restore default
+btApplyChanges=Muutokset OK ?
+TweakError=Error applying tweak, please restart RegSeeker as Administrator
+TweakApplied=Tweak applied ! If you see no change, please logoff or restart your computer
+[History Menu]
+mnURL=Internet Explorer osoitepalkki
+mnINDEXDAT=IE-historia, välimuisti, keksit (Index.dat)
+mnExecute=Suorita
+mnMapDrive=Verkkoyhteydet kansio
+mnFindFiles=Etsi tiedostot/tietokoneet
+mnOpenFiles=Avatut tiedostot (MRU)
+mnStartMenu=Vanhat käynnistä-valikon kohteet
+mnStream=Puhdista StreamMRU/Streams keys merkinnät ...
+[Favorites Menu]
+mnManage=Muokkaa suosikkeja ...
+mnClear=Poista suosikit ...
+mnRebuild=Palauta oletukset ...
+mnFav=Suosikit
+[Listbox Menu]
+mnOpen=Avaa rekisterieditorissa (tai palauta varmuuskopio rekisteriin)
+mnExport=Vie valitut kohteet
+mnAddFav=Lisää suosikeihin
+mnEnableStartup=Ota käyttöön valitut rek.merkinnät
+mnDisableStartup=Poista käytöstä valitut rek.merkinnät
+mnDelete=Poista valitut kohteet
+mnExclude=Lisää poissulkemislistaan
+[File Menu]
+mnParentDir=Avaa päähakemisto
+mnProperties=Näytä tiedosto asetukset
+mnDelFile=Poista valitut tiedostot
+[Listbox messages]
+lbTooLong=(liian pitkä merkkijono)
+lbDefault=(oletus)
+lbRefresh=F5 päivitä
+lbDLL=DLL tiedostoa ei löydy
+lbFILE=Tiedostoa tai polkua ei löydy
+lbHELP=Ohjetiedostoa ei löydy
+lbSTARTMENU=Vanhentunut Käynnistä-valikon kohde
+lbEXTENSION=Tiedostotarkennin ei ole käytössä
+lbFILETYPE=Tiedostotyyppi ei ole käytössä
+lbEMPTY=Vanhentunut rek.merkintä
+lbAPPPATH=Virheellinen sovelluspolku
+lbOPENWITH=Käyttämätön "Avaa sovelluksessa" rek.merkintä
+lbACTIVEX=Virheellinen ActiveX/COM rek.merkintä (CLSID)
+lbService=Käyttökelvoton palvelumerkintä
+lbDate=Päiväys :
+lbTime=Aika :
+lbAccess=Viimeinen haku :
+lbExpire=Lakkautettu :
+lbCookie=Keksit jätetään ! (katso mycookies.ini tiedosto)
+[DialogBoxes]
+dbClearHistory=Kaikki suosikit poistetaan ?
+dbRebuildHistory=Huom! Tämä palauttaa oletusasetukset suosikeihin <br>Hyväksy toimenpide ?
+dbExportDone=Vienti suoritettu !
+dbConfirmDelete=Kaikki valitut kohteet poistetaan ?
+dbConfirmDeleteService=WARNING !!!<br>You are going to delete a Service or a Driver<br><br>Are you sure you want to continue?
+dbConfirmUninstall=Poista valitut sovellukset ?
+dbRegCleaner=RegSeeker skannaa tietokoneen rekisterin löytääkseen virheelliset merkinnät:<br>Vanhentuneet tiedostotarkentimet, puuttuvat tiedostot, väärät viittaukset...<br><br>Luo varmuuskopio koko rekisteristä ennenkuin teet mitään muutoksia siihen<br>(Väärä toimenpide voi tuhota koko systeemisi)!<br><br>Varmista että olet ruksannut kohdan 'Luo varmuuskopio' (vasen alareuna)<br>Peruuttaaksesi rekisterimuutokset avaa menu: 'Varmuuskopiot' ja <br>kaksoisklikkaa viimeisintä reg-tiedostoa.<br><br>Klikkaa OK  hyväksyäksesi toimenpide (käyttö omalla riskillä)
+dbCleanStream=Windows tallentaa kaikki ikkunakoko- ja sijaintitiedot rekisteriinsä.<br>Jos poistat nuo avaimet, ne palautetaan takaisin oletusasetuksiinsa.<br>Tämä saattaa nopeuttaa navigointia kansioiden sisällä.<br>Huom! Varmuuskopio luodaan<br><br>Klikkaa OK jatkaaksesi !
+dbDeleteFile=Varoitus : Tiedosto(t) poistetaan !
+dbMountPoints=Windows is storing all mounted devices/network maps informations inside the registry.<br>Those keys contains informations like drive type, icons display etc...<br>Note : a backup will be made<br><br>Click OK to proceed !
+dbTempFileMsg1=You can configure all the files you want to display in your Temporary File list using variables
+dbTempFileMsg2=Be careful before deleting any result ! A bad variable usage could display unwanted files<br>For ex: %windir%\*.* will display all your files inside your Windows directory
+dbTempFileMsg3=To comment a line, just add a # in front of it
+addNew=Add new rule
+[FavDialogbox]
+mainTitle=Suosikit
+Title1=Suosikin nimi
+Title2=Lisää avain
+entername=Anna nimi
+btAdd=Lisää
+btCancel=Peruuta
+btManage=Käsittele ...
+btModify=Muuta
+[misc]
+btExclude=Poissuljetut
+ckScanDrive=Etsi vanhentuneet exe-merkinnät
+CleanDone=Automaattinen puhdistus suoritettu !
+backupname=Varmuuskopion nimi :
+[ExcludeDialog]
+btExAdd=Lisää
+btExMod=Muokkaa
+btExDel=Poista
+btExImp=Tuo
+ExItemsImport=Kohdetta sisältyy tuomaasi poissulkemislistaan !
+[RestoreDialog]
+btRestore=Palauta
+btStop=Seis
+btClose=Sulje
+ckViewOnly=Double-click an entry to view a backup content (No changes done to the Registry)
+btProtect=Show Protected
+[RegistryFix]
+repairtitle=Fix Registry Security :
+ckProtected=Search Protected Keys only
+msgProtected=Click Search and RegSeeker will display the protected keys only. Select the ones you want to modify and right-click to choose Take Ownership. Be CAREFUL ! if you're not confident with registry security, do not use !
+mnutakeownership=Take Ownership !
+securitywarn=WARNING ! You are about to change Registry Key permission !<br>This will change the registry key ownership to your current username.<br><br>If you are not confident doing this, please click NO to Exit or click OK to Proceed.
+securitychange=Registry Key permission have been changed !
+[Startup]
+colName=Name
+colPath=Path
+colInfo=Information
+colStartup=Startup
+colOther=Display Name
+[Services]
+msAuto=Automatic
+msAutod=Automatic (Delayed Start)
+msDis=Disabled
+msMan=Manual
+[ToBin]
+msToBin=Click OK to send to recycle bin<br>or Cancel to permanently delete the file(s)
+[Junk]
+btAutoSel=Auto-select
+[Chrome]
+msRunning=It is recommended to close Chrome before continuing !<br><br>Click OK to close Chrome or Cancel to continue without closing
+msExtens=Warning : Chrome extensions are synchronized !<br>Click ok to stop extensions synchronization and change status<br><br>Note : you can re-enable extension synchronization via Chrome parameters/Advanced synchronization parameters
+[ApplicationList]
+msRenameEntry=Rename entry
+msUninstall=Uninstall Application
+msNewname=New name :
+msBackupApp=Backup application registry
+msExportApplist=Export application list
+[bigButton]
+btApps=Applications and startup
+btRegistry=Registry
+btTools=Tools and system
+btPrivacy=Computer cleaning
+btAbout=About
+[Subtitles]
+subApp=Applications
+subStart=Startup
+subBrowser=Browser extensions
+subRegistry=Registry
+subFavorites=Favorites
+subTools=Tools
+subSystem=System information
+ckOtherDevice=View additional devices
+subFileClean=Junk files cleaning
+subRegClean=History cleaning
+[Drivers]
+ckBackDriver=Backup selected driver
+Wait=Veuillez patienter ...
+BackDriverDone=Le pilote a été sauvegardé !<br>Voulez-vous ouvrir le rapport ?
+FileMissing=Note : des fichiers n'ont pu être copiés !

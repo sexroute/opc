@@ -1,0 +1,216 @@
+LanguageName=Català
+LanguageAuthor=Jesús Moreno - www.txus.tk
+[Buttons]
+btDeepClean=Deep cleaning
+btFind=Troba al registre ...
+btAdv=Advanced Tools
+mnProcMon=Process Navigator
+mnFileProc=File / Process Monitor
+mnRepair=Repair...
+mnParentDir=Open Parent directory
+mnGotoParent=Go to Parent process
+mnAction=Action
+mnSwitch=Switch
+mnKill=Kill selected process
+mnKillDel=Kill process and Delete file
+mnExportProc=Export list
+btTasks=Tasks only
+btTop=Always on top
+btAppl=Aplicacions installades
+mnInvalidUninstall=Invalid Add/Remove entries
+mnApplSettings=Applications Settings
+mnServices=Services (Non-Microsoft)
+mnDrivers=Drivers (Non-Microsoft)
+mnTempFiles=Temporary files
+msgTempFiles=(Click here to configure)
+msgItems=Item(s)
+btStartup=Registres d'inicialització
+btScheme=Combinacions de color
+btHistory=Historials ...
+btFavorites=Preferits ...
+btTweaks=Modificacions
+btClean=Buida el registre
+btAbout=Quant a ...
+btBackup=Còpies de seguretat
+btPrint=Imprimeix
+btQuit=Surt del RegSeeker
+btSelectAll=Selecciona-ho tot
+btSelectRed=Select all Red items
+btSelectGreen=Select all Green items
+btUnselectAll=Deselecciona-ho tot
+btInvertSel=Inverteix la selecció
+btSelect=Select
+btAction=Action
+btSelectService=Select Invalid Services
+[Checkbox]
+ckBackup=Fes una còpia abans de suprimir
+ckServices=Invalid Services (experimental)
+[Find Panel]
+SearchFor=Cerca :
+btSearch=Cerca !
+btCleanHistory=Buida l'historial de cerca
+KeyTitle=Claus
+OptionTitle=Opcions de cerca
+ckKeys=Claus
+ckValues=Valors
+ckData=Dades
+ckGroupSimilar=Agrupa les claus similars
+ckWholeWord=Coincideix tota la paraula
+ckFindFile=Cerca els fitxers
+[File Panel]
+bBrowse=Explora ...
+ckSize=Mida :
+greater=Major que
+lesser=Menor que
+ckDouble=Troba els fitxers duplicats
+ckHidden=Inclou fitxers ocults
+ckSystem=Inclou fitxers de sistema
+rSortSize=Ordena el resultat per Mida
+rSortName=Ordena el resultat per Nom de fitxer
+cValidLnk=Comprova la validesa de les dreceres
+ckBin=Envia a la Paperera de reciclatge
+iLNK=Dreceres (*.lnk)
+[Tweaks Panel]
+btRestoreDef=Restore default
+btApplyChanges=Aplica els canvis !
+TweakError=Error applying tweak, please restart RegSeeker as Administrator
+TweakApplied=Tweak applied ! If you see no change, please logoff or restart your computer
+[History Menu]
+mnURL=URLs de l'Internet Explorer
+mnINDEXDAT=Galetes de la memòria cau de l'historial de l'IE (Index.dat)
+mnExecute=Executa
+mnMapDrive=Mapa una unitat de xarxa
+mnFindFiles=Troba fitxers/ordinadors
+mnOpenFiles=Obre els fitxers
+mnStartMenu=Elements del menú Inicia antic
+mnStream=Buida les claus de StreamMRU/Streams
+[Favorites Menu]
+mnManage=Gestiona els preferits
+mnClear=Buida els preferits
+mnRebuild=Remunta els preferits
+mnFav=Preferits
+[Listbox Menu]
+mnOpen=Obre al Regedit (o doble clic)
+mnExport=Exporta els elements seleccionats
+mnAddFav=Afegeix als preferits
+mnEnableStartup=Habilita els registres seleccionats
+mnDisableStartup=Inhabilita els registres seleccionats
+mnDelete=Suprimeix els elements seleccionats
+mnExclude=Afegeix a la llista d'exclusió
+[File Menu]
+mnParentDir=Obre el directori pare
+mnProperties=Mostra les propietats dels fitxers
+mnDelFile=Suprimeix els fitxers seleccionats
+[Listbox messages]
+lbTooLong=(la cadena és massa llarga)
+lbDefault=(predeterminat)
+lbRefresh=F5 actualitza
+lbDLL=El fitxer DLL no exiteix
+lbFILE=El fitxer o el camí no existeix
+lbHELP=El fitxer d'ajuda no existeix
+lbSTARTMENU=Element del menú Inicia obsolet
+lbEXTENSION=Extensió no utilitzada
+lbFILETYPE=Tipus de fitxer no utilitzat
+lbEMPTY=Registre obsolet
+lbAPPPATH=Camí de l'aplicació no vàlid
+lbOPENWITH=Regitre "Obre amb" no utilitzat
+lbACTIVEX=Registre ActiveX/COM no utilitzat (CLSID)
+lbDate=Data :
+lbTime=Hora :
+lbAccess=Últim accés :
+lbExpire=Venç en :
+lbCookie=S'ha desat la galeta ! (veieu el fitxer mycookies.ini)
+[DialogBoxes]
+dbClearHistory=Voleu buidar tots els preferits ?
+dbRebuildHistory=Atenció : això remuntarà tots els preferits amb els registres prefeterminats<br>Voleu continuar ?
+dbExportDone=S'ha fet l'exportació !
+dbConfirmDelete=Voleu suprimir tots els elements seleccionats ?
+dbConfirmDeleteService=WARNING !!!<br>You are going to delete a Service or a Driver<br><br>Are you sure you want to continue?
+dbConfirmUninstall=Voleu desinstal·lar les aplicacions seleccionades ?
+dbRegCleaner=El RegSeeker escannejarà el registre per trobar registres no vàlids :<br>extensions no utilitzades, fitxers perduts, referències errònies ...<br><br>Hauríeu de fer una còpia de seguretat de qualsevol dada valuosa de l'ordinador abans de fer<br>qualsevol canvi al registre (supressions errònies poden malmetre el sistema) !<br><br>Assegureu-vos d'activar l'opció 'Fes una còpia abans de suprimir'<br>Per desfer les supressions, feu doble clic a l'últim fitxer de registre<br><br>Feu clic a D'acord per continuar (sota la votra responsabilitat)
+dbCleanStream=El Windows està emmagatzemant totes les informacions d'ubicació i mida de les finestres del registre.<br>En buidar aquestes claus es restauraran a predeterminat.<br>Pot accelerar la navegació per les carpetes.<br>Nota : es farà una còpia de seguretat<br><br>Feu clic a D'acord per continuar !
+dbDeleteFile=Advertència : Supressió de fitxers !
+dbMountPoints=Windows is storing all mounted devices/network maps informations inside the registry.<br>Those keys contains informations like drive type, icons display etc...<br>Note : a backup will be made<br><br>Click OK to proceed !
+dbTempFileMsg1=You can configure all the files you want to display in your Temporary File list using variables
+dbTempFileMsg2=Be careful before deleting any result ! A bad variable usage could display unwanted files<br>For ex: %windir%\*.* will display all your files inside your Windows directory
+dbTempFileMsg3=To comment a line, just add a # in front of it
+addNew=Add new rule
+[FavDialogbox]
+mainTitle=Preferits
+Title1=Nom preferit
+Title2=Clau per afegir
+entername=Introduïu un nom
+btAdd=Afegeix
+btCancel=Cancel·la
+btManage=Gestiona ...
+btModify=Modifica
+[misc]
+btExclude=Exclusions ...
+ckScanDrive=Escanneja les unitats per trobar registres d'executables antics al registre
+CleanDone=Auto Clean was done !
+backupname=Backup Name :
+[ExcludeDialog]
+btExAdd=Add
+btExMod=Modify
+btExDel=Delete
+btExImp=Import
+ExItemsImport=Item(s) were imported inside your Exclusion list !
+[RestoreDialog]
+btRestore=Restore
+btStop=Stop
+btClose=Close
+ckViewOnly=Double-click an entry to view a backup content (No changes done to the Registry)
+btProtect=Show Protected
+[RegistryFix]
+repairtitle=Fix Registry Security :
+ckProtected=Search Protected Keys only
+msgProtected=Click Search and RegSeeker will display the protected keys only. Select the ones you want to modify and right-click to choose Take Ownership. Be CAREFUL ! if you're not confident with registry security, do not use !
+mnutakeownership=Take Ownership !
+securitywarn=WARNING ! You are about to change Registry Key permission !<br>This will change the registry key ownership to your current username.<br><br>If you are not confident doing this, please click NO to Exit or click OK to Proceed.
+securitychange=Registry Key permission have been changed !
+[Startup]
+colName=Name
+colPath=Path
+colInfo=Information
+colStartup=Startup
+colOther=Display Name
+[Services]
+msAuto=Automatic
+msAutod=Automatic (Delayed Start)
+msDis=Disabled
+msMan=Manual
+[ToBin]
+msToBin=Click OK to send to recycle bin<br>or Cancel to permanently delete the file(s)
+[Junk]
+btAutoSel=Auto-select
+[Chrome]
+msRunning=It is recommended to close Chrome before continuing !<br><br>Click OK to close Chrome or Cancel to continue without closing
+msExtens=Warning : Chrome extensions are synchronized !<br>Click ok to stop extensions synchronization and change status<br><br>Note : you can re-enable extension synchronization via Chrome parameters/Advanced synchronization parameters
+[ApplicationList]
+msRenameEntry=Rename entry
+msUninstall=Uninstall Application
+msNewname=New name :
+msBackupApp=Backup application registry
+msExportApplist=Export application list
+[bigButton]
+btApps=Applications and startup
+btRegistry=Registry
+btTools=Tools and system
+btPrivacy=Computer cleaning
+btAbout=About
+[Subtitles]
+subApp=Applications
+subStart=Startup
+subBrowser=Browser extensions
+subRegistry=Registry
+subFavorites=Favorites
+subTools=Tools
+subSystem=System information
+ckOtherDevice=View additional devices
+subFileClean=Junk files cleaning
+subRegClean=History cleaning
+[Drivers]
+ckBackDriver=Backup selected driver
+Wait=Veuillez patienter ...
+BackDriverDone=Le pilote a été sauvegardé !<br>Voulez-vous ouvrir le rapport ?
+FileMissing=Note : des fichiers n'ont pu être copiés !

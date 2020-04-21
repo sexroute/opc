@@ -1,0 +1,1 @@
+reg.exe query HKLM\Software\Microsoft\Windows\CurrentVersion\Installer\UserData /d /s /f "full or partial installation path" > reg_draft_cmd.txt

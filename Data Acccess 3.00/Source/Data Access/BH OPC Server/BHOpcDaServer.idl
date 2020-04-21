@@ -1,0 +1,47 @@
+//============================================================================
+// TITLE: XxxDaServer.idl
+//
+// CONTENTS:
+// 
+// The OPC Data Access Sample Server IDL file.
+//
+// (c) Copyright 2002-2003 The OPC Foundation
+// ALL RIGHTS RESERVED.
+//
+// DISCLAIMER:
+//  This code is provided by the OPC Foundation solely to assist in 
+//  understanding and use of the appropriate OPC Specification(s) and may be 
+//  used as set forth in the License Grant section of the OPC Specification.
+//  This code is provided as-is and without warranty or support of any sort
+//  and is subject to the Warranty and Liability Disclaimers which appear
+//  in the printed OPC Specification.
+//
+// MODIFICATION LOG:
+//
+// Date       By    Notes
+// ---------- ---   -----
+// 2002/09/03 RSA   First release.
+//
+
+import "opccomn.idl";
+import "opcda.idl";
+
+[
+	uuid(6D215906-F68F-481b-815A-6703706122D9),
+	version(1.0)
+]
+library BHOpcDaServerLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+    
+	[
+		uuid(020761A5-5156-42f6-939C-E62D30421DC6),
+        helpstring("BH OPC SERVER")
+	]
+	coclass BHOpcDaServer
+	{
+		[default] interface IOPCServer;
+        [source]  interface IOPCShutdown;
+	};
+};

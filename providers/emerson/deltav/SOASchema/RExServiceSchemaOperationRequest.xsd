@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://EmersonProcess.WebServices/PerformOperations" elementFormDefault="qualified" xmlns="http://EmersonProcess.WebServices/PerformOperations" xmlns:mstns="http://EmersonProcess.WebServices/PerformOperations" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!--Top level element-->
+  <xs:include id="PerformOperations" schemaLocation="PerformOperations.xsd" />
+  <!--End Top level element-->
+  <xs:simpleType name="RecipeTypeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="Operation" />
+      <xs:enumeration value="UnitProcedure" />
+      <xs:enumeration value="Procedure" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="VCATRecipeTypeType">
+	  <xs:restriction base="xs:string">
+	  <xs:enumeration value="None" />
+	  <xs:enumeration value="Recipes"/>
+	  <xs:enumeration value="Operation" />
+	  <xs:enumeration value="Operations" />
+	  <xs:enumeration value="UnitProcedure" />
+	  <xs:enumeration value="UnitProcedures" />
+	  <xs:enumeration value="Procedure" />
+	  <xs:enumeration value="Procedures" />
+	  </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ExportTypeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="System" />
+      <xs:enumeration value="NamedSets" />
+      <xs:enumeration value="Recipes" />
+      <xs:enumeration value="Operation" />
+      <xs:enumeration value="Operations" />
+      <xs:enumeration value="Procedure" />
+      <xs:enumeration value="Procedures" />
+      <xs:enumeration value="UnitProcedure" />
+      <xs:enumeration value="UnitProcedures" />
+      <xs:enumeration value="Formula" />
+      <xs:enumeration value="UnitClass" />
+      <xs:enumeration value="UnitClasses" />
+      <xs:enumeration value="PhaseClass" />
+      <xs:enumeration value="PhaseClasses" />
+      <xs:enumeration value="ProcessCellClass" />
+      <xs:enumeration value="ProcessCellClasses" />
+      <xs:enumeration value="Areas" />
+      <xs:enumeration value="Area" />
+      <xs:enumeration value="ProcessCell" />
+      <xs:enumeration value="UnitModule" />
+      <xs:enumeration value="Nodes" />
+      <xs:enumeration value="Node" />
+      <xs:enumeration value="Engineering_Units" />
+      <xs:enumeration value="Control_Module" />
+      <xs:enumeration value="Control_Module_Classes" />
+      <xs:enumeration value="Control_Module_Class" />
+      <xs:enumeration value="Equipment_Module" />
+      <xs:enumeration value="Equipment_Module_Classes" />
+      <xs:enumeration value="Equipment_Module_Class" />
+      <xs:enumeration value="Equipment_Train_Classes" />
+      <xs:enumeration value="Equipment_Train_Class" />
+      <xs:enumeration value="Equipment_Trains" />
+      <xs:enumeration value="Equipment_Train" />
+      <xs:enumeration value="Unit_Selection_Policies" />
+      <xs:enumeration value="Unit_Selection_Policy" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="RecipeInfoType">
+    <xs:sequence>
+      <xs:element name="recipeType" type="RecipeTypeType" />
+      <xs:element name="recipeName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="VCATRecipeInfoType">
+	<xs:sequence>
+		<xs:element name="vcatRecipeType" type="VCATRecipeTypeType" />
+		<xs:element name="vcatRecipeName" type="xs:string" />
+	</xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ExportInfoType">
+    <xs:sequence>
+      <xs:element name="exportType" type="ExportTypeType" />
+      <xs:element name="exportName" type="xs:string" />
+      <xs:element name="removeFilter" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AssignRecipeToWorkstations">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="recipeInfo" type="RecipeInfoType" />
+          <xs:element name="batchExecutiveList" type="xs:string" minOccurs="1" maxOccurs="4" />
+          <xs:element name="bAutoCheckOut" type="xs:boolean" />
+          <xs:element name="bAutoCheckIn" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="CheckIn">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="vcatRecipeInfo" type="VCATRecipeInfoType" />
+          <xs:element name="strComment" type="xs:string" />
+          <xs:element name="bRecursive" type="xs:boolean" />
+          <xs:element name="bAutoCheckIn" type="xs:boolean" />
+          <xs:element name="bIgnoreCheckedOutUser" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="CheckOut">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="vcatRecipeInfo" type="VCATRecipeInfoType" />
+          <xs:element name="bRecursive" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="DeleteRecipeAssignment">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="recipeInfo" type="RecipeInfoType" />
+          <xs:element name="nodeName" type="xs:string" />
+          <xs:element name="bAutoCheckOut" type="xs:boolean" />
+          <xs:element name="bAutoCheckIn" type="xs:boolean" />
+          <xs:element name="bRecursive" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="DeleteRecipe">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="recipeInfo" type="RecipeInfoType" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="DownloadBatchExecutive">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="nodeName" type="xs:string" />
+          <xs:element name="bPermitDownloadOfCheckedoutItems" type="xs:boolean" />
+          <xs:element name="bPermitDownloadOfUnauthorizedItems" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="DownloadRecipeToAllBatchExecutives">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="recipeInfo" type="RecipeInfoType" />
+          <xs:element name="bPermitDownloadOfCheckedoutItems" type="xs:boolean" />
+          <xs:element name="bPermitDownloadOfUnauthorizedItems" type="xs:boolean" />
+          <xs:element name="bIncludeSubRecipes" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="DownloadRecipeToBatchExecutive">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="recipeInfo" type="RecipeInfoType" />
+          <xs:element name="nodeName" type="xs:string" />
+          <xs:element name="bPermitDownloadOfCheckedoutItems" type="xs:boolean" />
+          <xs:element name="bPermitDownloadOfUnauthorizedItems" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="Export">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="exportInfo" type="ExportInfoType" />
+          <xs:element name="bCheckOut" type="xs:boolean" />
+          <xs:element name="bRecursive" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ExportDataType">
+    <xs:sequence>
+      <xs:element name="log" type="xs:string" />
+      <xs:element name="exportedXMLConfig" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetListOfAssignedBatchExecutives">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="recipeInfo" type="RecipeInfoType" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="Import">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="xmlConfig" type="xs:string" />
+          <xs:element name="bNoToAll" type="xs:boolean" />
+          <xs:element name="bPreDownloadStatus" type="xs:boolean" />
+          <xs:element name="bAutoCheckOut" type="xs:boolean" />
+          <xs:element name="bAutoCheckIn" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="UndoCheckOut">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="vcatRecipeInfo" type="VCATRecipeInfoType" />
+          <xs:element name="bRecursive" type="xs:boolean" />
+          <xs:element name="bIgnoreCheckOutUser" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="VerifyRecipe">
+    <xs:complexContent>
+      <xs:extension base="OperationContractType">
+        <xs:sequence>
+          <xs:element name="recipeInfo" type="RecipeInfoType" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>

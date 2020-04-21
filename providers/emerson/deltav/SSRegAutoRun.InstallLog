@@ -1,0 +1,55 @@
+﻿Installing assembly 'C:\DeltaV\bin\SSRegAutoRun.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\SSRegAutoRun.exe
+   logfile = C:\DeltaV\bin\SSRegAutoRun.InstallLog
+Installing service SSRegAutoRun...
+Service SSRegAutoRun has been successfully installed.
+Creating EventLog source SSRegAutoRun in log Application...
+Committing assembly 'C:\DeltaV\bin\SSRegAutoRun.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\SSRegAutoRun.exe
+   logfile = C:\DeltaV\bin\SSRegAutoRun.InstallLog
+Uninstalling assembly 'C:\DeltaV\bin\SSRegAutoRun.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\SSRegAutoRun.exe
+   logfile = C:\DeltaV\bin\SSRegAutoRun.InstallLog
+Removing EventLog source SSRegAutoRun.
+Service SSRegAutoRun is being removed from the system...
+Service SSRegAutoRun was successfully removed from the system.
+Installing assembly 'C:\DeltaV\bin\SSRegAutoRun.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\SSRegAutoRun.exe
+   logfile = C:\DeltaV\bin\SSRegAutoRun.InstallLog
+Installing service SSRegAutoRun...
+Service SSRegAutoRun has been successfully installed.
+Creating EventLog source SSRegAutoRun in log Application...
+Committing assembly 'C:\DeltaV\bin\SSRegAutoRun.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\SSRegAutoRun.exe
+   logfile = C:\DeltaV\bin\SSRegAutoRun.InstallLog
+Uninstalling assembly 'C:\DeltaV\bin\SSRegAutoRun.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\SSRegAutoRun.exe
+   logfile = C:\DeltaV\bin\SSRegAutoRun.InstallLog
+Removing EventLog source SSRegAutoRun.
+Service SSRegAutoRun is being removed from the system...
+Service SSRegAutoRun was successfully removed from the system.
+Installing assembly 'C:\DeltaV\bin\SSRegAutoRun.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\SSRegAutoRun.exe
+   logfile = C:\DeltaV\bin\SSRegAutoRun.InstallLog
+Installing service SSRegAutoRun...
+Service SSRegAutoRun has been successfully installed.
+Creating EventLog source SSRegAutoRun in log Application...
+Committing assembly 'C:\DeltaV\bin\SSRegAutoRun.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\DeltaV\bin\SSRegAutoRun.exe
+   logfile = C:\DeltaV\bin\SSRegAutoRun.InstallLog

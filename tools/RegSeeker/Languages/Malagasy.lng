@@ -1,0 +1,210 @@
+LanguageName=Malagasy
+LanguageAuthor=Hover Inc.
+[Buttons]
+btDeepClean=Deep cleaning
+btFind=Fitadiavana ...
+btAdv=Advanced Tools
+mnProcMon=Process Navigator
+mnFileProc=File / Process Monitor
+mnRepair=Repair...
+mnRepair=Repair...
+mnParentDir=Open Parent directory
+mnGotoParent=Go to Parent process
+mnAction=Action
+mnSwitch=Switch
+mnKill=Kill selected process
+mnKillDel=Kill process and Delete file
+mnExportProc=Export list
+btTasks=Tasks only
+btTop=Always on top
+btStartup=Programa fanombohana
+mnInvalidUninstall=Sugadinti "Pridëti/Paðalinti" áraðai
+mnApplSettings=Programø nuostatos
+mnServices=Services (Non-Microsoft)
+mnDrivers=Drivers (Non-Microsoft)
+mnTempFiles=Temporary files
+msgTempFiles=(Click here to configure)
+msgItems=Item(s)
+btScheme=Karazana loko
+btHistory=Zava-nitranga ...
+btFavorites=Ireo tiako rehetra ...
+btTweaks=Tweaks
+btClean=Manadio registres
+btAbout=Mikasika ...
+btBackup="Backups" na tahiry
+btPrint=Manonta (imprimer)
+btQuit=Akatona Regseeker
+btSelectAll=Safidiana jiaby
+btUnselectAll=Tsy safidio jiaby
+btInvertSel=Avadio safidy jiaby
+[Checkbox]
+ckBackup=Backup aloha famafana
+[Find Panel]
+SearchFor=Mitady an'ny :
+btSearch=Tadiavo !
+btCleanHistory=Fafao ny "historique"
+KeyTitle=Lakile (clés)
+OptionTitle=Fomba fitadiavana
+ckKeys=Lakile
+ckValues=Valera(valeurs)
+ckData=Données
+ckGroupSimilar=Ampiarao ireo lakile mifandray
+ckWholeWord=Voambolana mitambatra ihany
+ckFindFile=Mitady fichiers
+[File Panel]
+bBrowse=Tsidio ...
+ckSize=Habe :
+greater=Lehibe noho
+lesser=Kely noho
+ckDouble=Tadiavo ireo fichiers verin-droa
+ckHidden=Tadiavina fichiers miafina
+ckSystem=Tadiaviana fichiers systèmes
+rSortSize=Avahana ara-habe ny valiny
+rSortName=Avahana araky ny anarany
+cValidLnk=Araha-maso ireo raccourci
+ckBin=Fafana ho any @ CORBEILLE
+iLNK=Lala-pohy na raccourci (*.lnk)
+[Tweaks Panel]
+btRestoreDef=Restore default
+btApplyChanges=Ampiaro ireo!
+TweakError=Error applying tweak, please restart RegSeeker as Administrator
+TweakApplied=Tweak applied ! If you see no change, please logoff or restart your computer
+[History Menu]
+mnURL=URL Internet Explorer
+mnINDEXDAT=IE Historique Cache Cookies (Index.dat)
+mnExecute=Historique-n'ny Exécuter
+mnMapDrive=Connecter un lecteur réseau
+mnFindFiles=Fitadiavana fichiers
+mnOpenFiles=Fichiers nosokafana
+mnStartMenu=Item Menu Démarrer taloha
+mnStream=Diovina ireo lakile StreamMRU/Streams
+[Favorites Menu]
+mnManage=Fandrindrana ireo "favoris"
+mnClear=Foanana ireo "favoris"
+mnRebuild=Averina ireo "favoris"
+mnFav=Ireo tiako rehetra
+[Listbox Menu]
+mnOpen=Sokafana amin'ny REGEDIT
+mnExport=Exporter-na ireo voasafidy
+mnAddFav=Alefa anay @ "favoris"
+mnEnableStartup=Activer les entrées sélectionnées
+mnDisableStartup=Désactiver les entrées sélectionnées
+mnDelete=Fafao ireo voasafidy
+mnExclude=Alefa @ lisitr'ireo tsy ilaina
+[File Menu]
+mnParentDir=Sokafy ny dossie ray aman-dreny
+mnProperties=Asehoy mombamomban'ny fichier
+mnDelFile=Fafao ireo voasafidy
+[Listbox messages]
+lbTooLong=(soratra lava loatra)
+lbDefault=(par défaut)
+lbRefresh=F5 ankehitriny
+lbDLL=fichier DLL tsy misy
+lbFILE=Fichier na lalana tsy misy
+lbHELP=Fichier torolalana (aide) tsy misy
+lbSTARTMENU=Fidirana tsy mitombona amin'ny menu Démarrer
+lbEXTENSION=Extension tsy miasa
+lbFILETYPE=Karazana fichier tsy miasa
+lbEMPTY=Fidirana kitoatoa (obsolète)
+lbAPPPATH=Lalana mankany @ application tsy ara-dalana
+lbOPENWITH="Ouvrir avec" tsy ilaina
+lbACTIVEX=Fidirana ActiveX/COM tsy ara-dalana (CLSID)
+lbDate=Daty :
+lbTime=Fotoana :
+lbAccess=Fampiasana farany :
+lbExpire=Lany daty ny :
+lbCookie=Cookie voatahiry ! (jereo ny fichier mycookies.ini)
+[DialogBoxes]
+dbClearHistory=Fafana ve ireo favoris rehetra ?
+dbRebuildHistory=Tandremo : hamerina ireo "favoris par défaut" izao kasainao atao izao.<br>Hotohizana ve ?
+dbExportDone=Export vita tsara !
+dbConfirmDelete=Fafana ireo voasafidy rehetra ?
+dbConfirmDeleteService=WARNING !!!<br>You are going to delete a Service or a Driver<br><br>Are you sure you want to continue?
+dbConfirmUninstall=Désinstaller-na ve ireo logiciels ireo ?
+dbRegCleaner=RegSeeker will scan your registry in order to find invalid entries :<br>unused extensions, missing files, bad references ...<br><br>You should backup any valued data on your computer before making<br>changes in your registry (wrong deletions may damage your system) !<br><br>Be sure to tick the option 'Backup before deletion'<br>To undo your deletions, double-click on the last .reg file<br><br>Click OK to proceed (use at your own risk)
+dbCleanStream=Windows is storing all window size and location informations inside the registry.<br>Cleaning those keys will restore them to default.<br>It can speed up your navigation inside your folders.<br>Note : a backup will be made<br><br>Click OK to proceed !
+dbDeleteFile=Warning : File(s) suppression !
+dbMountPoints=Windows is storing all mounted devices/network maps informations inside the registry.<br>Those keys contains informations like drive type, icons display etc...<br>Note : a backup will be made<br><br>Click OK to proceed !
+dbTempFileMsg1=You can configure all the files you want to display in your Temporary File list using variables
+dbTempFileMsg2=Be careful before deleting any result ! A bad variable usage could display unwanted files<br>For ex: %windir%\*.* will display all your files inside your Windows directory
+dbTempFileMsg3=To comment a line, just add a # in front of it
+addNew=Add new rule
+[FavDialogbox]
+mainTitle=Ireo tiako rehetra
+Title1=Anaran'ny "favori"
+Title2=Lakile ampiana
+entername=Mampidira anarana
+btAdd=Ampiana
+btCancel=Aoka indray
+btManage=Mandrindra ...
+btModify=Manova
+[misc]
+btExclude=Fanilihana ...
+ckScanDrive=Tadiavina ireo exe taloha ao amin'ny diska
+CleanDone=Auto Clean was done !
+backupname=Backup Name :
+[ExcludeDialog]
+btExAdd=Add
+btExMod=Modify
+btExDel=Delete
+btExImp=Import
+ExItemsImport=Item(s) were imported inside your Exclusion list !
+[RestoreDialog]
+btRestore=Restore
+btStop=Stop
+btClose=Close
+ckViewOnly=Double-click an entry to view a backup content (No changes done to the Registry)
+btProtect=Show Protected
+[RegistryFix]
+repairtitle=Fix Registry Security :
+ckProtected=Search Protected Keys only
+msgProtected=Click Search and RegSeeker will display the protected keys only. Select the ones you want to modify and right-click to choose Take Ownership. Be CAREFUL ! if you're not confident with registry security, do not use !
+mnutakeownership=Take Ownership !
+securitywarn=WARNING ! You are about to change Registry Key permission !<br>This will change the registry key ownership to your current username.<br><br>If you are not confident doing this, please click NO to Exit or click OK to Proceed.
+securitychange=Registry Key permission have been changed !
+[Startup]
+colName=Name
+colPath=Path
+colInfo=Information
+colStartup=Startup
+colOther=Display Name
+[Services]
+msAuto=Automatic
+msAutod=Automatic (Delayed Start)
+msDis=Disabled
+msMan=Manual
+[ToBin]
+msToBin=Click OK to send to recycle bin<br>or Cancel to permanently delete the file(s)
+[Junk]
+btAutoSel=Auto-select
+[Chrome]
+msRunning=It is recommended to close Chrome before continuing !<br><br>Click OK to close Chrome or Cancel to continue without closing
+msExtens=Warning : Chrome extensions are synchronized !<br>Click ok to stop extensions synchronization and change status<br><br>Note : you can re-enable extension synchronization via Chrome parameters/Advanced synchronization parameters
+[ApplicationList]
+msRenameEntry=Rename entry
+msUninstall=Uninstall Application
+msNewname=New name :
+msBackupApp=Backup application registry
+msExportApplist=Export application list
+[bigButton]
+btApps=Applications and startup
+btRegistry=Registry
+btTools=Tools and system
+btPrivacy=Computer cleaning
+btAbout=About
+[Subtitles]
+subApp=Applications
+subStart=Startup
+subBrowser=Browser extensions
+subRegistry=Registry
+subFavorites=Favorites
+subTools=Tools
+subSystem=System information
+ckOtherDevice=View additional devices
+subFileClean=Junk files cleaning
+subRegClean=History cleaning
+[Drivers]
+ckBackDriver=Backup selected driver
+Wait=Veuillez patienter ...
+BackDriverDone=Le pilote a été sauvegardé !<br>Voulez-vous ouvrir le rapport ?
+FileMissing=Note : des fichiers n'ont pu être copiés !

@@ -1,0 +1,17 @@
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\bin\Release\OpcNetApi.Xml.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\bin\Release\fr\OpcNetApi.Xml.resources.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Release\ResolveAssemblyReference.cache
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Release\OpcXml.Resources.Strings.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Release\OpcXml.Resources.Strings.fr.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Release\OPC NET XML Wrapper.csproj.GenerateResource.Cache
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Release\fr\OpcNetApi.Xml.resources.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Release\OpcNetApi.Xml.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\bin\Release\OpcNetApi.Xml.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\bin\Release\fr\OpcNetApi.Xml.resources.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Release\ResolveAssemblyReference.cache
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Release\OpcXml.Resources.Strings.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Release\OpcXml.Resources.Strings.fr.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Release\OPC NET XML Wrapper.csproj.GenerateResource.Cache
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Release\fr\OpcNetApi.Xml.resources.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Release\OpcNetApi.Xml.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\bin\Release\OpcNetApi.Xml.xml

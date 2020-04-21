@@ -1,0 +1,212 @@
+LanguageName=Romana
+LanguageAuthor=BIGphAntom a.k.a. Ariel
+[Buttons]
+btFind=Cauta in registri ...
+btDeepClean=Deep cleaning
+btAdv=Advanced Tools
+mnProcMon=Process Navigator
+mnFileProc=File / Process Monitor
+mnRepair=Repair...
+mnParentDir=Open Parent directory
+mnGotoParent=Go to Parent process
+mnAction=Action
+mnSwitch=Switch
+mnKill=Kill selected process
+mnKillDel=Kill process and Delete file
+mnExportProc=Export list
+msgItems=Item(s)
+btTasks=Tasks only
+btTop=Always on top
+btAppl=Aplicatii instalate
+btStartup=Intrari in Start-up
+btScheme=Scheme de culori
+btHistory=Istorie ...
+btFavorites=Favorite ...
+btTweaks=Smecherii(tweaks)
+btClean=Curata registri
+btAbout=Despre ...
+btBackup=Copie de siguranta
+btPrint=Imprima
+btQuit=Iesire din RegSeeker
+btSelectAll=Selecteaza tot
+btUnselectAll=Deselecteaza tot
+btInvertSel=Inverseaza selectia
+btSelect=Select
+btAction=Action
+btSelectService=Select Invalid Services
+mnServices=Services (Non-Microsoft)
+mnDrivers=Drivers (Non-Microsoft)
+mnTempFiles=Temporary files
+msgTempFiles=(Click here to configure)
+[Checkbox]
+ckBackup=Copie de siguranta
+ckServices=Invalid Services (experimental)
+[Find Panel]
+SearchFor=Cauta pentru :
+btSearch=Cauta !
+btCleanHistory=Sterge cautari anterioare!
+KeyTitle=Cheie
+OptionTitle=Optiuni de cautare
+ckKeys=Cheie
+ckValues=Valori
+ckData=Date
+ckGroupSimilar=Grupeaza chei similare
+ckWholeWord=Potriveste tot cuvantul
+ckFindFile=Cauta fisiere
+[File Panel]
+bBrowse=Cauta ...
+ckSize=Marime :
+greater=Mai mare decat
+lesser=Mai mic decat
+ckDouble=Cauta dupa duplicate
+ckHidden=Include fisiere ascunse
+ckSystem=Include fisierele de sistem
+rSortSize=Sorteaza rezultatul dupa marime
+rSortName=Sorteaza rezultatul dupa nume
+cValidLnk=Verifica validitate scurtaturi
+ckBin=Sterge si arunca la Cos
+iLNK=Scurtaturi (*.lnk)
+[Tweaks Panel]
+btRestoreDef=Restore default
+btApplyChanges=Aplica schimbarile !
+TweakError=Error applying tweak, please restart RegSeeker as Administrator
+TweakApplied=Tweak applied ! If you see no change, please logoff or restart your computer
+[History Menu]
+mnURL=Internet Explorer URLs
+mnINDEXDAT=IE History Cache Cookies (Index.dat)
+mnExecute=Execute
+mnMapDrive=Map a network drive
+mnFindFiles=Find files/computers
+mnOpenFiles=Open files
+mnStartMenu=Old Start Menu items
+mnStream=Clean StreamMRU/Streams keys
+[Favorites Menu]
+mnManage=Administreaza favorite
+mnClear=Goleste favorite
+mnRebuild=Reconstruieste favorite
+mnFav=Favorite
+[Listbox Menu]
+mnOpen=Deschide in Regedit (sau dublu-click)
+mnExport=Exporta selectate
+mnAddFav=Adauga la Favorit
+mnEnableStartup=Activeaza selectate
+mnDisableStartup=Dezactiveaza selectate
+mnDelete=Sterge selectate
+mnExclude=Adauga la excluse
+[File Menu]
+mnParentDir=Open parent directory
+mnProperties=Display file properties
+mnDelFile=Delete selected files
+[Listbox messages]
+lbTooLong=(sir prea lung)
+lbDefault=(implicit)
+lbRefresh=F5 refresh
+lbDLL=fisierul DLL nu exista
+lbFILE=Fisierul sau calea nu exista
+lbHELP=Fisierul help nu exista
+lbSTARTMENU=Item invechit in StartMenu
+lbEXTENSION=Extensie nefolosita
+lbFILETYPE=Tip fisier nefolosit
+lbEMPTY=Intrare invechita
+lbAPPPATH=Cale invalida pe aplicatie
+lbOPENWITH=Intrare "Open with" nefolosita
+lbACTIVEX=Intare ActiveX/COM nefolosita (CLSID)
+lbDate=Data :
+lbTime=Ora :
+lbAccess=Accesat anterior :
+lbExpire=Expira in :
+lbCookie=Cookie pastrat ! (vezi mycookies.ini)
+[DialogBoxes]
+dbClearHistory=Sterge toti favoritii ?
+dbRebuildHistory=ATENTIE: acum iti vei reconstrui Favoriti cu intrari implicite<br>Vrei sa continui?
+dbExportDone=Exportat OK !
+dbConfirmDelete=Sterg tot ce e selectat?
+dbConfirmDeleteService=WARNING !!!<br>You are going to delete a Service or a Driver<br><br>Are you sure you want to continue?
+dbConfirmUninstall=Dezinstalez aplicatiile selectate?
+dbRegCleaner=-RegSeeker wa scana registri pentru a gasi intrari invalide:<br>extensii nefolosite, fisiere lipsa,referinte sctricate ...<br>-Ar trebui sa iti faci o copie de siguranta a datelor cu valoare de pe calculatorul<br>tau inainte de a face schimbari in registri (stergerea gresita a unor chei poate deteriora sistemul de operare) !!!<br><br>-Fii sigur ca ai bifat optiunea 'Copie de siguranta'-(stanga jos)<br>Pentru a reface tot registrul, executa dublu-click pe ultimul fisier .reg<br><br>-Apasa OK pentru a continua (folosesti programul pe propriul risc!)<br><br>>>>>>>Tradus si adaptat de BIGphAntom a.k.a Ariel
+dbCleanStream=Windows pastreaza toate dimensiunile ferestrelor si locatia lor in registri.<br>Curatarea acestor chei le va restaura drept implicite.<br>Se poate creste viteza navigarii in dosare.<br>NOTA : o copie de siguranta va fi facuta<br><br>Apasa OK pentru a continua!
+dbDeleteFile=ATENTIE : Fisierul(e) sunt ascunse!
+dbMountPoints=Windows is storing all mounted devices/network maps informations inside the registry.<br>Those keys contains informations like drive type, icons display etc...<br>Note : a backup will be made<br><br>Click OK to proceed !
+dbTempFileMsg1=You can configure all the files you want to display in your Temporary File list using variables
+dbTempFileMsg2=Be careful before deleting any result ! A bad variable usage could display unwanted files<br>For ex: %windir%\*.* will display all your files inside your Windows directory
+dbTempFileMsg3=To comment a line, just add a # in front of it
+addNew=Add new rule
+[FavDialogbox]
+mainTitle=Favorite
+Title1=Numele Favorit
+Title2=Cheia de adaugat
+entername=Scrie un nume
+btAdd=Adauga
+btCancel=Revocare
+btManage=Administreaza
+btModify=Modifica
+[misc]
+btExclude=Excluziuni ...
+ckScanDrive=Scaneaza dupa intrari EXE vechi in registri
+CleanDone=Auto Clean was done !
+backupname=Backup Name :
+[ExcludeDialog]
+btExAdd=Add
+btExMod=Modify
+btExDel=Delete
+btExImp=Import
+ExItemsImport=Item(s) were imported inside your Exclusion list !
+[RestoreDialog]
+btRestore=Restore
+btStop=Stop
+btClose=Close
+ckViewOnly=Double-click an entry to view a backup content (No changes done to the Registry)
+btProtect=Show Protected
+[RegistryFix]
+repairtitle=Fix Registry Security :
+ckProtected=Search Protected Keys only
+msgProtected=Click Search and RegSeeker will display the protected keys only. Select the ones you want to modify and right-click to choose Take Ownership. Be CAREFUL ! if you're not confident with registry security, do not use !
+mnutakeownership=Take Ownership !
+securitywarn=WARNING ! You are about to change Registry Key permission !<br>This will change the registry key ownership to your current username.<br><br>If you are not confident doing this, please click NO to Exit or click OK to Proceed.
+securitychange=Registry Key permission have been changed !
+[Startup]
+colName=Name
+colPath=Path
+colInfo=Information
+colStartup=Startup
+colOther=Display Name
+[Services]
+msAuto=Automatic
+msAutod=Automatic (Delayed Start)
+msDis=Disabled
+msMan=Manual
+[ToBin]
+msToBin=Click OK to send to recycle bin<br>or Cancel to permanently delete the file(s)
+[Junk]
+btAutoSel=Auto-select
+[Chrome]
+msRunning=It is recommended to close Chrome before continuing !<br><br>Click OK to close Chrome or Cancel to continue without closing
+msExtens=Warning : Chrome extensions are synchronized !<br>Click ok to stop extensions synchronization and change status<br><br>Note : you can re-enable extension synchronization via Chrome parameters/Advanced synchronization parameters
+[ApplicationList]
+msRenameEntry=Rename entry
+msUninstall=Uninstall Application
+msNewname=New name :
+msBackupApp=Backup application registry
+msExportApplist=Export application list
+[bigButton]
+btApps=Applications and startup
+btRegistry=Registry
+btTools=Tools and system
+btPrivacy=Computer cleaning
+btAbout=About
+[Subtitles]
+subApp=Applications
+subStart=Startup
+subBrowser=Browser extensions
+subRegistry=Registry
+subFavorites=Favorites
+subTools=Tools
+subSystem=System information
+ckOtherDevice=View additional devices
+subFileClean=Junk files cleaning
+subRegClean=History cleaning
+[Drivers]
+ckBackDriver=Backup selected driver
+Wait=Veuillez patienter ...
+BackDriverDone=Le pilote a été sauvegardé !<br>Voulez-vous ouvrir le rapport ?
+FileMissing=Note : des fichiers n'ont pu être copiés !

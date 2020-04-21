@@ -1,0 +1,11 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DeltaVDiag]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DeltaVDiag\Performance]
+"Open"="OpenDVDgPerformanceData"
+"Close"="CloseDVDgPerformanceData"
+"Collect"="CollectDVDgPerformanceData"
+"Library"="DVDgPerf.dll"
+
+

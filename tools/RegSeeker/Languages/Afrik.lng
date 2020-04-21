@@ -1,0 +1,206 @@
+LanguageName=Afrikaans
+LanguageAuthor=Thabu Pienaar
+[Buttons]
+btFind=Soek deur Register...
+btDeepClean=Deep cleaning
+btAdv=Advanced Tools
+mnProcMon=Process Navigator
+mnFileProc=File / Process Monitor
+mnRepair=Repair...
+mnParentDir=Open Parent directory
+mnGotoParent=Go to Parent process
+mnAction=Action
+mnSwitch=Switch
+mnKill=Kill selected process
+mnKillDel=Kill process and Delete file
+mnExportProc=Export list
+btTasks=Tasks only
+btTop=Always on top
+btAppl=Programme
+mnInvalidUninstall=Invalid Add/Remove entries
+mnApplSettings=Applications Settings
+mnServices=Services (Non-Microsoft)
+mnDrivers=Drivers (Non-Microsoft)
+msgItems=Item(s)
+btStartup=Vooraf gelaaide programme
+btScheme=Kleurskemas
+btHistory=Geskiedenis...
+btFavorites=Gunstelinge...
+btTweaks=Tweaks
+btClean=Maak skoon
+btAbout=Omtrent RegSeeker...
+btBackup=Rugsteunkopie
+btPrint=Druk
+btQuit=Eindig RegSeeker
+btSelect=Select
+btSelectAll=Alles geselekteer
+btSelectRed=Select all Red items
+btSelectGreen=Select all Green items
+btUnselectAll=Niks geselekteer
+btInvertSel=Keer keuse om
+btAction=Action
+btSelectService=Select Invalid Services
+[Checkbox]
+ckBackup=Maak Rugsteunkopie
+ckServices=Invalid Services (experimental)
+[Find Panel]
+SearchFor=Soek na:
+btSearch=Soek!
+btCleanHistory=Verwyder Geskiedenis
+KeyTitle=Sleutels
+OptionTitle=Soekopsies
+ckKeys=Sleutels
+ckValues=Waardes
+ckData=Data
+ckGroupSimilar=Groepeer gelyke sleutels
+ckWholeWord=Vind volledige woorde
+ckFindFile=Soek Lêers
+[File Panel]
+bBrowse=Kyk rond ...
+ckSize=Grootte :
+greater=Groter as
+lesser=Kleiner as
+ckDouble=Soek duplikate
+ckHidden=Sluit versteekte Lêers in
+ckSystem=Sluit stelsel Lêers in
+rSortSize=Sorteer per grootte
+rSortName=Sorteer per leêrnaam
+cValidLnk=Verifieer kortpaaie
+ckBin=Verwyder na Gemorsboks
+iLNK=Kortpaaie (*.lnk)
+[Tweaks Panel]
+btApplyChanges=Uitvoer!
+btRestoreDef=Restore default
+TweakError=Error applying tweak, please restart RegSeeker as Administrator
+TweakApplied=Tweak applied ! If you see no change, please logoff or restart your computer
+[History Menu]
+mnURL=IE besoekte webwerwe
+mnINDEXDAT=IE Geskiedenis kasgeheue koekie (Index.dat)
+mnExecute=Uitvoer
+mnMapDrive=Verbind "Map Drive"
+mnFindFiles=Soek Lêers/rekenaars
+mnOpenFiles=Open Lêers
+mnStartMenu=Ou Begin kieslys items
+mnStream=Maak Stroom sleutels skoon
+[Favorites Menu]
+mnManage=Bewerk Gunstelinge
+mnClear=Verwyder Gunstelinge
+mnRebuild=Herstel Gunstelinge
+mnFav=Gunstelinge
+[Listbox Menu]
+mnOpen=Open met "Regedit" (dubbelkliek)
+mnExport=Eksporteer geselekteerde items
+mnAddFav=Voeg Gunstelinge by
+mnEnableStartup=Skakel geselekteerde items in
+mnDisableStartup=Skakel geselekteerde items uit
+mnDelete=Verwyder geselekteerde items
+mnExclude=Voeg by tot uitsluitingslys
+[File Menu]
+mnParentDir=Open Ouer leêrgids
+mnProperties=Vertoon leêr kenmerke
+mnDelFile=Verwyder geselekteerde Lêers
+[Listbox messages]
+lbTooLong=(string te lank)
+lbDefault=(verstek waarde)
+lbRefresh=F5 herlaai
+lbDLL=DLL leêr bestaan nie
+lbFILE=Leêr of Roete bestaan nie
+lbHELP=Help leêr bestaan nie
+lbSTARTMENU=Verouderde Begin kieslys item
+lbEXTENSION=Extensie wordt gebruikt
+lbFILETYPE=Leêrtipe nie in gebruik
+lbEMPTY=Verouderde toegang
+lbAPPPATH=Ongeldig program roete
+lbOPENWITH=Ongebruikte "Open met" toegang
+lbACTIVEX=Ongeldige ActiveX/COM toegang (CLSID)
+lbDate=Datum:
+lbTime=Tyd:
+lbAccess=Laastse geopen:
+lbExpire=Vervaldatum:
+lbCookie=Bewaarde Koekies ! (see mycookies.ini file)
+[DialogBoxes]
+dbClearHistory=Moet alle gunstelinge verwyder word?
+dbRebuildHistory=Aandag: dit sal die gunstelinge herstel deur dit te vervang met die verstek waardes<br>Wil u voortgaan?
+dbExportDone=Geëksporteer!
+dbConfirmDelete=Verwyder geselekteerde items?
+dbConfirmDeleteService=WARNING !!!<br>You are going to delete a Service or a Driver<br><br>Are you sure you want to continue?
+dbConfirmUninstall=Verwyder geselekteerde programme?
+dbRegCleaner=RegSeeker sal register deursoek vir foute soos ongebruikte ekstensies, verwyder bestaande, foutiewe verwysings...<br><br>Maak 'n rugsteunkopie van belangrike data vóór u veranderings aanbring<br>in die register (foutiewe veranderings kan u sisteem beskadig)!<br><br>Maak gebruik van die opsie 'Maak Rugsteunkopie'.<br>Om die wysigings te herstel, dubbel kliek op die jongste .reg leêr.<br><br>Kliek OK om te voltooi! (Gebruik op eie risiko!)
+dbCleanStream=Windows stoor alle venster grootte en plek inligting in die register databasis.<br>Deur hierdie sleutels skoon te maak, sal alle sleutels na die verstek waardes herstel.<br>Dit kan jou navigasie in jou Lêers en vouers bespoedig.<br>Nota : 'n rugsteun sal gemaak word<br><br>Kliek OK om voort te gaan !
+dbDeleteFile=Waarskuwing: Leêr(s) suppression !
+[FavDialogbox]
+mainTitle=Gunstelinge
+Title1=Gunsteling naam
+Title2=Sleutel toevoeging
+entername=Voer naam in
+btAdd=Voeg by
+btCancel=Kanselleer
+btManage=Verwerk...
+btModify=Wysig
+[misc]
+btExclude=Uitsluitings ...
+ckScanDrive=Soek deur hardeskyf(we) vir ou exe inskrywings in register
+ckScanDrive=Scan Drives for old exe entries in registry
+CleanDone=Auto Clean was done !
+[ExcludeDialog]
+btExAdd=Add
+btExMod=Modify
+btExDel=Delete
+btExImp=Import
+ExItemsImport=Item(s) were imported inside your Exclusion list !
+[RestoreDialog]
+btRestore=Restore
+btStop=Stop
+btClose=Close
+ckViewOnly=Double-click an entry to view a backup content (No changes done to the Registry)
+btProtect=Show Protected
+[RegistryFix]
+repairtitle=Fix Registry Security :
+ckProtected=Search Protected Keys only
+msgProtected=Click Search and RegSeeker will display the protected keys only. Select the ones you want to modify and right-click to choose Take Ownership. Be CAREFUL ! if you're not confident with registry security, do not use !
+mnutakeownership=Take Ownership !
+securitywarn=WARNING ! You are about to change Registry Key permission !<br>This will change the registry key ownership to your current username.<br><br>If you are not confident doing this, please click NO to Exit or click OK to Proceed.
+securitychange=Registry Key permission have been changed !
+[Startup]
+colName=Name
+colPath=Path
+colInfo=Information
+colStartup=Startup
+colOther=Display Name
+[Services]
+msAuto=Automatic
+msAutod=Automatic (Delayed Start)
+msDis=Disabled
+msMan=Manual
+[ToBin]
+msToBin=Click OK to send to recycle bin<br>or Cancel to permanently delete the file(s)
+[Junk]
+btAutoSel=Auto-select
+[Chrome]
+msRunning=It is recommended to close Chrome before continuing !<br><br>Click OK to close Chrome or Cancel to continue without closing
+msExtens=Warning : Chrome extensions are synchronized !<br>Click ok to stop extensions synchronization and change status<br><br>Note : you can re-enable extension synchronization via Chrome parameters/Advanced synchronization parameters
+[ApplicationList]
+msRenameEntry=Rename entry
+msUninstall=Uninstall Application
+msNewname=New name :
+msBackupApp=Backup application registry
+msExportApplist=Export application list
+[bigButton]
+btApps=Applications and startup
+btRegistry=Registry
+btTools=Tools and system
+btPrivacy=Computer cleaning
+btAbout=About
+[Subtitles]
+subApp=Applications
+subStart=Startup
+subBrowser=Browser extensions
+subRegistry=Registry
+subFavorites=Favorites
+subTools=Tools
+subSystem=System information
+ckOtherDevice=View additional devices
+subFileClean=Junk files cleaning
+subRegClean=History cleaning
+[Drivers]
+ckBackDriver=Backup selected driver

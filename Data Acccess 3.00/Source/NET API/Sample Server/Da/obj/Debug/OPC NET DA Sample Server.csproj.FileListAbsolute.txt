@@ -1,0 +1,32 @@
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcDaSampleServer.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcDaSampleServer.pdb
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.Com.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.Xml.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.Com.pdb
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.Com.xml
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.pdb
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.xml
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.Xml.pdb
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.Xml.xml
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\fr\OpcNetApi.resources.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\fr\OpcNetApi.Xml.resources.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\obj\Debug\OpcDaSampleServer.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\obj\Debug\OpcDaSampleServer.pdb
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcDaSampleServer.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcDaSampleServer.pdb
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.Com.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.Xml.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.Com.xml
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.xml
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.Xml.xml
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\fr\OpcNetApi.resources.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\fr\OpcNetApi.Xml.resources.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\obj\Debug\OpcDaSampleServer.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\obj\Debug\OpcDaSampleServer.pdb
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.Com.pdb
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.pdb
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.Xml.pdb

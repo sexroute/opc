@@ -1,0 +1,16 @@
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\bin\Release\OpcNetApi.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\bin\Release\fr\OpcNetApi.resources.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Release\ResolveAssemblyReference.cache
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Release\Opc.Resources.Strings.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Release\Opc.Resources.Strings.fr.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Release\OPC NET API.csproj.GenerateResource.Cache
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Release\fr\OpcNetApi.resources.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Release\OpcNetApi.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\bin\Release\OpcNetApi.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\bin\Release\fr\OpcNetApi.resources.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Release\ResolveAssemblyReference.cache
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Release\Opc.Resources.Strings.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Release\Opc.Resources.Strings.fr.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Release\OPC NET API.csproj.GenerateResource.Cache
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Release\fr\OpcNetApi.resources.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Release\OpcNetApi.dll

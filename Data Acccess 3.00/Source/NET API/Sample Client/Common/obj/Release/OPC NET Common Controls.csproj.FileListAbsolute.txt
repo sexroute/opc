@@ -1,0 +1,60 @@
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Release\OpcComnCtrls.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Release\OpcNetApi.Com.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Release\OpcNetApi.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Release\OpcNetApi.Xml.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Release\OpcNetApi.Com.xml
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Release\OpcNetApi.xml
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Release\OpcNetApi.Xml.xml
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Release\fr\OpcNetApi.resources.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Release\fr\OpcNetApi.Xml.resources.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\ResolveAssemblyReference.cache
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.AboutDlg.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.BrowseItemsDlg.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.BrowseTreeCtrl.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.DataTypeCtrl.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.EditArrayDlg.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.EditBinaryDlg.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.EditComplexValueDlg.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.EditObjectListDlg.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.EditValueDlg.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.EnumCtrl.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.LocaleCtrl.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.LocaleSelectDlg.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.NetworkCredentialsDlg.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.ProxyServerDlg.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.Resources.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.SelectServerCtrl.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.SelectServerDlg.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.ValueCtrl.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\OPC NET Common Controls.csproj.GenerateResource.Cache
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\OpcComnCtrls.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Release\OpcComnCtrls.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Release\OpcNetApi.Com.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Release\OpcNetApi.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Release\OpcNetApi.Xml.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Release\OpcNetApi.Com.xml
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Release\OpcNetApi.xml
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Release\OpcNetApi.Xml.xml
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Release\fr\OpcNetApi.resources.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Release\fr\OpcNetApi.Xml.resources.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\ResolveAssemblyReference.cache
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.AboutDlg.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.BrowseItemsDlg.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.BrowseTreeCtrl.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.DataTypeCtrl.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.EditArrayDlg.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.EditBinaryDlg.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.EditComplexValueDlg.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.EditObjectListDlg.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.EditValueDlg.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.EnumCtrl.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.LocaleCtrl.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.LocaleSelectDlg.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.NetworkCredentialsDlg.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.ProxyServerDlg.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.Resources.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.SelectServerCtrl.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.SelectServerDlg.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\Opc.SampleClient.ValueCtrl.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\OPC NET Common Controls.csproj.GenerateResource.Cache
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Release\OpcComnCtrls.dll

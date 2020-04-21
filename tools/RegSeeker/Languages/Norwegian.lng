@@ -1,0 +1,216 @@
+LanguageName=Norwegian
+LanguageAuthor=Hallstein Velsvik (hallstein@velsvik.com)
+[Buttons]
+btFind=Søk i registeret ...
+btDeepClean=Deep cleaning
+btAdv=Advanced Tools
+mnProcMon=Process Navigator
+mnFileProc=File / Process Monitor
+mnRepair=Repair...
+mnParentDir=Open Parent directory
+mnGotoParent=Go to Parent process
+mnAction=Action
+mnSwitch=Switch
+mnKill=Kill selected process
+mnKillDel=Kill process and Delete file
+mnExportProc=Export list
+btTasks=Tasks only
+btTop=Always on top
+btAppl=Installerte programmer
+mnInvalidUninstall=Invalid Add/Remove entries
+mnApplSettings=Applications Settings
+mnServices=Services (Non-Microsoft)
+mnDrivers=Drivers (Non-Microsoft)
+mnTempFiles=Temporary files
+msgTempFiles=(Click here to configure)
+msgItems=Item(s)
+btStartup=Oppstartsvalg
+btScheme=Fargeskjema
+btHistory=Historikk ...
+btFavorites=Favoritter ...
+btTweaks=Tweaks
+btClean=Rydd registeret
+btAbout=Om ...
+btBackup=Sikkerhetskopier
+btPrint=Skriv ut
+btQuit=Avslutt RegSeeker
+btSelectAll=Merk alt
+btSelectRed=Select all Red items
+btSelectGreen=Select all Green items
+btUnselectAll=Fjern merking
+btInvertSel=Omstill merking
+btSelect=Select
+btAction=Action
+btSelectService=Select Invalid Services
+[Checkbox]
+ckBackup=Ta sikkerhetskopi
+ckServices=Invalid Services (experimental)
+[Find Panel]
+SearchFor=Søk etter :
+btSearch=Søk !
+btCleanHistory=Slett søkehistorikk
+KeyTitle=Nøkler
+OptionTitle=Søkeinnstillinger
+ckKeys=Nøkler
+ckValues=Verdier
+ckData=Data
+ckGroupSimilar=Grupper like nøkler
+ckWholeWord=Finn hele ordet
+ckFindFile=Filsøk
+[File Panel]
+bBrowse=Browse ...
+ckSize=Størrelse :
+greater=Større enn
+lesser=Mindre enn
+ckDouble=Søk etter duplikatfiler
+ckHidden=Inkluder skjulte filer
+ckSystem=Inkluder systemfiler
+rSortSize=Sorter resultat etter størrelse
+rSortName=Sorter resultat etter filnavn
+cValidLnk=Valider snarveier
+ckBin=Legg i Søppelkurven
+iLNK=Snarveier (*.lnk)
+[Tweaks Panel]
+btRestoreDef=Restore default
+btApplyChanges=Lagre endringer !
+TweakError=Error applying tweak, please restart RegSeeker as Administrator
+TweakApplied=Tweak applied ! If you see no change, please logoff or restart your computer
+[History Menu]
+mnURL=Internet Explorer URLs
+mnINDEXDAT=IE Historikk Midlertidige filer Informasjonskapsler (Index.dat)
+mnExecute=Kjør
+mnMapDrive=Angi nettverksstasjon
+mnFindFiles=Finn filer/datamaskiner
+mnOpenFiles=Åpne filer
+mnStartMenu=Gamle startmenyobjekter
+mnStream=Slett StreamMRU/Streams-nøkler
+[Favorites Menu]
+mnManage=Rediger favoritter
+mnClear=Slett favoritter
+mnRebuild=Gjenopprett favoritter
+mnFav=Favoritter
+[Listbox Menu]
+mnOpen=Åpne i Regedit (eller dobbeltklikk)
+mnExport=Eksporter valgte elementer
+mnAddFav=Legg til favoritter
+mnEnableStartup=Aktiver valgte elementer
+mnDisableStartup=Deaktiver valgte elementer
+mnDelete=Slett valgte elementer
+mnExclude=Legg til utelatelseslisten
+[File Menu]
+mnParentDir=Åpne tilhørende mappe
+mnProperties=Vis filegenskaper
+mnDelFile=Slett valgte filer
+[Listbox messages]
+lbTooLong=(strengen er for lang)
+lbDefault=(standard)
+lbRefresh=F5 oppfrisk
+lbDLL=DLL-filen eksisterer ikke
+lbFILE=Fil eller bane eksisterer ikke
+lbHELP=Hjelpefilen eksisterer ikke
+lbSTARTMENU=Foreldet oppføring i Startmeny
+lbEXTENSION=Utvidelse ikke i bruk
+lbFILETYPE=Filtype ikke i bruk
+lbEMPTY=Foreldet element
+lbAPPPATH=Ugyldig programbane
+lbOPENWITH="Åpne med"-oppføring ubrukt
+lbACTIVEX=Ugyldig ActiveX/COM-oppføring (CLSID)
+lbDate=Dato :
+lbTime=Tid :
+lbAccess=Sist åpnet :
+lbExpire=Utgår den :
+lbCookie=Informasjonskapsel lagret ! (se filen mycookies.ini)
+[DialogBoxes]
+dbClearHistory=Slett alle favoritter ?
+dbRebuildHistory=Merk: dette vil gjenopprette dine favoritter til standardoppføringene<br>Vil du fortsette ?
+dbExportDone=Eksport utført !
+dbConfirmDelete=Slette alle valgte elementer ?
+dbConfirmDeleteService=WARNING !!!<br>You are going to delete a Service or a Driver<br><br>Are you sure you want to continue?
+dbConfirmUninstall=Avinstallere valgte programmer ?
+dbRegCleaner=RegSeeker vil skanne registeret for å finne ugyldige oppføringer :<br>ubrukte utvidelser, manglende filer, ugyldige referanser ...<br><br>Du bør ta sikkerhetskopi av verdifulle data på maskinen før det gjøres<br>endringer i registeret (feilaktige slettinger kan skade systemet) !<br><br>Husk å merke av for alternativet 'Ta sikkerhetskopi'<br>Dobbeltklikk på den siste .reg-filen for å omgjøre slettingene<br><br>Klikk OK for å fortsette (bruk på eget ansvar)
+dbCleanStream=Windows lagrer all informasjon om vindusstørrelser og stedsangivelser i registeret.<br>Fjerning av disse nøklene vil gjenopprette dem til standard.<br>Det kan øke navigasjonshastigheten i dine foldere.<br>Merk : en sikkerhetskopi vil bli opprettet<br><br>Klikk OK for å fortsette !
+dbDeleteFile=Advarsel : File(r) skjult !
+dbMountPoints=Windows is storing all mounted devices/network maps informations inside the registry.<br>Those keys contains informations like drive type, icons display etc...<br>Note : a backup will be made<br><br>Click OK to proceed !
+dbTempFileMsg1=You can configure all the files you want to display in your Temporary File list using variables
+dbTempFileMsg2=Be careful before deleting any result ! A bad variable usage could display unwanted files<br>For ex: %windir%\*.* will display all your files inside your Windows directory
+dbTempFileMsg3=To comment a line, just add a # in front of it
+addNew=Add new rule
+[FavDialogbox]
+mainTitle=Favoritter
+Title1=Favorittnavn
+Title2=Nøkkel som skal legges til
+entername=Oppgi et navn
+btAdd=Legg til
+btCancel=Avbryt
+btManage=Rediger ...
+btModify=Endre
+[misc]
+btExclude=Utelatelser ...
+ckScanDrive=Skann stasjoner for gamle exe-oppføringer i registeret
+CleanDone=Auto Clean was done !
+backupname=Backup Name :
+[ExcludeDialog]
+btExAdd=Add
+btExMod=Modify
+btExDel=Delete
+btExImp=Import
+ExItemsImport=Item(s) were imported inside your Exclusion list !
+[RestoreDialog]
+btRestore=Restore
+btStop=Stop
+btClose=Close
+ckViewOnly=Double-click an entry to view a backup content (No changes done to the Registry)
+btProtect=Show Protected
+[RegistryFix]
+repairtitle=Fix Registry Security :
+ckProtected=Search Protected Keys only
+msgProtected=Click Search and RegSeeker will display the protected keys only. Select the ones you want to modify and right-click to choose Take Ownership. Be CAREFUL ! if you're not confident with registry security, do not use !
+mnutakeownership=Take Ownership !
+securitywarn=WARNING ! You are about to change Registry Key permission !<br>This will change the registry key ownership to your current username.<br><br>If you are not confident doing this, please click NO to Exit or click OK to Proceed.
+securitychange=Registry Key permission have been changed !
+[Startup]
+colName=Name
+colPath=Path
+colInfo=Information
+colStartup=Startup
+colOther=Display Name
+[Services]
+msAuto=Automatic
+msAutod=Automatic (Delayed Start)
+msDis=Disabled
+msMan=Manual
+[ToBin]
+msToBin=Click OK to send to recycle bin<br>or Cancel to permanently delete the file(s)
+[Junk]
+btAutoSel=Auto-select
+[Chrome]
+msRunning=It is recommended to close Chrome before continuing !<br><br>Click OK to close Chrome or Cancel to continue without closing
+msExtens=Warning : Chrome extensions are synchronized !<br>Click ok to stop extensions synchronization and change status<br><br>Note : you can re-enable extension synchronization via Chrome parameters/Advanced synchronization parameters
+[ApplicationList]
+msRenameEntry=Rename entry
+msUninstall=Uninstall Application
+msNewname=New name :
+msBackupApp=Backup application registry
+msExportApplist=Export application list
+[bigButton]
+btApps=Applications and startup
+btRegistry=Registry
+btTools=Tools and system
+btPrivacy=Computer cleaning
+btAbout=About
+[Subtitles]
+subApp=Applications
+subStart=Startup
+subBrowser=Browser extensions
+subRegistry=Registry
+subFavorites=Favorites
+subTools=Tools
+subSystem=System information
+ckOtherDevice=View additional devices
+subFileClean=Junk files cleaning
+subRegClean=History cleaning
+[Drivers]
+ckBackDriver=Backup selected driver
+Wait=Veuillez patienter ...
+BackDriverDone=Le pilote a été sauvegardé !<br>Voulez-vous ouvrir le rapport ?
+FileMissing=Note : des fichiers n'ont pu être copiés !

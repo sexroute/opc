@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BH OPC Server", "BH OPC Server.vcproj", "{A6E4631C-6C06-46F5-BFEC-A5CCCBFE4756}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6E4631C-6C06-46F5-BFEC-A5CCCBFE4756}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A6E4631C-6C06-46F5-BFEC-A5CCCBFE4756}.Debug|Win32.Build.0 = Debug|Win32
+		{A6E4631C-6C06-46F5-BFEC-A5CCCBFE4756}.Release|Win32.ActiveCfg = Release|Win32
+		{A6E4631C-6C06-46F5-BFEC-A5CCCBFE4756}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

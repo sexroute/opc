@@ -1,0 +1,50 @@
+[InstallShield Silent]
+Version=v5.00.000
+File=Response File
+[File Transfer]
+OverwriteReadOnly=NoToAll
+[DlgOrder]
+Dlg0=SdWelcome-0
+Count=9
+Dlg1=DlgMachine-0
+Dlg2=DlgInstallMode-0
+Dlg3=DlgInstanceName-0
+Dlg4=DlgMaintainInstall-0
+Dlg5=DlgUpgrade-0
+Dlg6=ServerConnect-0
+Dlg7=SdStartCopy-0
+Dlg8=SdFinishReboot-0
+[SdWelcome-0]
+Result=1
+[DlgMachine-0]
+Type=1
+Result=1
+[DlgInstallMode-0]
+Type=2
+Result=1
+[DlgInstanceName-0]
+InstanceName=MSSQLSERVER
+Result=1
+[DlgMaintainInstall-0]
+Type=12
+Result=1
+[DlgUpgrade-0]
+Result=1
+[ServerConnect-0]
+NTAuthentication=0
+SQLAuthentication=1
+svPassword=.
+Result=1
+[SdStartCopy-0]
+Result=1
+[License]
+LicenseMode=PERDEVICE
+LicenseLimit=50
+[Application]
+Name=Microsoft SQL Server
+Version=8.00.000
+Company=Microsoft
+Lang=0009
+[SdFinishReboot-0]
+Result=1
+BootOption=0

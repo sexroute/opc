@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigProperties xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <minFreeMBytesOnPriDisk>50</minFreeMBytesOnPriDisk>
+  <archivePeriodMs>60000</archivePeriodMs>
+  <memoryTrimPercent>50</memoryTrimPercent>
+  <cacheSize>50000</cacheSize>
+  <maxVirtualMemoryMB>1250</maxVirtualMemoryMB>
+  <cacheTrimMethod>ByTimeInCache</cacheTrimMethod>
+  <timeInCacheSeconds>120</timeInCacheSeconds>
+  <readThreadSettings>
+    <maxOperationsBeforeRetireThread>2000</maxOperationsBeforeRetireThread>
+    <longReadTransactionsEnabled>false</longReadTransactionsEnabled>
+    <maxTransactionLengthMilliSeconds>100</maxTransactionLengthMilliSeconds>
+    <databaseUpdatePauseLengthMilliSeconds>10000</databaseUpdatePauseLengthMilliSeconds>
+  </readThreadSettings>
+  <exportDirectory />
+  <primaryExportFileFormat>BinaryFullContent</primaryExportFileFormat>
+  <primaryStorageSizeTarget>6000</primaryStorageSizeTarget>
+  <rtHDSRolloverCriteria>none</rtHDSRolloverCriteria>
+  <HDSExpirePeriod>21600</HDSExpirePeriod>
+  <activeHDSSizeTarget>600</activeHDSSizeTarget>
+  <historicalDataEntryEnabled>false</historicalDataEntryEnabled>
+  <zone />
+</ConfigProperties>

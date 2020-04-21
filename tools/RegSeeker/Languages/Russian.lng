@@ -1,0 +1,219 @@
+LANGUAGENAME=Русский
+LanguageAuthor=Hover Инк
+[Buttons]
+btFind=Найти в реестре ...
+btDeepClean=Deep cleaning
+btAdv=Advanced Tools
+mnProcMon=Process Navigator
+mnFileProc=File / Process Monitor
+mnRepair=Repair...
+mnParentDir=Open Parent directory
+mnGotoParent=Go to Parent process
+mnAction=Action
+mnSwitch=Switch
+mnKill=Kill selected process
+mnKillDel=Kill process and Delete file
+mnExportProc=Export list
+btTasks=Tasks only
+btTop=Always on top
+btAppl=Установленные приложения
+mnInvalidUninstall=Добавить/Удалить Неверные записи
+mnApplSettings=Настройки приложения
+mnServices=Сервисы (Non-Microsoft)
+mnDrivers=Драйвера (Non-Microsoft)
+mnTempFiles=Временные файлы
+msgTempFiles=(Щелкните здесь, чтобы настроить)
+msgItems=Item(s)
+btStartup=Автозапуск
+btScheme=Цветовые схемы
+btHistory=Конфиденциальность ...
+btFavorites=Избранное ...
+btTweaks=Твики
+btClean=Очистка реестра
+btAbout=О программе
+btBackup=Резервная копия
+btPrint=Печать
+btQuit=Выход из RegSeeker
+btSelect=Выбрать
+btSelectAll=Выбрать все
+btSelectRed=Выбрать все красные элементы
+btSelectGreen=Выбрать все товары зеленые элементы
+btSelectService=Выбрать неверные сервисы
+btUnselectAll=Сбросить все
+btInvertSel=Инвертировать выделение
+btAction=Действие
+btAutoClean=Автоочистка
+btCancel=Отмена
+[Checkbox]
+ckBackup=Резервное копирование перед удалением
+ckServices=Неверные сервисы (экспериментальный)
+[Найти Panel]
+SearchFor=Seach для:
+btSearch=Поиск!
+btCleanHistory=Очистить историю поиска
+KeyTitle=Ключи
+OptionTitle=Опции поиска
+ckKeys=Ключи
+ckValues ??=Значения
+ckData=Данные
+ckGroupSimilar=Группировать похожие ключи
+ckWholeWord=Слово целиком
+ckFindFile=Поиск файлов
+[File Panel]
+bBrowse=Обзор ...
+ckSize=Размер:
+больше=больше, чем
+меньше=меньше, чем
+ckDouble=Найти дубликаты файлов
+ckHidden=Включить скрытые файлы
+ckSystem=Включить системные файлы
+rSortSize=Сортировать результат по размеру
+rSortName=Сортировать результат по имени файла
+cValidLnk=Проверить действительность ярлыков
+ckBin=Удаление в Корзину
+iLNK=Ярлыки (*.LNK)
+[Tweaks Panel]
+btRestoreDef=Restore default
+btApplyChanges=Применить изменения!
+TweakError=Error applying tweak, please restart RegSeeker as Administrator
+TweakApplied=Tweak applied ! If you see no change, please logoff or restart your computer
+[History Menu]
+mnURL=URL-адреса Internet Explorer
+mnINDEXDAT=История IE Cache Cookies (Index.dat)
+mnExecute=Выполнить
+mnMapDrive=Подключить сетевой диск
+mnFindFiles=Поиск файлов / компьютеров
+mnOpenFiles=Открытые файлы
+mnStartMenu=Старый вид пунктов меню Пуск
+mnStream=Очистить ключи StreamMRU/Streams
+[Favorites Menu]
+mnManage=Управление избранным
+mnClear=Очистить избранное
+mnRebuild=Перестроить избранное
+mnFav=Избранное
+[Listbox Menu]
+mnOpen=Открыть в Regedit (или двойной клик)
+mnExport=Экспорт выбранных элементов
+mnAddFav=Добавить в избранное
+mnEnableStartup=Включить выбранные элементы
+mnDisableStartup=Отключить выбранные элементы
+mnDelete=Удалить выбранные элементы
+mnExclude=Добавить в список исключений
+[File Menu]
+mnParentDir=Открыть родительскую директорию
+mnProperties=Показать свойства файла
+mnDelFile=Удалить выбранные файлы
+[Listbox сообщения]
+lbTooLong=(строка слишком длинная)
+lbDefault=(по умолчанию)
+lbRefresh=Обновить по F5
+lbDLL=DLL-файл не существует
+lbFILE=Файл или путь не существует
+lbHELP=Help-файл не существует
+lbSTARTMENU=Устаревший пункт меню Пуск
+lbEXTENSION=Расширение не используется
+lbFILETYPE=Тип файла не используется
+lbEMPTY=Устаревшая запись
+lbAPPPATH=Неверный путь к приложению
+lbOPENWITH=Неиспользуемая запись "Открыть с помощью"
+lbACTIVEX=Неверная запись ActiveX / COM (CLSID)
+lbService=Неверный сервис
+lbDate=Дата :
+lbTime=Время :
+lbAccess=Последний доступ :
+lbExpire=Истекает :
+lbCookie=Cookie сохранено! (См. файл mycookies.ini)
+[DialogBoxes]
+dbClearHistory=Очистить все избранные?
+dbRebuildHistory=Внимание: будет восстановлено Избранное по умолчанию.<br> Вы хотите продолжить?
+dbExportDone=Экспорт сделан!
+dbConfirmDelete=Удалить все выбранные элементы?
+dbConfirmDeleteService=WARNING !!!<br>You are going to delete a Service or a Driver<br><br>Are you sure you want to continue?
+dbConfirmUninstall=Деинсталлировать выбранные приложения?
+dbRegCleaner=RegSeeker будет сканировать ваш реестр, чтобы найти недействительных записи :<br>неиспользуемые расширения, отсутствующие файлы, неверные ссылки ...<br><br>Вы должны сделать резервную копию всех важных данных на вашем компьютере, прежде чем<br>сделать изменения в реестре (неправильное удаление может привести к повреждению системы)!<br><br>Не забудьте поставить галочку "Резервное копирование перед удалением"<br>Чтобы отменить удаление, дважды щелкните на последнем .reg файле<br><br>Нажмите кнопку ОК, чтобы продолжить (используйте на свой страх и риск)
+dbCleanStream=Windows хранит все размеры окон и расположение информации в реестре.<br>Очистка этих ключей восстановит их значения по умолчанию.<br>Это может ускорить вашу навигацию по папкам.<br>Примечание: будет сделано резервне копирование<br><br>Нажмите ОК для продолжения!
+dbDeleteFile=Внимание: Удаление файла(ов) !
+dbMountPoints=Windows хранит всю информацию о подключенных устройствах / карту сети в реестре<br>Эти ключи содержат такую информацию, как тип привода, значки отображения и т.д.<br>Примечание: будет сделано резервне копирование<br><br>Нажмите ОК для продолжения!
+dbTempFileMsg1=Вы можете настроить все файлы, которые вы хотите увидеть в списке временных файлов с помощью переменных
+dbTempFileMsg2=Будьте осторожны, прежде чем удалить любой результат! Неверное использование переменной может отображать ненужные файлы<br>Например: %WINDIR%\*.* отобразит все файлы в каталоге Windows
+dbTempFileMsg3=Чтобы закомментировать линии, просто добавьте # перед ней
+addNew=Add new rule
+[FavDialogbox]
+mainTitle=Избранное
+Title1=Избранное имя
+Title2=Ключ, чтобы добавить
+entername=Введите имя
+btAdd=Добавить
+btCancel=Отменить
+btManage=Управление ...
+btModify=Изменить
+[Разное]
+btExclude=Исключения ...
+ckScanDrive=Сканирование дисков для поиска старых записей EXE в реестре
+CleanDone=Автоочистка закончена!
+BackupName=Имя для резервной копии:
+[ExcludeDialog]
+btExAdd=Добавить
+btExMod=Изменить
+btExDel=Удалить
+btExImp=Импорт
+ExItemsImport=Элемент(ы) были импортированы в ваш список исключений!
+[RestoreDialog]
+btRestore=Восстановить
+btStop=Стоп
+btClose=Закрыть
+ckViewOnly=Double-click an entry to view a backup content (No changes done to the Registry)
+btProtect=Show Protected
+[RegistryFix]
+repairtitle=Fix Registry Security :
+ckProtected=Search Protected Keys only
+msgProtected=Click Search and RegSeeker will display the protected keys only. Select the ones you want to modify and right-click to choose Take Ownership. Be CAREFUL ! if you're not confident with registry security, do not use !
+mnutakeownership=Take Ownership !
+securitywarn=WARNING ! You are about to change Registry Key permission !<br>This will change the registry key ownership to your current username.<br><br>If you are not confident doing this, please click NO to Exit or click OK to Proceed.
+securitychange=Registry Key permission have been changed !
+[Startup]
+colName=Name
+colPath=Path
+colInfo=Information
+colStartup=Startup
+colOther=Display Name
+[Services]
+msAuto=Automatic
+msAutod=Automatic (Delayed Start)
+msDis=Disabled
+msMan=Manual
+[ToBin]
+msToBin=Click OK to send to recycle bin<br>or Cancel to permanently delete the file(s)
+[Junk]
+btAutoSel=Auto-select
+[Chrome]
+msRunning=It is recommended to close Chrome before continuing !<br><br>Click OK to close Chrome or Cancel to continue without closing
+msExtens=Warning : Chrome extensions are synchronized !<br>Click ok to stop extensions synchronization and change status<br><br>Note : you can re-enable extension synchronization via Chrome parameters/Advanced synchronization parameters
+[ApplicationList]
+msRenameEntry=Rename entry
+msUninstall=Uninstall Application
+msNewname=New name :
+msBackupApp=Backup application registry
+msExportApplist=Export application list
+[bigButton]
+btApps=Applications and startup
+btRegistry=Registry
+btTools=Tools and system
+btPrivacy=Computer cleaning
+btAbout=About
+[Subtitles]
+subApp=Applications
+subStart=Startup
+subBrowser=Browser extensions
+subRegistry=Registry
+subFavorites=Favorites
+subTools=Tools
+subSystem=System information
+ckOtherDevice=View additional devices
+subFileClean=Junk files cleaning
+subRegClean=History cleaning
+[Drivers]
+ckBackDriver=Backup selected driver
+Wait=Veuillez patienter ...
+BackDriverDone=Le pilote a йtй sauvegardй !<br>Voulez-vous ouvrir le rapport ?
+FileMissing=Note : des fichiers n'ont pu кtre copiйs !

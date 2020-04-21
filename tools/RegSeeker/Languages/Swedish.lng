@@ -1,0 +1,232 @@
+LanguageName=Swedish
+LanguageAuthor=Åke Engelbrektson (www.svenskasprakfiler.se)
+[Buttons]
+btFind=Sök i registret...
+btDeepClean=Deep cleaning
+btAdv=Advanced Tools
+mnProcMon=Process Navigator
+mnFileProc=File / Process Monitor
+mnRepair=Repair...
+mnParentDir=Open Parent directory
+mnGotoParent=Go to Parent process
+mnAction=Action
+mnSwitch=Switch
+mnKill=Kill selected process
+mnKillDel=Kill process and Delete file
+mnExportProc=Export list
+btTasks=Tasks only
+btTop=Always on top
+btAppl=Installerade program
+mnInvalidUninstall=Ogiltiga avinstallationsposter
+mnApplSettings=Programinställningar
+mnServices=Tjänster (Ej Microsoft)
+mnDrivers=Drivrutiner (Ej Microsoft)
+mnTempFiles=Skräpfiler
+msgTempFiles=(Klicka här för att konfigurera)
+msgItems=Item(s)
+btStartup=Autostartposter
+btScheme=Färgscheman
+btHistory=Integritet...
+btFavorites=Favoriter...
+btTweaks=Finjustera
+btClean=Städa registret
+btAbout=Om
+btBackup=Säkerhetskopior
+btPrint=Skriv ut
+btQuit=Avsluta RegSeeker
+btSelect=Markera
+btSelectAll=Markera alla
+btSelectRed=Markera alla röda objekt
+btSelectGreen=Markera alla gröna objekt
+btSelectService=Markera ogiltiga tjänster
+btUnselectAll=Avmarkera alla
+btInvertSel=Invertera markering
+btAction=Åtgärd
+btAutoClean=Rensa automatiskt
+btCancel=Avbryt
+[Checkbox]
+ckBackup=Säkerhetskopiera
+ckServices=Ogiltiga tjänster (experimentell)
+[Find Panel]
+SearchFor=Sök efter:
+btSearch=Sök!
+btCleanHistory=Rensa sökhistoriken
+KeyTitle=Nycklar
+OptionTitle=Sökalternativ
+ckKeys=Nycklar
+ckValues=Värden
+ckData=Data
+ckGroupSimilar=Gruppera liknande nycklar
+ckWholeWord=Matcha hela ord
+ckFindFile=Sök filer
+[File Panel]
+bBrowse=Bläddra...
+ckSize=Storlek
+greater=Större än
+lesser=Mindre än
+ckDouble=Sök efter dubblettfiler
+ckHidden=Inkludera dolda filer
+ckSystem=Inkludera systemfiler
+rSortSize=Sortera efter storlek
+rSortName=Sortera efter filnamn
+cValidLnk=Kontrollera genvägars giltighet
+ckBin=Borttaget till Papperskorgen
+iLNK=Genvägar (*.lnk)
+[Tweaks Panel]
+btRestoreDef=Restore default
+btApplyChanges=Verkställ ändringar!
+TweakError=Error applying tweak, please restart RegSeeker as Administrator
+TweakApplied=Tweak applied ! If you see no change, please logoff or restart your computer
+[History Menu]
+mnURL=Internet Explorer-URL:er
+mnINDEXDAT=IE Historik/Cache/Cookies (Index.dat)
+mnExecute=Execute
+mnMapDrive=Mappa en nätverksenhet
+mnFindFiles=Sök filer/datorer
+mnOpenFiles=Öppna filer
+mnStartMenu=Utdaterad Startmenyobjekt
+mnStream=Rensa StreamMRU/Stream-nycklar
+[Favorites Menu]
+mnManage=Hantera favoriter
+mnClear=Rensa favoriter
+mnRebuild=Återställ favoriter
+mnFav=Favoriter
+[Listbox Menu]
+mnOpen=Öppna i Registereditorn (eller dubbelklick)
+mnExport=Exportera markerade poster
+mnAddFav=Lägg till i Favoriter
+mnEnableStartup=Aktivera markerade poster
+mnDisableStartup=Inaktivera markerade poster
+mnDelete=Ta bort markerade poster
+mnExclude=Lägg till i undantagslistan
+[File Menu]
+mnParentDir=Öppna målmapp
+mnProperties=Visa filegenskaper
+mnDelFile=Ta bort markerade filer
+[Listbox messages]
+lbTooLong=(strängen för lång)
+lbDefault=(standard)
+lbRefresh=F5 Uppdatera
+lbDLL=DLL-filen finns inte
+lbFILE=Fil eller sökväg finns inte
+lbHELP=Hjälpfil saknas
+lbSTARTMENU=Utdaterad startmenypost
+lbEXTENSION=Oanvänt filtillägg
+lbFILETYPE=Oanvänd filtyp
+lbEMPTY=Utdaterad post
+lbAPPPATH=Ogiltig programsökväg
+lbOPENWITH=Oanvänd "Öppna med"-post
+lbACTIVEX=Ogiltig ActiveX/COM-post (CLSID)
+lbService=Ogiltig Tjänst
+lbDate=Datum
+lbTime=Tid
+lbAccess=Senast använd
+lbExpire=Upphör att gälla
+lbCookie=Cookie bevarad! (se mycookies.ini)
+[DialogBoxes]
+dbClearHistory=Vill du rensa alla favoriter?
+dbRebuildHistory=OBS! Detta kommer att återställa dina favoriter till standardinställning<br>Vill du fortsätta?
+dbExportDone=Export slutförd!
+dbConfirmDelete=Vill du ta bort alla markerade objekt?
+dbConfirmDeleteService=VARNING!!!<br>Du är på väg att ta bort en tjänst eller en drivrutin<br><br>Vill du verkligen fortsätta?
+dbConfirmUninstall=Vill du avinstallera de markerade programmen?
+dbRegCleaner=RegSeeker kommer att skanna ditt register efter ogiltiga poster.<br>Oanvända filtillägg, saknade filer, ogiltiga referenser...<br><br>Du bör säkerhetskopiera all värdefull data före<br>ändringar i registret (felaktig borttagning kan allvarligt skada ditt system) !<br><br>Tillse att alternativet 'Säkerhetskopiera' är ibockat före borttagning<br>För att återställa borttagning, dubbelklicka på den senaste .reg-filen<br><br>Klicka OK för att fortsätta (används på egen risk)
+dbCleanStream=Windows lagrar all fönsterstorleks- och placeringsinformation i registret.<br>Rensning av dessa nycklar kommer att återställa dessa till systemstandard.<br>Det kan ibland öka navigeringsprestanda i mappar.<br>Notera: En säkerhetskopia kommer att skapas<br><br>Klicka OK för att fortsätta!
+dbDeleteFile=Varning! Fil(er) tas bort!
+dbMountPoints=Windows lagrar all information om diskenheter/nätverksdiskar i registret.<br>Dessa nycklar innehåller information som enhetstyp, ikonvisning etc...<br>Notera: En säkerhetskopia kommer att skapas<br><br>Klicka OK för att fortsätta!
+dbTempFileMsg1=Du kan konfigurera vilka filer du vill visa i tempfilslistan, med hjälp av systemvariabler
+dbTempFileMsg2=Var försiktig vid borttagning! Felaktig variabelanvändning kan visa oönskade filer<br>Ex: %windir%\*.* - Visar alla filer i Windows-mappen.
+dbTempFileMsg3=Ta bort bocken, för att inaktivera en regel.
+addNew=Lägg till ny regel
+[FavDialogbox]
+mainTitle=Favoriter
+Title1=Favoritnamn
+Title2=Nyckel att lägga till
+entername=Ange ett namn
+btAdd=Lägg till
+btCancel=Avbryt
+btManage=Hantera...
+btModify=Ändra
+[misc]
+btExclude=Undantag...
+ckScanDrive=Skanna efter utdaterade exe-poster i registret
+CleanDone=Automatisk rensning slutförd!
+backupname=Säkerhetskopia:
+[ExcludeDialog]
+btExAdd=Lägg till
+btExMod=Ändra
+btExDel=Ta bort
+btExImp=Importera
+ExItemsImport=Objekt) importerades till undantagslistan!
+[RestoreDialog]
+btRestore=Återställ
+btStop=Stopp
+btClose=Stäng
+ckViewOnly=Dubbelklicka på en post för att visa säkerhetskopians innehåll (Inga ändringar i registret)
+btProtect=Visa skyddade
+[RegistryFix]
+repairtitle=Fixa registersäkerhet:
+ckProtected=Sök endast skyddade nycklar
+msgProtected=Klicka på 'Sök' och RegSeeker visar bara skyddade nycklar. Markera de du vill ändra, och högerklicka för att ta över ägarskapet. FÖRSIKTIGT! Använd bara den här funktionen om du har god kännedom om registret!
+mnutakeownership=Ta ägarskap!
+securitywarn=VARNING! Du är på vaäg att ändra registernyckelns behörighetsegenskaper!<br>Ägarskapet kommer att ändras till aktuellt användarnamn.<br><br>Om detta känns osäkert, klicka på 'Avbryt' för att avbryta. Klicka OK för att fortsätta.
+securitychange=Registernyckelns behörighetsegenskaper har ändrats!
+[Startup]
+colName=Namn
+colPath=Sökväg
+colInfo=Information
+colStartup=Startmetod
+colOther=Visningsnamn
+[Services]
+msAuto=Automatisk
+msAutod=Automatisk (Fördröjd start)
+msDis=Inaktiverad
+msMan=Manuell
+[ToBin]
+msToBin=Klicka OK för att skicka till Papperskorgen<br>eller 'Avbryt', för att ta bort filen/filerna permanent
+[Startup]
+colName=Namn
+colPath=Sökväg
+colInfo=Information
+colStartup=Startmetod
+colOther=Visningsnamn
+[Services]
+msAuto=Automatisk
+msAutod=Automatisk (Fördröjd start)
+msDis=Inaktiverad
+msMan=Manuell
+[ToBin]
+msToBin=Klicka OK för att skicka till Papperskorgen<br>eller 'Avbryt', för att ta bort filen/filerna permanent
+[Junk]
+btAutoSel=Auto-select
+[Chrome]
+msRunning=It is recommended to close Chrome before continuing !<br><br>Click OK to close Chrome or Cancel to continue without closing
+msExtens=Warning : Chrome extensions are synchronized !<br>Click ok to stop extensions synchronization and change status<br><br>Note : you can re-enable extension synchronization via Chrome parameters/Advanced synchronization parameters
+[ApplicationList]
+msRenameEntry=Rename entry
+msUninstall=Uninstall Application
+msNewname=New name :
+msBackupApp=Backup application registry
+msExportApplist=Export application list
+[bigButton]
+btApps=Applications and startup
+btRegistry=Registry
+btTools=Tools and system
+btPrivacy=Computer cleaning
+btAbout=About
+[Subtitles]
+subApp=Applications
+subStart=Startup
+subBrowser=Browser extensions
+subRegistry=Registry
+subFavorites=Favorites
+subTools=Tools
+subSystem=System information
+ckOtherDevice=View additional devices
+subFileClean=Junk files cleaning
+subRegClean=History cleaning
+[Drivers]
+ckBackDriver=Backup selected driver
+Wait=Veuillez patienter ...
+BackDriverDone=Le pilote a été sauvegardé !<br>Voulez-vous ouvrir le rapport ?
+FileMissing=Note : des fichiers n'ont pu être copiés !

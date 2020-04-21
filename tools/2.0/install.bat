@@ -1,0 +1,1 @@
+msiexec /i 2.0.msi  /l*vx ./install.log

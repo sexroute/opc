@@ -1,0 +1,219 @@
+LanguageName=Lithuanian
+LanguageAuthor=Naglis Jonaitis
+[Buttons]
+btFind=Ieðkoti registre ...
+btDeepClean=Deep cleaning
+btAdv=Advanced Tools
+mnProcMon=Process Navigator
+mnFileProc=File / Process Monitor
+mnRepair=Repair...
+mnParentDir=Open Parent directory
+mnGotoParent=Go to Parent process
+mnAction=Action
+mnSwitch=Switch
+mnKill=Kill selected process
+mnKillDel=Kill process and Delete file
+mnExportProc=Export list
+btTasks=Tasks only
+btTop=Always on top
+btAppl=Ádiegtos programos
+mnInvalidUninstall=Sugadinti "Pridëti/Paðalinti" áraðai
+mnApplSettings=Programø nuostatos
+mnServices=Services (Non-Microsoft)
+mnDrivers=Drivers (Non-Microsoft)
+mnTempFiles=Temporary files
+msgTempFiles=(Click here to configure)
+msgItems=Item(s)
+btStartup=Paleisties áraðai
+btScheme=Spalvø schemos
+btHistory=Istorijos ...
+btFavorites=Parankiniai ...
+btTweaks=Patobulinimai
+btClean=Valyti registrà
+btAbout=Apie ...
+btBackup=Atsarginës kopijos
+btPrint=Spausdinti
+btQuit=Uþdaryti RegSeeker
+btSelect=Paþymëti
+btSelectAll=Paþymëti visus
+btSelectRed=Paþymëti visus raudonus punktus
+btSelectGreen=Paþymëti visus þalius punktus
+btSelectService=Paþymëti klaidingas paslaugas
+btUnselectAll=Nepaþymëti nieko
+btInvertSel=Apkeisti paþymëtus
+btAction=Veiksmas
+btAutoClean=Automatinis valymas
+btCancel=Atðaukti
+[Checkbox]
+ckBackup=Kurti atsarginæ kopijà
+ckServices=Klaidingos paslaugos (ekspermentuojama)
+[Find Panel]
+SearchFor=Ieðkoti :
+btSearch=Ieðkoti !
+btCleanHistory=Valyti paieðkos istorijà
+KeyTitle=Raktai
+OptionTitle=Paieðkos pasirinktys
+ckKeys=Raktai
+ckValues=Reikðmës
+ckData=Duomenys
+ckGroupSimilar=Grupuoti panaðius raktus
+ckWholeWord=Lyginti visà þodá
+ckFindFile=Ieðkoti failuose
+[File Panel]
+bBrowse=Narðyti ...
+ckSize=Dydis :
+greater=Didesnis nei
+lesser=Maþesnis nei
+ckDouble=Ieðkoti failø dublikatø
+ckHidden=Áskaityti paslëptus failus
+ckSystem=Áskaityti sistemos failus
+rSortSize=Rikiuoti rezultatus pagal Dydá
+rSortName=Rikiuoti rezultatus pagal Failo vardà
+cValidLnk=Tikrinti nuorodø galiojimà
+ckBin=Perkelti á Ðiukðlinæ
+iLNK=Nuorodos (*.lnk)
+[Tweaks Panel]
+btRestoreDef=Restore default
+btApplyChanges=Taikyti pakeitimus !
+TweakError=Error applying tweak, please restart RegSeeker as Administrator
+TweakApplied=Tweak applied ! If you see no change, please logoff or restart your computer
+[History Menu]
+mnURL=Internet Explorer adresai
+mnINDEXDAT=IE istorijos talpyklos sausainiai (Index.dat)
+mnExecute=Vykdyti
+mnMapDrive=Paþymëti tinklo diskasukiai
+mnFindFiles=Ieðka
+mnOpenFiles=Atidaryti failai
+mnStartMenu=Pasenæ meniu "Pradëti" áraðai
+mnStream=Valyti MRU srautà/Srauto raktus
+[Favorites Menu]
+mnManage=Tvarkyti parankinius
+mnClear=Valyti parankinius
+mnRebuild=Atstatyti parankinius
+mnFav=Parankiniai
+[Listbox Menu]
+mnOpen=Atverti programoje Regedit (arba spustelëkite pele dukart)
+mnExport=Perkelti paþymëtus narius
+mnAddFav=Ádëti á parankinius
+mnEnableStartup=Ájungti paþymëtus áraðus
+mnDisableStartup=Iðjungti paþymëtus áraðus
+mnDelete=Iðtrinti paþymëtus áraðus
+mnExclude=Ádëti á iðimèiø sàraðà
+[File Menu]
+mnParentDir=Atverti virðesná aplankà
+mnProperties=Rodyti failo savybes
+mnDelFile=Trinti paþymëtus failus
+[Listbox messages]
+lbTooLong=(eilutë per ilga)
+lbDefault=(numatytasis)
+lbRefresh=F5 atnaujinti
+lbDLL=DLL failas neegzistuoja
+lbFILE=Failas arba aplankas neegzistuoja
+lbHELP=Pagalbos failas neegzistuoja
+lbSTARTMENU=Pasenæs meniu "Pradëti" áraðas
+lbEXTENSION=Plëtinys nenaudojamas
+lbFILETYPE=Failo tipas nenaudojama
+lbEMPTY=Pasenæs áraðas
+lbAPPPATH=Neteisingas kelias iki programos
+lbOPENWITH=Nepanaudotas "Atidaryti naudojant" áraðas
+lbACTIVEX=Neteisingas ActiveX/COM áraðas (CLSID)
+lbService=Klaidinga paslauga
+lbDate=Data :
+lbTime=Laikas :
+lbAccess=Paskutinis naudojimas :
+lbExpire=Nustoja galioti :
+lbCookie=Sausainis paliktas ! (þr. failà mycookies.ini)
+[DialogBoxes]
+dbClearHistory=Iðvalyti visus parankinius ?
+dbRebuildHistory=Dëmesio : Jûsø parankiniai bus pakeisti numatytaisiais áraðais<br>Ar tikrai norite tæsti ?
+dbExportDone=Perkëlimas baigtas !
+dbConfirmDelete=Trinti visus paþymëtus áraðus ?
+dbConfirmDeleteService=WARNING !!!<br>You are going to delete a Service or a Driver<br><br>Are you sure you want to continue?
+dbConfirmUninstall=Iðdiegti paþymëtà programà ?
+dbRegCleaner=RegSeeker ieðkos Jûsø registre neteisingø áraðø :<br>nepanaudotø plëtiniø, trûkstamø failø, blogø priklausomybiø ...<br><br>Prieð atliekant pakeitimus registre, patartina pasidaryti visø <br>kompiuteryje esanèiø duomenø kopijas (klaidingi veiksmai gali sukelti sistemos gedimà) !<br><br>Bûtinai paþymëkite laukelá 'Kurti atsarginæ kopijà'<br>Kai norësite atðaukti pakeitimus, dukart spustelëkite pele ant paskutinio failo, turinèio plëtiná ".reg"<br><br>Spauskite Gerai, kad pradëti (naudokite savo rizika)
+dbCleanStream=Windows operacinë sistema registre kaupia visà langø dydþio ir iðdëstymo informacijà.<br>Ðiø raktø iðvalymas gràþins visas reikðmes á pradines.<br>Tai gali paspartinti narðymà Jûsø aplankuose.<br>Svarbu : bus padaryta atsarginë kopija<br><br>Spauskite Gerai, kad pradëti !
+dbDeleteFile=Dëmesio : Failo(ø) nuslëpimas !
+dbMountPoints=Windows is storing all mounted devices/network maps informations inside the registry.<br>Those keys contains informations like drive type, icons display etc...<br>Note : a backup will be made<br><br>Click OK to proceed !
+dbTempFileMsg1=You can configure all the files you want to display in your Temporary File list using variables
+dbTempFileMsg2=Be careful before deleting any result ! A bad variable usage could display unwanted files<br>For ex: %windir%\*.* will display all your files inside your Windows directory
+dbTempFileMsg3=To comment a line, just add a # in front of it
+addNew=Add new rule
+[FavDialogbox]
+mainTitle=Parankiniai
+Title1=Parankinio vardas
+Title2=Pridedamas raktas
+entername=Áveskite vardà
+btAdd=Pridëti
+btCancel=Atðaukti
+btManage=Tvarkyti ...
+btModify=Keisti
+[misc]
+btExclude=Iðimtys ...
+ckScanDrive=Skenuoti diskasiukius dël senø vykdomøjø failø áraðø registre
+CleanDone=Automatinis valymas baigtas !
+backupname=Atkûrimo failo vardas :
+[ExcludeDialog]
+btExAdd=Add
+btExMod=Modify
+btExDel=Delete
+btExImp=Import
+ExItemsImport=Item(s) were imported inside your Exclusion list !
+[RestoreDialog]
+btRestore=Restore
+btStop=Stop
+btClose=Close
+ckViewOnly=Double-click an entry to view a backup content (No changes done to the Registry)
+btProtect=Show Protected
+[RegistryFix]
+repairtitle=Fix Registry Security :
+ckProtected=Search Protected Keys only
+msgProtected=Click Search and RegSeeker will display the protected keys only. Select the ones you want to modify and right-click to choose Take Ownership. Be CAREFUL ! if you're not confident with registry security, do not use !
+mnutakeownership=Take Ownership !
+securitywarn=WARNING ! You are about to change Registry Key permission !<br>This will change the registry key ownership to your current username.<br><br>If you are not confident doing this, please click NO to Exit or click OK to Proceed.
+securitychange=Registry Key permission have been changed !
+[Startup]
+colName=Name
+colPath=Path
+colInfo=Information
+colStartup=Startup
+colOther=Display Name
+[Services]
+msAuto=Automatic
+msAutod=Automatic (Delayed Start)
+msDis=Disabled
+msMan=Manual
+[ToBin]
+msToBin=Click OK to send to recycle bin<br>or Cancel to permanently delete the file(s)
+[Junk]
+btAutoSel=Auto-select
+[Chrome]
+msRunning=It is recommended to close Chrome before continuing !<br><br>Click OK to close Chrome or Cancel to continue without closing
+msExtens=Warning : Chrome extensions are synchronized !<br>Click ok to stop extensions synchronization and change status<br><br>Note : you can re-enable extension synchronization via Chrome parameters/Advanced synchronization parameters
+[ApplicationList]
+msRenameEntry=Rename entry
+msUninstall=Uninstall Application
+msNewname=New name :
+msBackupApp=Backup application registry
+msExportApplist=Export application list
+[bigButton]
+btApps=Applications and startup
+btRegistry=Registry
+btTools=Tools and system
+btPrivacy=Computer cleaning
+btAbout=About
+[Subtitles]
+subApp=Applications
+subStart=Startup
+subBrowser=Browser extensions
+subRegistry=Registry
+subFavorites=Favorites
+subTools=Tools
+subSystem=System information
+ckOtherDevice=View additional devices
+subFileClean=Junk files cleaning
+subRegClean=History cleaning
+[Drivers]
+ckBackDriver=Backup selected driver
+Wait=Veuillez patienter ...
+BackDriverDone=Le pilote a été sauvegardé !<br>Voulez-vous ouvrir le rapport ?
+FileMissing=Note : des fichiers n'ont pu être copiés !

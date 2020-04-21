@@ -1,0 +1,231 @@
+UTF8Coding=1
+LanguageName=Ceština
+LanguageAuthor=Richard Kahl
+[Buttons]
+btDeepClean=Hloubkové cištení
+btFind=Hledat v registrech ...
+btAdv=Pokrocilé nástroje
+mnProcMon=Seznam procesu
+mnFileProc=Soubory / Monitor Procesu
+mnRepair=Opravit...
+mnParentDir=Otevrít nadrazený adresár
+mnGotoParent=Prejít na nadrazený proces
+mnAction=Akce
+mnSwitch=Prepínac
+mnKill=Ukoncit vybraný proces
+mnKillDel=Ukoncit proces a odstranení souboru
+mnKillRen=Ukoncit proces a prejmenování souboru
+mnExportProc=Exportovat seznam
+btTasks=Pouze úlohy
+btTop=Vždy navrchu
+btAppl=Nainstalované aplikace
+mnInvalidUninstall=Neplatné položky Pridat/Odebrat
+mnApplSettings=Nastavení aplikací
+mnServices=Služby (ne Microsoft)
+mnDrivers=Ovladace (ne Microsoft)
+mnTempFiles=Docasné soubory
+msgTempFiles=(Kliknete pro konfiguraci)
+msgItems=Položka(y)
+btStartup=Položky pri spuštení
+btScheme=Barevná schémata
+btHistory=Historie ...
+btFavorites=Oblíbené ...
+btTweaks=Upravené
+btClean=Vycistit registry
+btAbout=O aplikaci ...
+btBackup=Zálohy
+btPrint=Tisk
+btQuit=Ukoncit RegSeeker
+btSelect=Vybrat
+btSelectAll=Oznacit vše
+btSelectRed=Oznacit všechny cervené položky
+btSelectGreen=Oznacit všechny zelené položky
+btSelectService=Vybrat neplatné služby
+btUnselectAll=Odznacit vše
+btInvertSel=Otocit výber
+btAction=Akce
+btAutoClean=Automatické cištení
+btCancel=Zrušit
+[Checkbox]
+ckBackup=Zálohovat pred smazáním
+ckServices=Chybné služby (experimental)
+[Find Panel]
+SearchFor=Hledat výraz :
+btSearch=Hledat !
+btCleanHistory=Smazat historii hledání
+KeyTitle=Klíce
+OptionTitle=Volby vyhledávání
+ckKeys=Klíce
+ckValues=Hodnoty
+ckData=Data
+ckGroupSimilar=Sdružovat podobné klíce
+ckWholeWord=Hledat celá slova
+ckFindFile=Hledat soubory
+[File Panel]
+bBrowse=Procházet ...
+ckSize=Velikost
+greater=Vetší než
+lesser=Menší než
+ckDouble=Hledat duplicitní soubory
+ckHidden=Vcetne skrytých souboru
+ckSystem=Vcetne systémových souboru
+rSortSize=Trídit výsledky podle velikosti
+rSortName=Trídit výsledky podle názvu souboru
+cValidLnk=Zjistit platnost zástupcu
+ckBin=Smazat do koše
+iLNK=Zástupci (*.lnk)
+[Tweaks Panel]
+btRestoreDef=Obnovit výchozí
+btApplyChanges=Uložit zmeny !
+TweakError=Chyba pri použití vylepšení, prosím restartujte RegSeeker jako správce
+TweakApplied=Použijte Tweak! Pokud se nezobrazí žádná zmena, odhlaste nebo restartujte pocítac
+[History Menu]
+mnURL=URL Internet Exploreru
+mnINDEXDAT=IE Historie souboru cookie (Index.dat)
+mnExecute=Spustit
+mnMapDrive=Pripojené sítové disky
+mnFindFiles=Hledat soubory/pocítace
+mnOpenFiles=Otevrené soubory
+mnStartMenu=Historie nabídky start
+mnStream=Vycistit klíce StreamMRU/Streams
+[Favorites Menu]
+mnManage=Upravit oblíbené
+mnClear=Vymazat oblíbené
+mnRebuild=Znovu vytvorit seznam oblíbených
+mnFav=Oblíbené
+[Listbox Menu]
+mnOpen=Otevrít v REGEDITu (nebo dvojklik)
+mnExport=Exportovat oznacené položky
+mnAddFav=Pridat do oblíbených
+mnEnableStartup=Povolit vybrané položky
+mnDisableStartup=Zakázat vybrané položky
+mnDelete=Smazat vybrané položky
+mnExclude=Pridat do seznamu výjimek
+[File Menu]
+mnParentDir=Otevrít nadrazený adresár
+mnProperties=Zobrazit vlastnosti souboru
+mnDelFile=Smazat oznacené soubory
+[Listbox messages]
+lbTooLong=(príliš dlouhý retezec)
+lbDefault=(výchozí)
+lbRefresh=F5 obnovit
+lbDLL=DLL soubor neexistuje
+lbFILE=Soubor nebo cesta neexistuje
+lbHELP=Soubor nápovedy neexistuje
+lbSTARTMENU=Neexistující položka Start Menu
+lbEXTENSION=Prípona není použita
+lbFILETYPE=Typ souboru není použit
+lbEMPTY=Neexistující položka
+lbAPPPATH=Neplatná cesta k aplikaci
+lbOPENWITH=Nepoužívaná položka "Otevrít pomocí"
+lbACTIVEX=Neplatná položka ActiveX/COM (CLSID)
+lbService=Neplatná služba
+lbDate=Datum
+lbTime=Cas
+lbAccess=Poslední prístup
+lbExpire=Platnost skoncí
+lbCookie=Cookies ponechány ! (prohlédnete si soubor mycookies.ini)
+[DialogBoxes]
+dbClearHistory=Vymazat všechny oblíbené ?
+dbRebuildHistory=Upozornení : tato operace vede k obnovení výchozího seznamu oblíbených<br>Chcete pokracovat ?
+dbExportDone=Export dokoncen !
+dbConfirmDelete=Vymazat všechny vybrané položky ?
+dbConfirmDeleteService=VAROVÁNÍ !!!<br>Chystáte se smazat službu nebo ovladac<br><br>Jste si jistý, že chcete pokracovat?
+dbConfirmUninstall=Odinstalovat vybrané aplikace ?
+dbRegCleaner=RegSeeker prohledá registry za úcelem vyhledání neplatných položek<br>nepoužívaných prípon, chybejících souboru, špatných propojení ...<br><br>Pred provedením zmen v registrech byste meli zálohovat<br>duležitá data v pocítaci (Smazání nesprávných položek muže<br>ohrozit Váš systém) !<br><br>Ujistete se, zda máte zaškrtnutou volbu 'zálohovat pred smazáním'<br>Pro obnovení smazaných položek, dvakrát kliknete na poslední .reg soubor<br><br>Kliknete na OK pro pokracování (použití na vlastní riziko)
+dbCleanStream=Windows ukládá všechny informace o velikosti a umístení oken v registrech.<br>Vycištení techto klícu obnoví toto nastavení do výchozího stavu.<br>To muže urychlit váš pohyb v adresárích.<br>Poznámka : záloha bude udelána<br><br>Kliknete na OK pro pokracování !
+dbDeleteFile=Varování : Soubory budou smazány !
+dbMountPoints=Windows ukládá všechna pripojená zarízení/namapované sítové cesty, informace v registrech.<br>Tyto klíce obsahují informace jako typ jednotky, zobrazení ikon apod...<br>Poznámka: bude provedena záloha<br><br>Kliknete na tlacítko OK pro pokracování !
+dbTempFileMsg1=Soubory které chcete zobrazit v seznamu docasné soubory, mužete nakonfigurovat pomocí promenných
+dbTempFileMsg2=Budte opatrní pred odstranením výsledku ! Použití špatné promenné muže osstranit nežádoucí soubory<br>Napr: %windir%\*.* zobrazí všechny soubory v adresári Windows
+dbTempFileMsg3=Pro komentár rádku, stací pridat # pred komentár
+[FavDialogbox]
+mainTitle=Oblíbené
+Title1=Oblíbený název
+Title2=Pridat klíc
+entername=Zadat název
+btAdd=Pridat
+btCancel=Zrušit
+btManage=Upravit ...
+btModify=Zmenit
+[misc]
+btExclude=Výjimky ...
+ckScanDrive=Hledej na discích staré EXE položky v registrech
+CleanDone=Bylo provedeno automatické vycištení !
+backupname=Název zálohy :
+[ExcludeDialog]
+btExAdd=Pridat
+btExMod=Zmenit
+btExDel=Odstranit
+btExImp=Importovat
+ExItemsImport=Položky byly importovány do Vašeho seznamu výjimek !
+[RestoreDialog]
+btRestore=Obnovit
+btStop=Zastavit
+btClose=Zavrít
+ckViewOnly=Dvojklikem na položku zobrazíte obsah zálohy (žádné zmeny provedené v registru)
+btProtect=Zobrazit chránené
+[RegistryFix]
+repairtitle=Opravy zabezpecení registru :
+ckProtected=Vyhledat pouze Chránené Klíce
+msgProtected=Klepnete na tlacítko Hledat a RegSeeker zobrazí pouze chránené klíce. Vyberte ty, které chcete upravit a klepnete pravým tlacítkem myši vybrat a prevzít vlastnictví. Dej si pozor ! pokud si nejste jistý zabezpecením registru, nepoužívejte !
+mnutakeownership=Prevzít vlastnictví !
+securitywarn=VAROVÁNÍ ! Rozhodli jste se zmenit oprávnení ke lící registru !<br>Tím se zmení vlastnictví klíce registru na aktuálního uživatele.<br><br>Pokud si nejste jisti prosím klepnete na tlacítko Ne, klepnutím na tlacítko OK bude provedeno.
+securitychange=Byla provedena zmena oprávnení klíce registru !
+[Startup]
+colName=Jméno
+colPath=Cesta
+colInfo=Informace
+colStartup=Po spuštení
+colOther=Zobrazené jméno
+[Services]
+msAuto=Automatický
+msAutod=Automaticky (Zpoždený Start)
+msDis=Zakázáno
+msMan=Rucní
+[ToBin]
+msToBin=Klepnete na tlacítko OK pro odstranení do koše<br>nebo Storno pokud chcete trvale odstranit soubory
+[Startup]
+colName=Jméno
+colPath=Cesta
+colInfo=Informace
+colStartup=Po spuštení
+colOther=Zobrazované jméno
+[Services]
+msAuto=Automatický
+msAutod=Automaticky (Zpoždený Start)
+msDis=Zakázáno
+msMan=Rucní
+[Junk]
+btAutoSel=Automatický výber
+[Chrome]
+msRunning=Doporucuje se pred pokracováním ukoncete Chrome !<br><br>Klepnete na tlacítko OK zavrete Chrome nebo Storno pro pokracovat bez uzavrení
+msExtens=Varování : Jsou synchronizovány Chrome rozšírení !<br>Klepnete na tlacítko ok k zastavení synchronizace rozšírení a zmenit stav<br><br>Poznámka: mužete je znovu povolit rozšírení synchronizaci pres Chrome parametry/Pokrocilé synchronizace parametry
+[ApplicationList]
+msRenameEntry=Prejmenovat položku
+msUninstall=Odinstalace aplikaci
+msNewname=Nový název :
+msBackupApp=Aplikace pro zálohování registru
+msExportApplist=Exportovat seznam aplikací
+[bigButton]
+btApps=Aplikace/Po spuštení
+btRegistry=Registry
+btTools=Nástroje a systém
+btPrivacy=Cištení pocítace
+btAbout=O Programu
+[Subtitles]
+subApp=Aplikace
+subStart=Po spuštení
+subBrowser=Rozšírení prohlížece
+subRegistry=Registry
+subFavorites=Oblíbené položky
+subTools=Nástroje
+subSystem=Systémové informace
+ckOtherDevice=Zobrazit prídavná zarízení
+subFileClean=Cištení nevyžádaných souboru
+subRegClean=Cištení historie
+[Drivers]
+ckBackDriver=Zálohování vybraného ovladace
+Wait=Pocejte prosím ...
+BackDriverDone=Pilot byl uložen !<br>Chcete otevrít sestavu ?
+FileMissing=Note : nekteré soubory nelze zkopírovat. !

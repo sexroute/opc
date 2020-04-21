@@ -1,0 +1,217 @@
+LanguageName=Italian
+LanguageAuthor=Giacomo Margarito
+btDeepClean=Pulizia profonda
+[Buttons]
+btFind=Cerca voci inutili ...
+btAdv=Strumenti avanzati
+mnProcMon=Navigatore dei processi
+mnFileProc=Monitor dei File / Processi
+mnRepair=Ripara...
+mnParentDir=Apri cartella principale
+mnGotoParent=Vai al processo principale
+mnAction=Azione
+mnSwitch=Commuta
+mnKill=Termina i processi selezionati
+mnKillDel=Termina il processo ed elimina il file
+mnExportProc=Exporta l'elenco
+btTasks=Solo i processi
+btTop=Sempre in primo piano
+btAppl=Programmi installati
+mnInvalidUninstall=Voci non valide del menu Aggiungi/Rimuovi
+mnApplSettings=Impostazioni Applicazioni
+mnServices=Servizi (Non-Microsoft)
+mnDrivers=Drivers (Non-Microsoft)
+mnTempFiles=File Temporanei
+msgTempFiles=(Cliccate qui per configurare)
+msgItems=Item(s)
+btStartup=Avvio automatico
+btScheme=Schemi di colore
+btHistory=Cronologia ...
+btFavorites=Preferiti ...
+btTweaks=Trucchetti
+btClean=Pulizia del registro
+btAbout=Informazioni ...
+btBackup=Copie di Sicurezza
+btPrint=Stampa
+btQuit=Uscita dal programma
+btSelectAll=Seleziona tutto
+btSelectRed=Seleziona tutti gli elementi Rossi
+btSelectGreen=Seleziona tutti gli elementi Verdi
+btUnselectAll=Deseleziona tutto
+btInvertSel=Selezione Invertita
+btSelect=Seleziona
+btAction=Azione
+btSelectService=Seleziona i servizi non validi
+[Checkbox]
+ckBackup=Copia delle voci rimosse
+ckServices=Servizi non validi (sperimentale)
+[Find Panel]
+SearchFor=Cerca per :
+btSearch=Cerca
+btCleanHistory=Svuota la cache di ricerca
+KeyTitle=Chiavi
+OptionTitle=Opzioni di ricerca
+ckKeys=Chiavi
+ckValues=Valori
+ckData=Dati
+ckGroupSimilar=Chiavi simili
+ckWholeWord=Parola intera
+ckFindFile=Cerca File
+[File Panel]
+bBrowse=Sfoglia ...
+ckSize=Dimensioni
+greater=Più grande di
+lesser=Più piccolo di
+ckDouble=Ricerca file duplicati
+ckHidden=Includi file nascosti
+ckSystem=Includi file di sistema
+rSortSize=Elenca i risultati per Dimensioni
+rSortName=Elenca i risultati per Nome del File
+cValidLnk=Controlla la validità dei collegamenti
+ckBin=Sposta nel Cestino
+iLNK=Collegamenti (*.lnk)
+[Tweaks Panel]
+btRestoreDef=Ripristina predef.
+btApplyChanges=Salva le modifiche
+TweakError=Errore nell'applicare la modifica, riavvia RegSeeker come Amministratore
+TweakApplied=Modifica applicata ! Se non si notano modifiche, disconnettete o riavviate il computer
+[History Menu]
+mnURL=Indirizzi di Internet Explorer
+mnINDEXDAT=Cronologia (Index.dat)
+mnExecute=Esegui
+mnMapDrive=Traccia una rete
+mnFindFiles=Cerca file/computer
+mnOpenFiles=Apri file
+mnStartMenu=Vecchie voci Menu Start/Avvio
+mnStream=Pulisci chiavi StreamMRU/Streams
+[Favorites Menu]
+mnManage=Controllo dei Preferiti
+mnClear=Pulizia dei Preferiti
+mnRebuild=Ripristino dei Preferiti
+mnFav=Preferiti
+[Listbox Menu]
+mnOpen=Apertura nel registro (o doppio click)
+mnExport=Esportazione dei valori selezionati
+mnAddFav=Aggiungere ai preferiti
+mnEnableStartup=Abilita i valori selezionati
+mnDisableStartup=Non abilitare i valori selezionati
+mnDelete=Elimina i valori selezionati
+mnExclude=Aggiungere all'elenco esclusioni
+[File Menu]
+mnParentDir=Apertura della cartella principale
+mnProperties=Visualizza le proprietà del file
+mnDelFile=Elimina i file selezionati
+[Listbox messages]
+lbTooLong=(stringa troppo lunga)
+lbDefault=(predefinito)
+lbRefresh=F5 aggiorna
+lbDLL=DLL inesistente
+lbFILE=File o Percorso non valido
+lbHELP=File della guida inesistente
+lbSTARTMENU=Chiave di Menù vecchia
+lbEXTENSION=Estensione non usata
+lbFILETYPE=Tipo di file non usato
+lbEMPTY=Valore vecchio
+lbAPPPATH=Cartella non valida
+lbOPENWITH=Voce "Apri con" non utilizzata
+lbACTIVEX=Voce ActiveX/COM (CLSID) non valida
+lbDate=Data
+lbTime=Ora
+lbAccess=Ultima modifica
+lbExpire=Scade il
+lbCookie=Cookie protetto ! (consulta il file mycookies.ini per informazioni)
+[DialogBoxes]
+dbClearHistory=Volete effettuare la pulizia di tutti i Preferiti ?
+dbRebuildHistory=Attenzione : Verranno ripristinati i preferiti con valori
+predefiniti<br>Volete procedere ?
+dbExportDone=Esportazione riuscita !
+dbConfirmDelete=Eliminare le voci selezionate ?
+dbConfirmDeleteService=ATTENZIONE !!!<br>State per eliminare un Servizio o un Driver<br><br>Siete sicuri di voler continuare?
+dbConfirmUninstall=Rimuovere i programmi selezionati ?
+dbRegCleaner=RegSeeker cercherà nel registro le chiavi non valide come<br>estensioni non usate o file inesistenti.<br><br>Volete effettuare una copia di sicurezza prima di operare<br>modifiche al registro?<br><br>Accertatevi di aver spuntato 'Copia delle voci rimosse'.<br>Per ripristinare i dati cancellati, fate doppio-click sull'ultimo<br>file con estensione .reg<br><br>Premete Avvio per proseguire (usatelo a vostro rischio)
+dbCleanStream=Windows memorizza tutte le informazioni sulle dimensioni e sui percorsi delle finestre nel registro.<br>Eliminando queste chiavi verranno ripristinati i valori predefiniti.<br>Verrà velocizzata la navigazione tra le cartelle.<br>Attenzione : verrà anche effettuata una copia delle informazioni<br><br>Cliccate GO per procedere !
+dbDeleteFile=Attenzione : Soppressione di uno o più File !
+dbMountPoints=Windows memorizza tutte le informazioni sulle periferiche montate e sulle mappe di rete dentro il registro.<br>Queste chiavi contengono informazioni come il tipo di unità, visualizzazione icone ecc...<br>N.B. : verrà effettuato un backup<br><br>Cliccate GO per proseguire !
+dbTempFileMsg1=Potete configurare tutti i file che volete visualizzare nell'elenco dei file temporanei usando le variabili
+dbTempFileMsg2=Fate attenzione prima di eliminare qualsiasi risultato ! Un cattivo uso delle variabili può far visualizzare dei file indesiderati<br>Per es.: %windir%\*.* visualizzerà tutti i file nella cartella Windows
+dbTempFileMsg3=Per commentare una riga, aggiungete # davanti ad essa
+addNew=Aggiungi una nuova regola
+[FavDialogbox]
+mainTitle=Preferiti
+Title1=Nome Preferiti
+Title2=Chiave da aggiungere
+entername=Digita il nome
+btAdd=Aggiungi
+btCancel=Elimina
+btManage=Controlla
+btModify=Modifica
+[misc]
+btExclude=Esclusioni ...
+ckScanDrive=Cerca vecchie chiavi di eseguibili
+CleanDone=Pulzia automatica terminata !
+backupname=Nome del file di Backup :
+[ExcludeDialog]
+btExAdd=Aggiungi
+btExMod=Modifica
+btExDel=Elimina
+btExImp=Importa
+ExItemsImport=Gli elementi verranno importati nell'elenco esclusioni !
+[RestoreDialog]
+btRestore=Ripristina
+btStop=Stop
+btClose=Chiudi
+ckViewOnly=Doppio clic su una voce per vederne il contenuto (Non verranno effettuate modifiche al registro)
+btProtect=Vis. i protetti
+[RegistryFix]
+repairtitle=Ripara la sicurezza del Registro :
+ckProtected=Cerca solo le chiavi protette
+msgProtected=Cliccate Cerca e RegSeeker vsualizzerà solo le chiavi protette. Selezionate quelle che volete modificare e fate doppio clic per selezionare Assumi la proprietà. Fate MOLTA attenzione ! se non siete esperti della sicurezza del registro, non usatela !
+mnutakeownership=Assumi la proprietà !
+securitywarn=ATTENZIONE ! State per modificare i permessi delle chiavi di registro !<br>Questo modificherà la proprietà delle chiavi di registro  al vostro attuale nome utente.<br><br>Se non siete sicuri di quello che fate, cliccate Annulla per uscire o Ok per continuare.
+securitychange=I permessi della chiave di registro sono stati modificati !
+[Startup]
+colName=Nome
+colPath=Percorso
+colInfo=Informazioni
+colStartup=Avvio
+colOther=Visualizza nome
+[Services]
+msAuto=Automatico
+msAutod=Automatico (avvio ritardato)
+msDis=Disabilitato
+msMan=Manuale
+[ToBin]
+msToBin=Cliccate OK per inviare al cestino<br>o Annulla per cancellare definitivamente i(l) file
+[Junk]
+btAutoSel=Seleione automatica
+[Chrome]
+msRunning=E' consigliabile chiudere Chrome prima di continuare !<br><br>Cliccate OK per chiudere Chrome o Annulla per continuare senza chiuderlo
+msExtens=Attenzione : Le estensioni di Chrome sono sincronizzate !<br>Cliccate OK per fermare la sincronizzazione delle estensioni e cambiare lo stato<br><br>N.B. : potete riabilitare la sincronizzazione delle estensioni attraverso i parametri di Chrome/Parametri avanzati di sincronizzazione
+[ApplicationList]
+msRenameEntry=Rinomina voce
+msUninstall=Disinstalla il programma
+msNewname=Nuovo nome :
+msBackupApp=Crea una copia del registro del programma
+msExportApplist=Esporta l'elenco dei programmi
+[bigButton]
+btApps=Applications and startup
+btRegistry=Registry
+btTools=Tools and system
+btPrivacy=Computer cleaning
+btAbout=About
+[Subtitles]
+subApp=Applications
+subStart=Startup
+subBrowser=Browser extensions
+subRegistry=Registry
+subFavorites=Favorites
+subTools=Tools
+subSystem=System information
+ckOtherDevice=View additional devices
+subFileClean=Junk files cleaning
+subRegClean=History cleaning
+[Drivers]
+ckBackDriver=Backup selected driver
+Wait=Veuillez patienter ...
+BackDriverDone=Le pilote a été sauvegardé !<br>Voulez-vous ouvrir le rapport ?
+FileMissing=Note : des fichiers n'ont pu être copiés !

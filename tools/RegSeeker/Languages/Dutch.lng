@@ -1,0 +1,210 @@
+LanguageName=Dutch
+LanguageAuthor=Max Hasker
+Edited by=Kazonga®
+[Buttons]
+btDeepClean=Deep cleaning
+btFind=Zoeken ...
+btAdv=Advanced Tools
+mnProcMon=Process Navigator
+mnFileProc=File / Process Monitor
+mnRepair=Repair...
+mnParentDir=Open Parent directory
+mnGotoParent=Go to Parent process
+mnAction=Action
+mnSwitch=Switch
+mnKill=Kill selected process
+mnKillDel=Kill process and Delete file
+mnExportProc=Export list
+btTasks=Tasks only
+btTop=Always on top
+btAppl=Geïnstalleerde software
+mnInvalidUninstall=Ongeldige installatie en deïnstallatie verwijzingen
+mnApplSettings=Programma instellingen
+mnServices=Services (Non-Microsoft)
+mnDrivers=Drivers (Non-Microsoft)
+mnTempFiles=Temporary files
+msgTempFiles=(Click here to configure)
+msgItems=Item(s)
+btStartup=Opstartlijst programma's
+btScheme=Kleurenschema's
+btHistory=Meest recent gebruikt
+btFavorites=Register Favorieten
+btTweaks=Tweaks
+btClean=Opschonen Register
+btAbout=Over RegSeeker:
+btBackup=Reservekopie
+btPrint=Printen
+btQuit=RegSeeker Afsluiten
+btSelectAll=Alles selecteren
+btSelectRed=Selecteer alle rode vermeldingen
+btSelectGreen=Selecteer alle groene vermeldingen
+btUnselectAll=Alle selecties ongedaan maken
+btInvertSel=Selectie omkeren
+btSelect=Selecteren
+btAction=Gewenste actie
+btSelectService=Select Invalid Services
+btCancel=Annuleren
+btAutoClean=Automatisch opschonen
+[Checkbox]
+ckBackup=Reservekopie maken
+ckServices=Ongeldige Services (nog experimenteel!)
+[Find Panel]
+SearchFor=Zoeken naar:
+btSearch=Zoeken
+btCleanHistory=Geschiedenis verwijderen
+KeyTitle=Sleutels
+OptionTitle=Zoekopties
+ckKeys=Sleutels
+ckValues=Waarden
+ckData=Data
+ckGroupSimilar=Groep gelijke sleutels
+ckWholeWord=Zoek op gehele woord
+ckFindFile=Bestand zoeken
+[File Panel]
+bBrowse=Schijf/map:
+ckSize=Grootte:
+greater=Groter dan >
+lesser=< Kleiner dan
+ckDouble=Dubbele bestanden zoeken
+ckHidden=Inclusief Verborgen bestanden
+ckSystem=Inclusief Systeembestanden
+rSortSize=Sorteren op grootte
+rSortName=Sorteren op bestandsnaam
+cValidLnk=Snelkoppelingen controleren
+ckBin=Verwijderen naar prullenbak
+iLNK=Snelkoppelingen (*.lnk)
+[Tweaks Panel]
+btRestoreDef=Restore default
+btApplyChanges=Toepassen
+TweakError=Error applying tweak, please restart RegSeeker as Administrator
+TweakApplied=Tweak applied ! If you see no change, please logoff or restart your computer
+[History Menu]
+mnURL=Lijst van getype URL's
+mnINDEXDAT=Cachelijst van Cookies (Index.dat)
+mnExecute=Uitvoeren
+mnMapDrive=Verbinden
+mnFindFiles=Zoeken bestanden/computers
+mnOpenFiles=Geopende bestanden
+mnStartMenu=Oude Start Menu vermeldingen
+mnStream=Herstellen StreamMRU/Streams sleutels
+[Favorites Menu]
+mnManage=Bewerken Favorieten
+mnClear=Verwijderen Favorieten
+mnRebuild=Herstellen Favorieten
+mnFav=Favorieten
+[Listbox Menu]
+mnOpen=Open met Regedit (dubbelklikken)
+mnExport=Exporteren geselecteerde item(s)
+mnAddFav=Toevoegen aan favorieten
+mnEnableStartup=Inschakelen geselecteerde programma(s)
+mnDisableStartup=Uitschakelen geselecteerde programma(s)
+mnDelete=Verwijder geselecteerde programma(s)
+mnExclude=Toevoegen aan lijst van uitzonderingen
+[File Menu]
+mnParentDir=Map openen
+mnProperties=Eigenschappen
+mnDelFile=Verwijder geselecteerde bestand(en)
+[Listbox messages]
+lbTooLong=(string te lang)
+lbDefault=(standaard)
+lbRefresh=F5 verversen
+lbDLL=DLL bestand bestaat niet
+lbFILE=Bestand of Pad bestaat niet
+lbHELP=Helpbestand bestaat niet
+lbSTARTMENU=Verouderd Start Menu item
+lbEXTENSION=Extensie wordt niet gebruikt
+lbFILETYPE=Bestandstype niet gebruikt
+lbEMPTY=Verouderde toegang
+lbAPPPATH=Ongeldig programma pad
+lbOPENWITH=Ongebruikte "Openen met" toegang
+lbACTIVEX=Ongeldige ActiveX/COM toegang (CLSID)
+lbDate=Datum:
+lbTime=Tijd:
+lbAccess=Laatst geopend:
+lbExpire=Vervaldatum:
+lbCookie=Cookie behouden! (zie mycookies.ini bestand)
+[DialogBoxes]
+dbClearHistory=Alle favorieten verwijderen?
+dbRebuildHistory=Opgelet: dit zal de favorieten herstellen door het vervangen met de standaard instellingen!<br>Wilt u doorgaan?
+dbExportDone=Geëxporteerd!
+dbConfirmDelete=Verwijder geselecteerde item(s)?
+dbConfirmDeleteService=WARNING !!!<br>You are going to delete a Service or a Driver<br><br>Are you sure you want to continue?
+ConfirmUninstall=Deïnstalleren geselecteerde programma('s)?
+dbRegCleaner=RegSeeker zal het register doorzoeken op fouten zoals ongebruikte extensies, verwijderde bestanden, foutieve referenties ...<br><br>Maak een veiligheidskopie van belangrijke data vóór u wijzigingen aanbrengt<br>in het register (foutieve wijzigingen kunnen uw systeem beschadigen)!<br><br>Maak gebruik van de optie 'Reservekopie maken'.<br>Om de wijzigingen te herstellen, dubbelklik op het laatste .reg bestand.<br><br>Klik OK om door te gaan! (Gebruik op eigen risico!)
+dbCleanStream=Windows bewaart het windowformaat en de plaats op het beeldscherm in het register.<br>Bij het herstellen van deze sleutels/instellingen zal de standaard Windows instelling weer ingesteld worden.<br>Dit kan de navigatie in de mappen versnellen.<br>Note: Er wordt een reservekopie gemaakt.<br><br>Klik OK om door te gaan !
+dbDeleteFile=Opgepast: Bestand(en) weglaten!
+dbMountPoints=Windows is storing all mounted devices/network maps informations inside the registry.<br>Those keys contains informations like drive type, icons display etc...<br>Note : a backup will be made<br><br>Click OK to proceed !
+dbTempFileMsg1=You can configure all the files you want to display in your Temporary File list using variables
+dbTempFileMsg2=Be careful before deleting any result ! A bad variable usage could display unwanted files<br>For ex: %windir%\*.* will display all your files inside your Windows directory
+dbTempFileMsg3=To comment a line, just add a # in front of it[FavDialogbox]
+addNew=Add new rule
+[FavDialogbox]
+mainTitle=Favorieten
+Title1=Favorieten naam
+Title2=Sleutel toevoegen
+entername=Voer naam in
+btAdd=Toevoegen
+btCancel=Negeer
+btManage=Bewerk
+btModify=Wijzig
+[misc]
+btExclude=Uitzonderingen
+ckScanDrive=Zoeken naar oude .exe registeringangen
+CleanDone=Auto Clean is gereed!
+backupname=Backup naam:
+[RestoreDialog]
+ckViewOnly=Double-click an entry to view a backup content (No changes done to the Registry)
+btProtect=Show Protected
+[RegistryFix]
+repairtitle=Fix Registry Security :
+ckProtected=Search Protected Keys only
+msgProtected=Click Search and RegSeeker will display the protected keys only. Select the ones you want to modify and right-click to choose Take Ownership. Be CAREFUL ! if you're not confident with registry security, do not use !
+mnutakeownership=Take Ownership !
+securitywarn=WARNING ! You are about to change Registry Key permission !<br>This will change the registry key ownership to your current username.<br><br>If you are not confident doing this, please click NO to Exit or click OK to Proceed.
+securitychange=Registry Key permission have been changed !
+[Startup]
+colName=Name
+colPath=Path
+colInfo=Information
+colStartup=Startup
+colOther=Display Name
+[Services]
+msAuto=Automatic
+msAutod=Automatic (Delayed Start)
+msDis=Disabled
+msMan=Manual
+[ToBin]
+msToBin=Click OK to send to recycle bin<br>or Cancel to permanently delete the file(s)
+[Junk]
+btAutoSel=Auto-select
+[Chrome]
+msRunning=It is recommended to close Chrome before continuing !<br><br>Click OK to close Chrome or Cancel to continue without closing
+msExtens=Warning : Chrome extensions are synchronized !<br>Click ok to stop extensions synchronization and change status<br><br>Note : you can re-enable extension synchronization via Chrome parameters/Advanced synchronization parameters
+[ApplicationList]
+msRenameEntry=Rename entry
+msUninstall=Uninstall Application
+msNewname=New name :
+msBackupApp=Backup application registry
+msExportApplist=Export application list
+[bigButton]
+btApps=Applications and startup
+btRegistry=Registry
+btTools=Tools and system
+btPrivacy=Computer cleaning
+btAbout=About
+[Subtitles]
+subApp=Applications
+subStart=Startup
+subBrowser=Browser extensions
+subRegistry=Registry
+subFavorites=Favorites
+subTools=Tools
+subSystem=System information
+ckOtherDevice=View additional devices
+subFileClean=Junk files cleaning
+subRegClean=History cleaning
+[Drivers]
+ckBackDriver=Backup selected driver
+Wait=Veuillez patienter ...
+BackDriverDone=Le pilote a été sauvegardé !<br>Voulez-vous ouvrir le rapport ?
+FileMissing=Note : des fichiers n'ont pu être copiés !

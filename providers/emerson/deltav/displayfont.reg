@@ -1,0 +1,7 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FRSI\DeltaV\CurrentVersion\DisplayFont]
+"FontName"="Arial"
+"FontPointSize"=dword:0000008
+"CharSet"=dword:00000001
+

@@ -1,0 +1,40 @@
+SOFTWARE LICENSE
+
+DEFINITIONS:  The term "You" includes, but is not limited to, users of
+the Fisher-Rosemount Systems, Inc. (FRSI) product embodied in the
+computer program herein, the user's employer's wholly owned
+subsidiaries, parent company, agents, employees, contractors, and
+sub-contractors.  The term "License Agreement" refers to one of FRSI's
+License Agreements, including but not limited to, all Software License
+Agreements accompanying FRSI products, all Beta Test Agreements, and
+all Master License Agreements.
+
+Any and all use of the product is subject to the terms and conditions
+of the applicable License Agreement.  The terms and conditions of the
+applicable License Agreement by and between You and FRSI shall remain
+effective to govern the use of this product.
+
+The existence of a License Agreement by and between You and FRSI
+must be confirmed prior to using this product.  If the site at which this
+Program is used is a Licensed Facility under a Master License Agreement
+with FRSI, the applicable License Certificate can be viewed and printed
+by proceeding to the Explorer, clicking Explorer Help Topics under the
+Help menu, and then selecting Software Licenses from the list of topics.
+If the site at which this Program is used is NOT a Licensed Facility
+under a Master License Agreement with FRSI and the use of the program is
+NOT governed by a Beta Test Agreement, the use of this Program shall be
+governed by the Software License Agreement that is printed in the sales
+literature and on the package in which the program was delivered.  The
+Software License Agreement can be viewed and printed by proceeding to
+the Explorer, clicking Explorer Help Topics under the Help menu, and
+then selecting Software Licenses from the list of topics.
+
+If you CAN confirm the existence of a License Agreement by and between
+You and Fisher-Rosemount Systems, Inc., please click on "Next" below.
+
+If you CANNOT confirm the existence of a License Agreement by and
+between You and Fisher-Rosemount Systems, Inc., please click on
+"Cancel" below.  The Fisher-Rosemount Systems, Inc. product will not
+operate if you click on "Cancel".  You may elect to return the
+Fisher-Rosemount Systems, Inc. product to the place of purchase for
+a refund. 

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <gpo>
+    <definition gpoName="DeltaV Plant Policy"/>
+    <definition gpoName="DeltaV Group Policy"/>
+    <definition gpoName="DeltaV Basic Operator Policy"/>
+    <definition gpoName="DeltaV Basic Configuration Policy"/>
+    <definition gpoName="DeltaV Workstation Policy"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy"/>
+  </gpo>
+  <ou>
+    <definition ouName="DeltaV Users"/>
+    <definition ouName="DeltaV Workstations"/>
+    <definition ouName="DeltaV Locked-down Workstations"/>
+  </ou>
+  <gpoLinkToOu>
+    <definition gpoName="DeltaV Group Policy" ouName="DeltaV Users"/>
+    <definition gpoName="DeltaV Basic Operator Policy" ouName="DeltaV Users"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" ouName="DeltaV Users"/>
+    <definition gpoName="DeltaV Workstation Policy" ouName="DeltaV Workstations"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" ouName="DeltaV Locked-down Workstations"/>
+  </gpoLinkToOu>
+  <gpoLinkToGroup>
+    <definition gpoName="DeltaV Plant Policy" groupName="DeltaV"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" groupName="Domain DeltaV Basic Configuration"/>
+    <definition gpoName="DeltaV Basic Operator Policy" groupName="Domain DeltaV Basic Operator"/>
+  </gpoLinkToGroup>
+  <gpoSettings>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop!NoAddingComponents" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop!NoChangingWallPaper" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop!NoClosingComponents" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop!NoComponents" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop!NoDeletingComponents" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System!NoDispAppearancePage" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System!NoDispScrSavPage" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System!NoDispSettingsPage" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop!NoEditingComponents" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_SZ" policyData="" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop\AdminComponent!Add" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_SZ" policyData="" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop\AdminComponent!Delete" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!ClearRecentDocsOnExit" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!DisablePersonalDirChange" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!ForceActiveDesktopOn" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!HideClock" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!Intellimenus" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!LockTaskbar" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoActiveDesktopChanges" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoAutoTrayNotify" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoChangeStartMenu" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoClose" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoCloseDragDropBands" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoCommonGroups" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoControlPanel" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoDesktop" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoDesktopCleanupWizard" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="255" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoDriveTypeAutoRun" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoFavoritesMenu" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoFileMenu" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoFind" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoFolderOptions" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoInstrumentation" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoInternetIcon" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoInternetOpenWith" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoManageMyComputerVerb" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoMovingBands" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoNetConnectDisconnect" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoNetHood" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoNetworkConnections" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoOnlinePrintsWizard" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoPropertiesMyComputer" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoPropertiesRecycleBin" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoPropertiesMyDocuments" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoPublishingWizard" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoRecentDocsHistory" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoRecentDocsMenu" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoRecentDocsNetHood" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoResolveSearch" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoResolveTrack" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoRun" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoSaveSettings" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoSetFolders" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoSetTaskbar" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoShellSearchButton" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoSMBalloonTip" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoSMConfigurePrograms" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoSMHelp" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoSMMyDocs" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoSMMyPictures" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoStartMenuEjectPC" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoStartMenuMFUprogramsList" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoStartMenuMorePrograms" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoStartMenuMyMusic" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoStartMenuNetworkPlaces" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoStartMenuPinnedList" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoStartMenuSubFolders" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoTaskGrouping" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoToolbarsOnTaskbar" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoTrayContextMenu" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoTrayItemsDisplay" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoViewContextMenu" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoWebServices" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoWelcomeScreen" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoWindowsUpdate" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!StartMenuLogOff" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoCDBurning" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoSharedDocuments" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoThumbnailCache" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoWinKeys" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\NonEnum!{20D04FE0-3AEA-1069-A2D8-08002B30309D}" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\NonEnum!{450D8FBA-AD25-11D0-98A8-0800361B1103}" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\NonEnum!{645FF040-5081-101B-9F08-00AA002F954E}" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System!DisableRegistryTools" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System!DisableTaskMgr" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System!NoDispBackgroundPage" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System!NoDispCPL" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Uninstall!NoAddFromCDorFloppy" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Uninstall!NoAddFromInternet" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Uninstall!NoAddFromNetwork" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Uninstall!NoAddPage" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Uninstall!NoAddRemovePrograms" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Uninstall!NoChooseProgramsPage" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Uninstall!NoRemovePage" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Uninstall!NoSupportInfo" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Uninstall!NoWindowsSetupPage" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!CallSecurity" policySetting="0"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!IntranetSupportURL" policySetting="0"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!MaxFileSendSize" policySetting="0"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!MaximumBandwidth" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoAddingDirectoryServers" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoAdvancedCalling" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoAllowControl" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoAppSharing" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoAudio" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoAudioPage" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoAutoAcceptCalls" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoChangeDirectSound" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoChangingCallMode" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoChat" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoDirectoryServices" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoFullDuplex" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoGeneralPage" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoNewWhiteBoard" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoOldWhiteBoard" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoReceivingFiles" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoReceivingVideo" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoSecurityPage" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoSendingFiles" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoSendingVideo" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoSharing" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoSharingDesktop" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoSharingDosWindows" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoSharingExplorer" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoTrueColorSharing" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoVideoPage" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoWebDirectory" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!PersistAutoAcceptCalls" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!Use AutoConfig" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\InternetManagement!RestrictCommunication" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\Messenger\Client!CEIP" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Messenger\Client!PreventAutoRun" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\WindowsUpdate!DisableWindowsUpdateAccess" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Messenger\Client!PreventRun" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\MMC!RestrictAuthorMode" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Directory UI!HideDirectoryFolder" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Installer!DisableMedia" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="0" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Network Connections!NC_AddRemoveComponents" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="0" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Network Connections!NC_AdvancedSettings" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="0" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Network Connections!NC_AllowAdvancedTCPIPConfig" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="0" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Network Connections!NC_ChangeBindState" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="0" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Network Connections!NC_DeleteConnection" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="0" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Network Connections!NC_DialupPrefs" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="0" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Network Connections!NC_LanChangeProperties" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="0" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Network Connections!NC_LanProperties" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="0" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Network Connections!NC_NewConnectionWizard" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Network Connections!NC_RasAllUserProperties" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="0" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Network Connections!NC_RasChangeProperties" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="0" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Network Connections!NC_RasMyProperties" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Network Connections!NC_RenameAllUserRasConnection" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Network Connections!NC_RenameLanConnection" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="0" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Network Connections!NC_RenameMyRasConnection" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\Windows\System!DisableCMD" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Task Scheduler5.0!DragAndDrop" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Task Scheduler5.0!Execution" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Task Scheduler5.0!Task Creation" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Task Scheduler5.0!Task Deletion" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!BufferingType" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!DoNotShowAnchor" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!EnableScreenSaver" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!HideNetworkTab" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!HidePrivacyTab" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!HideSecurityTab" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="0" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!NetworkBuffering" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="0" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!NetworkBufferingPolicy" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!PreventCDDVDMetadataRetrieval" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!PreventCodecDownload" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!PreventMusicFileMetadataRetrieval" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!PreventRadioPresetsRetrieval" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!SetAndLockSkin" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="0" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!UseDefaultBuffering" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols!HTTP" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols!Multicast" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols!TCP" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols!UDP" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols!WindowsMediaStreamingProtocols" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\HTTP!AutodetectProxy" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\HTTP!BypassProxyLocal" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\HTTP!BypassProxyLocalAddress" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\HTTP!ProxyAddress" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\HTTP!ProxyPolicy" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\HTTP!ProxyPort" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\HTTP!ProxyType" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\HTTP!UseBrowserProxy" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\HTTP!UseProxy" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\MMS!AutodetectProxy" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\MMS!BypassProxyLocal" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\MMS!BypassProxyLocalAddress" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\MMS!ProxyAddress" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\MMS!ProxyPolicy" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\MMS!ProxyPort" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\MMS!ProxyType" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\MMS!UseProxy" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMovieMaker!CodecDownload" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMovieMaker!MovieMaker" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMovieMaker!WebHelp" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMovieMaker!WebPublish" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="0" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced!Start_ShowPrinters" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="255" policyAddress="HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoDriveTypeAutoRun" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoOnlinePrintsWizard" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoPublishingWizard" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoWebServices" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Conferencing!NoRDS" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\InternetManagement!RestrictCommunication" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKLM\Software\Policies\Microsoft\Messenger\Client!CEIP" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Messenger\Client!PreventAutoRun" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Messenger\Client!PreventRun" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="0" policyAddress="HKLM\Software\Policies\Microsoft\PCHealth\HelpSvc!Headlines" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="0" policyAddress="HKLM\Software\Policies\Microsoft\PCHealth\HelpSvc!MicrosoftKBSearch" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\policies\Microsoft\Peernet!Disabled" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Windows NT\Printers!DisableWebPnPDownload" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKLM\Software\Policies\Microsoft\Windows NT\Terminal Services!fAllowUnsolicited" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKLM\Software\Policies\Microsoft\Windows NT\Terminal Services!fAllowUnsolicitedFullControl" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Windows\DriverSearching!DontPromptForWindowsUpdate" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Windows\DriverSearching!DontSearchWindowsUpdate" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Windows\Internet Connection Wizard!ExitOnMSICW" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="" policyAddress="HKLM\Software\Policies\Microsoft\Windows\NetCache!SyncAtLogoff" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="" policyAddress="HKLM\Software\Policies\Microsoft\Windows\NetCache!SyncAtLogon" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKLM\Software\Policies\Microsoft\Windows\NetCache!SyncAtSuspend" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Network Connections!NC_LanConnect" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Windows\Registration Wizard Control!NoRegistration" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Windows\WindowsUpdate!DisableWindowsUpdateAccess" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="" policyAddress="HKLM\Software\Policies\Microsoft\Windows\WindowsUpdate\AU!AutoInstallMinorUpdates" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Windows\WindowsUpdate\AU!NoAutoRebootWithLoggedOnUsers" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_SZ" policyData="no" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMediaPlayer!DesktopShortcut" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMediaPlayer!DisableAutoUpdate" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMediaPlayer!DontUseFrameInterpolation" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMediaPlayer!GroupPrivacyAcceptance" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_SZ" policyData="no" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMediaPlayer!QuickLaunchShortcut" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMovieMaker!CodecDownload" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMovieMaker!MovieMaker" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMovieMaker!WebHelp" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMovieMaker!WebPublish" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Operator Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\WMDRM!DisableOnline" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="255" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoDriveTypeAutoRun" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoFavoritesMenu" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoInternetOpenWith" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoOnlinePrintsWizard" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoPublishingWizard" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoSMMyPictures" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoStartMenuMyMusic" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoWebServices" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoWelcomeScreen" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoWindowsUpdate" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System!DisableRegistryTools" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!MaximumBandwidth" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoAddingDirectoryServers" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoAdvancedCalling" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoAllowControl" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoAppSharing" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoAudio" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoAudioPage" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoAutoAcceptCalls" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoChangeDirectSound" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoChangingCallMode" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoChat" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoDirectoryServices" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoFullDuplex" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoGeneralPage" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoNewWhiteBoard" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoOldWhiteBoard" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoReceivingFiles" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoReceivingVideo" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoSecurityPage" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoSendingFiles" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoSendingVideo" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoSharing" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoSharingDesktop" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoSharingDosWindows" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoSharingExplorer" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoTrueColorSharing" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoVideoPage" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!NoWebDirectory" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!PersistAutoAcceptCalls" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Conferencing!Use AutoConfig" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\InternetManagement!RestrictCommunication" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\Messenger\Client!CEIP" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Messenger\Client!PreventAutoRun" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\WindowsUpdate!DisableWindowsUpdateAccess" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Messenger\Client!PreventRun" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\MMC!RestrictAuthorMode" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Task Scheduler5.0!DragAndDrop" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Task Scheduler5.0!Task Creation" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\Windows\Task Scheduler5.0!Task Deletion" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!DoNotShowAnchor" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!EnableScreenSaver" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!HideNetworkTab" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!HidePrivacyTab" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!HideSecurityTab" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!PreventCDDVDMetadataRetrieval" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!PreventCodecDownload" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!PreventMusicFileMetadataRetrieval" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!PreventRadioPresetsRetrieval" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer!SetAndLockSkin" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols!HTTP" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols!Multicast" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols!TCP" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols!UDP" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols!WindowsMediaStreamingProtocols" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\HTTP!AutodetectProxy" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\HTTP!BypassProxyLocal" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\HTTP!BypassProxyLocalAddress" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\HTTP!ProxyAddress" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\HTTP!ProxyPolicy" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\HTTP!ProxyPort" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\HTTP!ProxyType" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\HTTP!UseBrowserProxy" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMediaPlayer\Protocols\HTTP!UseProxy" policySetting="2"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMovieMaker!CodecDownload" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMovieMaker!MovieMaker" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMovieMaker!WebHelp" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKCU\Software\Policies\Microsoft\WindowsMovieMaker!WebPublish" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoPublishingWizard" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Conferencing!NoRDS" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Windows\DriverSearching!DontPromptForWindowsUpdate" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="" policyAddress="HKLM\Software\Policies\Microsoft\Windows\WindowsUpdate\AU!AutoInstallMinorUpdates" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Windows\WindowsUpdate\AU!NoAutoRebootWithLoggedOnUsers" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_SZ" policyData="no" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMediaPlayer!DesktopShortcut" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMediaPlayer!DisableAutoUpdate" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMediaPlayer!DontUseFrameInterpolation" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMediaPlayer!GroupPrivacyAcceptance" policySetting="1"/>
+    <definition gpoName="DeltaV Basic Configuration Policy" policyDataType="REG_SZ" policyData="no" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMediaPlayer!QuickLaunchShortcut" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoMSAppLogo5ChannelNotify" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Internet Explorer\Control Panel!AdvancedTab" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Internet Explorer\Control Panel!ConnectionsTab" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Internet Explorer\Control Panel!ContentTab" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Internet Explorer\Control Panel!GeneralTab" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Internet Explorer\Control Panel!PrivacyTab" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Internet Explorer\Control Panel!ProgramsTab" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Internet Explorer\Control Panel!SecurityTab" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Internet Explorer\Infodelivery\Restrictions!NoJITSetup" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Internet Explorer\Infodelivery\Restrictions!NoSplash" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Internet Explorer\Infodelivery\Restrictions!NoUpdateCheck" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions!NoExtensionManagement" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="0" policyAddress="HKLM\Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings!ProxySettingsPerUser" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings!Security_HKLM_only" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings!Security_options_edit" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings!Security_zones_map_edit" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKLM\Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3!1604" policySetting="2"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKLM\Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3!1800" policySetting="2"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKLM\Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3!1803" policySetting="2"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="255" policyAddress="HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoDriveTypeAutoRun" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoOnlinePrintsWizard" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoPublishingWizard" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer!NoWebServices" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Conferencing!NoRDS" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\InternetManagement!RestrictCommunication" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKLM\Software\Policies\Microsoft\Messenger\Client!CEIP" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Messenger\Client!PreventAutoRun" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Messenger\Client!PreventRun" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="0" policyAddress="HKLM\Software\Policies\Microsoft\PCHealth\HelpSvc!Headlines" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="0" policyAddress="HKLM\Software\Policies\Microsoft\PCHealth\HelpSvc!MicrosoftKBSearch" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\policies\Microsoft\Peernet!Disabled" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKLM\Software\Policies\Microsoft\Windows NT\Terminal Services!fAllowUnsolicited" policySetting="2"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKLM\Software\Policies\Microsoft\Windows NT\Terminal Services!fAllowUnsolicitedFullControl" policySetting="2"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Windows\DriverSearching!DontPromptForWindowsUpdate" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Windows\DriverSearching!DontSearchWindowsUpdate" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Windows\Internet Connection Wizard!ExitOnMSICW" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="" policyAddress="HKLM\Software\Policies\Microsoft\Windows\NetCache!SyncAtLogoff" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="" policyAddress="HKLM\Software\Policies\Microsoft\Windows\NetCache!SyncAtLogon" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="2" policyAddress="HKLM\Software\Policies\Microsoft\Windows\NetCache!SyncAtSuspend" policySetting="2"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Windows\Registration Wizard Control!NoRegistration" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Windows\WindowsUpdate!DisableWindowsUpdateAccess" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="" policyAddress="HKLM\Software\Policies\Microsoft\Windows\WindowsUpdate\AU!AutoInstallMinorUpdates" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\Windows\WindowsUpdate\AU!NoAutoRebootWithLoggedOnUsers" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_SZ" policyData="no" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMediaPlayer!DesktopShortcut" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMediaPlayer!DisableAutoUpdate" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMediaPlayer!DontUseFrameInterpolation" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMediaPlayer!GroupPrivacyAcceptance" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_SZ" policyData="no" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMediaPlayer!QuickLaunchShortcut" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMovieMaker!CodecDownload" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMovieMaker!MovieMaker" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMovieMaker!WebHelp" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\WindowsMovieMaker!WebPublish" policySetting="1"/>
+    <definition gpoName="DeltaV Locked-down Workstation Policy" policyDataType="REG_DWORD" policyData="1" policyAddress="HKLM\Software\Policies\Microsoft\WMDRM!DisableOnline" policySetting="1"/>
+  </gpoSettings>
+</configuration>
+

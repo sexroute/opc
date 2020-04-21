@@ -1,0 +1,222 @@
+LanguageName=Magyar
+LanguageAuthor=M. Kokai
+;hungarian translation: M. Kokai, kokaima@digikabel.hu
+;version:4.00.364017
+[Buttons]
+btDeepClean=Alapos takarítás
+btFind=Keresés
+btAdv=További eszközök
+mnProcMon=Folyamat navigátor
+mnFileProc=Fájl/folyamat monitor
+mnRepair=Javítás...
+mnParentDir=Kezdõ mappa
+mnGotoParent=Ugrás a folyamatokra
+mnAction=További mûveletek
+mnSwitch=Átkapcsoló
+mnKill=A folyamat leállítása
+mnKillDel=Leállítás és a fájl törlése
+mnKillRen=Leállítás és a fájl átnevezése
+mnExportProc=Export lista
+btTasks=Csak az Alkalmazások
+btTop=Mindig látható
+btAppl=Telepített alkalmazások
+mnInvalidUninstall=Érvénytelen Hozzáad/Eltávolít bejegyzés
+mnApplSettings=Alkalmazások beállításai
+mnServices=Szolgáltatások (nem Microsoft)
+mnDrivers=Illesztõprogramok (nem Microsoft)
+mnTempFiles=Ideiglenes fájlok
+msgTempFiles=(Kattintás ide a beállításhoz)
+msgItems=Elem(ek)
+btStartup=Indítási bejegyzések
+btScheme=Színsémák
+btHistory=Elõzmények
+btFavorites=Kedvencek
+btTweaks=Windows buhera
+btClean=Adatbázis tisztítás
+btAbout=Névjegy
+btBackup=Mentés
+btPrint=Nyomtatás
+btQuit=Kilépés
+btSelect=Kijelölés
+btSelectAll=Mindet kijelöli
+btSelectRed=Minden piros elemet kijelöl
+btSelectGreen=Minden zöld elemet kijelöl
+btSelectService=Érvénytelen szolgáltatások
+btUnselectAll=Egyiket sem
+btInvertSel=Ellenkezõ kijelölés
+btAction=Mûveletek
+btAutoClean=Önálló tisztogatás
+btCancel=Mégsem
+[Checkbox]
+ckBackup=Törlés elõtt ment
+ckServices=Érvénytelen szolgáltatások (kísérleti)
+[Find Panel]
+SearchFor=Keresés:
+btSearch=Keresd!
+btCleanHistory=Elõzmények törlése
+KeyTitle=Kulcsok
+OptionTitle=Beállítások
+ckKeys=Kulcsok
+ckValues=Azonosítók
+ckData=Értékek
+ckGroupSimilar=Hasonló kulcsok
+ckWholeWord=Csak a teljes szó
+ckFindFile=Fájl keresés
+[File Panel]
+bBrowse=Beolvas...
+ckSize=Méret:
+greater=Nagyobb, mint
+lesser=Kisebb, mint
+ckDouble=Másolatok keresése
+ckHidden=Rejtett fájlok is
+ckSystem=Rendszer fájlok is
+rSortSize=Rendezés méret szerint
+rSortName=Rendezés fájlnév szerint
+cValidLnk=Parancsikonok érvényessége
+ckBin=Lomtárba küld
+iLNK=Parancsikonok (*.lnk)
+[Tweaks Panel]
+btApplyChanges=Alkalmaz
+btRestoreDef=Alap beállítások
+TweakError=A módosítások nem sikerültek, indítsd újra a RegSeeker-t, mint Rendszergazda
+TweakApplied=Sikeres módosítások! Ha nincs változás, lépj ki és indítsd újra a rendszert
+[History Menu]
+mnURL=IE cím elõzmények
+mnINDEXDAT=IE Süti-tár (Index.dat)
+mnExecute=Futtatás
+mnMapDrive=Hálózati meghajtók
+mnFindFiles=Fájlok/gépek keresése
+mnOpenFiles=Megnyitott fájlok
+mnStartMenu=Régi Start menü elemek
+mnStream=MRU kulcsok törlése
+[Favorites Menu]
+mnManage=Kedvencek kezelése
+mnClear=Kedvencek törlése
+mnRebuild=Kedvencek újjáépítése
+mnFav=Kedvencek
+[Listbox Menu]
+mnOpen=Megnyitás (v. dupla katt)
+mnExport=Elmenti a kiválasztott elemeket
+mnAddFav=Kedvencekhez ad
+mnEnableStartup=Engedi a kiv. bejegyzéseket
+mnDisableStartup=Tiltja a kiv. bejegyzéseket
+mnDelete=Törli a kiválasztott elemeket
+mnExclude=Kivételekhez ad
+[File Menu]
+mnParentDir=Megnyitja a könyvtárat
+mnProperties=Fájl tulajdonságok
+mnDelFile=Törli a kijelölt fájlokat
+[Listbox messages]
+lbTooLong=(túl hosszú)
+lbDefault=(alapértelmezett)
+lbRefresh=Frissít F5
+lbDLL=DLL fájl nincs meg
+lbFILE=Fájl vagy útvonal nem létezik
+lbHELP=Súgó nem létezik
+lbSTARTMENU=Elavult Start menü elem
+lbEXTENSION=Nem használt kiterjesztés
+lbFILETYPE=Nem használt fájl tipus
+lbEMPTY=Elavult bejegyzés
+lbAPPPATH=Érvénytelen útvonal
+lbOPENWITH=Nem használt "Megnyitás" bejegyzés
+lbACTIVEX=Érvénytelen ActiveX/COM bejegyzés {CLSID}
+lbService=Érvénytelen szolgáltatás
+lbDate=Dátum
+lbTime=Idõ
+lbAccess=Utolsó elérés
+lbExpire=Lejár
+lbCookie=Süti megtartva! (lásd mycookies.ini fájl)
+[DialogBoxes]
+dbClearHistory=Biztos benne?
+dbRebuildHistory=Figyelem: ez visszateszi a Kedvenceket alap bejegyzésekkel<br>Akarja, hogy megtegyem?
+dbExportDone=Kész!
+dbConfirmDelete=Töröl minden kiválasztott elemet?
+dbConfirmDeleteService=FIGYELEM!!!<br>Szolgáltatásokat vagy illesztõprogramokat készül törölni<br><br>Biztos benne, hogy folytatja?
+dbConfirmUninstall=Megszünteti az alkalmazást?
+dbRegCleaner=A RegSeeker megvizsgálja az adatbázist, megkeresi az érvénytelen bejegyzéseket:<br>nem használt kiterjesztések, hiányzó fájlok, rossz hivatkozások...<br><br>Önnek el kell mentenie minden értékes adatot, mielõtt változtatásokat eszközöl az adatbázisban<br> (a rossz törlések tönkretehetik a rendszert)!<br><br>Gyõzõdjön meg róla, hogy a 'Törlés elõtt ment' ki van jelölve.<br>Az adatbázis visszaállítása: dupla kattintás az utolsó .reg fájlra.<br><br>Az indításhoz nyomjon OK-t!
+dbCleanStream=A Windows minden ablakméret és elhelyezkedésre vonatkozó infót a regisztrációs adatbázisban tárol.<br>Ezen kulcsok törlése visszaállítja az alapértelmezett adatokat.<br>Ez gyorsíthatja a tájékozódást a mappák között.<br>(Megjegyzés: másolat fog készülni.)<br><br>Kattints az OK-ra az indításhoz!
+dbDeleteFile=Figyelem: Fájl(ok) eltávolítása!
+dbMountPoints=A Windows minden csatolt eszköz/hálózati információt a Reg. adatbázisban tárol.<br>Azon kulcsok infót tartalmaznak, mint meghajtók tipusa, ikonok megjelenése stb...<br>Megj.: mentés készül<br><br>Katt OK a folytatáshoz!
+dbTempFileMsg1=Változók használatával konfigurálhatja a fájlokat, amiket látni akar az Ideiglenes fájlok között
+dbTempFileMsg2=Legyen körültekintõ, mielõtt bármit töröl! Egy rossz változó használat nemkívánatos fájlokat mutathat.  Például: %windir%\*.* a fájljait a Windows könyvtáron belül fogja mutatni
+dbTempFileMsg3=A megjegyzés sor elejére tegyen # karaktert
+addNew=Új szabályok létrehozása
+[FavDialogbox]
+mainTitle=Kedvencek
+Title1=Kedvenc neve
+Title2=Kulcs hozzáadása
+entername=Névadás
+btAdd=Hozzáad
+btCancel=Mégsem
+btManage=Kezel...
+btModify=Módosít
+[misc]
+btExclude=Kizárások...
+ckScanDrive=Régi exe bejegyzések alapján keres
+CleanDone=A tisztogatás kész!
+backupname=A mentés neve:
+[ExcludeDialog]
+btExAdd=Hozzáad
+btExMod=Módosít
+btExDel=Töröl
+btExImp=Importál
+ExItemsImport=Elemeket importáltunk a Kizárási listából!
+[RestoreDialog]
+btRestore=Visszaállít
+btStop=Stop
+btClose=Bezár
+ckViewOnly=Dupla kattintás egy bejegyzésre a tartalom megtekintéséhez (Nem változtat az adatbázison)
+btProtect=Védettek megjelenítése
+[RegistryFix]
+repairtitle=Adatbázis biztonság rendbe tétele:
+ckProtected=Keresés csak a védett kulcsok között
+msgProtected=Kattints a keresésre, és a RegSeeker csak a védett kulcsokat fogja mutatni. Válaszd amelyiket módosítani akarod, jobb katt és Tulajdonba vétel. Legyél ÓVATOS! Ha nem vagy magabiztos, ne használd!
+mnutakeownership=Tulajdonba vétel!
+securitywarn=FIGYELEM! A kulcs engedélyének megváltoztatására készülsz!<br>Ez megváltoztatja a kulcs tulajdonosát a jelenlegi felhasználóra.<br><br>Ha nem vagy magabiztos, Mégsem a kilépéshez, egyébként OK a folytatáshoz.
+securitychange=A kulcs engedélye megváltozott!
+[Startup]
+colName=Név
+colPath=Útvonal
+colInfo=Infó
+colStartup=Indítás
+colOther=Mutatott név
+[Services]
+msAuto=Automatikus
+msAutod=Automatikus (Késleltetett start)
+msDis=Letiltva
+msMan=Kézi
+[ToBin]
+msToBin=OK-ra kattintva a Lomtárba küldi<br>Mégsem véglegesen törli a fájlt vagy fájlokat
+[Junk]
+btAutoSel=Auto kiválasztás
+[Chrome]
+msRunning=Ajánlatos bezárni a Chrome-ot a folytatáshoz!<br><br>Katt OK bezárja a Chrome-ot vagy Mégsem a folytatáshoz leállítás nélkül.
+msExtens=Figyelem: A Chrome bõvítmények szinkronizálása történik!<br>Katt OK a leállítására és az állapot megváltoztatására<br><br>Megjegyzés: újra szinkronizálhatod a bõvítményeket a Chrome segítségével.
+[ApplicationList]
+msRenameEntry=Átnevez
+msUninstall=Alkalmazás eltávolítása
+msNewname=Új név:
+msBackupApp=Az alkalmazás regisztrációjának mentése
+msExportApplist=Exportálja az alkalmazások listáját
+[bigButton]
+btApps=Alkalmazások és indítás
+btRegistry=Beállításszerkesztõ
+btTools=Eszközök és rendszer
+btPrivacy=Karbantartás
+btAbout=Névjegy
+[Subtitles]
+subApp=Alkalmazások
+subStart=Indítás
+subBrowser=Böngészõ kiterjesztések
+subRegistry=Adatbázis
+subFavorites=Kedvencek
+subTools=Eszközök
+subSystem=Rendszer infó
+ckOtherDevice=További eszközök
+subFileClean=Szükségtelen fájlok törlése
+subRegClean=Elõzmények törlése
+[Drivers]
+ckBackDriver=Illesztõprogramok mentése
+Wait=Kérem várjon...
+BackDriverDone=A mentés kész!<br>Megnézed a riportot?
+FileMissing=Note : lehet, hogy hiányzik néhány fájl!

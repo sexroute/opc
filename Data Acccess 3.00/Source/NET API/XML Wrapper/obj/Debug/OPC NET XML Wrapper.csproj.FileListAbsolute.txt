@@ -1,0 +1,22 @@
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\bin\Debug\OpcNetApi.Xml.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\bin\Debug\OpcNetApi.Xml.pdb
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\bin\Debug\fr\OpcNetApi.Xml.resources.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Debug\OpcXml.Resources.Strings.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Debug\OpcXml.Resources.Strings.fr.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Debug\OPC NET XML Wrapper.csproj.GenerateResource.Cache
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Debug\fr\OpcNetApi.Xml.resources.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Debug\OpcNetApi.Xml.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Debug\OpcNetApi.Xml.pdb
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\bin\Debug\OpcNetApi.Xml.xml
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\bin\Debug\OpcNetApi.Xml.xml
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\bin\Debug\OpcNetApi.Xml.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\bin\Debug\OpcNetApi.Xml.pdb
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\bin\Debug\fr\OpcNetApi.Xml.resources.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Debug\OpcXml.Resources.Strings.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Debug\OpcXml.Resources.Strings.fr.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Debug\OPC NET XML Wrapper.csproj.GenerateResource.Cache
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Debug\fr\OpcNetApi.Xml.resources.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Debug\OpcNetApi.Xml.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\XML Wrapper\obj\Debug\OpcNetApi.Xml.pdb

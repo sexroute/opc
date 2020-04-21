@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CMDataContracts" elementFormDefault="qualified" targetNamespace="http://EmersonProcess.WebServices/CampaignManager/DataContracts" xmlns="http://EmersonProcess.WebServices/CampaignManager/DataContracts" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="EquipmentTrain">
+    <xs:sequence />
+    <xs:attribute name="Name" type="xs:string" />
+    <xs:attribute name="Description" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="CampaignInfo" mixed="true">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="BatchList" nillable="true" type="ArrayOfBatchInfo" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BaseRecipe" type="RecipeInfo" nillable="true" />
+      <xs:element minOccurs="0" maxOccurs="1" name="UserComments" type="ArrayOfString" nillable="true" />
+    </xs:sequence>
+    <xs:attribute name="ID" type="xs:string" use="required" />
+    <xs:attribute name="Description" type="xs:string" use="optional" />
+    <xs:attribute name="BatchCount" type="xs:int" use="optional" />
+    <xs:attribute name="MaxActiveBatches" type="xs:int" use="optional" />
+    <xs:attribute name="Prefix" type="xs:string" use="optional" />
+    <xs:attribute name="Suffix" type="xs:string" use="optional" />
+    <xs:attribute name="StartSequence" type="xs:int" use="optional" />
+    <xs:attribute name="AutoRemoveInManual" type="xs:boolean" use="optional" />
+    <xs:attribute name="AutoRemoveInAutoRelease" type="xs:boolean" use="optional" />
+    <xs:attribute name="AutoRemoveInAutoStart" type="xs:boolean" use="optional" />
+    <xs:attribute name="BatchExecutionMode" type="BatchExecutionMode" use="optional" />
+    <xs:attribute name="ContinuousIteration" type="xs:boolean" use="optional" />
+    <xs:attribute name="MinRemoveDelay" type="xs:int" use="optional" />
+    <xs:attribute name="IsLocked" type="xs:boolean" use="prohibited" />
+    <xs:attribute name="LockCount" type="xs:int" use="prohibited" />
+    <xs:attribute name="LockOwner" type="xs:string" use="prohibited" />
+    <xs:attribute name="BatchCompleteCount" type="xs:int" use="prohibited" />
+    <xs:attribute name="InProcessBatches" type="xs:int" use="prohibited" />
+    <xs:attribute name="CreatedBy" type="xs:string" use="prohibited" />
+    <xs:attribute name="CreatedDate" type="xs:dateTime" use="prohibited" />
+    <xs:attribute name="ModifiedBy" type="xs:string" use="prohibited" />
+    <xs:attribute name="ModifiedDate" type="xs:dateTime" use="prohibited" />
+    <xs:attribute name="State" type="CampaignStatus" use="prohibited" />
+  </xs:complexType>
+  <xs:simpleType name="BatchExecutionMode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Manual" />
+      <xs:enumeration value="AutoRelease" />
+      <xs:enumeration value="AutoStart" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ArrayOfBatchInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BatchInfo" type="BatchInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="BatchInfo" mixed="true">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Recipe" type="RecipeInfo" />
+      <xs:element name="UserComments" type="ArrayOfString" maxOccurs="1" minOccurs="0" />
+    </xs:sequence>
+    <xs:attribute name="ID" type="xs:string" use="optional" />
+    <xs:attribute name="Setup" type="xs:boolean" use="optional" />
+    <xs:attribute name="Cleanup" type="xs:boolean" use="optional" />
+    <xs:attribute name="IsBasedOnBaseRecipe" type="xs:boolean" use="optional" />
+    <xs:attribute name="Index" type="xs:int" use="prohibited" />
+    <xs:attribute name="IsLockedForEdit" type="xs:boolean" use="prohibited" />
+    <xs:attribute name="LockEditOwner" type="xs:string" use="prohibited" />
+    <xs:attribute name="EditLockCount" type="xs:int" use="prohibited" />
+    <xs:attribute name="IsLockedForControl" type="xs:boolean" use="prohibited" />
+    <xs:attribute name="LockControlOwner" type="xs:string" use="prohibited" />
+    <xs:attribute name="ControlLockCount" type="xs:int" use="prohibited" />
+    <xs:attribute name="CreatedBy" type="xs:string" use="prohibited" />
+    <xs:attribute name="CreatedDate" type="xs:dateTime" use="prohibited" />
+    <xs:attribute name="ModifiedBy" type="xs:string" use="prohibited" />
+    <xs:attribute name="ModifiedDate" type="xs:dateTime" use="prohibited" />
+    <xs:attribute name="ReleasedBy" type="xs:string" use="prohibited" />
+    <xs:attribute name="ReleasedDate" type="xs:dateTime" use="prohibited" />
+    <xs:attribute name="RemovedFromExecutiveBy" type="xs:string" use="prohibited" />
+    <xs:attribute name="RemovedFromExecutiveDate" type="xs:dateTime" use="prohibited" />
+    <xs:attribute name="StartedBy" type="xs:string" use="prohibited" />
+    <xs:attribute name="StartedDate" type="xs:dateTime" use="prohibited" />
+    <xs:attribute name="State" type="BatchStatus" use="prohibited" />
+    <xs:attribute name="StatusMessage" type="xs:string" use="prohibited" />
+  </xs:complexType>
+  <xs:complexType name="RecipeInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="EquipmentTrain" type="EquipmentTrain" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Formula" type="Formula" />
+      <xs:element minOccurs="0" maxOccurs="1" name="UnitBindings" nillable="true" type="ArrayOfUnitBinding" />
+      <xs:element minOccurs="0" maxOccurs="1" name="UnitAliasing" nillable="true" type="ArrayOfUnitAlias" />
+    </xs:sequence>
+    <xs:attribute name="Name" type="xs:string" use="required" />
+    <xs:attribute name="Executive" type="xs:string" use="required" />
+    <xs:attribute name="Scale" type="xs:float" use="optional" />
+    <xs:attribute name="ScaleUnits" type="xs:string" use="optional" />
+  </xs:complexType>
+  <xs:complexType name="Formula">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Parameters" nillable="true" type="ArrayOfParameter" />
+    </xs:sequence>
+    <xs:attribute name="Name" type="xs:string" use="optional" />
+    <xs:attribute name="IsCustomFormula" type="xs:boolean" use="optional" />
+  </xs:complexType>
+  <xs:complexType name="ArrayOfParameter">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Parameter" type="Parameter" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Parameter" mixed="true">
+    <xs:sequence />
+    <xs:attribute name="Name" type="xs:string" use="required" />
+    <xs:attribute name="Min" type="xs:float" use="optional" />
+    <xs:attribute name="Value" type="xs:string" use="required" />
+    <xs:attribute name="Max" type="xs:float" use="optional" />
+    <xs:attribute name="EU" type="xs:string" use="prohibited" />
+    <xs:attribute name="ParamType" type="xs:string" use="prohibited" />
+    <xs:attribute name="Scalable" type="xs:boolean" use="prohibited" />
+  </xs:complexType>
+  <xs:complexType name="ArrayOfUnitBinding">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UnitBinding" type="UnitBinding" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="UnitBinding">
+    <xs:sequence />
+    <xs:attribute name="StepName" type="xs:string" use="required" />
+    <xs:attribute name="UnitName" type="xs:string" use="required" />
+    <xs:attribute name="Area" type="xs:string" use="prohibited" />
+  </xs:complexType>
+  <xs:complexType name="ArrayOfUnitAlias">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UnitAlias" type="UnitAlias" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="UnitAlias">
+    <xs:sequence />
+    <xs:attribute name="AliasName" type="xs:string" />
+    <xs:attribute name="UnitName" type="xs:string" />
+    <xs:attribute name="SelectionMode" type="SelectionMode" />
+  </xs:complexType>
+  <xs:simpleType name="BatchStatus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Defining" />
+      <xs:enumeration value="Defined" />
+      <xs:enumeration value="Released" />
+      <xs:enumeration value="ActiveReady" />
+      <xs:enumeration value="ActiveAborting" />
+      <xs:enumeration value="ActiveAborted" />
+      <xs:enumeration value="ActiveHolding" />
+      <xs:enumeration value="ActiveHeld" />
+      <xs:enumeration value="ActiveStopping" />
+      <xs:enumeration value="ActiveStopped" />
+      <xs:enumeration value="ActiveIdle" />
+      <xs:enumeration value="ActiveStarting" />
+      <xs:enumeration value="ActiveRestarting" />
+      <xs:enumeration value="ActiveRunning" />
+      <xs:enumeration value="ActiveComplete" />
+      <xs:enumeration value="CompleteNoError" />
+      <xs:enumeration value="ReleasedFailed" />
+      <xs:enumeration value="Closed" />
+      <xs:enumeration value="LoadFailed" />
+      <xs:enumeration value="Recovering" />
+      <xs:enumeration value="RecoverFailed" />
+      <xs:enumeration value="Lost" />
+      <xs:enumeration value="Unknown" />
+      <xs:enumeration value="Releasing" />
+      <xs:enumeration value="Starting" />
+      <xs:enumeration value="Removing" />
+      <xs:enumeration value="CompleteWithError" />
+      <xs:enumeration value="CompleteNotStarted" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ArrayOfString">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="CampaignStatus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Defining" />
+      <xs:enumeration value="Defined" />
+      <xs:enumeration value="Active" />
+      <xs:enumeration value="Complete" />
+      <xs:enumeration value="Terminated" />
+      <xs:enumeration value="Closed" />
+      <xs:enumeration value="Unknown" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ConfiguredAction">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ReleaseBatch" />
+      <xs:enumeration value="AddCampaign" />
+      <xs:enumeration value="ConfigureClient" />
+      <xs:enumeration value="RemoveCampaign" />
+      <xs:enumeration value="ModifyBatch" />
+      <xs:enumeration value="ModifyCampaign" />
+      <xs:enumeration value="RemoveBatch" />
+      <xs:enumeration value="StartBatch" />
+      <xs:enumeration value="StartClient" />
+      <xs:enumeration value="StopClient" />
+      <xs:enumeration value="UnlockCampaign" />
+      <xs:enumeration value="UserComment" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="UserInfo">
+    <xs:sequence />
+    <xs:attribute name="ConfirmerUsername" type="xs:string" use="optional" />
+    <xs:attribute name="ConfirmerPassword" type="xs:string" use="optional" />
+    <xs:attribute name="VerifierUsername" type="xs:string" use="optional" />
+    <xs:attribute name="VerifierPassword" type="xs:string" use="optional" />
+  </xs:complexType>
+  <xs:simpleType name="LockAction">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Lock" />
+      <xs:enumeration value="Unlock" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ConfiguredActionInfo">
+    <xs:sequence />
+    <xs:attribute name="ConfiguredAction" type="ConfiguredAction" use="required" />
+    <xs:attribute name="IsConfirmerRequired" type="xs:boolean" use="required" />
+    <xs:attribute name="IsVerifierRequired" type="xs:boolean" use="required" />
+  </xs:complexType>
+  <xs:complexType name="ExecRecipeInfo">
+    <xs:sequence>
+      <xs:element name="FormulaList" type="ArrayOfString" maxOccurs="1" minOccurs="1" />
+      <xs:element name="Parameters" type="ArrayOfParameter" maxOccurs="1" minOccurs="1" />
+      <xs:element name="EquipmentTrains" type="ArrayOfString" maxOccurs="1" minOccurs="1" />
+      <xs:element name="Aliases" type="ArrayOfString" maxOccurs="1" minOccurs="1" />
+      <xs:element name="Steps" type="ArrayOfString" maxOccurs="1" minOccurs="1" />
+    </xs:sequence>
+    <xs:attribute name="Name" type="xs:string" use="required" />
+    <xs:attribute name="Description" type="xs:string" use="optional" />
+    <xs:attribute name="Abstract" type="xs:string" use="optional" />
+    <xs:attribute name="Area" type="xs:string" use="optional" />
+    <xs:attribute name="Type" type="xs:string" use="optional" />
+    <xs:attribute name="ClassOrInstance" type="xs:string" use="optional" />
+    <xs:attribute name="BatchEU" type="xs:string" use="optional" />
+    <xs:attribute name="BatchRunLength" type="xs:string" use="optional" />
+    <xs:attribute name="BatchSizeDefault" type="xs:float" use="optional" />
+    <xs:attribute name="BatchSizeMin" type="xs:float" use="optional" />
+    <xs:attribute name="BatchSizeMax" type="xs:float" use="optional" />
+    <xs:attribute name="Equipment" type="xs:string" use="optional" />
+    <xs:attribute name="EquipmentTrainClass" type="xs:string" use="optional" />
+    <xs:attribute name="FileName" type="xs:string" use="optional" />
+    <xs:attribute name="MaxScaleEnforced" type="xs:boolean" use="optional" />
+    <xs:attribute name="ProductCode" type="xs:string" use="optional" />
+    <xs:attribute name="ProductName" type="xs:string" use="optional" />
+    <xs:attribute name="ProductVersion" type="xs:string" use="optional" />
+    <xs:attribute name="Released" type="xs:boolean" use="optional" />
+    <xs:attribute name="VersionNumber" type="xs:string" use="optional" />
+    <xs:attribute name="VersionDate" type="xs:dateTime" use="optional" />
+    <xs:attribute name="ValidatedAgainst" type="xs:string" use="optional" />
+    <xs:attribute name="ValidatedTime" type="xs:string" use="optional" />
+    <xs:attribute name="Author" type="xs:string" use="optional" />
+    <xs:attribute name="ApprovedBy" type="xs:string" use="optional" />
+  </xs:complexType>
+  <xs:complexType name="Units">
+    <xs:sequence>
+      <xs:element name="Unit" type="Unit" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Aliases">
+    <xs:sequence>
+      <xs:element name="Alias" type="Alias" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Unit">
+    <xs:complexContent>
+      <xs:extension base="UnitOrAlias">
+        <xs:sequence>
+          <xs:element name="DownstreamUnits" type="ArrayOfString" minOccurs="1" maxOccurs="1" />
+        </xs:sequence>
+        <xs:attribute name="Name" type="xs:string" />
+        <xs:attribute name="Class" type="xs:string" />
+        <xs:attribute name="Area" type="xs:string" />
+        <xs:attribute name="ProcessCell" type="xs:string" />
+        <xs:attribute name="MaxOwners" type="xs:int" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="Alias">
+    <xs:complexContent>
+      <xs:extension base="UnitOrAlias">
+        <xs:sequence>
+          <xs:element name="DownstreamAliases" type="ArrayOfString" maxOccurs="1" minOccurs="1" />
+        </xs:sequence>
+        <xs:attribute name="Name" type="xs:string" />
+        <xs:attribute name="UnitClass" type="xs:string" />
+        <xs:attribute name="SelectionMode" type="SelectionMode" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="UnitOrAlias" abstract="true">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:simpleType name="SelectionMode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Defer" />
+      <xs:enumeration value="Fixed" />
+      <xs:enumeration value="FromPolicy" />
+      <xs:enumeration value="DeferAndHasPolicy" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,236 @@
+LanguageName=Danish
+LanguageAuthor=Mogens H. Foder
+[Buttons]
+btDeepClean=Grundig rensning
+btFind=Søg i registret...
+btAdv=Avancerede værktøjer
+mnProcMon=Vis processer
+mnFileProc=Fil / Proces Monitor
+mnRepair=Reparer...
+mnParentDir=Åben overordnet bibliotek
+mnGotoParent=Gå til overordnet proces
+mnAction=Tilstand
+mnSwitch=Skift
+mnKill=Stop valgte proces
+mnKillDel=Stop proces og slet fil
+mnKillRen=Stop proces og omdøb fil
+mnExportProc=Eksporter liste
+btTasks=Kun opgaver
+btTop=Altid øverst
+btAppl=Installerede programmer
+mnInvalidUninstall=Ugyldige nøgler for afinstallation
+mnApplSettings=Program indstillinger
+mnServices=Servicer (Ikke-Microsoft)
+mnDrivers=Drivers (Ikke-Microsoft)
+mnTempFiles=Affald (junk filer)
+msgTempFiles=(Klik her for indstillinger)
+msgItems=Emne(r)
+btStartup=Startmenu nøgler
+btScheme=Farveskema
+btHistory=Private oplysninger
+btFavorites=Bogmærker
+btTweaks=Indstillinger: "Tweaks"
+btClean=Rens registret
+btAbout=Om ...
+btBackup=Sikkerhedskopier
+btPrint=Udskriv
+btQuit=Afslut RegSeeker
+btSelect=Vælg
+btSelectAll=Vælg alt
+btSelectRed=Vælg alle røde nøgler
+btSelectGreen=Vælg alle grønne nøgler
+btSelectService=Vælg ugyldige service nøgler
+btUnselectAll=Fravælg alt
+btInvertSel=Inverter valg
+btAction=Vælg
+btAutoClean=Rens automatisk
+btCancel=Annuller
+[Checkbox]
+ckBackup=Sikkerhedskopier før sletning!
+ckServices=Ugyldige service nøgler(eksperiment)
+[Find Panel]
+SearchFor=Søg efter:
+btSearch=Søg!
+btCleanHistory=Slet søgeresultater
+KeyTitle=Nøgler
+OptionTitle=Søgeindstillinger
+ckKeys=Nøgler
+ckValues=Værdier
+ckData=Data
+ckGroupSimilar=Gruppér ens type nøgler
+ckWholeWord=Søg på hele ord
+ckFindFile=Søg efter filer
+[File Panel]
+bBrowse=Browse...
+ckSize=Størrelse
+greater=Større end
+lesser=Mindre end
+ckDouble=Søg efter duplikatfiler
+ckHidden=Inkludér skjulte filer
+ckSystem=Inkludér systemfiler
+rSortSize=Sorter resultat efter størrelse
+rSortName=Sorter resultat efter filnavn
+cValidLnk=Valider genveje
+ckBin=Slet til papirkurv
+iLNK=Genveje (*.lnk)
+[Tweaks Panel]
+btApplyChanges=Anvend ændringer!
+btRestoreDef=Gendan standard
+TweakError=Fejl ved ændring af indstillinger, genstart venligst RegSeeker som Administrator
+TweakApplied=Indstillinger gennemført! Hvis du ikke ser en ændring, så venligst log af og genstart!
+[History Menu]
+mnExecute=Nøgler for "Kør"
+mnMapDrive=Tilslut netværksdrev
+mnURL=Internet Explorer URLs (links)
+mnFindFiles=Find filer/computere
+mnOpenFiles=Åbne filer
+mnStartMenu=Gamle startmenu nøgler
+mnStream=Slet "StreamMRU/Stream-nøgler"
+mnINDEXDAT=IE oversigt "Cookies" (Index.dat)
+[Favorites Menu]
+mnManage=Rediger bogmærker
+mnClear=Slet bogmærker
+mnRebuild=Gendan bogmærker
+mnFav=Bogmærker
+[Listbox Menu]
+mnOpen=Åbn i Regedit (eller dobbeltklik)
+mnExport=Eksporter valgte elementer
+mnAddFav=Føj til bogmærker
+mnEnableStartup=Aktiver valgte elementer
+mnDisableStartup=Deaktiver valgte elementer
+mnDelete=Slet valgte elementer
+mnExclude=Tilføj til ekskluderliste
+[File Menu]
+mnParentDir=Åbn overordnet mappe
+mnProperties=Vis filegenskaper
+mnDelFile=Slet valgte filer
+[Listbox messages]
+lbTooLong=(strengen er for lang)
+lbDefault=(standard)
+lbRefresh=F5 opdater
+lbDLL=DLL-filen eksisterer ikke
+lbFILE=Fil eller sti eksisterer ikke
+lbHELP=Hjælpefil eksisterer ikke
+lbSTARTMENU=Ugyldig Startmenu værdi
+lbEXTENSION=Udvidelse ikke anvendt
+lbFILETYPE=Filtype ikke anvendt
+lbEMPTY=Ugyldig værdi
+lbAPPPATH=Ugyldig programsti
+lbOPENWITH=Værdi "Åbn med" anvendes ikke
+lbACTIVEX=Ugyldig ActiveX/COM-nøgle (CLSID)
+lbService=Ugyldig service nøgle
+lbDate=Dato:
+lbTime=Tid:
+lbAccess=Sidst åbnet:
+lbExpire=Udløber den:
+lbCookie="Cookie" gemt! (se filen "mycookies.ini")
+[DialogBoxes]
+dbClearHistory=Slet alle bogmærker?
+dbRebuildHistory=Bemærk: Dette vil gendanne alle bogmærker til standardværdier<br>Vil du fortsætte?
+dbExportDone=Eksport udført!
+dbConfirmDelete=Slet alle valgte nøgler?
+dbConfirmDeleteService=ADVARSEL!!!<br>Du er ved at slette en service eller en driver<br><br>Er du sikker på, at du vil fortsætte?
+dbConfirmUninstall=Afinstaller valgte programmer?
+dbRegCleaner=RegSeeker vil skanne registret for at finde ugyldige nøgler:<br>ikke anvendte udvidelser, manglende filer, ugyldige referanser...<br><br>Du bør tage sikkerhedskopi af vigtige data på computeren, før der udføres ændringer i registret (fejlagtige sletninger kan skade systemet)!<br><br>Husk at markere for alternativet: "Tag sikkerhedskopi før sletning"<br>Dobbeltklik på den seneste *.reg-fil for at fortryde sletningerne<br>Klik "Start" for at fortsætte (udføres på eget ansvar!)
+dbCleanStream=Windows lagrer al information om vinduesstørrelser og placeringer i registret.<br>Fjernelse af disse nøgler vil genoprette dem til standardværdier.<br>Det kan øge arbejdshastigheden i dine mapper.<br>Bemærk: En sikkerhedskopi vil blive oprettet<br><br>Klik "OK" for at fortsætte!
+dbDeleteFile=Advarsel: Fil(er) slettes!
+dbMountPoints=Windows gemmer alle oplysninger om  "Hardware"/netværksadresser i registret.<br>Disse nøgler indeholder informationer som drev typer, ikoner, visninger o.s.v....<br>Bemærk: en sikkerhedskopi vil blive oprettet<br><br>Klik OK for at fortsætte!
+dbTempFileMsg1=Du kan med variable indstille, hvilke filer du ønsker vist i den midlertidige fil liste
+dbTempFileMsg2=Vær omhyggelig før du sletter et resultat! Brug af en forkert variabel kunne vise uønskede filer<br>F.eks.: %windir%\*.* vil vise ALLE filer i dit WINDOWS bibliotek!
+dbTempFileMsg3=Deaktiver en indstilling ved at fjerne markering for den
+addNew=Tilføj ny indstilling
+[FavDialogbox]
+mainTitle=Bogmærker
+Title1=Bogmærke navn
+Title2=Tilføj nøgle
+entername=Indsæt et navn
+btAdd=Tilføj
+btCancel=Afbryd
+btManage=Behandle...
+btModify=Ændre
+[misc]
+btExclude=Udeladelser...
+ckScanDrive=Skan drev for gamle exe-nøgler i registret
+CleanDone=Automatisk rensning færdig!
+backupname=Backup navn:
+[ExcludeDialog]
+btExAdd=Tilføj
+btExMod=Rediger
+btExDel=Slet
+btExImp=Importer
+ExItemsImport=Emner blev importeret til din eksklusions liste!
+[RestoreDialog]
+btRestore=Gendan
+btStop=Stop
+btClose=Luk
+ckViewOnly=Dobbelt-klik en sikkerhedskopi for at se indhold (Det giver ingen ændringer i registret)
+btProtect=Vis beskyttede
+[RegistryFix]
+repairtitle=Reparer Register Sikkerhed:
+ckProtected=Søg kun i beskyttede nøgler
+msgProtected=Klik Søg og RegSeeker viser kun de beskyttede nøgler. Vælg dem, du ønsker at redigere og højre-klik for at vælge Tag ejerskab. Vær FORSIGTIG! Hvis du ikke er fortrolig med register sikkerhed, så lad være med at bruge det!
+mnutakeownership=Tag ejerskab!
+securitywarn=ADVARSEL! Du er ved at ændre Register nøgle tilladelser!<br>Dette vil ændre Register nøgle ejerskab til det aktuelle brugernavn.<br><br>Hvis du føler dig usikker ved det, så venligst klik Fortryd for at lukke eller OK for at fortsætte.
+securitychange=Register Nøgle tilladelser er blevet ændret!
+[Startup]
+colName=Navn
+colPath=Sti
+colInfo=Information
+colStartup=Start
+colOther=Vis navn
+[Services]
+msAuto=Automatisk
+msAutod=Automatisk (Forsinket start)
+msDis=Deaktiveret
+msMan=Manuelt
+[ToBin]
+msToBin=Klik OK for at sende til papirkurv<br>eller Fortryd for at slette fil(er) permanent
+[Startup]
+colName=Navn
+colPath=Sti
+colInfo=Information
+colStartup=Start
+colOther=Vis navn
+[Services]
+msAuto=Automatisk
+msAutod=Automatisk (Forsinket start)
+msDis=Deaktiveret
+msMan=Manuelt
+[Junk]
+btAutoSel=Automatisk-valg
+[Chrome]
+msRunning=Chrome må lukkes for at fortsætte!<br><br>Klik OK for at lukke Chrome eller Fortryd for at fortsætte uden at lukke
+msExtens=Warning : Chrome udvidelser er synkroniserede!<br>Klik OK for at stoppe synkronisering af udvidelser og ændre status<br><br>Bemærk: du kan gen-aktivere synkronisering af udvidelser via Chrome parametre/Avancerede synkroniserings parametre
+[ApplicationList]
+msRenameEntry=Omdøb emne
+msUninstall=Afinstaller program
+msNewname=Nyt navn:
+msBackupApp=Gem sikkerhedskopi af programregister
+msExportApplist=Eksporter program liste
+[bigButton]
+btApps=Programmer og start
+btRegistry=Register
+btTools=Værktøj og system
+btPrivacy=PC rensning
+btAbout=Om
+[Subtitles]
+subApp=Programmer
+subStart=Start
+subBrowser=Browser udvidelser
+subRegistry=Register
+subFavorites=Favoritter/bogmærker
+subTools=Værktøjer
+subSystem=System information
+ckOtherDevice=Vis flere enheder
+subFileClean=Rens affald (junk filer)
+subRegClean=Rens historie (gemte data)
+[Drivers]
+ckBackDriver=Sikkerhedskopier valgt driver
+Wait=Venligst vent ...
+BackDriverDone=Sikkerhedskopi af driver udført!<br>Ønsker du at åbne rapporten?
+FileMissing=Bemærk: enkelte filer kan mangle!
+[Scripts]
+btScript=Scripts ...
+Associate=Associer .rsc extension :
+btAssoc=Associer .rsc med RegSeeker
+btRemAssoc=Fjern .rsc association

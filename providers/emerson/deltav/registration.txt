@@ -1,0 +1,26 @@
+REGISTER NOW to Receive Technical Support for your DeltaV System
+
+Registration is required to receive system support, including telephone 
+consultation, software updates, and access to technical information. The 
+registration process is completed through the following steps:
+
+1.  Assign a license to your ProfessionalPLUS station.
+
+2.  Commission your controllers.
+
+3.  Complete all workstation configurations.
+
+4.  Download the system.
+
+5.  Run the DeltaV SureService Registration utility. 
+Click Start | DeltaV | Installation | SureService Registration.  
+Follow the directions provided.
+
+
+If you purchased Foundation Service at the time of system purchase, 
+registration is still necessary to initiate the service. Foundation Service 
+is a complete product support program that provides help desk consultation, 
+remote diagnosis, software upgrades, access to on-line services, on-site 
+service referral with priority response, and optional 24-hour emergency support. 
+More information about Foundation Service and alternative service levels is 
+included in the license pack.

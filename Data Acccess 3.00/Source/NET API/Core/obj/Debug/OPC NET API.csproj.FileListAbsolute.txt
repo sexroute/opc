@@ -1,0 +1,21 @@
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\bin\Debug\OpcNetApi.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\bin\Debug\OpcNetApi.pdb
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\bin\Debug\fr\OpcNetApi.resources.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Debug\Opc.Resources.Strings.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Debug\Opc.Resources.Strings.fr.resources
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Debug\OPC NET API.csproj.GenerateResource.Cache
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Debug\fr\OpcNetApi.resources.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Debug\OpcNetApi.dll
+C:\Program Files\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Debug\OpcNetApi.pdb
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\bin\Debug\OpcNetApi.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\bin\Debug\OpcNetApi.pdb
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\bin\Debug\fr\OpcNetApi.resources.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Debug\Opc.Resources.Strings.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Debug\Opc.Resources.Strings.fr.resources
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Debug\OPC NET API.csproj.GenerateResource.Cache
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Debug\fr\OpcNetApi.resources.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Debug\OpcNetApi.dll
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\obj\Debug\OpcNetApi.pdb
+C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Core\bin\Debug\OpcNetApi.xml

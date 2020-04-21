@@ -1,0 +1,4 @@
+C:\system\projects\OPC Foundation\tools\DxpSimpleAPI_vcdotnet\DxpSimpleAPI\bin\Debug\DxpSimpleAPI.dll
+C:\system\projects\OPC Foundation\tools\DxpSimpleAPI_vcdotnet\DxpSimpleAPI\bin\Debug\DxpSimpleAPI.pdb
+C:\system\projects\OPC Foundation\tools\DxpSimpleAPI_vcdotnet\DxpSimpleAPI\obj\x86\Debug\DxpSimpleAPI.dll
+C:\system\projects\OPC Foundation\tools\DxpSimpleAPI_vcdotnet\DxpSimpleAPI\obj\x86\Debug\DxpSimpleAPI.pdb

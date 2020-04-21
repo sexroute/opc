@@ -1,0 +1,214 @@
+LanguageName=Chinese Traditional
+LanguageAuthor=Danfong Hsieh(http://zhtwnet.com/)
+[Buttons]
+btDeepClean=²`¼h²M²z
+btFind=¦bµn¿ýÀÉ¤¤´M§ä
+btAdv=¶i¶¥¤u¨ã
+mnProcMon=¶iµ{¾ÉÄý
+mnFileProc=ÀÉ®×/¶iµ{ºÊ±±
+mnRepair=­×´_...
+mnParentDir=¶}±Ò¤÷¥Ø¿ý
+mnGotoParent=²¾¦Ü¤÷¨t¶iµ{
+mnAction=°Ê§@
+mnSwitch=¤Á´«
+mnKill=§R°£©Ò¿ï¶iµ{
+mnKillDel=§R°£¶iµ{¨Ã§R°£ÀÉ®×
+mnKillRen=§R°£¶iµ{¨Ã­«·s©R¦WÀÉ®×
+mnExportProc=¶×¥X²M³æ
+btTasks=¥u¦³¤u§@
+btTop=³Ì¤W¼hÅã¥Ü
+btAppl=¤w¦w¸ËªºÀ³¥Îµ{¦¡
+mnInvalidUninstall=µL®Äªº·s¼W/²¾°£¶µ¥Ø
+mnApplSettings=À³¥Îµ{¦¡³]©w
+mnServices=ªA°È(«D·L³n)
+mnDrivers=ÅX°Êµ{¦¡(«D·L³n)
+mnTempFiles=©U§£ÀÉ
+msgTempFiles=(«ö¦¹³]©w)
+msgItems=­Ó¶µ¥Ø
+btStartup=±Ò°Ê¶µ¥Ø
+btScheme=¦â±m°t¸m
+btHistory=Áô¨pÅv
+btFavorites=§Úªº³Ì·R
+btTweaks=½Õ®Õ
+btClean=²M²zµn¿ýÀÉ
+btAbout=Ãö©ó
+btBackup=³Æ¥÷
+btPrint=¦C¦L
+btQuit=µ²§ô RegSeeker
+btSelect=¿ï¨ú
+btSelectAll=¥þ¿ï
+btSelectRed=¥þ¿ï¬õ¦â¶µ¥Ø
+btSelectGreen=¥þ¿ïºñ¦â¶µ¥Ø
+btSelectService=¿ï¨úµL®ÄªA°È
+btUnselectAll=¥þ³¡¤£¿ï
+btInvertSel=¤Ï¦V¿ï¾Ü
+btAction=°Ê§@
+btAutoClean=¦Û°Ê²M²z
+btCancel=¨ú®ø
+[Checkbox]
+ckBackup=§R°£«e¥ý³Æ¥÷
+ckServices=µL®ÄªA°È(¸ÕÅç©Ê)
+[Find Panel]
+SearchFor=·j´M:
+btSearch=·j´M!
+btCleanHistory=²M°£¾úµ{°O¿ý
+KeyTitle=¾÷½X
+OptionTitle=·j´M¿ï¶µ
+ckKeys=¾÷½X
+ckValues=­È
+ckData=¸ê®Æ
+ckGroupSimilar=¬Û¦ü¾÷½X¤À²Õ
+ckWholeWord=¥þ¦r¬Û²Å
+ckFindFile=·j´MÀÉ®×
+[File Panel]
+bBrowse=ÂsÄý...
+ckSize=¤j¤p
+greater=¤j©ó
+lesser=¤p©ó
+ckDouble=´M§ä­«½ÆÀÉ®×
+ckHidden=¥]§tÁôÂÃÀÉ
+ckSystem=¥]§t¨t²ÎÀÉ
+rSortSize=¨Ì¤j¤p±Æ§Çµ²ªG
+rSortName=¨ÌÀÉ¦W±Æ§Çµ²ªG
+cValidLnk=ÀË¬d±¶®|ªº¦³®Ä©Ê
+ckBin=§R°£¨ì¸ê·½¦^¦¬µ©
+iLNK=±¶®|(*.lnk)
+[Tweaks Panel]
+btApplyChanges=®M¥ÎÅÜ§ó
+btRestoreDef=ÁÙ­ì¦¨¹w³]­È
+TweakError=®M¥Î½Õ®Õµo¥Í¿ù»~¡A½Ð¥H¨t²ÎºÞ²z­û¨­¥÷­«·s±Ò°Ê RegSeeker
+TweakApplied=½Õ®Õ¤w®M¥Î!¦pªG±z¨S¦³¬Ý¨ìÅÜ¤Æ¡A½Ðµn¥X©Î±N±zªº¹q¸£­«·s±Ò°Ê
+[History Menu]
+mnURL=Internet Explorer ºô§}
+mnINDEXDAT=IE ¾úµ{°O¿ý§Ö¨ú Cookie(Index.dat)
+mnExecute=°õ¦æ
+mnMapDrive=³s½uºô¸ôºÏºÐ¾÷
+mnFindFiles=´M§äÀÉ®×/¹q¸£
+mnOpenFiles=¶}±ÒÀÉ®×
+mnStartMenu=ÂÂ¡u¶}©l¡v¥\¯àªí¶µ¥Ø
+mnStream=²M²z StreamMRU/Streams ¾÷½X
+[Favorites Menu]
+mnManage=ºÞ²z§Úªº³Ì·R
+mnClear=²M²z§Úªº³Ì·R
+mnRebuild=­««Ø§Úªº³Ì·R
+mnFav=§Úªº³Ì·R
+[Listbox Menu]
+mnOpen=¦bµn¿ý½s¿è¾¹¤¤¶}±Ò(©Î«ö¨â¤U)
+mnExport=¶×¥X©Ò¿ï¶µ¥Ø
+mnAddFav=¥[¨ì§Úªº³Ì·R
+mnEnableStartup=±Ò¥Î©Ò¿ï¶µ¥Ø
+mnDisableStartup=°±¥Î©Ò¿ï¶µ¥Ø
+mnDelete=§R°£©Ò¿ï¶µ¥Ø
+mnExclude=¥[¨ì±Æ°£²M³æ
+[File Menu]
+mnParentDir=¶}±Ò¤W¼h¥Ø¿ý
+mnProperties=Åã¥ÜÀÉ®×¤º®e
+mnDelFile=§R°£©Ò¿ïÀÉ®×
+[Listbox messages]
+lbTooLong=(¦r¦ê¤Óªø)
+lbDefault=(¹w³])
+lbRefresh=F5 ­«·s¾ã²z
+lbDLL=DLL ÀÉ¤£¦s¦b
+lbFILE=ÀÉ®×©Î¸ô®|¤£¦s¦b
+lbHELP=»¡©úÀÉ¤£¦s¦b
+lbSTARTMENU=¹L®Éªº¡u¶}©l¡v¥\¯àªí¶µ¥Ø
+lbEXTENSION=¥¼¨Ï¥Îªº°ÆÀÉ¦W
+lbFILETYPE=¥¼¨Ï¥ÎªºÀÉ®×Ãþ«¬
+lbEMPTY=¹L®Éªº¶µ¥Ø
+lbAPPPATH=µL®ÄªºÀ³¥Îµ{¦¡¸ô®|
+lbOPENWITH=¥¼¨Ï¥Îªº¡u¶}±ÒÀÉ®×¡v¶µ¥Ø
+lbACTIVEX=µL®Äªº ActiveX/COM ¶µ¥Ø(CLSID)
+lbService=µL®ÄªºªA°È
+lbDate=¤é´Á
+lbTime=®É¶¡
+lbAccess=¤W¦¸¦s¨ú
+lbExpire=¹L´Á©ó
+lbCookie=¤w«O¯d Cookie!(°Ñ¦Ò mycookies.ini)
+[DialogBoxes]
+dbClearHistory=²M°£©Ò¦³§Úªº³Ì·R?
+dbRebuildHistory=ª`·N:³o±N¨Ï¥Î¹w³]¶µ¥Ø­««Ø±zªº§Úªº³Ì·R<br>±z­nÄ~Äò¶Ü?
+dbExportDone=¶×¥X§¹¦¨!
+dbConfirmDelete=­n§R°£©Ò¦³©Ò¿ï¶µ¥Ø¶Ü?
+dbConfirmDeleteService=Äµ§i!!!<br>±z±N­n§R°£¤@­ÓªA°È©ÎÅX°Êµ{¦¡<br><br>½T©w­nÄ~Äò¶Ü?
+dbConfirmUninstall=­n¨ø¸ü©Ò¿ïÀ³¥Îµ{¦¡¶Ü?
+dbRegCleaner=RegSeeker ±N±½ºË±zªºµn¿ýÀÉ¡A¥H«K´M§äµL®Äªº¶µ¥Ø:<br>¥¼¨Ï¥Îªº°ÆÀÉ¦W¡B¿ò¥¢ªºÀÉ®×¡B¿ù»~ªº¤Þ¥Îµ¥...<br><br>¦b§ïÅÜ±zªºµn¿ýÀÉ¤§«e¡A±zÀ³³Æ¥÷©Ò¦³±z»{¬°­«­nªº¸ê®Æ<br>(¿ù»~ªº§R°£¥i¯à·|·l®`±zªº¨t²Î)!<br><br>½Ð½T©w±z¤w®Ö¨ú¿ï¶µ¡u§R°£«e¥ý³Æ¥÷¡v<br>­n´_­ì±z©Ò§R°£ªº³¡¤À¡A½Ð³s«ö¨â¤U³Ì«á¤@­Ó .reg ÀÉ<br><br>«ö¤@¤U [½T©w] Ä~Äò(½Ð¦Û¦æ©Ó¾á­·ÀI)
+dbCleanStream=Windows ±N©Ò¦³µøµ¡¤j¤p©M¦ì¸m¸ê°T¦s©ñ¦bµn¿ýÀÉ¤¤¡C<br>²M°£³o¨Ç¾÷½X±N§â¥¦­ÌÁÙ­ì¦¨¹w³]ª¬ºA¡C<br>¥¦¥i¥H¥[§Ö±z¦b±zªº¸ê®Æ§¨¤ºªº¾ÉÄý¡C<br>ª`·N:±N«Ø¥ß³Æ¥÷<br><br>«ö¤@¤U [½T©w] Ä~Äò!
+dbDeleteFile=Äµ§i:ÀÉ®×ÁôÂÃ!
+dbMountPoints=Windows ±N©Ò¦³¦w¸Ëªº¸Ë¸m/ºô¸ô¦a¹Ï¸ê°T¦s©ñ¦bµn¿ýÀÉ¤¤<br>³o¨Ç¾÷½X¥]§tºÏºÐÃþ«¬¡B¹Ï¥ÜÅã¥Üµ¥...¸ê°T<br>ª`·N:±N«Ø¥ß³Æ¥÷<br><br>«ö¤@¤U [½T©w] Ä~Äò!
+dbTempFileMsg1=±z¥i¥H¨Ï¥ÎÅÜ¼Æ¨Ó³]©w­nÅã¥Ü©ó¼È¦sÀÉ²M³æ¤¤ªº©Ò¦³ÀÉ®×
+dbTempFileMsg2=¦b§R°£¥ô¦óµ²ªG¤§«e½Ð¤p¤ß!¿ù»~ªºÅÜ¼Æ¨Ï¥Î¥i¯àÅã¥Ü¤£»Ý­nªºÀÉ®×<br>¨Ò¦p¡G%windir%\*.* ±NÅã¥Ü Windows ¥Ø¿ý¤¤ªº©Ò¦³ÀÉ®×
+dbTempFileMsg3=­n°±¥Î³W«h¡A¥u­n¨ú®ø¤Ä¿ï¨º­Ó³W«h§Y¥i
+addNew=¥[¤J·s³W«h
+[FavDialogbox]
+mainTitle=§Úªº³Ì·R
+Title1=§Úªº³Ì·R¦WºÙ
+Title2=­n¥[¤Jªº¾÷½X
+entername=¿é¤J¤@­Ó¦WºÙ
+btAdd=·s¼W
+btCancel=¨ú®ø
+btManage=ºÞ²z...
+btModify=­×§ï
+[misc]
+btExclude=±Æ°£...
+ckScanDrive=±½ºËºÏºÐµn¿ýÀÉ¤¤ÂÂªº exe ¶µ¥Ø
+CleanDone=¦Û°Ê²M²z§¹¦¨¡I
+backupname=³Æ¥÷¦WºÙ¡G
+[ExcludeDialog]
+btExAdd=·s¼W
+btExMod=­×§ï
+btExDel=§R°£
+btExImp=¶×¤J
+ExItemsImport=­Ó¶µ¥Ø¤w¶×¤J±zªº±Æ°£²M³æ¤¤¡I
+[RestoreDialog]
+btRestore=ÁÙ­ì
+btStop=°±¤î
+btClose=Ãö³¬
+ckViewOnly=«ö¨â¤U¶µ¥Ø¨ÓÀËµø³Æ¥÷¤º®e(¤£·|¹ïµn¿ýÀÉ¶i¦æÅÜ§ó)
+btProtect=Åã¥Ü¤w«OÅ@
+[RegistryFix]
+repairtitle=­×´_µn¿ýÀÉ¦w¥þ©Ê¡G
+ckProtected=¶È·j´M¨ü«OÅ@ªº¾÷½X
+msgProtected=«ö¤U [·j´M] «á¡ARegSeeker ±N¶ÈÅã¥Ü¨ü«OÅ@ªº¾÷½X¡A¿ï¨ú±z·Q­×§ïªº¾÷½X¨Ã«ö·Æ¹«¥kÁä¿ï¾Ü¨ú±o©Ò¦³Åv¡C¤p¤ß!­Y±z¤£¤F¸Ñµn¿ýÀÉ¦w¥þ©Ê½Ð¤Å¨Ï¥Î!
+mnutakeownership=¨ú±o©Ò¦³Åv!
+securitywarn=Äµ§i!±z§Y±NÅÜ§óµn¿ýÀÉ¾÷½XÅv­­!<br>³o±N·|§âµn¿ýÀÉ¾÷½Xªº©Ò¦³ÅvÅÜ§ó¬°±z¥Ø«eªº¨Ï¥ÎªÌ¦WºÙ¡C<br><br>¦pªG±z¹ï³o¼Ë°µ¨S¦³«H¤ß¡A½Ð«ö¤@¤U [¨ú®ø] µ²§ô©Î [½T©w] Ä~Äò¡C
+securitychange=µn¿ýÀÉ¾÷½XÅv­­¤wÅÜ§ó!
+[Startup]
+colName=¦WºÙ
+colPath=¸ô®|
+colInfo=¸ê°T
+colStartup=±Ò°Ê
+colOther=Åã¥Ü¦WºÙ
+[Services]
+msAuto=¦Û°Ê
+msAutod=¦Û°Ê(©µ¿ð±Ò°Ê)
+msDis=°±¥Î
+msMan=¤â°Ê
+[ToBin]
+msToBin=«ö¤@¤U [½T©w] ¶Ç°e¨ì¸ê·½¦^¦¬µ©<br>©Î [¨ú®ø] ¥Ã¤[§R°£ÀÉ®×
+[Startup]
+colName=¦WºÙ
+colPath=¸ô®|
+colInfo=¸ê°T
+colStartup=±Ò°Ê
+colOther=Åã¥Ü¦WºÙ
+[Services]
+msAuto=¦Û°Ê
+msAutod=¦Û°Ê(©µ¿ð±Ò°Ê)
+msDis=°±¥Î
+msMan=¤â°Ê
+[Junk]
+btAutoSel=¦Û°Ê¿ï¨ú
+[Chrome]
+msRunning=Ä~Äò«e«ØÄ³Ãö³¬ Chrome!<br><br>«ö¤@¤U [½T©w] Ãö³¬ Chrome ©Î [¨ú®ø] Ä~Äò¦Ó¤£¥ÎÃö³¬
+msExtens=Äµ§i:Chrome ÂX¥R®M¥ó¤w¦P¨B¤Æ!<br>«ö¤@¤U [½T©w] °±¤îÂX¥R®M¥ó¦P¨B¨ÃÅÜ§óª¬ºA<br><br>ª`·N:±z¥i¥H³z¹L Chrome ³]©w/¶i¶¥¦P¨B³B²z³]©w­«·s±Ò¥ÎÂX¥R®M¥ó¦P¨B³B²z
+[ApplicationList]
+msRenameEntry=­«·s©R¦W¶µ¥Ø
+msUninstall=¨ø¸üÀ³¥Îµ{¦¡
+msNewname=·sªº¦WºÙ:
+msBackupApp=³Æ¥÷À³¥Îµ{¦¡µn¿ýÀÉ
+msExportApplist=¶×¥XÀ³¥Îµ{¦¡²M³æ
+[Drivers]
+ckBackDriver=Backup selected driver
+Wait=Veuillez patienter ...
+BackDriverDone=Le pilote a été sauvegardé !<br>Voulez-vous ouvrir le rapport ?
+FileMissing=Note : des fichiers n'ont pu être copiés !

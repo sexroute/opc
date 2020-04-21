@@ -1,0 +1,217 @@
+LanguageName=Indonesian
+LanguageAuthor=Hasbullah @ The GgSETIA\SetDATA IMG.
+;Indonesian Translation: Hasbullah, support@transuci.tk
+;Translate Version 1.05
+[Buttons]
+btDeepClean=Deep cleaning
+btFind=Cari di registri ...
+btAdv=Advanced Tools
+mnProcMon=Process Navigator
+mnFileProc=File / Process Monitor
+mnRepair=Repair...
+mnParentDir=Open Parent directory
+mnGotoParent=Go to Parent process
+mnAction=Action
+mnSwitch=Switch
+mnKill=Kill selected process
+mnKillDel=Kill process and Delete file
+mnExportProc=Export list
+btTasks=Tasks only
+btTop=Always on top
+btAppl=Aplikasi terinstal
+mnInvalidUninstall=Invalid Add/Remove entries
+mnApplSettings=Applications Settings
+mnServices=Services (Non-Microsoft)
+mnDrivers=Drivers (Non-Microsoft)
+mnTempFiles=Temporary files
+msgTempFiles=(Click here to configure)
+msgItems=Item(s)
+btStartup=Masukan "Startup"
+btScheme=Warna
+btHistory=Histori ...
+btFavorites=Favorit ...
+btTweaks="Tweak"
+btClean=Bersihkan registri
+btAbout=Tentang ...
+btBackup="Backup"
+btPrint=Print
+btQuit=Keluar RegSeeker
+btSelectAll=Pilih semua
+btSelectRed=Select all Red items
+btSelectGreen=Select all Green items
+btUnselectAll=Tidak pilih semua
+btInvertSel=Pilih kebalikan
+btSelect=Select
+btAction=Action
+btSelectService=Select Invalid Services
+[Checkbox]
+ckBackup="Backup" dulu
+ckServices=Invalid Services (experimental)
+[Find Panel]
+SearchFor=Cari kata :
+btSearch=Cari !
+btCleanHistory=Bersihkan histori pencarian
+KeyTitle="Keys"
+OptionTitle=Pilihan pencarian
+ckKeys="Keys"
+ckValues="Values"
+ckData="Data"
+ckGroupSimilar=Grupkan "Keys" yang sama
+ckWholeWord=Hanya kata yang sesuai
+ckFindFile=Search Files
+[File Panel]
+bBrowse=Browse ...
+ckSize=Size :
+greater=Greater than
+lesser=Lesser than
+ckDouble=Find for duplicate files
+ckHidden=Include hidden files
+ckSystem=Include system files
+rSortSize=Sort result by Size
+rSortName=Sort result by Filename
+cValidLnk=Check shortcuts validity
+ckBin=Delete to Recycle Bin
+iLNK=Shortcuts (*.lnk)
+[Tweaks Panel]
+btRestoreDef=Restore default
+btApplyChanges=Terapkan !
+TweakError=Error applying tweak, please restart RegSeeker as Administrator
+TweakApplied=Tweak applied ! If you see no change, please logoff or restart your computer
+[History Menu]
+mnURL=URL Internet Explorer
+mnINDEXDAT=IE History Cache Cookies (Index.dat)
+mnExecute=Program yang telah dijalankan
+mnMapDrive=Peta drive jaringan
+mnFindFiles=Hasil pencarian "file"/komputer
+mnOpenFiles="File" yang sudah dibuka
+mnStartMenu=Item menu "Start" lama
+mnStream=Clean StreamMRU/Streams keys
+[Favorites Menu]
+mnManage=Atur Favorit
+mnClear=Bersihkan favorit
+mnRebuild=Atur kembali favorit
+mnFav=Favorit
+[Listbox Menu]
+mnOpen=Buka dalam Regedit (atau klik-ganda)
+mnExport=Ekspor item terpilih
+mnAddFav=Tambahkan ke favorit
+mnEnableStartup=Aktifkan masukan terpilih
+mnDisableStartup=Non-aktifkan masukan terpilih
+mnDelete=Hapus item terpilih
+mnExclude=Add to exclusion list
+[File Menu]
+mnParentDir=Open parent directory
+mnProperties=Display file properties
+mnDelFile=Delete selected files
+[Listbox messages]
+lbTooLong=("string" terlalu panjang)
+lbDefault=("default")
+lbRefresh=F5 "refresh"
+lbDLL="File" DLL tidak ada
+lbFILE="File" atau "Path" tidak ada
+lbHELP="File" bantuan tidak ada
+lbSTARTMENU="Obsolete item Start Menu"
+lbEXTENSION=Ekstensi tidak terpakai
+lbFILETYPE=Tipe "file" tidak terpakai
+lbEMPTY="Obsolete entry"
+lbAPPPATH=Salah "path" aplikasi
+lbOPENWITH=Masukan "Open with" tidak terpakai
+lbDate=Tanggal :
+lbTime=Jam :
+lbAccess=Terakhir diakses :
+lbExpire=Ekspair pada :
+lbCookie=Cookie keeped ! (see mycookies.ini file)
+[DialogBoxes]
+dbClearHistory=Bersihkan semua favorit ?
+dbRebuildHistory=Perhatian : Ini akan membuat favorit anda jadi masukan "default"<br>Ingin diproses ?
+dbExportDone=Ekspor selesai !
+dbConfirmDelete=Hapus semua item terpilih ?
+dbConfirmDeleteService=WARNING !!!<br>You are going to delete a Service or a Driver<br><br>Are you sure you want to continue?
+dbConfirmUninstall="Uninstall" aplikasi terpilih ?
+dbRegCleaner=RegSeeker akan men"scan" registri untuk mencari masukan yang salah :<br>ekstensi yang tidak terpakai, "file" yang hilang, referensi yang salah ...<br><br>Anda sebaiknya mem"backup" data penting dikomputer sebelum membuat<br>perubahan di registri (kesalahan hapus akan merusak sistem) !<br><br>Pastikan ceklis opsi 'Backup dulu'<br>Untuk mengembalikan hasil yang terhapus, klik ganda "file" *.reg terakhir<br><br>Klik OK untuk memproses (resiko anda yang menanggung)
+dbCleanStream=Windows is storing all window size and location informations inside the registry.<br>Cleaning those keys will restore them to default.<br>It can speed up your navigation inside your folders.<br>Note : a backup will be made<br><br>Click OK to proceed !
+dbDeleteFile=Warning : File(s) suppression !
+dbMountPoints=Windows is storing all mounted devices/network maps informations inside the registry.<br>Those keys contains informations like drive type, icons display etc...<br>Note : a backup will be made<br><br>Click OK to proceed !
+dbTempFileMsg1=You can configure all the files you want to display in your Temporary File list using variables
+dbTempFileMsg2=Be careful before deleting any result ! A bad variable usage could display unwanted files<br>For ex: %windir%\*.* will display all your files inside your Windows directory
+dbTempFileMsg3=To comment a line, just add a # in front of it
+addNew=Add new rule
+[FavDialogbox]
+mainTitle=Favorit
+Title1=Nama Favorit
+Title2="Key" untuk dimasukkan
+entername=Masukkan nama
+btAdd=Tambahkan
+btCancel=Batal
+btManage=Atur ...
+btModify=Modifikasi
+[misc]
+btExclude=Exclusions ...
+ckScanDrive=Scan Drives for old exe entries in registry
+CleanDone=Auto Clean was done !
+backupname=Backup Name :
+[ExcludeDialog]
+btExAdd=Add
+btExMod=Modify
+btExDel=Delete
+btExImp=Import
+ExItemsImport=Item(s) were imported inside your Exclusion list !
+[RestoreDialog]
+btRestore=Restore
+btStop=Stop
+btClose=Close
+ckViewOnly=Double-click an entry to view a backup content (No changes done to the Registry)
+btProtect=Show Protected
+[RegistryFix]
+repairtitle=Fix Registry Security :
+ckProtected=Search Protected Keys only
+msgProtected=Click Search and RegSeeker will display the protected keys only. Select the ones you want to modify and right-click to choose Take Ownership. Be CAREFUL ! if you're not confident with registry security, do not use !
+mnutakeownership=Take Ownership !
+securitywarn=WARNING ! You are about to change Registry Key permission !<br>This will change the registry key ownership to your current username.<br><br>If you are not confident doing this, please click NO to Exit or click OK to Proceed.
+securitychange=Registry Key permission have been changed !
+[Startup]
+colName=Name
+colPath=Path
+colInfo=Information
+colStartup=Startup
+colOther=Display Name
+[Services]
+msAuto=Automatic
+msAutod=Automatic (Delayed Start)
+msDis=Disabled
+msMan=Manual
+[ToBin]
+msToBin=Click OK to send to recycle bin<br>or Cancel to permanently delete the file(s)
+[Junk]
+btAutoSel=Auto-select
+[Chrome]
+msRunning=It is recommended to close Chrome before continuing !<br><br>Click OK to close Chrome or Cancel to continue without closing
+msExtens=Warning : Chrome extensions are synchronized !<br>Click ok to stop extensions synchronization and change status<br><br>Note : you can re-enable extension synchronization via Chrome parameters/Advanced synchronization parameters
+[ApplicationList]
+msRenameEntry=Rename entry
+msUninstall=Uninstall Application
+msNewname=New name :
+msBackupApp=Backup application registry
+msExportApplist=Export application list
+[bigButton]
+btApps=Applications and startup
+btRegistry=Registry
+btTools=Tools and system
+btPrivacy=Computer cleaning
+btAbout=About
+[Subtitles]
+subApp=Applications
+subStart=Startup
+subBrowser=Browser extensions
+subRegistry=Registry
+subFavorites=Favorites
+subTools=Tools
+subSystem=System information
+ckOtherDevice=View additional devices
+subFileClean=Junk files cleaning
+subRegClean=History cleaning
+[Drivers]
+ckBackDriver=Backup selected driver
+Wait=Veuillez patienter ...
+BackDriverDone=Le pilote a été sauvegardé !<br>Voulez-vous ouvrir le rapport ?
+FileMissing=Note : des fichiers n'ont pu être copiés !

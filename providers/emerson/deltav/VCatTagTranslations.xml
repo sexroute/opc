@@ -1,0 +1,1306 @@
+<VCatTagTranslations>	
+<!--
+
+Currently the tag name corresponds to an XML tag in the VCAT history. The 
+textual value of the flag indicates the value the user will see for the that
+tag on a textual view or difference. This can be an more verbose value or 
+translated to another language. In general the translated text looks something 
+as follows,
+			
+	BEGIN tagValue 
+		anotherTagValue = xmlHistoryValue
+		moreTagValue = xmlHistoryValue
+	END tagValue
+
+	Additionally several xml attributes are defined to identify the format of
+	the output text upon translation.
+
+  Name      Value                   Description
+  =============================================================================
+  type      block                   begin a new block, ie) indent another level
+            boolean                 put true into to translated value.
+            bockwithValue           begin a new block, and we have a value.
+            ignore                  don't write any value for the tag.
+            valuepluseq             put value plus = sign
+            valueonly               not label for tag only xml histories value.
+			comment					type comment will have text inside "/*....*/"
+									giving an appearance of C++ comments.
+			
+  cosmetic  NA                      Defines tag as cosmetic for graphical 
+                                    differnces. Deltas under this tag are
+                                    ignored when cometics is not checked.
+
+  positional NA                     Defines tag as positional for graphical 
+                                    differnces. Deltas under this tag are
+                                    ignored when positional is not checked.
+
+	Also, if a block has a 'name' attribute we put in the BEGIN key word in the 
+	new block. 
+
+	Final Note: This file can be edited without recompiling code to correct formating
+	problems, language translations as well as to add any tag ommitted.
+-->
+	<!-- *** History Data Point Tags*** -->
+	<HistoryCollection type="block">History Collection</HistoryCollection>
+	<HistoryDataPoint type="block">History Data Point</HistoryDataPoint>
+	<HistoryField>Field</HistoryField>
+	<HistoryEnabled>Enabled</HistoryEnabled>
+	<HistoryInstanceCollection>History Instance Collection</HistoryInstanceCollection>
+	<DataCharacteristic>Data Characteristic</DataCharacteristic>
+	<DisplayRepresentation>Display Representation</DisplayRepresentation>
+	<SampleRate>Sample Rate</SampleRate>
+	<CompressionEnabled>Compression Enabled</CompressionEnabled>
+	<RecordAtLeastMintues>Record at least every (min)</RecordAtLeastMintues>
+	<DeviationLimitForCompression>Deviation Limit For Compression</DeviationLimitForCompression>
+	<HistorianType>Historian Type</HistorianType>
+	<MaximumHistorianSize>Maximum Historian Size</MaximumHistorianSize>
+	<MaximumHistorianTimeSpanEnabled>Maximum Historian Time Span Enabled</MaximumHistorianTimeSpanEnabled>
+	<MaximumHistorianTimeSpan>Maximum Historian Time Span</MaximumHistorianTimeSpan>
+	<DataSetSize>Dataset Size</DataSetSize>
+	<HistorianRollOverEnabled>Historian Roll-Over Enabled</HistorianRollOverEnabled>
+	<DataSetTimeSpan>Data Set Time Span</DataSetTimeSpan>
+	<HistorianExportEnabled>Historian Export Enabled</HistorianExportEnabled>
+	<HistorianExportDirectory>Historian Export Directory</HistorianExportDirectory>
+  <EnterpriseCollection type="boolean">Enterprise Collection Enabled</EnterpriseCollection>
+
+	<Area>Area</Area>
+
+	<AreaEquipmentPath type="comment">AreaEquipmentPath</AreaEquipmentPath>
+	<UnitModuleEquipmentPath type="comment">UnitModuleEquipmentPath</UnitModuleEquipmentPath>
+	<ProcessCellEquipmentPath type="comment">ProcessCellEquipmentPath</ProcessCellEquipmentPath>
+	<RecipePath type="comment">RecipePath</RecipePath>
+	<ModuleEquipmentPath type="comment">Module</ModuleEquipmentPath>
+
+
+	<Bottom>Bottom</Bottom>
+	<CV>CV</CV>
+	<Description>Description</Description>
+	<Fields type="block">Fields</Fields>
+	<Label type="valuePlusEq">Label</Label>
+	<Left>Left</Left>
+	<Right>Right</Right>
+	<ST>Status</ST>
+	<Top>Top</Top>
+	<Usage>Usage</Usage>
+	<Value type="valueOnly">Value</Value>
+
+	<ArbEquipLst type="block">Arbitration Equipment Needed</ArbEquipLst>
+	<ArbEquipName>Equipment Name</ArbEquipName>
+
+	<Simulated type="boolean">Simulated</Simulated>
+	<DownLoad  type="boolean">DownLoad</DownLoad>
+
+	<EnumSet>Enumeration Set</EnumSet>
+	<Mode>Mode</Mode>
+	<AutoAllow>AUTO mode - allowed</AutoAllow>
+	<AutoPerm>AUTO mode - permitted</AutoPerm>
+	<CascadeAllow>CAS mode - allowed</CascadeAllow>
+	<CascadePerm>CAS mode - permitted</CascadePerm>
+	<IManualAllow>IMAN mode - allowed</IManualAllow>
+	<IManualPerm>IMAN mode - permitted</IManualPerm>
+	<LocalOverrideAllow>LO mode - allowed</LocalOverrideAllow>
+	<LocalOverridePerm>LO mode - permitted</LocalOverridePerm>
+	<ManualAllow>MAN mode - allowed</ManualAllow>
+	<ManualPerm>MAN mode - permitted</ManualPerm>
+	<OutofServiceAllow>OOS mode - allowed</OutofServiceAllow>
+	<OutofServicePerm>OOS mode - permitted</OutofServicePerm>
+	<RemCascadeAllow>RCAS mode - allowed</RemCascadeAllow>
+	<RemCascadePerm>RCAS mode - permitted</RemCascadePerm>
+	<RemOutputAllow>ROUT mode - allowed</RemOutputAllow>
+	<RemOutputPerm>ROUT mode - permitted</RemOutputPerm>
+
+	<Alarm type="block">Alarm</Alarm>
+	<AlarmCat type="boolean">Alarm</AlarmCat>
+	<AlarmIdentify>Alarm Identify</AlarmIdentify>
+	<AreaNumber>Area Number</AreaNumber>
+	<AreaRef>Area Reference</AreaRef>
+	<AreaRefs type="block">Area References</AreaRefs>
+	<AssignedSignaturePolicy>Assigned Signature Policy</AssignedSignaturePolicy>
+	<AttrPath>Attribute Path</AttrPath>
+	<AttrRef>Attribute Reference</AttrRef>
+	<AttrType type="ignore">Attribute Type</AttrType>
+	<Exposed type="boolean">Exposed </Exposed>
+	<ExposedPath>Exposed Name</ExposedPath>
+	
+	<Author>Author</Author>
+	<Box cosmetic="">Box</Box>
+	<Card>Card</Card>
+	<CardName>Card Name</CardName>
+	<CardType>Card Type</CardType>
+	<Categories type="block">Categories</Categories>
+	<Category>Category</Category>
+	<Channel>Channel</Channel>
+	<ChanEnabled type="boolean">Channel Enabled</ChanEnabled>
+	<ChanSlotNumber>Channel Slot Number</ChanSlotNumber>
+	<ChanType>Channel Type</ChanType>
+	<Coordinate>Coordinate</Coordinate>
+	<Coordinates positional="">Coordinates</Coordinates>
+	<DocumentSize>Document Size</DocumentSize>
+	<EngineeringUnits>Engineering Units</EngineeringUnits>
+	<EngineeringUnit type="block">Engineering Unit</EngineeringUnit>
+	<EngineeringUnitName>Unit Name</EngineeringUnitName>
+	<Enumeration>Enumeration</Enumeration>
+	<EnumSetName>Enum Set Name</EnumSetName>
+	<EnumState>Enum State</EnumState>
+	<EU0>EU0</EU0>
+	<EU100>EU100</EU100>
+	<FBWire>Function Block Wire</FBWire>
+	<Field type="block">Field</Field>
+	<FieldName>Field Name</FieldName>
+	<FromPath type="block">From Path</FromPath>
+	<FromStep type="boolean">From Step</FromStep>
+	<FullPath>Full Path</FullPath>
+	<FunctionBlock>Function Block</FunctionBlock>
+	<FunctionName>Function Name</FunctionName>
+	<IORef type="boolean">IO Reference</IORef>
+	<IsEditable type="boolean">Is Editable</IsEditable>
+	<IsInput type="boolean">Is Input</IsInput>
+	<LastModifyComment>Last Modify Comment</LastModifyComment>
+	<LineStyle>Line Style</LineStyle>
+	<LineWidth>Line Width</LineWidth>
+	<ModDate>Modify Date</ModDate>
+	<ModTime>Modify Time</ModTime>
+	<ModType>Module Type</ModType>
+	<Module>Module</Module>
+	<ModuleClass>Module Class</ModuleClass>
+	<ModuleInstance>Module Instance</ModuleInstance>
+	<ModUser>Modify User</ModUser>
+	<ModuleName>Module Name</ModuleName>
+	<Name>Name</Name>
+	<NeedsInstalling>Needs Installing</NeedsInstalling>
+	<Node>Node</Node>
+	<NodeName>Node Name</NodeName>
+	<NodeAssignment type="comment">Node Assignment</NodeAssignment>
+	<NodeID>Node ID</NodeID>
+	<NodeType>Node Type</NodeType>
+	<NotHidden>Not Hidden</NotHidden>
+	<Parameter type="block">Parameter</Parameter>
+	<ParameterName>Parameter Name</ParameterName>
+	<ParamID>Parameter ID</ParamID>
+	<ParamName>Parameter Name</ParamName>
+	<PhaseLogicModuleRef>Plase Logic Module Reference</PhaseLogicModuleRef>
+	<PlantAreaName>Plant Area Name</PlantAreaName>
+	<PortType>Port Type</PortType>
+	<PrimIPAddr>Primary IP Address</PrimIPAddr>
+	<PrimMACAddr>Primary MAC Address</PrimMACAddr>
+	<PrimMask>Primary Mask</PrimMask>
+	<Procedure>Procedure</Procedure>
+	<Rectangle positional="" type="block">Rectangle</Rectangle>
+	<RefNum>Reference Number</RefNum>
+	<ScanMultiplier>Scan Multiplier</ScanMultiplier>
+	<ScanRate>Scan Rate</ScanRate>
+	<SecIPAddr>Secondary IP Address</SecIPAddr>
+	<SecMACAddr>Secondary MAC Address</SecMACAddr>
+	<SecMask>Secondary Mask</SecMask>
+	<SFC>Sequential Function Chart</SFC>
+	<SFCFromPath>SFC From Path</SFCFromPath>
+	<SFCToPath>SFC To Path</SFCToPath>
+	<SFCWire>SFC Wire</SFCWire>
+	<SlotNumber>Slot Number</SlotNumber>
+	<StartStep type="boolean">Start Step</StartStep>
+	<SSTATUS>SSTATUS</SSTATUS>
+	<Step>Step</Step>
+	<String>String</String>
+	<SVALUE>SVALUE</SVALUE>
+	<TagClass>Tag Class</TagClass>
+	<TagName>Tag Name</TagName>
+	<TARGET>TARGET</TARGET>
+	<ToPath type="block">To Path</ToPath>
+	<Transition>Transition</Transition>
+	<Type>Type</Type>
+	<UnitClass>Unit Class</UnitClass>
+	<UnitDef>Unit Definition</UnitDef>
+	<UnitTag>Unit Tag</UnitTag>
+	<VcData type="ignore">VcData</VcData>
+	<VersionDate>Version Date</VersionDate>
+	<VersionNumber>Version Number</VersionNumber>
+
+	<_0x0>0x0</_0x0>
+	<_0x0_IN_IN_IN_IN>0x0 IN IN IN IN</_0x0_IN_IN_IN_IN>
+	<_0x1>0x1</_0x1>
+	<_0x1_IN_IN_IN_OUT>0x1 IN IN IN OUT</_0x1_IN_IN_IN_OUT>
+	<_0x2>0x2</_0x2>
+	<_0x2_IN_IN_IN_IO>0x2 IN IN IN IO</_0x2_IN_IN_IN_IO>
+	<_0x3>0x3</_0x3>
+	<_0x3_IN_IN_OUT_OUT>0x3 IN IN OUT OUT</_0x3_IN_IN_OUT_OUT>
+	<_0x4>0x4</_0x4>
+	<_0x4_IN_IN_IO_IO>0x4 IN IN IO IO</_0x4_IN_IN_IO_IO>
+	<_0x5>0x5</_0x5>
+	<_0x5_IN_OUT_OUT_OUT>0x5 IN OUT OUT OUT</_0x5_IN_OUT_OUT_OUT>
+	<_0x6>0x6</_0x6>
+	<_0x6_IN_IO_IO_IO>0x6 IN IO IO IO</_0x6_IN_IO_IO_IO>
+	<_0x7>0x7</_0x7>
+	<_0x7_IO_IO_IO_IO>0x7 IO IO IO IO</_0x7_IO_IO_IO_IO>
+	<_0x8>0x8</_0x8>
+	<_0x8_OUT_OUT_OUT_OUT>0x8 OUT OUT OUT OUT</_0x8_OUT_OUT_OUT_OUT>
+	<_0x9>0x9</_0x9>
+	<_0x9_OUT_OUT_OUT_IN>0x9 OUT OUT OUT IN</_0x9_OUT_OUT_OUT_IN>
+	<_0xA>0xA</_0xA>
+	<_0xA_OUT_OUT_OUT_IO>0xA OUT OUT OUT IO</_0xA_OUT_OUT_OUT_IO>
+	<_0xB>0xB</_0xB>
+	<_0xB_OUT_OUT_IN_IN>0xB OUT OUT IN IN</_0xB_OUT_OUT_IN_IN>
+	<_0xC>0xC</_0xC>
+	<_0xC_OUT_OUT_IO_IO>0xC OUT OUT IO IO</_0xC_OUT_OUT_IO_IO>
+	<_0xD>0xD</_0xD>
+	<_0xD_OUT_IN_IN_IN>0xD OUT IN IN IN</_0xD_OUT_IN_IN_IN>
+	<_0xE>0xE</_0xE>
+	<_0xE_OUT_IO_IO_IO>0xE OUT IO IO IO</_0xE_OUT_IO_IO_IO>
+	<_0xF>0xF</_0xF>
+	<_0xF_TRI_TRI_TRI_TRI>0xF TRI TRI TRI TRI</_0xF_TRI_TRI_TRI_TRI>
+	<_100MS>100 milliseconds</_100MS>
+	<_10Sec>10 seconds</_10Sec>
+	<_1Sec>1 second</_1Sec>
+	<_200MS>200 milliseconds</_200MS>
+	<_2Sec>2 seconds</_2Sec>
+	<_30Sec>30 seconds</_30Sec>
+	<_500MS>500 milliseconds</_500MS>
+	<_50MS>50 milliseconds</_50MS>
+	<_5Sec>5 seconds</_5Sec>
+	<_60Sec>60 seconds</_60Sec>
+	<_PreserveCriticalValues>Preserve Critical Block Values</_PreserveCriticalValues>
+	<_PreserveOnlineValues>Preserve User-defined And Critical Values</_PreserveOnlineValues>
+	<_UseConfigured>Use Configured Values</_UseConfigured>	
+	<_Defer>Defer</_Defer>
+	<_Fixed>Fixed</_Fixed>
+	<ACNNumber>ACN Number</ACNNumber>
+	<MulticastAddress>Multicast Address</MulticastAddress>
+	<ASIDevTypeIDCode>ASI Device ID Code</ASIDevTypeIDCode>
+	<ASIDevTypeIOConfig>ASI Device IO Configuration</ASIDevTypeIOConfig>
+	<ASIDevTypeInputEnabled type="boolean">ASI Device Input Enabled</ASIDevTypeInputEnabled>
+	<ASIDevTypeInputName>ASI Device Input Name</ASIDevTypeInputName>
+	<ASIDevTypeNumberOfParams>ASI Device Number of Parameters</ASIDevTypeNumberOfParams>
+	<ASIDevTypeOutputEnabled type="boolean">ASI Device Output Enabled</ASIDevTypeOutputEnabled>
+	<ASIDevTypeOutputName>ASI Device Output Name</ASIDevTypeOutputName>
+	<ASIDevTypeParamEnabled type="boolean">ASI Device Parameter Enabled</ASIDevTypeParamEnabled>
+	<ASIDevTypeParamName>ASI Device Parameter Name</ASIDevTypeParamName>
+	<ASIDevTypeProfile>ASI Device Profile</ASIDevTypeProfile>
+	<ASIDevice>ASI Device</ASIDevice>
+	<ASIDeviceType>ASI Device Type</ASIDeviceType>
+	<ASIDiscreteIO>ASI Discrete IO</ASIDiscreteIO>
+	<ASIPort>ASI Port</ASIPort>
+	<ASIPortAutoAddrEnable type="boolean">ASI Port Automatic Address Enable</ASIPortAutoAddrEnable>
+	<ASIPortEnabled type="boolean">ASI Port Enabled</ASIPortEnabled>
+	<ASIPortFailAction>ASI Port Failed Action</ASIPortFailAction>
+	<ASIDevTypeInput type ="block">ASI Device Type Input</ASIDevTypeInput>
+	<ASIDevTypeOutput type ="block">ASI Device Type Output</ASIDevTypeOutput>
+	<ASIParam type ="block">ASI Param</ASIParam>
+	<ASIParamEnabled type="boolean">ASI Param Enabled</ASIParamEnabled>
+
+	<Abstract>Abstract</Abstract>
+	<AcnNetwork>ACN Network</AcnNetwork>
+	<ACT1IN>ACT1IN</ACT1IN>
+	<ACT1OUT>ACT1OUT</ACT1OUT>
+	<ACT2IN>ACT2IN</ACT2IN>
+	<ACT2OUT>ACT2OUT</ACT2OUT>
+	<Action>Action</Action>
+	<ActionDelay>Action Delay</ActionDelay>
+	<ActionExpression>Action Expression</ActionExpression>
+	<ActionQualifier>Action Qualifier</ActionQualifier>
+	<ActionText>Action Text</ActionText>
+	<ActionType>Action Type</ActionType>
+	<Addr>Address</Addr>
+	<Address>Address</Address>
+	<Addrs type="block">Available Fieldbus Addresses</Addrs>
+	<Advanced type="boolean">Advanced</Advanced>
+	<AlarmAttr>Alarm Attribute</AlarmAttr>
+	<AlarmEnabled type="boolean">Alarm Enabled</AlarmEnabled>
+	<AlarmMsg>Alarm Message</AlarmMsg>
+	<AlarmMsgAttr1>Alarm Message Attribute 1</AlarmMsgAttr1>
+	<AlarmMsgAttr2>Alarm Message Attribute 2</AlarmMsgAttr2>
+	<AlarmStandard type="boolean">Standard Alarm</AlarmStandard>
+	<AlarmType>Alarm Type</AlarmType>
+	<Alias type="boolean">Alias</Alias>
+	<AliasPurpose>Alias Purpose</AliasPurpose>
+	<AliasBinding>Alias Binding</AliasBinding>
+	<AlgoType>Algorithm Type</AlgoType>
+	<AlgorithmType>Algorithm Type</AlgorithmType>
+	<AllowedRepairTime>Allowed Repair Time</AllowedRepairTime>
+	<ApprovedBy>Approved By</ApprovedBy>
+	<AreaEquipmentPath>Area Equipment Path</AreaEquipmentPath>
+	<ArrowStyle>Arrow Style</ArrowStyle>
+	<Art>Art</Art>
+	<AsgnWorkstation>Assign Workstation</AsgnWorkstation>
+	<AssignedCount>Assigned Count</AssignedCount>
+	<AssignedModules>Assigned Modules</AssignedModules>
+	<AssocPhases>Associated Phases</AssocPhases>
+	<AssocPhasesCount>Associated Phases Count</AssocPhasesCount>
+	<AttrConnectionType>Attribute Connection Type</AttrConnectionType>
+	<AttrGroupName>Attribute Group Name</AttrGroupName>
+	<AttrHasAlarms type="boolean">Attribute Has Alarms</AttrHasAlarms>
+	<AttrOrigin>Attribute Origin</AttrOrigin>
+	<AttrSecurity type="block">Attribute Security</AttrSecurity>
+	<AttrTypeAlarm type="block">Attr Type = Alarm</AttrTypeAlarm>
+	<AttrTypeAlarmDiscrete type="block">Attr Type = Alarm Discrete</AttrTypeAlarmDiscrete>
+	<AttrTypeAlarmFloat type="block">Attr Type = Alarm Float</AttrTypeAlarmFloat>
+	<AttrTypeAlarmList type="block">Attr Type = Alarm List</AttrTypeAlarmList>
+	<AttrTypeAliasValue type="block">Attr Type = Alias Value</AttrTypeAliasValue>
+	<AttrTypeBatchInteger type="block">Attr Type = Batch Integer</AttrTypeBatchInteger>
+	<AttrTypeBatchReal type="block">Attr Type = Batch Real</AttrTypeBatchReal>
+	<AttrTypeBatchReportInteger type="block">Attr Type = Batch Report Integer</AttrTypeBatchReportInteger>
+	<AttrTypeBatchReportReal type="block">Attr Type = Batch Report Real</AttrTypeBatchReportReal>
+	<AttrTypeDCStateMask type="block">Attr Type = DC State Mask</AttrTypeDCStateMask>
+	<AttrTypeDynamicReference type="block">Attr Type = Dynamic Reference</AttrTypeDynamicReference>
+	<AttrTypeEnumeration type="block">Attr Type = Enumeration</AttrTypeEnumeration>
+	<AttrTypeExpression type="block">Attr Type = Expression</AttrTypeExpression>
+	<AttrTypeExternalReference type="block">Attr Type = External Reference</AttrTypeExternalReference>
+	<AttrTypeFloatingPointArray type="block">Attr Type = Floating Point Array</AttrTypeFloatingPointArray>
+	<AttrTypeInternalReference type="block">Attr Type = Internal Reference</AttrTypeInternalReference>
+	<AttrTypeLastMarker type="block">Attr Type = Last Marker</AttrTypeLastMarker>
+	<AttrTypeMode type="block">Attr Type = Mode</AttrTypeMode>
+	<AttrTypeNone type="block">Attr Type = None</AttrTypeNone>
+	<AttrTypeOctetString type="block">Attr Type = Octet String</AttrTypeOctetString>
+	<AttrTypeOptionBitstring type="block">Attr Type = Option Bitstring</AttrTypeOptionBitstring>
+	<AttrTypePIOReference type="block">Attr Type = PIO Reference</AttrTypePIOReference>
+	<AttrTypeProfibusBit type="block">Attr Type = Bit </AttrTypeProfibusBit>
+	<AttrTypeProfibusBitArea type="block">Attr Type = Bit Area</AttrTypeProfibusBitArea>
+	<AttrTypeScaling type="block">Attr Type = Scaling</AttrTypeScaling>
+	<AttrTypeSignedInteger8 type="block">Attr Type = 8-bit Signed Integer</AttrTypeSignedInteger8>
+	<AttrTypeSignedInteger16 type="block">Attr Type = 16-bit Signed Integer</AttrTypeSignedInteger16>
+	<AttrTypeSignedInteger32 type="block">Attr Type = 32-bit Signed Integer</AttrTypeSignedInteger32>
+	<AttrTypeSimulateDiscrete type="block">Attr Type = Simulate Discrete</AttrTypeSimulateDiscrete>
+	<AttrTypeSimulateFloat type="block">Attr Type = Simulate Float</AttrTypeSimulateFloat>
+	<AttrTypeUnicodeString type="block">Attr Type = Unicode String</AttrTypeUnicodeString>
+	<AttrTypeUnsignedInteger8 type="block">Attr Type = 8-bit Unsigned Integer</AttrTypeUnsignedInteger8>
+	<AttrTypeUnsignedInteger16 type="block">Attr Type = 16-bit Unsigned Integer</AttrTypeUnsignedInteger16>
+	<AttrTypeUnsignedInteger32 type="block">Attr Type = 32-bit Unsigned Integer</AttrTypeUnsignedInteger32>
+	<AttrTypeValueBoolean type="block">Attr Type = Boolean</AttrTypeValueBoolean>
+	<AttrTypeValueDouble type="block">Attr Type = Double</AttrTypeValueDouble>
+	<AttrTypeValueFloat type="block">Attr Type = Float</AttrTypeValueFloat>
+	<AttrTypeValueFloatMatrix type="block">Attr Type = Float Matrix</AttrTypeValueFloatMatrix>
+	<AttrTypeValueStatusBoolean type="block">Attr Type = Boolean + Status</AttrTypeValueStatusBoolean>
+	<AttrTypeValueStatusDiscrete type="block">Attr Type = Discrete + Status</AttrTypeValueStatusDiscrete>
+	<AttrTypeValueStatusFloat type="block">Attr Type = Float + Status</AttrTypeValueStatusFloat>
+	<AttrTypeValueStatusInteger8 type="block">Attr Type = 8-bit Integer + Status</AttrTypeValueStatusInteger8>
+	<AttrTypeValueStatusInteger16 type="block">Attr Type = 16-bit Integer + Status</AttrTypeValueStatusInteger16>
+	<AttrTypeValueStatusInteger32 type="block">Attr Type = 32-bit Integer + Status</AttrTypeValueStatusInteger32>
+	<AttrTypeValueStatusUnicodeString type="block">Attr Type = Unicode String + Status</AttrTypeValueStatusUnicodeString>
+	<AttrTypeValueStatusUnsignedInteger8 type="block">Attr Type = 8-bit Unsigned Integer + Status</AttrTypeValueStatusUnsignedInteger8>
+	<AttrTypeValueStatusUnsignedInteger16 type="block">Attr Type = 16-bit Unsigned Integer + Status</AttrTypeValueStatusUnsignedInteger16>
+	<AttrTypeValueStatusUnsignedInteger32 type="block">Attr Type = 32-bit Unsigned Integer + Status</AttrTypeValueStatusUnsignedInteger32>
+	<ATYP>ATYP</ATYP>
+	<AutoAck type="boolean">Automatic Acknowledge</AutoAck>
+	<AutoAckInactive type="boolean">Automatic Acknowledge Inactive</AutoAckInactive>
+	<AutoFFDeviceReplacement>Auto FF Device Replacement</AutoFFDeviceReplacement>
+	<AutoIPAssignment type="boolean">Automatic IP Assignment</AutoIPAssignment>
+	<Batch>Batch</Batch>
+	<BatchAlgorithmParameter type="boolean">Batch Algorithm Parameter</BatchAlgorithmParameter>
+	<BatchArbitration type="boolean">Batch Arbitrated</BatchArbitration>
+	<BatchDataType>Batch Data Type</BatchDataType>
+	<BatchEnabled type="boolean">Batch Enabled</BatchEnabled>
+	<BatchHistSubsys type="block">Batch Historian Subsys</BatchHistSubsys>
+	<BatchHistSubsysEnabled type="boolean">Batch Historian Subsys Enabled</BatchHistSubsysEnabled>
+	<BatchInputParameter type="boolean">Batch Input Parameter</BatchInputParameter>
+	<BatchParam>Batch Parameter</BatchParam>
+	<BatchParamAttrCanDelete type="boolean">Can Edit</BatchParamAttrCanDelete>
+	<BatchParamAttrGroupName>Batch Parameter Attribute Group Name</BatchParamAttrGroupName>
+	<BatchParamAttrReadonly type="boolean">Read Only</BatchParamAttrReadonly>
+	<BatchParamAttrType type="ignore">Batch Parameter Attribute Type</BatchParamAttrType>
+	<BatchParamAttrUICanDelete>Batch Parameter Attribute UI Can Delete</BatchParamAttrUICanDelete>
+	<BatchProcessInput type="boolean">Batch Process Input</BatchProcessInput>
+	<BatchProcessOutput type="boolean">Batch Process Output</BatchProcessOutput>
+	<BatchProcessParameter type="boolean">Batch Process Parameter</BatchProcessParameter>
+	<BatchReportParameter type="boolean">Batch Report Parameter</BatchReportParameter>
+	<BatchSubsys type="block">Batch Subsys</BatchSubsys>
+	<BatchSubsysEnabled type="boolean">Batch Subsys Enabled</BatchSubsysEnabled>
+	<BatchUnitParameter type="boolean">Batch Unit Parameter</BatchUnitParameter>
+	<BaudRate>Baud Rate</BaudRate>
+	<BeginMaintHour>Begin Maintenance Hour</BeginMaintHour>
+	<BeginMaintMin>Begin Maintenance Minute</BeginMaintMin>
+	<BgdColor>Background Color</BgdColor>
+	<Bindings type="block">Alias Bindings</Bindings>
+	<BitmapLocation>Bitmap Location</BitmapLocation>
+	<BitmapName>Bitmap Name</BitmapName>
+	<BlockAutoAssignment>Function blocks auto assignment to the H1 port </BlockAutoAssignment>
+	<BothEnd>Both Ends</BothEnd>
+	<BPC>BPC</BPC>
+	<BroadcastInterval>Broadcast Interval</BroadcastInterval>
+	<CellClassEquipCount>Cell Class Equipment Count</CellClassEquipCount>
+	<CellClassEquipNeeded>Cell Class Equipment Needed</CellClassEquipNeeded>
+	<CemParameters>CEM Parameters</CemParameters>
+	<ChannelSubsys>Channel Subsystem</ChannelSubsys>
+	<CLASS>CLASS</CLASS>
+	<ClassName>Class Name</ClassName>
+	<Cold>Cold</Cold>
+	<ColdRestart type="boolean">Cold Restart</ColdRestart>
+	<ColdRestartTime>Cold Restart Time</ColdRestartTime>
+	<Color>Color</Color>
+	<Comment cosmetic="">Comment</Comment>
+	<CommentText>Comment Text</CommentText>
+	<Commissioned>Commissioned</Commissioned>
+	<Common type="boolean">Common</Common>
+	<COMMAND_DRIVEN>Command Driven</COMMAND_DRIVEN>
+	<ComplianceSuite>Syncade</ComplianceSuite>
+	<CompTemplate>Composite Template</CompTemplate>
+	<ComputerName>Computer Name</ComputerName>
+	<ConfirmExpression>Confirm Expression</ConfirmExpression>
+	<ConnectionType>Connection Type</ConnectionType>
+	<Connector>Connector</Connector> <!--<Connector type="blockwithvalue">//-->
+	<ConnectorCat type="boolean">Connector</ConnectorCat> <!--<Connector type="blockwithvalue">//-->
+	<ContHistSubsysEnabled type="boolean">Continuous History Subsys Enabled</ContHistSubsysEnabled>
+	<ContHistSubsysCollectTrendBlockHistory type="boolean">Collect Trend Block History</ContHistSubsysCollectTrendBlockHistory>
+	<ContinuePolling>Continue Polling</ContinuePolling>
+	<ContinuousHistorySubsys type="block">Continuous History Subsys</ContinuousHistorySubsys>
+	<ContinuousProcessCell>Continuous Process Cell</ContinuousProcessCell>
+	<Controller>Controller</Controller>
+	<ControllerAliasName>Controller Alias Name</ControllerAliasName>
+	<ControllerEquivalentName>Controller Equivalent Name</ControllerEquivalentName>
+	<ControllerNode>Controller Node</ControllerNode>
+	<ControlModuleClass>Control Module Class</ControlModuleClass>
+	<Critical type="boolean">Always In Memory</Critical>
+	<Custom type="boolean">Custom</Custom>
+	<CustomOutputMode>Custom Output Mode</CustomOutputMode>
+	<Dash>Dash</Dash>
+	<DashDot>Dash Dot</DashDot>
+	<DashDotDot>Dash Dot Dot</DashDotDot>
+	<DataBits>Data Bits</DataBits>
+	<DataDirection>Data Direction</DataDirection>
+	<DataSource>Data Source</DataSource>
+	<Dataset>Dataset</Dataset>
+	<DbeSfcConnectionType>SFC Connection Type</DbeSfcConnectionType>
+	<DbeSfcConnectionNone>SFC Connection None></DbeSfcConnectionNone>
+	<DbeSfcConnectionSimple>SFC Simple</DbeSfcConnectionSimple>
+	<DbeSfcConnectionParallelDivergence>SFC Parallel Divergence></DbeSfcConnectionParallelDivergence>
+	<DbeSfcConnectionParallelConvergence>SFC Parallel Convergence></DbeSfcConnectionParallelConvergence>
+	<DbeSfcConnectionSerialDivergence>SFC Serial Divergence></DbeSfcConnectionSerialDivergence>
+	<DbeSfcConnectionSerialConvergence>SFC Serial Convegence ></DbeSfcConnectionSerialConvergence>
+	<DbId>dbid</DbId>
+	<Decommissioned type="boolean">Decommissioned</Decommissioned>
+	<DECPT>DECPT</DECPT>
+	<Def type="boolean">Definition</Def>
+	<DefaultHighDensitySecureParameters type="boolean">Default High-density Secure Parameters</DefaultHighDensitySecureParameters>
+	<DefaultLockName>Default Lock Name</DefaultLockName>
+	<DefBatchSize>Default Batch Size</DefBatchSize>
+	<Definition type="blockWithValue">Definition</Definition>
+	<DeferSource>Defer Source</DeferSource>
+	<DelayExpression>Delay Expression</DelayExpression>
+	<DelayTime>Delay Time</DelayTime>
+	<DeltavDataType>DeltaV Data Type</DeltavDataType>
+	<Detail>Detail</Detail>
+	<DevAddr>Device Address</DevAddr>
+	<DevID>Device ID</DevID>
+	<DevProfile>Device Profile</DevProfile>
+	<DevRev>Device Revision</DevRev>
+	<DevRevNumber>Device Revision Number</DevRevNumber>
+	<DeviceDataType>Device Data Type</DeviceDataType>
+	<DeviceType>Device Type</DeviceType>
+	<Diagnostic type="boolean">Diagnostic</Diagnostic>
+	<Dot>Dot</Dot>
+	<Download type="boolean">Download To Controller</Download>
+	<DownloadState>Download State</DownloadState>
+	<DownstreamUnitsSelectionChoice>Downstream Unit Selection Choice</DownstreamUnitsSelectionChoice>
+	<Ellipse cosmetic="">Ellipse</Ellipse>
+	<ENAB>ENAB</ENAB>
+	<ENABLE>ENABLE</ENABLE>
+	<Enabled>Enabled</Enabled>
+	<EnabledAsLinkMaster type="boolean">Enabled As Link Master</EnabledAsLinkMaster>
+	<EnableElectronicSignature>Enable Electronic Signature</EnableElectronicSignature>
+  <EnableMynahIntegrationWebService type="boolean">Enable Mynah Integration Web Service</EnableMynahIntegrationWebService>
+  <EndPoint>End Point</EndPoint>
+	<EnumSetSelectable>Enum Set Selectable</EnumSetSelectable>
+	<EnumSetVal>Enum Set Value</EnumSetVal>
+	<EnumSetVisible>Enum Set Visible</EnumSetVisible>
+	<EnumValue>Enumeration Value</EnumValue>
+	<EquipCount>Equipment Count</EquipCount>
+	<EquipID>Equipment ID</EquipID>
+	<EquipItemCount>Equipment Item Count</EquipItemCount>
+	<EquipItemNames>Equipment Item Names</EquipItemNames>
+	<EquipmentModule>Equipment Module</EquipmentModule>
+	<EquipmentModuleClass>Equipment Module Class</EquipmentModuleClass>
+	<EquipmentPath type="block">Equipment Path</EquipmentPath>
+	<EquipName>Equipment Name</EquipName>
+	<EquipNeeded>Equipment Needed</EquipNeeded>
+	<EquipNum>Equipment Num</EquipNum>
+	<EquipType>Equipment Type</EquipType>
+	<EstDuration>Estimated Duration</EstDuration>
+	<EventChronName>Event Chronicle Name</EventChronName>
+	<ExecutionPeriod>Execution Period</ExecutionPeriod>
+	<ExecutionOrder>Execution Order</ExecutionOrder>
+	<EXPTYP>EXPTYP</EXPTYP>
+	<Expression type="boolean">Expression</Expression>
+	<ExtPhaseClassName>External Phase Class Name</ExtPhaseClassName>
+	<ExtPhaseEquipmentID>External Phase Equipment ID</ExtPhaseEquipmentID>
+	<ExtPhaseEquipmentNeeded>External Phase Equipment Needed</ExtPhaseEquipmentNeeded>
+	<ExtPhaseMaxOwners>External Phase Maximum Owners</ExtPhaseMaxOwners>
+	<ExternalPhase>External Phase</ExternalPhase>
+	<FailAction>Fail Action</FailAction>
+	<FailAlarmEnabled type="boolean">Fail Alarm Enabled</FailAlarmEnabled>
+	<FB>Function Block</FB>
+	<FBDevice>Fieldbus Device</FBDevice>
+	<FDevDownloadState>Fieldbus Device Download State</FDevDownloadState>
+	<FDevManufacturer>Device Manufacturer</FDevManufacturer>
+	<FDevType>Device Type</FDevType>
+	<FDevTypeNumber>Device Type Number</FDevTypeNumber>
+	<FFBExecutionTime>Execution Time</FFBExecutionTime>
+	<FFBModule>Fieldbus Function Block Module</FFBModule>
+	<FFBObjectIndex>Object Table Index</FFBObjectIndex>
+	<FgdColor>Foreground Color</FgdColor>
+	<FillPattern type="boolean">Fill Pattern</FillPattern>
+	<FManufacturerID>Fieldbus Manufacturer ID</FManufacturerID>
+	<FPhysicalTag>Fieldbus Physical Tag</FPhysicalTag>
+	<FPort>Fieldbus Port</FPort>
+	<FPortEnabled type="boolean">Fieldbus Port Enabled</FPortEnabled>
+	<FPortMacrocycle>Fieldbus Port Macrocycle</FPortMacrocycle>
+	<FShadowBlock>Fieldbus Shadow Block</FShadowBlock>
+	<FieldDevAssignment>Field Device Assignment</FieldDevAssignment>
+	<FieldSecurity>Field Security</FieldSecurity>
+	<FieldbusBlockUsageTag>Fieldbus Block Usage Tag</FieldbusBlockUsageTag>
+	<FieldbusDeviceTag>Fieldbus Device Tag</FieldbusDeviceTag>
+	<FieldbusFuntionBlock>Fieldbus Funtion Block</FieldbusFuntionBlock>
+	<FIXED>FIXED</FIXED>
+	<FMS>FMS</FMS>
+	<Formula>Formula</Formula>
+	<TracksDefaultValue type="boolean">Tracks Default Value</TracksDefaultValue>
+	<FormulaIsHidden>Formula Is Hidden</FormulaIsHidden>
+	<FormulaParam type="block">Formula Parameter</FormulaParam>
+	<FormulaParams type="ignore">Formula Parameters</FormulaParams>
+	<FormulaRTP type="boolean">Released To Production</FormulaRTP>
+	<FormulaVal>Formula Value</FormulaVal>
+	<FormulaVersion>Formula Version</FormulaVersion>
+	<FunctionSecurity>Function Security</FunctionSecurity>
+	<GateUpdateFactor>Gate Update Factor</GateUpdateFactor>
+	<GraphicBitmap cosmetic="">Graphic Bitmap</GraphicBitmap>
+	<GlobalHornAckGroup type="boolean">Participate in Global Horn Acknowledge Group</GlobalHornAckGroup>
+	<GroupName>Group Name</GroupName>
+	<HasAlarms>Has Alarms</HasAlarms>
+	<HasDefinition type="boolean">Has Definition</HasDefinition>
+	<HistoryAnalysisEnabled>History Analysis Enabled</HistoryAnalysisEnabled>
+	<HoldPropagationLimit>Hold Propagation Limit</HoldPropagationLimit>
+	<IdleTime1>Idle Time 1</IdleTime1>
+	<IdleTime2>Idle Time 2</IdleTime2>
+	<Index>Index</Index>
+	<Input>Input</Input>
+	<InstrumentArea>Instrument Area</InstrumentArea>
+	<Integer>Integer</Integer>
+	<IntegrationNode>Integration Node</IntegrationNode>
+	<IntegrationStation>Integration Station</IntegrationStation>
+	<Internal>Internal</Internal>
+	<InternalInput>Internal Input</InternalInput>
+	<InternalOutput>Internal Output</InternalOutput>
+	<INV>INV</INV>
+	<Inverted type="boolean">Inverted</Inverted>
+	<Invocation>Invocation</Invocation>
+	<IsActuallyInstalled>Is Actually Installed</IsActuallyInstalled>
+	<IsBackupLAS type="boolean">Is Backup LAS</IsBackupLAS>
+	<IsUsage type="boolean">Usage</IsUsage>
+	<JournalSubsys type="block">Journal Subsys</JournalSubsys>
+	<JournalSubsysEnabled type="boolean">Journal Subsys Enabled</JournalSubsysEnabled>
+	<JournalTempDir>Journal Temporary Directory</JournalTempDir>
+	<Level>Level</Level>
+	<LibraryCategory>Library Category</LibraryCategory>
+	<LibraryModule>Library Module</LibraryModule>
+	<LicRequired>Maximum License Required</LicRequired>
+	<LIMATTR>LIMATTR</LIMATTR>
+	<LimitAttr>Limit Attribute</LimitAttr>
+	<LimitVal>Limit Value</LimitVal>
+	<LimitValAttrType type="ignore">Limit Value Attribute Type</LimitValAttrType>
+	<Line cosmetic="">Line</Line>
+	<LineColor>Line Color</LineColor>
+	<LinkGroup>Link Group</LinkGroup>
+	<Lock>Lock</Lock>
+	<Locks type="block">Locks</Locks>
+	<LockSegment type="block">Lock Segment</LockSegment>
+	<LockSegments type="ignore">Lock Segments</LockSegments>
+	<LockSegmentIndex>Lock Segment Index</LockSegmentIndex>
+	<LogicSolver>Logic Solver</LogicSolver>
+	<LogicSolverChannel>Logic Solver Channel</LogicSolverChannel>
+	<Vertical>Vertical</Vertical>
+	<MMIPicture>MMI Picture</MMIPicture>
+	<MPCModelsContainer>MPC Models Container</MPCModelsContainer>
+	<MPCVariableDef>MPC Variable Definition</MPCVariableDef>
+	<MasterTimeKeeper type="boolean">Master Time Keeper</MasterTimeKeeper>
+	<MasterTimeNode>Master Time Node</MasterTimeNode>
+	<MasterWorkstation>Master Workstation</MasterWorkstation>
+	<MaxBatchSize>Maximum Batch Size</MaxBatchSize>
+	<MaxDirSize>Maximum Directory Size</MaxDirSize>
+	<MaxEventFileAge>Maximum Event File Age</MaxEventFileAge>
+	<MaxIOCycle>Maximum I/O Cycle</MaxIOCycle>
+	<MaxNameLength>Maximum Name Length</MaxNameLength>
+	<MaxNumberOfAddr>Maximum Number Of Addresses</MaxNumberOfAddr>
+	<MaxOwners>Maximum Owners</MaxOwners>
+	<MaxRecs>Maximum Records</MaxRecs>
+	<MinBatchSize>Minimum Batch Size</MinBatchSize>
+	<MinIOCycle>Minimum I/O Cycle</MinIOCycle>
+	<MinScheduleSpacingMS>Minimum Schedule Spacing MS</MinScheduleSpacingMS>
+	<ModClassName>Module Class Name</ModClassName>
+	<ModelPredictiveControl type="boolean">Model Predictive Control</ModelPredictiveControl>
+	<ModPhaseType>Module Phase Type</ModPhaseType>
+	<ModShared>Module Shared</ModShared>
+	<ModSimulated>Module Simulated</ModSimulated>
+	<ModTempBatchArbitration type="boolean">Batch Arbitrated</ModTempBatchArbitration>
+	<ModTempClassName>Class Name</ModTempClassName>
+	<ModTempDetail>Detail</ModTempDetail>
+	<ModTempEquipID>Equipment ID</ModTempEquipID>
+	<ModTempEquipNeeded>Equipment Needed</ModTempEquipNeeded>
+	<ModTempEquipNum>Equipment Number</ModTempEquipNum>
+	<ModTempFullPath>Full Path</ModTempFullPath>
+	<ModTempInstrumentArea>Instrument Area</ModTempInstrumentArea>
+	<ModTempLicRequired>Maximum License Required</ModTempLicRequired>
+	<ModTempMaxOwners>Maximum Owners</ModTempMaxOwners>
+	<ModTempNodeAssignment>Node Assignment</ModTempNodeAssignment>
+	<ModTempPhaseType>Phase Type</ModTempPhaseType>
+	<ModTempPrimaryControl>Primary Control</ModTempPrimaryControl>
+	<ModTempScanRate>Scan Rate</ModTempScanRate>
+	<ModTempShared>Shared</ModTempShared>
+	<ModTempSimulated>Simulated</ModTempSimulated>
+	<ModTempTemplateSubtype>Template Subtype</ModTempTemplateSubtype>
+	<ModTempTemplateType>Template Type</ModTempTemplateType>
+	<ModTempType>Type</ModTempType>
+	<ModTempUnitsAssignedCount>Units Assigned Count</ModTempUnitsAssignedCount>
+	<ModTempUnitsAssignedTo>Units Assigned To</ModTempUnitsAssignedTo>
+	<ModTempWorkInProgress type="boolean">Work In Progress</ModTempWorkInProgress>
+	<ModTempNVMEnabled type="boolean">NVM Enabled</ModTempNVMEnabled>
+	<ModTemplateSubType>Sub Type</ModTemplateSubType>
+	<ModTemplateType>Type</ModTemplateType>
+	<ModUnitsAssignedCount>Module Units Assigned Count</ModUnitsAssignedCount>
+	<ModUnitsAssignedTo>Module Units Assigned To</ModUnitsAssignedTo>
+	<MONATTR>MONATTR</MONATTR>
+	<MonitoredAttrName>Monitored Attribute Name</MonitoredAttrName>
+	<MsgAttr1>Message Attribute 1</MsgAttr1>
+	<MsgAttr2>Message Attribute 2</MsgAttr2>
+	<MsgID>Message ID</MsgID>
+	<MsgRetryLimit>Message Retry Limit</MsgRetryLimit>
+	<Multiplexor>Multiplexor</Multiplexor>
+  <NameCount>Name Count</NameCount>
+	<NameOfNode>Name Of Node</NameOfNode>
+	<NameOfNode>Name Of Node</NameOfNode>
+	<Network>Network</Network>
+	<NetworkRedundant type="boolean">Network Redundant</NetworkRedundant>
+	<NodeIPEditEnabled type="boolean">Node IP Edit Enabled</NodeIPEditEnabled>
+	<NodeNetworkRedundancy type="boolean">Network Redundancy</NodeNetworkRedundancy>
+	<NodePCNNumber>Node PCN Number</NodePCNNumber>
+	<NodeTimeSyncErrorCausesBadIntegrity type="boolean">Show Integrity Error When Not In Time Sync</NodeTimeSyncErrorCausesBadIntegrity>
+	<NodeReference>Node Reference</NodeReference>
+	<NodeRestrictWritesToAssignedAreas type="boolean">Restrict operator changes</NodeRestrictWritesToAssignedAreas>
+	<NodeVersion>Model</NodeVersion>
+	<NodeMajorRevision>Major Software Revision</NodeMajorRevision>
+	<NodeMinorRevision>Minor Software Revision</NodeMinorRevision>
+	<NodeIsRedundant type="boolean">Redundant for Modules</NodeIsRedundant>
+	<NodeRedundancyType>Redundancy Type</NodeRedundancyType>
+	<NodeOPCFeature>Redundant OPC Feature</NodeOPCFeature>
+	<NodeIsUnattendedWorkstationRebootEnabled type="boolean">Unattended Workstation Reboot</NodeIsUnattendedWorkstationRebootEnabled>
+	<None>None</None>
+	<NORMAL>NORMAL</NORMAL>
+	<NumValues>Number of Values</NumValues>
+	<NumberOfCoord>Number Of Coordinates</NumberOfCoord>
+	<NumberOfOutputs>Number Of Outputs</NumberOfOutputs>
+	<NumberOfParams>Number Of Parameters</NumberOfParams>
+	<NumberOfPhasePartners>Number Of Phase Partners</NumberOfPhasePartners>
+	<NumberOfCauses>Number Of Causes</NumberOfCauses>
+	<NumberOfEffects>Number Of Effects</NumberOfEffects>
+	<NumberOfStates>Number Of States</NumberOfStates>
+	<NumberOfTransitions>Number Of Transitions</NumberOfTransitions>
+	<NumberOfValues>Number Of Values</NumberOfValues>
+	<ODBCDescription>ODBC Description</ODBCDescription>
+	<ODBCSourceName>ODBC SourceName</ODBCSourceName>
+	<ObjSubtype>Object Subtype</ObjSubtype>
+	<Online>Online</Online>
+	<OnlineChangeable type="boolean">Online Changeable</OnlineChangeable>
+	<OpAbstract>Operation Abstract</OpAbstract>
+	<OpApprovedBy>Operation Approved By</OpApprovedBy>
+	<OpAuthor>Operation Author</OpAuthor>
+	<OpDefBatchSize>Operation Default Batch Size</OpDefBatchSize>
+	<OpEstDuration>Operation Estimated Duration</OpEstDuration>
+	<OpMaxBatchSize>Operation Maximum Batch Size</OpMaxBatchSize>
+	<OpMinBatchSize>Operation Minimum Batch Size</OpMinBatchSize>
+	<OpProdCode>Operation Product Code</OpProdCode>
+	<OpProdName>Operation Product Name</OpProdName>
+	<OpRelease type="boolean">Released to Production</OpRelease>
+	<OpUOM>Operation Unit Of Measure</OpUOM>
+	<OpVersionDate>Operation Version Date</OpVersionDate>
+	<OpVersionNumber>Operation Version Number</OpVersionNumber>
+	<Operation>Operation</Operation>
+	<OperatorNode>Operator Node</OperatorNode>
+	<Option type="ignore">Option</Option>
+	<OriginConstant>Constant</OriginConstant>
+	<OriginDeferred>Deferred</OriginDeferred>
+	<OriginOperator>Operator</OriginOperator>
+	<OSOnlyAccount>Operating System Only Account</OSOnlyAccount>
+	<Output>Output</Output>
+	<OutputMode>Output Mode</OutputMode>
+	<OutputReadBack>Output Read Back</OutputReadBack>
+	<ParameterDownloadBehavior>Parameter Download Behavior</ParameterDownloadBehavior>
+	<ParamsEnabled type="block">Parameters Enabled</ParamsEnabled>
+	<Parity>Parity</Parity>
+	<PASSIN>PASSIN</PASSIN>
+	<PASSOUT>PASSOUT</PASSOUT>
+	<PCNNumber>PCN Number</PCNNumber>
+	<PermDestroyRecs>Permanently Destroy Records</PermDestroyRecs>
+	<PFCAcquireUnit type="boolean">Acquire Unit</PFCAcquireUnit>
+	<PFCRetainUnit type="boolean">Retain Unit</PFCRetainUnit>
+	<PFCAssocAuthor>PFC Associated Author</PFCAssocAuthor>
+	<PFCAssocDescription>PFC Associated Description</PFCAssocDescription>
+	<PFCAssocName>PFC Associated Name</PFCAssocName>
+	<PFCKeyParameterName>PFC Key Parameter Name</PFCKeyParameterName>
+	<PFCAssocProductCode>PFC Associated Product Code</PFCAssocProductCode>
+	<PFCStartStep type="boolean">Start Step</PFCStartStep>
+	<PFCStep>PFC Step</PFCStep>
+	<PFCUnitAliasName>PFC Unit Alias Name</PFCUnitAliasName>
+	<PHASE>Phase</PHASE>
+	<Phase>Phase</Phase>
+	<PhaseClass>Phase Class</PhaseClass>
+	<PhaseDef>Phase Definition</PhaseDef>
+	<PhaseInvocations>Phase Invocations</PhaseInvocations>
+	<PhaseInvocationsCount>Phase Invocations Count</PhaseInvocationsCount>
+	<PhaseLogicModule>Phase Logic Module</PhaseLogicModule>
+	<PhaseModule>Phase Module</PhaseModule>
+	<PhaseMsg>Phase Message</PhaseMsg>
+	<PhaseName>Phase Name</PhaseName>
+	<PhaseType>Phase Type</PhaseType>
+	<PLCBaseAddress>PLC Base Address</PLCBaseAddress>
+	<PLCDataType>PLC Data Type</PLCDataType>
+	<PLCRegAddrOffset>PLC Register Address Offset</PLCRegAddrOffset>
+	<PLM>Phase Logic Module</PLM>
+	<PLMBatchArbitration type="boolean">Batch Arbitrated</PLMBatchArbitration>
+	<PLMClassName>Phase Class Name</PLMClassName>
+	<PLMLicRequired>PLM Maximum License Required</PLMLicRequired>
+	<PLMName>PLM Name</PLMName>
+	<PLMPhaseType>PLM Phase Type</PLMPhaseType>
+	<PLMShared>PLM Shared</PLMShared>
+	<PLMSimulated type="boolean">Simulated</PLMSimulated>
+	<PortAddr>Port Address</PortAddr>
+	<PortAssign type="block">Port Assignment</PortAssign>
+	<PortPath>Path</PortPath>
+	<PRI>PRI</PRI>
+	<PrimaryControl>Primary Control</PrimaryControl>
+	<Primitive>Primitive</Primitive>
+	<PrimitiveBlock>Primitive Block</PrimitiveBlock>
+	<PrimitiveTemplate>Primitive Template</PrimitiveTemplate>
+	<PrimSFCAction>Primitive SFC Action</PrimSFCAction>
+	<PrimSFCStep>Primitive SFC Step</PrimSFCStep>
+	<PrimSFCTransition>Primitive SFC Transition</PrimSFCTransition>
+	<Priorities>Priorities</Priorities>
+	<Priority>Priority</Priority>
+	<ProfessionalPlusNode>Professional Plus Node</ProfessionalPlusNode>
+	<ProPlusStation>Pro Plus Station</ProPlusStation>
+	<ProcAbstract>Procedure Abstract</ProcAbstract>
+	<ProcApprovedBy>Procedure Approved By</ProcApprovedBy>
+	<ProcAuthor>Procedure Author</ProcAuthor>
+	<ProcDefBatchSize>Procedure Default Batch Size</ProcDefBatchSize>
+	<ProcEstDuration>Procedure Estimated Duration</ProcEstDuration>
+	<ProcMaxBatchSize>Procedure Maximum Batch Size</ProcMaxBatchSize>
+	<ProcMinBatchSize>Procedure Minimum Batch Size</ProcMinBatchSize>
+	<ProcProdCode>Procedure Product Code</ProcProdCode>
+	<ProcProdName>Procedure Product Name</ProcProdName>
+	<ProcRelease type="boolean">Released to Production</ProcRelease>
+	<ProcUOM>Procedure Unit Of Measure</ProcUOM>
+	<ProcVersionDate>Procedure Version Date</ProcVersionDate>
+	<ProcVersionNumber>Procedure Version Number</ProcVersionNumber>
+	<ProcessCell>Process Cell</ProcessCell>
+	<ProcessCellClass>Process Cell Class</ProcessCellClass>
+	<ProcessCellClassName>Process Cell Class Name</ProcessCellClassName>
+	<ProcessCellEquipCount>Process Cell Equipment Count</ProcessCellEquipCount>
+	<ProcessCellEquipID>Process Cell Equipment ID</ProcessCellEquipID>
+	<ProcessCellEquipNeeded>Process Cell Equipment Needed</ProcessCellEquipNeeded>
+	<ProcessCellMaxOwners>Process Cell Maximum Owners</ProcessCellMaxOwners>
+	<ProdCode>Product Code</ProdCode>
+	<ProdName>Product Name</ProdName>
+	<ProfibusDev>Profibus Device</ProfibusDev>
+	<ProfibusDevAddr>Profibus Device Address</ProfibusDevAddr>
+	<ProfibusDevFamily>Profibus Device Family</ProfibusDevFamily>
+	<ProfibusDevRevision>Profibus Device Revision</ProfibusDevRevision>
+	<ProfibusDevType>Profibus Device Type</ProfibusDevType>
+	<ProfibusDevVendor>Profibus Device Vendor</ProfibusDevVendor>
+	<ProfibusDevWatchdogTime>Profibus Device Watchdog Time</ProfibusDevWatchdogTime>
+	<ProfibusDevWatchdogTimeEnabled type="boolean">Profibus Device Watchdog Time Enabled</ProfibusDevWatchdogTimeEnabled>
+	<ProfibusDevEnabled type ="boolean">Profibus Device Enabled</ProfibusDevEnabled>
+	<ProfibusManufacturer>Profibus Manufacturer</ProfibusManufacturer>
+	<ProfibusMod>Profibus Module</ProfibusMod>
+	<ProfibusModIdentifiers>Profibus Module Identifiers</ProfibusModIdentifiers>
+	<ProfibusModInputDataLen>Profibus Module Input Data Length</ProfibusModInputDataLen>
+	<ProfibusModOutputDataLen>Profibus Module Output Data Length</ProfibusModOutputDataLen>
+	<ProfibusModParamDataLen>Profibus Module Parameter Data Length</ProfibusModParamDataLen>
+	<ProfibusModSignal>Profibus Module Signal</ProfibusModSignal>
+	<ProfibusModSignalAttrType type="ignore">Profibus Module Signal Attribute Type</ProfibusModSignalAttrType>
+	<ProfibusModSignalBigEndian>Profibus Module Signal Big Endian</ProfibusModSignalBigEndian>
+	<ProfibusModSignalByteOffset>Profibus Module Signal Byte Offset</ProfibusModSignalByteOffset>
+	<ProfibusModSignalDiagnosticChannel>Profibus Module Signal Diagnostic Channel</ProfibusModSignalDiagnosticChannel>
+	<ProfibusModSignalNumberOfBits>Profibus Module Signal Number Of Bits</ProfibusModSignalNumberOfBits>
+	<ProfibusModSignalSignalDirInput>Profibus Module Signal Signal Directory Input</ProfibusModSignalSignalDirInput>
+	<ProfibusModSignalStartBit>Profibus Module Signal Start Bit</ProfibusModSignalStartBit>
+	<ProfibusModel>Profibus Model</ProfibusModel>
+	<ProfibusPort>Profibus Port</ProfibusPort>
+	<ProfibusPortAddr>Profibus Port Address</ProfibusPortAddr>
+	<ProfibusPortBaudRate>Profibus Port Baud Rate</ProfibusPortBaudRate>
+	<ProfibusPortEnabled type="boolean">Profibus Port Enabled</ProfibusPortEnabled>
+	<ProfibusRev>Profibus Revision</ProfibusRev>
+	<ProfibusRevAutoBaudDetectSupported>Profibus Revision Automatic Baud Detect Supported</ProfibusRevAutoBaudDetectSupported>
+	<ProfibusRevBaudRateSupported>Profibus Revision Baud Rate Supported</ProfibusRevBaudRateSupported>
+	<ProfibusRevFailsafeSupported>Profibus Revision Failsafe Supported</ProfibusRevFailsafeSupported>
+	<ProfibusRevHWRelease>Profibus Revision Hardware Release</ProfibusRevHWRelease>
+	<ProfibusRevIdentNum>Profibus Revision Identity Number</ProfibusRevIdentNum>
+	<ProfibusRevMaxConfigSize>Profibus Revision Maximum Configuration Size</ProfibusRevMaxConfigSize>
+	<ProfibusRevMaxDataLen>Profibus Revision Maximum Data Length</ProfibusRevMaxDataLen>
+	<ProfibusRevMaxInputLen>Profibus Revision Maximum Input Length</ProfibusRevMaxInputLen>
+	<ProfibusRevMaxOutputLen>Profibus Revision Maximum Output Length</ProfibusRevMaxOutputLen>
+	<ProfibusRevMaxParamLen>Profibus Revision Maximum Parameter Length</ProfibusRevMaxParamLen>
+	<ProfibusRevMaxSlots>Profibus Revision Maximum Slots</ProfibusRevMaxSlots>
+	<ProfibusRevMinSlaveInterval>Profibus Revision Minimum Slave Interval</ProfibusRevMinSlaveInterval>
+	<ProfibusRevModStartNumber>Profibus Revision Model Start Number</ProfibusRevModStartNumber>
+	<ProfibusRevSWRelease>Profibus Revision Software Release</ProfibusRevSWRelease>
+	<ProfibusRevType>Profibus Revision Type</ProfibusRevType>
+	<ProfibusSlot>Profibus Slot</ProfibusSlot>
+	<ProfibusSlotEnabled type="boolean">Profibus Slot Enabled</ProfibusSlotEnabled>
+	<ProfibusSlotIdentifiers>Profibus Slot Identifiers</ProfibusSlotIdentifiers>
+	<ProfibusSlotInputDataLen>Profibus Slot Input Data Length</ProfibusSlotInputDataLen>
+	<ProfibusSlotModNumber>Profibus Slot Model Number</ProfibusSlotModNumber>
+	<ProfibusSlotOutputDataLen>Profibus Slot Output Data Length</ProfibusSlotOutputDataLen>
+	<ProfibusSlotParamDataLen>Profibus Slot Parameter Data Length</ProfibusSlotParamDataLen>
+	<ProtocolType>Protocol Type</ProtocolType>
+	<Query>Query</Query>
+	<QuickConfig type="boolean">Quick Config</QuickConfig>
+	<QuietTime>Quiet Time</QuietTime>
+	<ReadOnly type="boolean">Read Only</ReadOnly>
+	<ReadyTime>Ready Time</ReadyTime>
+	<ReadyToInstall type="boolean">Ready To Install</ReadyToInstall>
+	<Real>Real</Real>
+	<RedundantController type="boolean">Redundant Controller</RedundantController>
+	<RedundantNetwork type="boolean">Redundant Network</RedundantNetwork>
+	<Regulatory>Regulatory</Regulatory>
+	<Release>Release</Release>//-->
+	<RemoteIoNetwork>Remote IO Network</RemoteIoNetwork>
+	<RemoveRecs>Remove Records</RemoveRecs>
+	<RemovedRecsPath>Removed Records Path</RemovedRecsPath>
+	<Repeater>Repeater</Repeater>
+	<RequiredMacrocycle>Required Macrocycle</RequiredMacrocycle>
+	<ResetDevices>Reset Devices</ResetDevices>
+	<RetainConfiguredDST type="boolean">Retain Configured DST during Device Assignment</RetainConfiguredDST>
+	<Retries>Retries</Retries>
+	<Revision>Revision</Revision>
+	<RiskReductionFactor>Risk Reduction Factor</RiskReductionFactor>
+	<SFCActionAssign>Assign</SFCActionAssign>
+	<SFCActionBoolean>Boolean</SFCActionBoolean>
+	<SFCActionNonBoolean>Non-Boolean</SFCActionNonBoolean>
+	<Segment>Segment</Segment>
+	<SegmentAddr>Segment Address</SegmentAddr>
+	<Selectable type="boolean">Selectable</Selectable>
+	<SendOutputs>Send Outputs</SendOutputs>
+	<SeqParameters>SEQ Parameters</SeqParameters>
+	<Sequence>Sequence</Sequence>
+	<SerialDev>Serial Device</SerialDev>
+	<SerialPort>Serial Port</SerialPort>
+	<SerialPortEnabled type="boolean">Serial Port Enabled</SerialPortEnabled>
+	<SerialPortRetries>Serial Port Retries</SerialPortRetries>
+	<SerialPortTimeout>Serial Port Timeout</SerialPortTimeout>
+	<SerialPortTransmitDelay>Serial Port Transmit Delay</SerialPortTransmitDelay>
+	<ServerRestartBehaviour>Server Restart Behaviour</ServerRestartBehaviour>
+	<SET>Set</SET>
+	<Shared>Shared</Shared>
+	<Simulated>Simulated</Simulated>
+	<SISLock>SISLock</SISLock>
+	<SISLockNumber>SIS Lock Number</SISLockNumber>
+	<SISLocks type="block">SISLocks</SISLocks>
+	<SISNetwork>SIS Network</SISNetwork>
+	<SlotTime>Slot Time</SlotTime>
+	<SoftPhase>Soft Phase</SoftPhase>
+	<SoftPhaseNode>Soft Phase Node</SoftPhaseNode>
+	<SoftwareLicense>Software License</SoftwareLicense>
+	<Solid>Solid</Solid>
+	<SourceType>Source Type</SourceType>
+	<SpeakerFreq>Speaker Frequency</SpeakerFreq>
+	<SpecialData type="block">Special Data</SpecialData>
+	<SpecialFields>Special Fields</SpecialFields>
+	<STATE_DRIVEN>State Driven</STATE_DRIVEN>
+	<StartPoint>Start Point</StartPoint>
+	<StdParameters>STD Parameters</StdParameters>
+	<StopBits>Stop Bits</StopBits>
+	<StorageLocation>Storage Location</StorageLocation>
+	<StorageLocations>Storage Locations</StorageLocations>
+	<StoragePath>Storage Path</StoragePath>
+	<SysSOECollector type="boolean">SOE Collector</SysSOECollector>
+	<SystemSetup>System Setup</SystemSetup>
+	<Termination type="boolean">Termination</Termination>
+	<TimeMasterAddr>Time Master Address</TimeMasterAddr>
+	<Timeout>Timeout</Timeout>
+	<TokenRetryLimit>Token Retry Limit</TokenRetryLimit>
+	<TokenRotationTime>Token Rotation Time</TokenRotationTime>
+	<TransitionCondition>Transition Condition</TransitionCondition>
+	<UOM>Unit Of Measure</UOM>
+	<Unit>Unit</Unit>
+	<UnitAliasEntry>Unit Alias</UnitAliasEntry>
+	<UnitAliasUnitClass>Unit Class</UnitAliasUnitClass>
+	<UnitAliasResolutionType>Resolution Type</UnitAliasResolutionType>
+	<UnitAliasUnit>Unit Name</UnitAliasUnit>
+	<UnitEquipCount>Unit Equipment Count</UnitEquipCount>
+	<UnitEquipID>Unit Equipment ID</UnitEquipID>
+	<UnitEquipNeeded>Unit Equipment Needed</UnitEquipNeeded>
+	<UnitMMIPicture>Unit MMI Picture</UnitMMIPicture>
+	<UnitModule>Unit Module</UnitModule>
+	<UnitMaxOwners>Unit Maximum Owners</UnitMaxOwners>
+	<UnitName>Unit Name</UnitName>
+	<UnitNamesUsedIn>Unit Names Used In</UnitNamesUsedIn>
+	<UnitPhase>Unit Phase</UnitPhase>
+	<UnitPhaseName>Unit Phase Name</UnitPhaseName>
+	<UnitProcedure>Unit Procedure</UnitProcedure>
+	<UNITS>UNITS</UNITS>
+	<UnitsAssignedTo>Units Assigned To</UnitsAssignedTo>
+	<Unknown>Unknown</Unknown>
+	<UOP>UOP</UOP>
+	<UPC>UPC</UPC>
+	<UserDefined type="boolean">User Defined</UserDefined>
+	<UserDefined1 type="boolean">User Defined 1</UserDefined1>
+	<UserDefined2 type="boolean">User Defined 2</UserDefined2>
+	<VALDATTR>VALDATTR</VALDATTR>
+	<VCalc>VCalc</VCalc>
+	<Vertical>Vertical</Vertical>
+	<Visible type="boolean">Visible</Visible>
+	<Warm>Warm</Warm>
+	<WaveFile>Wave File</WaveFile>
+	<WebServiceGateway type="boolean">Web Service Gateway</WebServiceGateway>
+	<WirelessGatewayNetwork>Wireless Gateway Network</WirelessGatewayNetwork>
+	<WorkInProgress type="boolean">Work In Progress</WorkInProgress>
+	<NVMEnabled type="boolean">NVM Enabled</NVMEnabled>
+	<Workstation>Workstation</Workstation>
+	<XCoord>X</XCoord>
+	<YCoord>Y</YCoord>
+
+	<!-- *** Module Block and Module Instance Blocks *** -->
+	<ModuleBlock>Module Block</ModuleBlock>
+	<ModuleInstanceBlock>Module Instance Block</ModuleInstanceBlock>
+	<ModuleInstanceBlock>Module Instance Block</ModuleInstanceBlock>
+	<BindingModule>Bound Module</BindingModule>
+	<AllowVariants type="boolean">Allow Variants</AllowVariants>
+	<Ownership>Ownership</Ownership>
+	<Owned>Not Shared</Owned>
+	<Shared>Shared</Shared>
+	<DynamicOwned>Dynamic Not Shared</DynamicOwned>
+	<DynamicShared>Dynamic Shared</DynamicShared>
+
+		
+	<!-- *** Device Alarm Specific *** -->
+	<EnableDeviceAlarms>Enable Device Alarms</EnableDeviceAlarms>
+	<PrimaryControl>Primary Control</PrimaryControl>
+	<Faceplate>Faceplate</Faceplate>
+	<AssociatedArea>Associated Area</AssociatedArea>
+	<DeviceAlarms type="block">Device Alarms</DeviceAlarms>
+	<DeviceAlarm type="block">Device Alarm</DeviceAlarm>
+	<DeviceAlarmEnabled type="boolean">Device Alarm Enabled</DeviceAlarmEnabled>
+	<DeviceAlarmPriority>Device Alarm Priority</DeviceAlarmPriority>
+	<EnableDeviceAlertReannunciation>Enable Device Alert Reannunciation</EnableDeviceAlertReannunciation>
+	
+	<!-- *** Provox Support Specific *** -->
+	<Provox>Provox</Provox>
+	<ProvoxController>Provox Controller</ProvoxController>
+	<ProvoxIoSubSystem>Provox IO Subsystem</ProvoxIoSubSystem>
+	<ProvoxFileNumber>Provox File Number</ProvoxFileNumber>
+	<ProvoxFileNumberName>Provox File Number Name</ProvoxFileNumberName>
+	<ProvoxDistributedIoCard>Provox Distributed IO Card</ProvoxDistributedIoCard>
+	<ProvoxDistributedIoFile>Provox Distributed IO File</ProvoxDistributedIoFile>
+	<ProvoxControlIOCard>Provox Control IO Card</ProvoxControlIOCard>
+	<ProvoxControlIoFile>Provox Control IO File</ProvoxControlIoFile>
+	<ProvoxScanPriority>Provox Scan Priority</ProvoxScanPriority>
+	<ProvoxRedundancyStatus>Provox Redundancy Status</ProvoxRedundancyStatus>
+	<ProvoxBackupFileNumber>Provox Backup File Number</ProvoxBackupFileNumber>
+	<ProvoxBackupCardNumber>Provox Backup Card Number</ProvoxBackupCardNumber>
+	<ProvoxSecondaryTerminationNumber>Provox Secondary Termination Number</ProvoxSecondaryTerminationNumber>
+
+  <!-- Batch Subsys Action Confirmation Settings -->
+  <AllowManualPhaseHistoryCombine type="boolean">Allow Manual Phase History Combine</AllowManualPhaseHistoryCombine>
+  <StartPrompt type="boolean">Start Prompt</StartPrompt>
+  <StartConfirm type="boolean">Start Confirm</StartConfirm>
+  <StartVerify type="boolean">Start Verify</StartVerify>
+  
+  <HoldPrompt type="boolean">Hold Prompt</HoldPrompt>
+  <HoldConfirm type="boolean">Hold Confirm</HoldConfirm>
+  <HoldVerify type="boolean">Hold Verify</HoldVerify>
+
+  <RestartPrompt type="boolean">Restart Prompt</RestartPrompt>
+  <RestartConfirm type="boolean">Restart Confirm</RestartConfirm>
+  <RestartVerify type="boolean">Restart Verify</RestartVerify>
+
+  <AbortPrompt type="boolean">Abort Prompt</AbortPrompt>
+  <AbortConfirm type="boolean">Abort Confirm</AbortConfirm>
+  <AbortVerify type="boolean">Abort Verify</AbortVerify>
+
+  <StopPrompt type="boolean">Stop Prompt</StopPrompt>
+  <StopConfirm type="boolean">Stop Confirm</StopConfirm>
+  <StopVerify type="boolean">Stop Verify</StopVerify>
+
+  <ResetPrompt type="boolean">Reset Prompt</ResetPrompt>
+  <ResetConfirm type="boolean">Reset Confirm</ResetConfirm>
+  <ResetVerify type="boolean">Reset Verify</ResetVerify>
+
+  <ManualPrompt type="boolean">Manual Prompt</ManualPrompt>
+  <ManualConfirm type="boolean">Manual Confirm</ManualConfirm>
+  <ManualVerify type="boolean">Manual Verify</ManualVerify>
+
+  <AutoPrompt type="boolean">Auto Prompt</AutoPrompt>
+  <AutoConfirm type="boolean">Auto Confirm</AutoConfirm>
+  <AutoVerify type="boolean">Auto Verify</AutoVerify>
+
+  <PausePrompt type="boolean">Pause Prompt</PausePrompt>
+  <PauseConfirm type="boolean">Pause Confirm</PauseConfirm>
+  <PauseVerify type="boolean">Pause Verify</PauseVerify>
+
+  <ResumePrompt type="boolean">Resume Prompt</ResumePrompt>
+  <ResumeConfirm type="boolean">Resume Confirm</ResumeConfirm>
+  <ResumeVerify type="boolean">Resume Verify</ResumeVerify>
+
+  <SingleStepPrompt type="boolean">Single Step Prompt</SingleStepPrompt>
+  <SingleStepConfirm type="boolean">Single Step Confirm</SingleStepConfirm>
+  <SingleStepVerify type="boolean">Single Step Verify</SingleStepVerify>
+
+  <AddBatchConfirm type="boolean">Add Batch Confirm</AddBatchConfirm>
+  <AddBatchVerify type="boolean">Add Batch Verify</AddBatchVerify>
+
+  <RemovePrompt type="boolean">Remove Batch Prompt</RemovePrompt>
+  <RemoveConfirm type="boolean">Remove Batch Confirm</RemoveConfirm>
+  <RemoveVerify type="boolean">Remove Batch Verify</RemoveVerify>
+
+  <ActiveStepChangePrompt type="boolean">Active Step Change Prompt</ActiveStepChangePrompt>
+  <ActiveStepChangeConfirm type="boolean">Active Step Change Confirm</ActiveStepChangeConfirm>
+  <ActiveStepChangeVerify type="boolean">Active Step Change Verify</ActiveStepChangeVerify>
+
+  <ClearFailuresPrompt type="boolean">Clear Failures Prompt</ClearFailuresPrompt>
+  <ClearFailuresConfirm type="boolean">Clear Failures Confirm</ClearFailuresConfirm>
+  <ClearFailuresVerify type="boolean">Clear Failures Verify</ClearFailuresVerify>
+
+  <AcquirePrompt type="boolean">Acquire Prompt</AcquirePrompt>
+  <AcquireConfirm type="boolean">Acquire Confirm</AcquireConfirm>
+  <AcquireVerify type="boolean">Acquire Verify</AcquireVerify>
+
+  <ReleasePrompt type="boolean">Release Prompt</ReleasePrompt>
+  <ReleaseConfirm type="boolean">Release Confirm</ReleaseConfirm>
+  <ReleaseVerify type="boolean">Release Verify</ReleaseVerify>
+
+  <AcquireReorderPrompt type="boolean">Acquire Reorder Prompt</AcquireReorderPrompt>
+  <AcquireReorderConfirm type="boolean">Acquire Reorder Confirm</AcquireReorderConfirm>
+  <AcquireReorderVerify type="boolean">Acquire Reorder Verify</AcquireReorderVerify>
+
+  <PromptsConfirm type="boolean">Prompts Confirm</PromptsConfirm>
+  <PromptsVerify type="boolean">Prompts Verify</PromptsVerify>
+
+  <ParametersConfirm type="boolean">Parameters Confirm</ParametersConfirm>
+  <ParametersVerify type="boolean">Parameters Verify</ParametersVerify>
+
+  <UserCommentsPrompt type="boolean">User Comments Prompt</UserCommentsPrompt>
+  <UserCommentsConfirm type="boolean">User Comments Confirm</UserCommentsConfirm>
+  <UserCommentsVerify type="boolean">User Comments Verify</UserCommentsVerify>
+
+  <!-- Batch Subsys Client Configuration Settings -->
+  <AllowSettingsConfigureAtLocalClient type="boolean">Allow Settings to be Configured at the Local Client</AllowSettingsConfigureAtLocalClient>
+  <StartEnable type="boolean">Start Enable</StartEnable>
+  <HoldEnable type="boolean">Hold Enable</HoldEnable>
+  <RestartEnable type="boolean">Restart Enable</RestartEnable>
+  <AbortEnable type="boolean">Abort Enable</AbortEnable>
+  <StopEnable type="boolean">Stop Enable</StopEnable>
+  <ResetEnable type="boolean">Reset Enable</ResetEnable>
+  <ManualEnable type="boolean">Manual Enable</ManualEnable>
+  <AutoEnable type="boolean">Auto Enable</AutoEnable>
+  <PauseEnable type="boolean">Pause Enable</PauseEnable>
+  <ResumeEnable type="boolean">Resume Enable</ResumeEnable>
+  <SingleStepEnable type="boolean">Single Step Enable</SingleStepEnable>
+  <AddBatchEnable type="boolean">Add Batch Enable</AddBatchEnable>
+  <RemoveBatchEnable type="boolean">Remove Batch Enable</RemoveBatchEnable>
+  <ActiveStepChangeEnable type="boolean">Active Step Change Enable</ActiveStepChangeEnable>
+  <ClearFailuresEnable type="boolean">Clear Failures Enable</ClearFailuresEnable>
+  <AcquireEnable type="boolean">Acquire Enable</AcquireEnable>
+  <ReleaseEnable type="boolean">Release Enable</ReleaseEnable>
+  <AcquireReorderEnable type="boolean">Acquire Reorder Enable</AcquireReorderEnable>
+  <PromptsEnable type="boolean">Prompts Enable</PromptsEnable>
+  <ParametersEnable type="boolean">Parameters Enable</ParametersEnable>
+  <UserCommentsEnable type="boolean">User Comments Enable</UserCommentsEnable>
+
+  <!-- Batch Campaign Manager subsystem -->
+	<BatchCampaignManagerSubsys type="block">Batch Campaign Manager Subsystem</BatchCampaignManagerSubsys>
+	<BatchCampaignManagerSubsysEnabled type="boolean">Enabled</BatchCampaignManagerSubsysEnabled>
+	<BatchSubsysNodeName>Node Name</BatchSubsysNodeName>
+
+	<AutoRemoveManualMode type="boolean">Auto Remove Manual Mode</AutoRemoveManualMode>
+	<AutoRemoveAutoReleaseMode type="boolean">Auto Remove Release Mode</AutoRemoveAutoReleaseMode>
+	<AutoRemoveAutoStartMode type="boolean">Auto Remove Start Mode</AutoRemoveAutoStartMode>
+	<AutoRemoveDelayTime>Auto Remove Delay Time (minutes)</AutoRemoveDelayTime>
+
+  <DaysToRemoveJournal>Days to Maintain Journa Entries</DaysToRemoveJournal>
+
+	<ConfigureClientConfirm type="boolean">Configure Client Confirm</ConfigureClientConfirm>
+	<ConfigureClientVerify type="boolean">Configure Client Verify</ConfigureClientVerify>
+
+	<UserCommentConfirm type="boolean">User Comment Confirm</UserCommentConfirm>
+	<UserCommentPrompt type="boolean">User Comment Prompt</UserCommentPrompt>
+	<UserCommentVerify type="boolean">User Comment Verify</UserCommentVerify>
+
+	<AddCampaignConfirm type="boolean">Add Campaign Confirm</AddCampaignConfirm>
+	<AddCampaignPrompt type="boolean">Add Campaign Prompt</AddCampaignPrompt>
+	<AddCampaignVerify type="boolean">Add Comment Verify</AddCampaignVerify>
+
+	<RemoveCampaignConfirm type="boolean">Remove Campaign Confirm</RemoveCampaignConfirm>
+	<RemoveCampaignPrompt type="boolean">Remove Campaign Prompt</RemoveCampaignPrompt>
+	<RemoveCampaignVerify type="boolean">Remove Comment Verify</RemoveCampaignVerify>
+
+	<ModifyCampaignConfirm type="boolean">Modify Campaign Confirm</ModifyCampaignConfirm>
+	<ModifyCampaignPrompt type="boolean">Modify Campaign Prompt</ModifyCampaignPrompt>
+	<ModifyCampaignVerify type="boolean">Modify Comment Verify</ModifyCampaignVerify>
+
+	<UnlockCampaignConfirm type="boolean">Unlock Campaign Confirm</UnlockCampaignConfirm>
+	<UnlockCampaignVerify type="boolean">Unlock Comment Verify</UnlockCampaignVerify>
+
+	<ModifyBatchConfirm type="boolean">Modify Batch Confirm</ModifyBatchConfirm>
+	<ModifyBatchPrompt type="boolean">Modify Batch Prompt</ModifyBatchPrompt>
+	<ModifyBatchVerify type="boolean">Modify Comment Verify</ModifyBatchVerify>
+
+	<ReleaseBatchConfirm type="boolean">Release Batch Confirm</ReleaseBatchConfirm>
+	<ReleaseBatchPrompt type="boolean">Release Batch Prompt</ReleaseBatchPrompt>
+	<ReleaseBatchVerify type="boolean">Release Comment Verify</ReleaseBatchVerify>
+
+	<StartBatchConfirm type="boolean">Start Batch Confirm</StartBatchConfirm>
+	<StartBatchPrompt type="boolean">Start Batch Prompt</StartBatchPrompt>
+	<StartBatchVerify type="boolean">Start Comment Verify</StartBatchVerify>
+
+	<RemoveBatchConfirm type="boolean">Remove Batch Confirm</RemoveBatchConfirm>
+	<RemoveBatchPrompt type="boolean">Remove Batch Prompt</RemoveBatchPrompt>
+	<RemoveBatchVerify type="boolean">Remove Comment Verify</RemoveBatchVerify>
+
+	<AddCampaignEnable type="boolean">Add Campaign Enable</AddCampaignEnable>
+	<RemoveCampaignEnable type="boolean">Remove Campaign Enable</RemoveCampaignEnable>
+	<ModifyCampaignEnable type="boolean">Modify Campaign Enable</ModifyCampaignEnable>
+
+	<ReleaseBatchEnable type="boolean">Release Batch Enable</ReleaseBatchEnable>
+	<StartBatchEnable type="boolean">Start Batch Enable</StartBatchEnable>
+	<RemoveBatchEnable type="boolean">Remove Batch Enable</RemoveBatchEnable>
+
+	<UserDefinedColorsForStatesAndModes type="boolean">User Defined Colors For States And Modes</UserDefinedColorsForStatesAndModes>
+	<AddUserCommentEnable type="boolean">Add User Comment Enable</AddUserCommentEnable>
+	<AllowClientConfiguration type="boolean">Allow Client Configuration</AllowClientConfiguration>
+	<SequenceLength>Sequence Length</SequenceLength>
+	<HideCompleteBatches type="boolean">Hide Complete Batches</HideCompleteBatches>
+	<CampaignStatesColors type="block">Campaign State Colors</CampaignStatesColors>
+	<ExecutionModesColors type="block">Execution Mode Colors</ExecutionModesColors>
+	<CampaignBatchStatesColors type="block">Campaign Batch State Colors</CampaignBatchStatesColors>
+	<BatchListColumnOrder type="block">Batch List Column Order</BatchListColumnOrder>
+	<BatchItemListColumnOrder type="block">Batch Item List Column Order</BatchItemListColumnOrder>
+	<CampaignListColumnOrder type="block">Campaign List Column Order</CampaignListColumnOrder>
+	<UnitListColumnOrder type="block">Unit List Column Order</UnitListColumnOrder>
+	<ParameterListColumnOrder type="block">Parameter List Column Order</ParameterListColumnOrder>
+	<ColumnOrder>Column Order</ColumnOrder>
+	<ColumnType>Column Type</ColumnType>
+	<StateType>State Type</StateType>
+	<StateColor>State Color</StateColor>
+	<!-- End Batch Campaign Manager subsystem -->
+
+	
+	<OpSubsystem>Operator Subsystem</OpSubsystem>
+
+	<!-- *** Rs3 Support Specific *** -->
+	<Rs3>RS3</Rs3>
+	<Rs3Controller>RS3 Controller</Rs3Controller>
+	<Rs3IoSubSystem>RS3 IO Subsystem</Rs3IoSubSystem>
+	<Rs3MpcIoCardCage>RS3 Mpc IO Card Cage</Rs3MpcIoCardCage>
+	<Rs3ContactIoCardCage>RS3 Contact IO Card Cage</Rs3ContactIoCardCage>
+	<Rs3MpcIoCard>RS3 Mpc IO Card</Rs3MpcIoCard>
+	<Rs3ContactIoCard>RS3 Contact IO Card</Rs3ContactIoCard>
+	<Rs3RedundantBackup type="boolean">RS3 Redundant Backup</Rs3RedundantBackup>
+	<Rs3ControllerSlotPosition>RS3 Controller Slot Position</Rs3ControllerSlotPosition>
+	<Rs3CardCageAddress>RS3 Card Cage Address</Rs3CardCageAddress>
+	<Rs3CardCageName>RS3 Card Cage Name</Rs3CardCageName>
+
+	<VisibleOnAlgoType>Algorithm Visible On </VisibleOnAlgoType>
+
+	<!-- *** Audit Trail for User Manager Specific *** -->
+	<FullName>Full Name</FullName>
+	<DeltaVAdministrator>DeltaV Administrator</DeltaVAdministrator>
+	<DeltaVBatchHistorianAdministrator>DeltaV Batch Historian Administrator</DeltaVBatchHistorianAdministrator>
+  <DeltaVBatchHistorianUser>DeltaV Batch Historian User</DeltaVBatchHistorianUser>
+  <DeltaVEventChronicleAdministrator>DeltaV Event Chronicle Administrator</DeltaVEventChronicleAdministrator>
+  <WindowDesktopAccess>Windows Desktop Access</WindowDesktopAccess>
+	<WindowAdministrator>Windows Administrator</WindowAdministrator>
+	<AllowTerminalServerLogon>Allow Terminal Server Logon</AllowTerminalServerLogon>
+	<AccountEnabled>Account Enabled</AccountEnabled>
+	<LockName>Lock Name</LockName>
+	<DateAndTime>Date and Time</DateAndTime>
+	<UserLabeled>User Labeled</UserLabeled>
+	<OSAccount>Operating System (Windows) Account</OSAccount>
+	<DatabaseAccount>DeltaV Database Account</DatabaseAccount>
+	<UserAccount>User Account</UserAccount>
+	<DisableAccount>Disable Operating Systems Account</DisableAccount>
+  <DisableDVDBAccount>Disable DeltaV Database Account</DisableDVDBAccount>
+	<PasswMustChange>Password Must Change Next Logon</PasswMustChange>
+	<CantChangePassw>User Can't Change Password</CantChangePassw>
+	<PasswNeverExp>Password Never Expires</PasswNeverExp>
+	<LogonScript>Logon Script</LogonScript>
+	<LocalDir>Local Directory</LocalDir>
+	<ConnectDriveLetter>Connect Drive Letter</ConnectDriveLetter>
+	<ConnectTo>Connect To</ConnectTo>
+	<NumOfLocks>Total Number of Locks</NumOfLocks>
+	<NumOfSISLocks>Total Number of SIS Locks</NumOfSISLocks>
+  <ComputerDomainName>Computer or Domain Name</ComputerDomainName>
+  <UserRole>User Role</UserRole>
+  <BasicOperator>Basic Operator</BasicOperator>
+  <BasicConfiguration>Basic Configuration</BasicConfiguration>
+
+	<!-- HART DST -->
+	<HartDstProperties type="block">HART Device Properties</HartDstProperties>
+	<HartDstManufacturer>Manufacturer</HartDstManufacturer>
+	<HartDstManufacturerID>Manufacture ID</HartDstManufacturerID>
+	<HartDstDevice>Device</HartDstDevice>
+	<HartDstDeviceID>Device ID</HartDstDeviceID>
+	<HartDstRevisionID>Revision ID</HartDstRevisionID>
+  <HartDstTypeNamingReference>Type Reference</HartDstTypeNamingReference>
+  <HartDstSubTypeNamingReference>SubType Reference</HartDstSubTypeNamingReference>
+
+	<!--Logic Solver Support-->
+	<ProofTestInterval>Proof Test Interval</ProofTestInterval>
+	<ReminderInterval>Reminder Interval</ReminderInterval>
+	<PublishGlobally>Publish Globally</PublishGlobally>
+	<EnableHighDensitySecureParameters>Enable High Density Secure Parameters</EnableHighDensitySecureParameters>
+	<AlarmSuppressionTimeout>Alarm Suppression Timeout</AlarmSuppressionTimeout>
+	<CardAssignment>Card Assignment</CardAssignment>
+	<SisModule>SIS Module</SisModule>
+	<SisLibraryModule>SIS Library Module</SisLibraryModule>
+	<SisFunctionBlock>SIS Function Block</SisFunctionBlock>
+	<SisPrimitiveBlock>SIS Primitive Module</SisPrimitiveBlock>
+
+  <!-- HART DST Alarm Conditions -->
+  <AlarmMask>Alarm Mask</AlarmMask>
+
+  <!-- Zones Inter-Zone Server Support -->
+  <InterZoneServer>Inter-Zone Server</InterZoneServer>
+  <AutoDiscoverInterZoneServer type="boolean">Auto-Discover Inter-Zone Server</AutoDiscoverInterZoneServer>
+  <ActivePrimaryInterZoneServerIPAddress>Active Primary Inter-Zone Server IP Address</ActivePrimaryInterZoneServerIPAddress>
+  <ActiveSecondaryInterZoneServerIPAddress>Active Secondary Inter-Zone Server IP Address</ActiveSecondaryInterZoneServerIPAddress>
+  <StandbyPrimaryInterZoneServerIPAddress>Standby Primary Inter-Zone Server IP Address</StandbyPrimaryInterZoneServerIPAddress>
+  <StandbySecondaryInterZoneServerIPAddress>Standby Secondary Inter-Zone Server IP Address</StandbySecondaryInterZoneServerIPAddress>
+  <InterZoneServerNetworkRedundancy type="boolean">Inter-Zone Server Network Redundancy</InterZoneServerNetworkRedundancy>
+  <InterZoneServerRedundancy type="boolean">Inter-Zone Server Redundancy</InterZoneServerRedundancy>
+
+  <!-- Zones Zone Support -->
+  <Zone>Zone</Zone>
+  <LocalSharedAreas>Local Shared Areas</LocalSharedAreas>
+  <RemoteZoneAreas>Remote Zone Areas</RemoteZoneAreas>
+  <AreasCount>Total Count</AreasCount>
+  <AreaID>Area ID</AreaID>
+  <RemoteZoneName>Remote Zone Name</RemoteZoneName>
+
+  <!--Event Chronicle - Journal Subsystem Support-->
+  <ActiveEventHistoryDataSetStorageTarget>Active Event History Data Set Storage Target</ActiveEventHistoryDataSetStorageTarget>
+  <CurrentEventHistoryTotalStorageTarget>Current Event History Total Storage Target</CurrentEventHistoryTotalStorageTarget>
+  <AgeForCopyingEvents>Age For Copying Events</AgeForCopyingEvents>
+  <JournalCurrentEventHistorySizeTarget>Journal Current Event History Size Target</JournalCurrentEventHistorySizeTarget>
+  <JournalDataSetTimeSpanEnabled>Journal Data Set Time Span Enabled</JournalDataSetTimeSpanEnabled>
+  <JournalDataSetTimeSpan>Journal Data Set Time Span</JournalDataSetTimeSpan>
+  <JournalExportEnabled>Journal Export Enabled</JournalExportEnabled>
+  <JournalExportDirectory>Journal Export Directory</JournalExportDirectory>
+
+  <!--Equipment Trains - Dynamic Unit Allocation Support-->
+<EquipmentTrainClass>Equipment Train Class</EquipmentTrainClass>
+<EquipmentTrain>Equipment Train</EquipmentTrain>
+<NumberOfAliases>Number Of Aliases</NumberOfAliases>
+<UnitAliasName>Unit Alias Name</UnitAliasName>
+<UnitClassName>Unit Class Name</UnitClassName>
+<UnitSelectionType>Unit Selection Type</UnitSelectionType>
+<SelectedUnitsCount>Selected Units Count</SelectedUnitsCount>
+<SelectedUnit>Selected Unit</SelectedUnit>
+<UseEquipmentTrain>Use Equipment Train</UseEquipmentTrain>
+<TrainSelectionType>Train Selection Type</TrainSelectionType>
+<SelectedTrainsCount>Selected Trains Count</SelectedTrainsCount>
+<SelectedTrain>Selected Train</SelectedTrain>
+<AllowRebindingOfEquipment type="boolean">Allow Change to Acquired Unit for a Step</AllowRebindingOfEquipment>
+<AllowRecipeResync type="boolean">Allow Recipe Resynchronization</AllowRecipeResync>
+<UnitSelectionPolicy>Unit Selection Policy</UnitSelectionPolicy>
+<SelectionExpression>Selection Expression</SelectionExpression>
+<PriorityChoice>Priority Choice</PriorityChoice>
+<UnitSelectionPolicyName>Unit Selection Policy Name</UnitSelectionPolicyName>
+<DownstreamUnitAliasName>Downstream Unit Alias Name</DownstreamUnitAliasName>
+<InitialSelectionMode>Initial Selection Mode</InitialSelectionMode>
+
+
+</VCatTagTranslations>
