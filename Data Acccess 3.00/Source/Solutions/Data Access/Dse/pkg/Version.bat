@@ -1,0 +1,3 @@
+@echo on
+SET PACKAGE=Dse
+SET VERSION=1.0.0.28

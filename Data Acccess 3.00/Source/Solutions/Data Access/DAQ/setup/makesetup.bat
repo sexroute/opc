@@ -1,0 +1,1 @@
+c:\xampp\htdocs\admin\Client\BSClient\NSIS\makensis.exe setup.nsi

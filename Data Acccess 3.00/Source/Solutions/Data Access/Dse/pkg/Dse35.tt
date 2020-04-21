@@ -1,0 +1,167 @@
+<#@ template language="C#" #>
+<#@ output extension=".crproj" encoding="0" #>
+<#@ import namespace="System.IO" #>
+<# var cwd = Directory.GetCurrentDirectory(); #>
+<# var prj = Path.GetDirectoryName(cwd); #>
+<project outputDir = "<#= prj #>\bin\Obfuscated\3.5"
+         baseDir   = "<#= prj #>\bin\Release\3.5"
+         debug     = "true"
+         xmlns     = "http://confuser.codeplex.com">
+
+  <module path="Dse.dll">
+    <rule pattern="true">
+<!--
+      <protection id="anti ildasm" />
+      <protection id="anti tamper" />
+      <protection id="constants" />
+      <protection id="ctrl flow" />
+      <protection id="anti dump" />
+      <protection id="anti debug" />
+      <protection id="invalid metadata" />
+      <protection id="ref proxy" />
+      <protection id="resources" />
+      <protection id="rename" />
+-->
+
+      <!--<protection id="anti ildasm" />-->
+       
+      <!--<protection id="invalid metadata" />-->
+      
+      <!--<protection id="anti dump" />-->
+      
+      <!--<protection id="anti tamper" />-->
+
+      <!--<protection id="resources" />-->
+      
+      <!--<protection id="anti debug" />-->
+      
+      <protection id="rename">
+        <!--
+            empty:      rename all symbols to a empty string.
+                          Expect many problems when using this mode.
+           *unicode:    rename symbols to Unicode unreadable characters.
+                          Reflection may not work in this mode.
+            ascii:      rename symbols to readable ASCII characters.
+                          Reflection may not work in this mode.
+            letters:    rename symbols to English letters.
+            decodable:  rename symbols to decodable string.
+                          decoded by lookup"
+            sequential: rename symbols to sequential string.
+                          decoded by lookup "symbols.map"
+            reversible: encrypt the symbols.
+                          decoded by providing the password used in obfuscation.
+            debug:      add an underscore before the symbols. Not intended for production use.
+        -->
+        <argument name="mode" value="sequential" />
+        <!-- null : string
+            used to encrypt the symbol names when reversible mode is used.
+            Only effective on modules.
+        -->
+        <argument name="password" value="" />
+        <!-- true
+            remove the name of methods' parameters
+        -->
+        <argument name="renameArgs" value="true" />
+        <!-- true
+            flatten the types by removing the namespaces
+        -->
+        <argument name="flatten" value="true" />
+        <!-- false
+            rename the symbols even if the analyzer shows that it should not be renamed
+        -->
+        <argument name="forceRen" value="false" />
+        <!-- false
+            rename the symbols even if the item is visible outside the assembly
+        -->
+        <argument name="renPublic" value="false" />
+        <!-- false
+            rename the variable names and the file names in PDB
+        -->
+        <argument name="renPdb" value="false" />
+      </protection>
+
+
+      <protection id="constants">
+        <!--
+           *normal:  static algorithms with random parameters
+            dynamic: dynamically generated algorithms
+            x86:     dynamically generated native x86 expressions (unverifiable)
+        -->
+        <argument name="mode" value="normal" />
+        <!-- SI
+            S: String constants (excluding primitive constants)
+            N: Numeric constants (excluding primitive constants)
+            P: Primitive constants (empty strings and commonly used numbers, e.g. 0, -1, 1, 2, etc.)
+            I: Array initializer (Those using RuntimeHelpers.InitializeArray)
+        -->
+        <argument name="elements" value="SNPI" />
+        <!-- false
+            whether decoding of constants are based on a control flow dependent state variable
+        -->
+        <argument name="cfg" value="true" />
+      </protection>
+      
+<?ignore
+      <protection id="ctrl flow">
+        <!--
+           *switch: insert a switch-base state machine to reorder the codes
+            jump: inserts jumps in methods to produce traditional spaghetti code. (unverifiable)
+        -->
+        <argument name="type" value="switch" />
+        <!--
+            normal: use the state variable directly.
+            expression: encode the state variable using dynamically generated expressions.
+            x86: encode the state variable using dynamically generated native x86 expressions. (Produces unverifiable modules)
+        -->
+        <argument name="predicate" value="normal" />
+        <!-- 60 : 0 ~ 100
+            how large is each split code block.
+        -->
+        <argument name="intensity" value="64" />
+        <!-- 4
+            how deep is the generated expression if predicate is set to expression or x86
+        -->
+        <argument name="depth" value="4" />
+        <!-- false
+            whether junk codes would be inserted (Produces unverifiable modules)
+        -->
+        <argument name="junk" value="true" />
+      </protection>
+
+
+      <protection id="ref proxy">
+        <!--
+            *mild: add an indirection method as proxy.
+            strong: add a dynamic method delegate as proxy.
+            ftn: use function pointer as proxy. Not implemented yet.
+        -->
+        <argument name="mode" value="mild" />
+        <!--
+            *normal: use the state variable directly.
+            expression: encode the state variable using dynamically generated expressions.
+            x86: encode the state variable using dynamically generated native x86 expressions. (Produces unverifiable modules)
+        -->
+        <argument name="encoding" value="normal" />
+        <!-- false
+            whether ConfuserEx should also hide internal references
+        -->
+        <argument name="internal" value="true" />
+        <!-- false
+            whether ConfuserEx should hide the types of method parameters
+        -->
+        <argument name="typeErasure" value="true" />
+        <!-- 3
+            how deep is the generated expression if encoding is set to expression or x86 (unverifiable)
+        -->
+        <argument name="depth" value="3" />
+        <!-- 16
+            how many delegate initializer should be added if mode is set to strong
+        -->
+        <argument name="initCount" value="16" />
+      </protection>
+?>
+
+    </rule>
+  </module>
+  <probePath><#= prj #>\bin\Release\3.5</probePath>
+</project>
