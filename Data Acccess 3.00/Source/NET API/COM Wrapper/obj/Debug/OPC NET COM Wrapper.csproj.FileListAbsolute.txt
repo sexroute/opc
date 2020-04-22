@@ -10,3 +10,9 @@ C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\COM Wrapp
 C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\COM Wrapper\obj\Debug\OpcNetApi.Com.dll
 C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\COM Wrapper\obj\Debug\OpcNetApi.Com.pdb
 C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\COM Wrapper\bin\Debug\OpcNetApi.Com.xml
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\COM Wrapper\obj\Debug\OPC NET COM Wrapper.csprojResolveAssemblyReference.cache
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\COM Wrapper\bin\Debug\OpcNetApi.Com.xml
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\COM Wrapper\bin\Debug\OpcNetApi.Com.dll
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\COM Wrapper\bin\Debug\OpcNetApi.Com.pdb
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\COM Wrapper\obj\Debug\OpcNetApi.Com.dll
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\COM Wrapper\obj\Debug\OpcNetApi.Com.pdb

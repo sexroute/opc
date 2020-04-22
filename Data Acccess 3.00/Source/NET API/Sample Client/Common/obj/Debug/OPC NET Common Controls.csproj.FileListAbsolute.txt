@@ -65,3 +65,38 @@ C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Cl
 C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\OPC NET Common Controls.csproj.GenerateResource.Cache
 C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\OpcComnCtrls.dll
 C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\OpcComnCtrls.pdb
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\OPC NET Common Controls.csprojResolveAssemblyReference.cache
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\Opc.SampleClient.AboutDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\Opc.SampleClient.BrowseItemsDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\Opc.SampleClient.BrowseTreeCtrl.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\Opc.SampleClient.DataTypeCtrl.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\Opc.SampleClient.EditArrayDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\Opc.SampleClient.EditBinaryDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\Opc.SampleClient.EditComplexValueDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\Opc.SampleClient.EditObjectListDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\Opc.SampleClient.EditValueDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\Opc.SampleClient.EnumCtrl.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\Opc.SampleClient.LocaleCtrl.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\Opc.SampleClient.LocaleSelectDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\Opc.SampleClient.NetworkCredentialsDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\Opc.SampleClient.ProxyServerDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\Opc.SampleClient.Resources.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\Opc.SampleClient.SelectServerCtrl.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\Opc.SampleClient.SelectServerDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\Opc.SampleClient.ValueCtrl.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\OPC NET Common Controls.csproj.GenerateResource.Cache
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Debug\OpcComnCtrls.dll
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Debug\OpcComnCtrls.pdb
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Debug\OpcNetApi.Com.dll
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Debug\OpcNetApi.dll
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Debug\OpcNetApi.Xml.dll
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Debug\OpcNetApi.Com.pdb
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Debug\OpcNetApi.Com.xml
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Debug\OpcNetApi.pdb
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Debug\OpcNetApi.xml
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Debug\OpcNetApi.Xml.pdb
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Debug\OpcNetApi.Xml.xml
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Debug\fr\OpcNetApi.resources.dll
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\bin\Debug\fr\OpcNetApi.Xml.resources.dll
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\OpcComnCtrls.dll
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Common\obj\Debug\OpcComnCtrls.pdb

@@ -26,3 +26,17 @@ C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Se
 C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\OPC NET Configuration Tool.csproj.GenerateResource.Cache
 C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.exe
 C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.pdb
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\OPC NET Configuration Tool.csprojResolveAssemblyReference.cache
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.BaseListCtrl.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.ParameterEditDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.ParameterListCtrl.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.ExceptionDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.GuiUtils.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.ComServerListDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.ComServerListCtrl.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.RegisterServerDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\OPC NET Configuration Tool.csproj.GenerateResource.Cache
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\bin\Debug\Opc.ConfigTool.exe
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\bin\Debug\Opc.ConfigTool.pdb
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.exe
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\ConfigTool\obj\Debug\Opc.ConfigTool.pdb

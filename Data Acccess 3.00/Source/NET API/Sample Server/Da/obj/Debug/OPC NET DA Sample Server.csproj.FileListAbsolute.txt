@@ -30,3 +30,19 @@ C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Se
 C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.Com.pdb
 C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.pdb
 C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.Xml.pdb
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\Da\obj\Debug\OPC NET DA Sample Server.csprojResolveAssemblyReference.cache
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcDaSampleServer.dll
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcDaSampleServer.pdb
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.Com.dll
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.dll
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.Xml.dll
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.Com.pdb
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.Com.xml
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.pdb
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.xml
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.Xml.pdb
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\OpcNetApi.Xml.xml
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\fr\OpcNetApi.resources.dll
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\Da\bin\Debug\fr\OpcNetApi.Xml.resources.dll
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\Da\obj\Debug\OpcDaSampleServer.dll
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Server\Da\obj\Debug\OpcDaSampleServer.pdb

@@ -6,7 +6,7 @@
 
 
  /* File created by MIDL compiler version 7.00.0555 */
-/* at Tue Apr 21 11:22:46 2020
+/* at Wed Apr 22 08:16:58 2020
  */
 /* Compiler settings for OpcDaServer.idl:
     Oicf, W1, Zp8, env=Win32 (32b run), target_arch=X86 7.00.0555 

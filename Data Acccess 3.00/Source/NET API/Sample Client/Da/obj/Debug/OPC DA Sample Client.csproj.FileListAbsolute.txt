@@ -93,3 +93,48 @@ C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Cl
 C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\OPC DA Sample Client.csproj.GenerateResource.Cache
 C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\OpcDaSampleClient.exe
 C:\Program Files (x86)\OPC Foundation\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\OpcDaSampleClient.pdb
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\OPC DA Sample Client.csprojResolveAssemblyReference.cache
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.AsyncRequestDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.BrowseFiltersDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.BrowseItemsDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.BrowseTreeCtrl.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.PropertyFiltersCtrl.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.PropertyListViewCtrl.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.ItemValueEditCtrl.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.ItemValueListEditCtrl.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.ItemValueListEditDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.ItemEditCtrl.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.ItemListEditCtrl.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.ItemListEditDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.MainForm.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.OptionsEditDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.ReadItemsDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.ResultListViewCtrl.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.SelectServerDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.ServerStatusCtrl.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.ServerStatusDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.SubscriptionAddItemsDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.SubscriptionCreateDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.SubscriptionEditCtrl.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.SubscriptionListEditDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.SubscriptionsTreeCtrl.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.UpdatesListViewCtrl.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\Opc.Da.SampleClient.WriteItemsDlg.resources
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\OPC DA Sample Client.csproj.GenerateResource.Cache
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\bin\Debug\OpcDaSampleClient.exe
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\bin\Debug\OpcDaSampleClient.pdb
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\bin\Debug\OpcComnCtrls.dll
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\bin\Debug\OpcNetApi.Com.dll
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\bin\Debug\OpcNetApi.dll
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\bin\Debug\OpcNetApi.Xml.dll
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\bin\Debug\OpcNetApi.Com.pdb
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\bin\Debug\OpcNetApi.Com.xml
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\bin\Debug\OpcNetApi.pdb
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\bin\Debug\OpcNetApi.xml
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\bin\Debug\OpcNetApi.Xml.pdb
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\bin\Debug\OpcNetApi.Xml.xml
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\bin\Debug\OpcComnCtrls.pdb
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\bin\Debug\fr\OpcNetApi.resources.dll
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\bin\Debug\fr\OpcNetApi.Xml.resources.dll
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\OpcDaSampleClient.exe
+E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Sample Client\Da\obj\Debug\OpcDaSampleClient.pdb
