@@ -30,3 +30,14 @@ E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Core\obj\Debug\OPC NET A
 E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Core\obj\Debug\fr\OpcNetApi.resources.dll
 E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Core\obj\Debug\OpcNetApi.dll
 E:\system\projects\opc\Data Acccess 3.00\Source\NET API\Core\obj\Debug\OpcNetApi.pdb
+C:\system\projects\opc\Data Acccess 3.00\Source\NET API\Core\bin\Debug\OpcNetApi.xml
+C:\system\projects\opc\Data Acccess 3.00\Source\NET API\Core\bin\Debug\OpcNetApi.dll
+C:\system\projects\opc\Data Acccess 3.00\Source\NET API\Core\bin\Debug\OpcNetApi.pdb
+C:\system\projects\opc\Data Acccess 3.00\Source\NET API\Core\bin\Debug\fr\OpcNetApi.resources.dll
+C:\system\projects\opc\Data Acccess 3.00\Source\NET API\Core\obj\Debug\OPC NET API.csprojResolveAssemblyReference.cache
+C:\system\projects\opc\Data Acccess 3.00\Source\NET API\Core\obj\Debug\Opc.Resources.Strings.resources
+C:\system\projects\opc\Data Acccess 3.00\Source\NET API\Core\obj\Debug\Opc.Resources.Strings.fr.resources
+C:\system\projects\opc\Data Acccess 3.00\Source\NET API\Core\obj\Debug\OPC NET API.csproj.GenerateResource.Cache
+C:\system\projects\opc\Data Acccess 3.00\Source\NET API\Core\obj\Debug\fr\OpcNetApi.resources.dll
+C:\system\projects\opc\Data Acccess 3.00\Source\NET API\Core\obj\Debug\OpcNetApi.dll
+C:\system\projects\opc\Data Acccess 3.00\Source\NET API\Core\obj\Debug\OpcNetApi.pdb

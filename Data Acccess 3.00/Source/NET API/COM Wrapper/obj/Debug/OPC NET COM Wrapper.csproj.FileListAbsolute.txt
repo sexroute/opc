@@ -16,3 +16,9 @@ E:\system\projects\opc\Data Acccess 3.00\Source\NET API\COM Wrapper\bin\Debug\Op
 E:\system\projects\opc\Data Acccess 3.00\Source\NET API\COM Wrapper\bin\Debug\OpcNetApi.Com.pdb
 E:\system\projects\opc\Data Acccess 3.00\Source\NET API\COM Wrapper\obj\Debug\OpcNetApi.Com.dll
 E:\system\projects\opc\Data Acccess 3.00\Source\NET API\COM Wrapper\obj\Debug\OpcNetApi.Com.pdb
+C:\system\projects\opc\Data Acccess 3.00\Source\NET API\COM Wrapper\bin\Debug\OpcNetApi.Com.xml
+C:\system\projects\opc\Data Acccess 3.00\Source\NET API\COM Wrapper\bin\Debug\OpcNetApi.Com.dll
+C:\system\projects\opc\Data Acccess 3.00\Source\NET API\COM Wrapper\bin\Debug\OpcNetApi.Com.pdb
+C:\system\projects\opc\Data Acccess 3.00\Source\NET API\COM Wrapper\obj\Debug\OPC NET COM Wrapper.csprojResolveAssemblyReference.cache
+C:\system\projects\opc\Data Acccess 3.00\Source\NET API\COM Wrapper\obj\Debug\OpcNetApi.Com.dll
+C:\system\projects\opc\Data Acccess 3.00\Source\NET API\COM Wrapper\obj\Debug\OpcNetApi.Com.pdb
